@@ -89,10 +89,10 @@ The team that finishes at the top of the Phase 2 standings will be declared the 
 - When a technical issue occurs, the following procedure will be followed (if the game allows):
   1. The game will be paused at the next appropriate moment by Staff (e.g., when a quaffle is scored or a snitch catch occurs).
   2. The team has two options:
-     a) Wait for the disconnected player to rejoin:
+     - a) Wait for the disconnected player to rejoin:
         - The disconnected player must rejoin within 5 minutes of the pause.
         - If successful, the game continues with the original player.
-     b) Substitute the player:
+     - b) Substitute the player:
         - A substitute player must join the game within 5 minutes of the pause.
         - Once a substitution is made, the original player may not rejoin the match.
   3. If neither option is successful within the 5-minute window:
