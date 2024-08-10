@@ -53,7 +53,7 @@
 - This phase is extended due to the high number of matches
 - Points system: 
   - Maximum 100 points per match
-  - Winners gain additional 50 points
+  - Winners gain an additional 50 points
 
 ### Phase 2 (February 1 - March 15, 2025)
 - Top 7 teams from Phase 1 qualify for Phase 2
@@ -74,7 +74,7 @@
 - Each team plays 10-11 matches (one against each other team in their division)
 - Points system: 
   - Maximum 100 points per match
-  - Winners gain additional 50 points
+  - Winners gain an additional 50 points
 
 ### Phase 2: Expanded Format (January 1 - March 15, 2025)
 - Top 5-6 teams from each division qualify (16 teams total)

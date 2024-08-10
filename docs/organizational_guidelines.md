@@ -29,13 +29,12 @@ This document outlines the organizational structure, election processes, and rul
 **Limitations:**
 - Ineligible to participate in league games
 - Cannot unilaterally change game rules or league structure
-- Key decisions must be approved by the Staff
 
 ### 2.3 Staff Members
 
 **Number:** Five staff members
 
-**Selection:** Three appointed by the president, two elected by the Captains' Council
+**Selection:** Two appointed by the president, three elected by the Captains' Council
 
 **Responsibilities:**
 - Create and enforce game rules
@@ -65,13 +64,13 @@ This document outlines the organizational structure, election processes, and rul
 
 **Composition:** Participating teams' captains
 
-**Role:** Work alongside the staff to provide checks and balances, and handle ethical concerns
+**Role:** Work alongside the staff to provide checks and balances, address conduct-related issues
 
 **Responsibilities:**
 - Approve key staff decisions by majority vote
 - Provide advice and guidance on league operations
 - Serve as a bridge between the community and leadership
-- Investigate ethical complaints
+- Investigate conduct-related issues
 - Provide recommendations for resolving complex issues
 
 **Transparency:**
@@ -138,9 +137,9 @@ This document outlines the organizational structure, election processes, and rul
 - Voting will be conducted by the Founder to ensure security and fairness
 - The process will be as follows:
   1. A #presidential-election channel will be created
-  2. President will post a message with the candidates as voting options
-  3. Captains will cast their votes by reacting to the message with the corresponding emojis
-  4. President will announce the results when the voting period ends
+  2. Founder will post a message with the candidates as voting options
+  3. Captains will cast their votes by reacting to the message with the corresponding emojis, or buttons
+  4. Founder will announce the results when the voting period ends
 - The voting period will last 48 hours
 - Results will be publicly announced in the #election-results channel immediately after the voting period ends
 
@@ -156,8 +155,8 @@ This document outlines the organizational structure, election processes, and rul
 1. The elected president will announce the opening of staff applications
 2. Interested members will submit applications detailing their qualifications and vision for the league
 3. The president will review applications and may conduct interviews if needed
-4. 3 staff members will be chosen by the president based on experience, fairness, and commitment to the league
-5. 2 staff members will be elected by the Captains' Council following a similar process to the presidential election
+4. 2 staff members will be chosen by the president (see Section 4.5 for staff continuity) based on experience, fairness, and commitment to the league 
+5. 3 staff members will be elected by the Captains' Council following a similar process to the presidential election
 6. The entire selection process, including the Captains' Council election, must be concluded within the 2-week time limit
 
 **Announcement:**
@@ -267,7 +266,7 @@ In the event of a new president being elected while appointed staff members are 
 **Actions:**
 - Moderators may issue warnings for minor infractions in community spaces.
 - Temporary bans may be issued for repeated minor infractions or single serious infractions in community spaces.
-- Permanent bans may be issued for severe violations or repeated serious infractions in community spaces.
+- Permanent bans may be issued with President's approval for severe violations or repeated serious infractions in community spaces.
 - Staff will manage and enforce rules related to in-game exploits and gameplay violations.
 
 **In-Game Violations:**
@@ -323,9 +322,13 @@ Section 7 in its entirety, including all subsections, cannot be modified through
 ### 8.2 Staff Participation in Games
 
 Staff members are allowed to participate in league games under the following conditions:
-- They must recuse themselves from any decisions directly affecting their team
+- They must recuse themselves from any decisions directly affecting:
+  - Their team
+  - Any match they participate in
+  - Any match involving their team, even if they're not playing
 - Their participation is subject to review by the Captains' Council
 - No more than 2 staff members can be part of the same team
+- Staff members must declare any potential conflicts of interest related to their participation in the league
 
 ## 9. Transparency
 

@@ -74,8 +74,9 @@ The team that finishes at the top of the Phase 2 standings will be declared the 
 
 ### 5.1 Game Settings
 
-- Standardized settings for each game will be determined by Staff
+- Standardized settings for each game will be determined by Staff 
 - Settings will be communicated to all teams prior to the start of each cup
+- Detailed game settings will be provided upon the game's official release
 
 ### 5.2 Fair Play
 
