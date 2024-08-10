@@ -1,8 +1,8 @@
 # Registration
-> Official team and player registration forms are available here. Please review eligibility requirements before submitting.
+> Official team registration forms are available here. Please review eligibility requirements before submitting.
 
-## Team Registration Form
+## Eligibility Requirements
 Will be added.
 
-## Player Registration Form
+## Team Registration Form
 Will be added.

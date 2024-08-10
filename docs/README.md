@@ -3,7 +3,7 @@
 
 I'm Melanore, and I've got some exciting news to share. 
 
-I've just started a new league for [Harry Potter: Quidditch Champions](https://www.quidditchchampions.com/en-us), and I'd love for you to be a part of it. For those who like their info quick and snappy, here's the **TLDR**: 
+I've just started a new league called **League 7** for Harry Potter: Quidditch Champions video game, and I'd love for you to be a part of it. For those who like their info quick and snappy, here's the **TLDR**: 
 
 We'll have a president (you'll vote for them), some staff members to keep things running smoothly, and a council of team captains. I'll be in the background, making sure the system works properly. We need 6+ teams to get the ball rolling. Everyone gets a say in big decisions and rule changes. The key? Play fair, be kind, and most importantly, have fun!
 
