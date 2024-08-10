@@ -35,7 +35,7 @@ This document outlines the organizational structure, election processes, and rul
 
 **Number:** Five staff members
 
-**Selection:** Three appointed by the president, two  elected by the Captains' Council
+**Selection:** Three appointed by the president, two elected by the Captains' Council
 
 **Responsibilities:**
 - Create and enforce game rules
@@ -177,6 +177,36 @@ In the event that the president leaves before their term is complete:
 4. The newly elected president will serve the remainder of the original term.
 5. If less than 2 months remain in the original term, the staff will manage the league until the next scheduled election.
 
+### 4.5 Presidential Transition and Staff Continuity
+
+In the event of a new president being elected while appointed staff members are still serving their terms:
+
+1. **Continuity Period:**
+   - Appointed staff members will continue in their roles for a minimum of 1 month after the new president takes office.
+   - This period allows for knowledge transfer and operational continuity.
+
+2. **Review and Confirmation:**
+   - During the continuity period, the new president will review the performance and fit of the appointed staff members.
+   - By the end of the 1-month period, the new president must either:
+     a) Confirm the continuation of the appointed staff for the remainder of their original 1-year term, or
+     b) Nominate new staff members to replace them.
+
+3. **Replacement Process:**
+   - If the new president chooses to nominate new staff members:
+     a) The nominations must be approved by a simple majority vote of the Captains' Council.
+     b) If approved, the new staff members will serve for the remainder of the original 1-year term.
+     c) If not approved, the original staff members will continue in their roles, and the president may not attempt to replace them again during that term.
+
+4. **Elected Staff Members:**
+   - The 2 staff members elected by the Captains' Council are not subject to this replacement process and will continue to serve their full terms regardless of presidential changes.
+
+5. **End of Staff Terms:**
+   - At the end of each staff member's 1-year term, the current president (whether new or continuing) will have the opportunity to appoint or reappoint staff members for the 3 appointed positions.
+   - The Captains' Council will elect or re-elect members for the 2 elected positions.
+
+6. **Exceptional Circumstances:**
+   - In cases of staff misconduct or inability to perform duties, the normal disciplinary and removal processes as outlined in the main guidelines will take precedence over this policy.
+   
 ## 5. Rule Voting Procedure
 
 ### 5.1 Proposal Submission
@@ -189,7 +219,7 @@ In the event that the president leaves before their term is complete:
   - The current rule (if applicable)
   - The proposed change
   - Rationale for the change
-- Proposals require seconding by two other staff members to be considered for voting
+- Proposals require seconding by two other staff members and at least two members of Captain's Council to be considered for voting
 
 ### 5.2 Captains' Council Voting
 
@@ -198,7 +228,7 @@ In the event that the president leaves before their term is complete:
 **Process:**
 - Voting will be conducted and overseen by President to ensure security and fairness
 - The voting process will be as follows:
-  1. A #rule-vote channel will be created, visible only to Captains' Council members
+  1. A #rule-vote channel will be created for Captains' Council members
   2. President will post a message with the proposed rule change and voting options (Yes/No)
   3. Captains will cast their votes by reacting to the message, or by using the buttons
   4. President will announce the results when the voting period ends
