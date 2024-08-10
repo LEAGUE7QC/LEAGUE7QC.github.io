@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This document outlines the structure and rules for gameplay in Mel's Founders League. The league will operate on a biannual basis, with the Fall Cup and Spring Cup each lasting 6 months. The first Fall Cup will commence in October of 2024.
+This document outlines the structure and rules for gameplay in Mel's League 7. The league will operate on a biannual basis, with the Fall Cup and Spring Cup each lasting 6 months. The first Fall Cup will commence in October of 2024.
 
 ## 2. Seasonal Structure
 
@@ -52,7 +52,7 @@ The season will be divided into two phases:
 
 ### 4.3 Phase 2: Classic League for Top Teams
 
-- The top 5 teams from Phase 1 will qualify for Phase 2
+- The top 7 teams from Phase 1 will qualify for Phase 2
 - Each team will play against every other team twice (home and away)
 - Best-of-3 matches
 - Games will be scheduled by Staff in consultation with team captains
