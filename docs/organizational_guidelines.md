@@ -147,7 +147,9 @@ This document outlines the organizational structure, election processes, and rul
 
 ### 4.2 Staff Selection
 
-**Timing:** Within 1 week of the presidential election results
+**Timing:** 
+- The process begins within 1 week of the presidential election results
+- The entire selection process must be completed within 2 weeks of its commencement
 
 **Process:**
 1. The elected president will announce the opening of staff applications
@@ -155,6 +157,7 @@ This document outlines the organizational structure, election processes, and rul
 3. The president will review applications and may conduct interviews if needed
 4. 3 staff members will be chosen by the president based on experience, fairness, and commitment to the league
 5. 2 staff members will be elected by the Captains' Council following a similar process to the presidential election
+6. The entire selection process, including the Captains' Council election, must be concluded within the 2-week time limit
 
 **Announcement:**
 - Selected staff members will be announced in the #announcements channel
