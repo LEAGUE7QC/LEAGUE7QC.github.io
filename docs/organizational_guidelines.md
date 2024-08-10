@@ -44,7 +44,7 @@ This document outlines the organizational structure, election processes, and rul
 - Issue warnings or bans as per the code of conduct
 
 **Limitations:**
-- Can participate in league games under strict conditions (see Section 9.2)
+- Can participate in league games under strict conditions (see Section 8.2)
 - Cannot unilaterally implement rule changes without Captains' Council approval
 
 ### 2.4 Moderators
@@ -314,11 +314,11 @@ Section 7 in its entirety, including all subsections, cannot be modified through
 
 ### 8.1 Minimum Team Requirement
 
-- The league will officially begin with a minimum of 6 registered teams
-- If 3-5 teams register by the deadline:
+- The league will officially begin with a minimum of 7 registered teams
+- If 7-7 teams register by the deadline:
   - A pre-season exhibition period will be held to attract more teams
   - This period will last up to 1 month
-  - If 6 teams are not registered by the end of this period, the league start will be postponed
+  - If 7 teams are not registered by the end of this period, the league start will be postponed
 
 ### 8.2 Staff Participation in Games
 
