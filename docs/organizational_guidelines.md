@@ -206,7 +206,7 @@ In the event of a new president being elected while appointed staff members are 
 
 6. **Exceptional Circumstances:**
    - In cases of staff misconduct or inability to perform duties, the normal disciplinary and removal processes as outlined in the main guidelines will take precedence over this policy.
-   
+
 ## 5. Rule Voting Procedure
 
 ### 5.1 Proposal Submission
@@ -255,12 +255,21 @@ In the event of a new president being elected while appointed staff members are 
 
 ### 6.2 Enforcement
 
-**Authority:** Moderators have the authority to enforce the code of conduct
+**Authority:** 
+- Moderators have the authority to enforce the code of conduct in community spaces (e.g., Discord, forums).
+- Staff members are responsible for enforcing rules related to gameplay and in-game behavior.
 
 **Actions:**
-- Moderators may issue warnings for minor infractions
-- Temporary bans may be issued for repeated minor infractions or single serious infractions
-- Permanent bans may be issued for severe violations or repeated serious infractions
+- Moderators may issue warnings for minor infractions in community spaces.
+- Temporary bans may be issued for repeated minor infractions or single serious infractions in community spaces.
+- Permanent bans may be issued for severe violations or repeated serious infractions in community spaces.
+- Staff will manage and enforce rules related to in-game exploits and gameplay violations.
+
+**In-Game Violations:**
+- Staff members will investigate reports of in-game exploits or rule violations.
+- Penalties for in-game violations may include warnings, match forfeits, temporary suspensions, or permanent bans from league play, depending on the severity and frequency of the violation.
+- Any appeals for in-game violation penalties will be reviewed by the Captains' Council.
+
 
 ### 6.3 Conflict Resolution
 
