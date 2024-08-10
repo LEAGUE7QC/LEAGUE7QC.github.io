@@ -191,14 +191,14 @@ In the event of a new president being elected while appointed staff members are 
 2. **Review and Confirmation:**
    - During the continuity period, the new president will review the performance and fit of the appointed staff members.
    - By the end of the 1-month period, the new president must either:
-     a) Confirm the continuation of the appointed staff for the remainder of their original 1-year term, or
+     - a) Confirm the continuation of the appointed staff for the remainder of their original 1-year term, or
      b) Nominate new staff members to replace them.
 
 3. **Replacement Process:**
    - If the new president chooses to nominate new staff members:
-     a) The nominations must be approved by a simple majority vote of the Captains' Council.
-     b) If approved, the new staff members will serve for the remainder of the original 1-year term.
-     c) If not approved, the original staff members will continue in their roles, and the president may not attempt to replace them again during that term.
+     - a) The nominations must be approved by a simple majority vote of the Captains' Council.
+     - b) If approved, the new staff members will serve for the remainder of the original 1-year term.
+     - c) If not approved, the original staff members will continue in their roles, and the president may not attempt to replace them again during that term.
 
 4. **Elected Staff Members:**
    - The 2 staff members elected by the Captains' Council are not subject to this replacement process and will continue to serve their full terms regardless of presidential changes.
