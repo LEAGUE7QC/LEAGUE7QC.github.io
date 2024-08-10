@@ -7,7 +7,7 @@ I've just started a new league for [Harry Potter: Quidditch Champions](https://w
 
 We'll have a president (you'll vote for them), some staff members to keep things running smoothly, and a council of team captains. I'll be in the background, making sure the system works properly. We need 6+ teams to get the ball rolling. Everyone gets a say in big decisions and rule changes. The key? Play fair, be kind, and most importantly, have fun!
 
-Curious for more? Here's the full scoop:
+Curious for more? Here's the full story:
 
 I've put a lot of thought into creating rules that ensure fair play and a great experience for everyone. While I won't be running the day-to-day operations, I'll be there to make sure these rules are followed and stay transparent. *I need to take your trust for granted.* But here's the deal - if you spot any issues with the rules or think I am missing something crucial, speak up! Your input is what will make this league distinguished.
 
