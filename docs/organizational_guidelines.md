@@ -342,7 +342,6 @@ Staff members are allowed to participate in league games under the following con
 ### 9.3 Public Records
 
 - Meeting summaries, voting records, and major decisions will be made publicly available
-- A dedicated #transparency channel will be used to post regular updates on league operations
 
 ## 10. Conclusion
 
