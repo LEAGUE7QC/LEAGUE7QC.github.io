@@ -134,7 +134,7 @@ This document outlines the organizational structure, election processes, and rul
 3. Nominees must accept their nomination and provide a brief platform statement in the #statements channel
 
 **Voting Process:**
-- Voting will be conducted byand overseen by President to ensure security and fairness
+- Voting will be conducted by the Founder to ensure security and fairness
 - The process will be as follows:
   1. A #presidential-election channel will be created, visible only to Captains' Council members
   2. President will post a message with the candidates as voting options
