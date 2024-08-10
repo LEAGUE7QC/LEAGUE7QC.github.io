@@ -136,7 +136,7 @@ This document outlines the organizational structure, election processes, and rul
 **Voting Process:**
 - Voting will be conducted by the Founder to ensure security and fairness
 - The process will be as follows:
-  1. A #presidential-election channel will be created, visible only to Captains' Council members
+  1. A #presidential-election channel will be created
   2. President will post a message with the candidates as voting options
   3. Captains will cast their votes by reacting to the message with the corresponding emojis
   4. President will announce the results when the voting period ends
@@ -192,7 +192,7 @@ In the event of a new president being elected while appointed staff members are 
    - During the continuity period, the new president will review the performance and fit of the appointed staff members.
    - By the end of the 1-month period, the new president must either:
      - a) Confirm the continuation of the appointed staff for the remainder of their original 1-year term, or
-     b) Nominate new staff members to replace them.
+     - b) Nominate new staff members to replace them.
 
 3. **Replacement Process:**
    - If the new president chooses to nominate new staff members:
