@@ -3,7 +3,7 @@
 # Code of Ethics
 
 ## 1. Purpose 
-The Founders League Code of Ethics outlines the ethical standards and principles that all participants, including players, staff, moderators, and the leadership, must adhere to. This document aims to foster a positive, inclusive, and fair environment for all members of the league.
+LEAGUE7 Code of Ethics outlines the ethical standards and principles that all participants, including players, staff, moderators, and the leadership, must adhere to. This document aims to foster a positive, inclusive, and fair environment for all members of the league.
 
 ## 2. Principles 
 ### 2.1 Integrity 
@@ -41,12 +41,5 @@ All reported ethical violations will be promptly and thoroughly investigated by 
 ### 4.3 Consequences 
 Participants found to have violated the Code of Ethics may face consequences, including warnings, suspensions, or permanent bans from the league, depending on the severity of the violation. Consequences will be determined by the league leadership, in consultation with the Captains' Council and the ethics committee, if applicable.
 
-## 5. Ethical Review and Amendments 
-### 5.1 Annual Review 
-The Code of Ethics will be reviewed annually by the league leadership and the Captains' Council to ensure its continued relevance and effectiveness. Any proposed amendments will be subject to the same voting and approval process as outlined in the Official Guidelines. 
-
-### 5.2 Ethical Training 
-All participants will be required to undergo annual ethical training to ensure understanding and compliance with the Code of Ethics. Training will be developed and administered by the league leadership, in collaboration with external ethics experts as needed.
-
-## 6. Conclusion 
-The Founders League Code of Ethics serves as a compass for all participants, guiding our actions and decisions towards creating a fair, respectful, and inclusive gaming community. By upholding these principles and holding each other accountable, we can ensure the long-term success and integrity of our league.
+## 5. Conclusion 
+LEAGUE7 Code of Ethics serves as a compass for all participants, guiding our actions and decisions towards creating a fair, respectful, and inclusive gaming community. By upholding these principles and holding each other accountable, we can ensure the long-term success and integrity of our league.
