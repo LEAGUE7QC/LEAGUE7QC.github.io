@@ -86,7 +86,7 @@ This document outlines the organizational structure, election processes, and rul
 **Process:**
 1. Team registration will open at a designated time announced by the president
 2. Once 6 or more teams have registered, a league start date will be set
-3. If fewer than 6 teams register by the deadline, see Section 9.1 for pre-season exhibition period details
+3. If fewer than 6 teams register by the deadline, see Section 8.1 for pre-season exhibition period details
 
 ### 3.2 Rule Changes
 
@@ -143,9 +143,7 @@ This document outlines the organizational structure, election processes, and rul
 - The voting period will last 48 hours
 - Results will be publicly announced in the #election-results channel immediately after the voting period ends
 
-**Term Limits:** Presidents are limited to two 6-month terms
-
-**Cooling Off Period:** Former presidents must wait one full term before running again
+**Term Limits:** Presidents are limited to two 6-month terms but can be re-elected.
 
 ### 4.2 Staff Selection
 
@@ -162,7 +160,7 @@ This document outlines the organizational structure, election processes, and rul
 - Selected staff members will be announced in the #announcements channel
 - Each staff member's role and responsibilities will be clearly outlined
 
-**Term Limits:** Staff members serve one-year terms
+**Term Limits:** Staff members serve one-year terms but can be re-assigned.
 
 ### 4.3 Moderator Selection
 
@@ -266,6 +264,9 @@ In the unlikely event that Founder is unable or unwilling to continue in their r
 6. After the transition period, the new founder will assume full responsibilities as outlined in Section 2.1.
 7. The founder role remains focused on system integrity and final conflict resolution, not day-to-day league operations.
 8. This succession process can only be initiated if the Founder is genuinely unable to continue in the role, not due to community or leadership dissatisfaction.
+
+### 7.3 Special Status of Section 7
+Section 7 in its entirety, including all subsections, cannot be modified through the standard amendment process outlined in Section 7.1 without explicit Founder approval. This special status ensures the stability of both the amendment process and the Founder succession rules.
 
 ## 8. League Participation
 

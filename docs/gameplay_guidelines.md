@@ -84,20 +84,21 @@ The team that finishes at the top of the Phase 2 standings will be declared the 
 - Violations will be investigated and penalized by Staff
 
 ### 5.3 Substitutions and Technical Issues
-
-#### 5.3.1 In-Game Substitutions
-- No substitutions are allowed during a match unless a player disconnects.
-
-#### 5.3.2 Disconnections and Technical Issues
-- If a player disconnects or claims to have technical issues, the game will continue from the most recent goals' score and time with the substitute player.
-- Teams must have at least one substitute player available for each match to address potential disconnections.
-- The disconnected player may not rejoin the match once a substitution has been made.
-
-#### 5.3.3 Implementation of Substitutions
-- When a disconnection occurs, the team captain must immediately notify the Staff.
-- The game will be paused at the next appropriate moment (e.g., when the quaffle is out of play).
-- The substitute player must join the game within 2 minutes of the pause.
-- If no substitute is available, the team must continue with bots.
+- No substitutions are allowed during a match except in cases of technical issues.
+- If a player disconnects or experiences technical issues, the team captain must immediately notify the Staff.
+- When a technical issue occurs, the following procedure will be followed (if the game allows):
+  1. The game will be paused at the next appropriate moment by Staff (e.g., when a quaffle is scored or a snitch catch occurs).
+  2. The team has two options:
+     a) Wait for the disconnected player to rejoin:
+        - The disconnected player must rejoin within 5 minutes of the pause.
+        - If successful, the game continues with the original player.
+     b) Substitute the player:
+        - A substitute player must join the game within 5 minutes of the pause.
+        - Once a substitution is made, the original player may not rejoin the match.
+  3. If neither option is successful within the 5-minute window:
+     - The team must continue with fewer players, or
+     - The team may use bots to replace the disconnected player(s), if available.
+- If the game does not allow for pausing or substitutions, the team must continue with fewer players or with bots, as applicable.
 
 ## 6. Forfeits and Penalties
 
@@ -105,6 +106,8 @@ The team that finishes at the top of the Phase 2 standings will be declared the 
 
 - If a team is unable to field the minimum required players and do not want to play with bots, they will forfeit the match
 - Forfeited matches result in a 0-50 loss for the forfeiting team
+- Any team found to be intentionally forfeiting, especially to manipulate the standings, will receive a 0-100 loss for that match
+- Staff, in consultation with the Captains' Council, will investigate any suspicious forfeits, particularly those occurring near the end of the season
 
 ### 6.2 Penalties
 
