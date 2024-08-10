@@ -302,10 +302,8 @@ In the unlikely event that Founder is unable or unwilling to continue in their r
 1. The Staff will nominate three candidates from the community who have demonstrated long-term commitment to the league and have the technical skills to maintain system integrity.
 3. A Captains' Council vote will be held within one week to select the new founder from these candidates.
 4. The voting process will be overseen by the President, following the same procedures as other elections.
-5. The new founder will undergo a one-month transition period, during which they will be trained on all technical aspects of the league's systems.
-6. After the transition period, the new founder will assume full responsibilities as outlined in Section 2.1.
-7. The founder role remains focused on system integrity and final conflict resolution, not day-to-day league operations.
-8. This succession process can only be initiated if the Founder is genuinely unable to continue in the role, not due to community or leadership dissatisfaction.
+5. The founder role remains focused on system integrity and final conflict resolution, not day-to-day league operations.
+6. This succession process can only be initiated if the Founder is genuinely unable to continue in the role, not due to community or leadership dissatisfaction.
 
 ### 7.3 Special Status of Section 7
 Section 7 in its entirety, including all subsections, cannot be modified through the standard amendment process outlined in Section 7.1 without explicit Founder approval. This special status ensures the stability of both the amendment process and the Founder succession rules.
