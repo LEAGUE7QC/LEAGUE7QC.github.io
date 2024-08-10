@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This document outlines the structure and rules for gameplay in League 7. The league will operate on a biannual basis, with the Fall Cup and Spring Cup each lasting 6 months. The first Fall Cup will commence in October of 2024.
+This document outlines the structure and rules for gameplay in LEAGUE7. The league will operate on a biannual basis, with the Fall Cup and Spring Cup each lasting 6 months. The first Fall Cup will commence in October of 2024.
 
 ## 2. Seasonal Structure
 
