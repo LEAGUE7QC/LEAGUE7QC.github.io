@@ -26,7 +26,7 @@ This document outlines the structure and rules for gameplay in League 7. The lea
 
 ### 3.2 Roster Requirements
 
-- Minimum of 5 players per team
+- Minimum of 3 players per team (see FAQ)
 - Players cannot be registered on multiple teams within the same cup
 
 ## 4. Regular Season Format

@@ -81,12 +81,12 @@ This document outlines the organizational structure, election processes, and rul
 
 ### 3.1 League Commencement
 
-**Minimum Requirement:** The league will officially begin when at least 6 teams have registered to participate
+**Minimum Requirement:** The league will officially begin when at least 7 teams have registered to participate
 
 **Process:**
 1. Team registration will open at a designated time announced by the president
 2. Once 6 or more teams have registered, a league start date will be set
-3. If fewer than 6 teams register by the deadline, see Section 8.1 for pre-season exhibition period details
+3. If fewer than 7 teams register by the deadline, see Section 8.1 for pre-season exhibition period details
 
 ### 3.2 Rule Changes
 
