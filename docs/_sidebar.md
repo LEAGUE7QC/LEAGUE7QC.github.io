@@ -9,3 +9,7 @@
 * [Registration](registration.md "Registration")
 * [Hall of Fame](hall-of-fame.md "Hall of Fame")
 * [Code of Ethics](codeofethics.md "Code of Ethics")
+
+----
+* [⚡ JOIN L7 DISCORD ⚡](https://discord.gg/nekcxCwrHc)
+
