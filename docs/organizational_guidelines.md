@@ -41,6 +41,7 @@ This document outlines the organizational structure, election processes, and rul
 - Create and enforce game rules
 - Submit rule change proposals for Captains' Council voting
 - Ensure all games are played according to current rules
+- Issue warnings or bans as per the code of conduct
 
 **Limitations:**
 - Can participate in league games under strict conditions (see Section 9.2)
