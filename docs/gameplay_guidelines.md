@@ -40,10 +40,10 @@ The season will be divided into two phases:
 ### 4.2 Phase 1: Points-based Ranking Games
 
 - Each team will play against every other team once
-- Games will be scheduled by Staff in consultation with Captains' Council 
+- Games will be scheduled by Staff in consultation with the Captains' Council 
 - Games will be played on designated days and times
 - Points will be accumulated based on points scored in matches with a maximum of 100 points per match
-- Winners will gain additional 50 points
+- Winners will gain an additional 50 points
 - Rankings will be determined by the total points a team has earned during Phase 1
 - In case of a tie in total points, the following tiebreakers will be applied in order:
   1. Total number of wins
@@ -54,7 +54,7 @@ The season will be divided into two phases:
 
 - The top 7 teams from Phase 1 will qualify for Phase 2
 - Each team will play against every other team twice (home and away)
-- Best-of-3 matches
+- Best-of-3 matches 
 - Games will be scheduled by Staff in consultation with team captains
 - Games will be played on designated days and times each week
 - A classic league points system will be used:
@@ -123,7 +123,7 @@ Gameplay rule change proposals follow the same process as outlined in the Organi
 
 ### 7.2 Implementation
 
-Changes approved by the Captains' Council vote will be implemented at the start of the next cup or at the nearest suitable time as determined by Staff
+Changes approved by the Captains' Council vote will be implemented at the start of the next cup
 
 ## 8. Awards and Recognition
 
@@ -141,7 +141,7 @@ Changes approved by the Captains' Council vote will be implemented at the start 
   - Most Improved Player
 - Award winners will be voted on by the Captains' Council and announced at the end of each cup
 
-## 9. Live Streaming and Broadcasting
+## 9. Live Streaming
 
 ### 9.1 Official Streams
 
@@ -151,6 +151,7 @@ TBD.
 
 - Players are allowed to stream their own perspectives during matches
 - Stream delays and other necessary precautions must be taken to prevent stream sniping or cheating
+- If guidelines for official streams are not set up, at least one member from each team should provide a screenshare for a staff member
 
 ## 10. Conclusion
 
@@ -180,7 +181,7 @@ Phase 2 will accommodate up to 16 teams. If more than 16 teams qualify from regi
 
 ### A.5 Phase 2 Format
 
-The 16 teams will be divided into two groups of 8. Each team will play against every other team in their group once. The top 4 teams from each group will advance to a knockout stage.
+The 16 teams will be divided into two groups of 8. Each team will play against every other team in their group once (best-of-3). The top 4 teams from each group will advance to a knockout stage.
 
 ### A.6 Knockout Stage
 
@@ -199,7 +200,7 @@ The implementation of this expanded structure may require adjustments to the ove
 
 ### A.9 Rule Modifications
 
-Any necessary rule modifications for this expanded format will be proposed by Staff and voted on by the Captains' Council, following the standard rule change procedures outlined in the main guidelines.
+Any necessary rule modifications for this expanded format will be proposed by Staff and voted on by the Captains' Council, following the standard rule change procedures outlined in the Organizational Guidelines (Section).
 
 ### A.10 Oversight and Appeals
 

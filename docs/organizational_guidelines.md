@@ -85,7 +85,7 @@ This document outlines the organizational structure, election processes, and rul
 
 **Process:**
 1. Team registration will open at a designated time announced by the president
-2. Once 6 or more teams have registered, a league start date will be set
+2. Once 7 or more teams have registered, a league start date will be set
 3. If fewer than 7 teams register by the deadline, see Section 8.1 for pre-season exhibition period details
 
 ### 3.2 Rule Changes
@@ -255,6 +255,7 @@ In the event of a new president being elected while appointed staff members are 
 - Zero tolerance for hate speech, discrimination, or harassment
 - Cheating or exploiting game mechanics is strictly forbidden
 - Intentional disruption of league activities is not allowed
+- During league matches, using chat outside of quick-chat options is forbidden
 
 ### 6.2 Enforcement
 

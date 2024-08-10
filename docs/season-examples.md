@@ -12,7 +12,7 @@
 - League start is postponed
 - Efforts continue to attract at least one more team
 
-### If a 2 more teams team joins by October 31:
+### If 2 more teams team joins by October 31:
 
 #### Phase 1 (November 1 - December 15, 2024)
 - Each team plays 6 matches (one against each other team)
@@ -32,7 +32,7 @@
 - Each team plays 9 matches (one against each other team)
 - Points system: 
   - Maximum 100 points per match
-  - Winners gain additional 50 points
+  - Winners gain an additional 50 points
 
 ### Phase 2 (January 1 - March 15, 2025)
 - Top 7 teams from Phase 1 qualify for Phase 2
