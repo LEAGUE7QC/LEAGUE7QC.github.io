@@ -26,7 +26,7 @@
 
 ### Team Roster
 <!-- tabs:start -->
-## **Sarah (Captain)**
+### **Sarah (Captain)**
 ### Sarah "Swiftwing" Johnson
 
 A veteran player with exceptional leadership skills, Sarah's strategic mind and precise passing make her a formidable force on the field.
@@ -67,18 +67,18 @@ When not on the Quidditch pitch, Sarah is deeply involved in the local community
 - In her spare time, Sarah enjoys landscape painting
 - Her Quidditch hero growing up was Ginny Weasley
 
-## **Marcus**
+### **Marcus**
 
 With reflexes like lightning and an imposing presence, Marcus has earned his nickname by being nearly impossible to score against.
 
-## **Zoe **
+### **Zoe**
 
 Agile and lightning-fast, Zoe has a knack for spotting the Snitch in the most challenging conditions.
 
-## **Leo  **
+### **Leo**
 Leo's uncanny ability to control Bludgers makes him both a defensive powerhouse and an offensive threat.
 
-## **Emma **
+### **Emma**
 With her evasive maneuvers and stealthy scoring techniques, Emma often leaves opponents wondering how she slipped past their defenses.
 
 <!-- tabs:end -->
