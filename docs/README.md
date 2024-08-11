@@ -15,7 +15,7 @@ I'm not concerned about whether this league becomes something big or remains sho
 
 I'm currently not planning on any advertisements, it'll just be a friendly environment where people join through word-of-mouth. If you're reading this, thank the person who sent you the link. If you send it to another friend, appreciated.
 
-That's all for now. If you're interested in joining or have any questions, join our Discord!
+That's all for now. If you're interested in joining or have any questions, join our  <span style="color:#ffbd00">[Discord](https://discord.gg/nekcxCwrHc)</span>!
 
 Thank you for your time. 
 
