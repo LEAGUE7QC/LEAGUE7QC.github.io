@@ -329,6 +329,7 @@ Staff members are allowed to participate in league games under the following con
 - Their participation is subject to review by the Captains' Council
 - No more than 2 staff members can be part of the same team
 - Staff members must declare any potential conflicts of interest related to their participation in the league
+- All decisions made by staff members who are also players will be subject to heightened scrutiny and must be documented for review
 
 ## 9. Transparency
 
