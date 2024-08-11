@@ -11,5 +11,5 @@
 * [Code of Ethics](codeofethics.md "Code of Ethics")
 
 ----
-* [⚡ JOIN L7 DISCORD ⚡](https://discord.gg/nekcxCwrHc)
+* [<span style="color:#ffbd00">⚡ JOIN L7 DISCORD ⚡</span>](https://discord.gg/nekcxCwrHc)
 
