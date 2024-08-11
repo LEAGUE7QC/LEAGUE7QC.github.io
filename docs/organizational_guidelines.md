@@ -201,11 +201,11 @@ In the event of a new president being elected while appointed staff members are 
      - c) If not approved, the original staff members will continue in their roles, and the president may not attempt to replace them again during that term.
 
 4. **Elected Staff Members:**
-   - The 2 staff members elected by the Captains' Council are not subject to this replacement process and will continue to serve their full terms regardless of presidential changes.
+   - The 3 staff members elected by the Captains' Council are not subject to this replacement process and will continue to serve their full terms regardless of presidential changes.
 
 5. **End of Staff Terms:**
-   - At the end of each staff member's 1-year term, the current president (whether new or continuing) will have the opportunity to appoint or reappoint staff members for the 3 appointed positions.
-   - The Captains' Council will elect or re-elect members for the 2 elected positions.
+   - At the end of each staff member's 1-year term, the current president (whether new or continuing) will have the opportunity to appoint or reappoint staff members for the 2 appointed positions.
+   - The Captains' Council will elect or re-elect members for the 3 elected positions.
 
 6. **Exceptional Circumstances:**
    - In cases of staff misconduct or inability to perform duties, the normal disciplinary and removal processes as outlined in the main guidelines will take precedence over this policy.
@@ -314,7 +314,7 @@ Section 7 in its entirety, including all subsections, cannot be modified through
 ### 8.1 Minimum Team Requirement
 
 - The league will officially begin with a minimum of 7 registered teams
-- If 7-7 teams register by the deadline:
+- If 5-7 teams register by the deadline:
   - A pre-season exhibition period will be held to attract more teams
   - This period will last up to 1 month
   - If 7 teams are not registered by the end of this period, the league start will be postponed
