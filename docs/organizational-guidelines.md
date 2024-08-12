@@ -23,7 +23,7 @@ This document outlines the organizational structure, election processes, and rul
 
 **Responsibilities:**
 - Oversees staff integrity and league operations
-- Appoints half of the moderators to handle community issues and tickets
+- Appoints moderators to handle community issues and tickets
 - Ensures fair play and adherence to league guidelines
 
 **Limitations:**
