@@ -64,6 +64,7 @@ Each season will be divided into two phases:
 - In case of ties at grade boundaries:
     1. Apply the tiebreakers listed in Section 3.2
     2. If ties persist, Staff will consult with the Captains' Council to determine the fairest resolution
+    3. If conflict persists, the Founder will provide a solution 
 
 ### 3.4 Phase 2: N.E.W.T.s (Classic League for Top Teams)
 

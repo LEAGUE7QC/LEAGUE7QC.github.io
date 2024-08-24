@@ -2,7 +2,7 @@
 
 * [Preface](/)
 * [Organizational Guidelines](organizational-guidelines.md)
-* [Reg. Seasonal Guidelines](seasonal-guidelines.md)
+* [Reg. Seasonal Guidelines](seasonal-guidelines.md "Regular Seasonal Guidelines") 
 * [Examples](season-examples.md "Season Examples")
 * [**TRYOUT SEASON** <span style="color:#ffbd00">(ON)</span>](tryout-season.md)
 * [FAQ](faq.md "FAQ")

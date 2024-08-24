@@ -27,14 +27,23 @@ This document outlines the organizational structure, election processes, and rul
 - Ensures fair play and adherence to league guidelines
 
 **Limitations:**
-- Ineligible to participate in league games
 - Cannot unilaterally change game rules or league structure
+- Can participate in league games under strict conditions (see Section 8.3)
+- Cannot be on the same team as any of the *appointed* staff members (see Section 2.3)
+
+**Conflict Resolution:**
+- In cases where the President would normally be involved in conflict resolution but is unable to due to their participation in games, the Founder will assume this responsibility
+- The Captains' Council will have increased oversight responsibilities to ensure fairness
+
+**Transparency:**
+- All decisions made by the President that could affect game outcomes must be publicly documented and justified
+- The President must declare any potential conflicts of interest related to their participation in the league
 
 ### 2.3 Staff Members
 
-**Number:** Five staff members
+**Number:** Five staff members (number subject to change depending on participant numbers)
 
-**Selection:** Two appointed by the president, three elected by the Captains' Council
+**Selection:** Two appointed by the president (thereafter referred to as "appointed staff members"), three elected by the Captains' Council
 
 **Responsibilities:**
 - Create and enforce game rules
@@ -168,8 +177,8 @@ This document outlines the organizational structure, election processes, and rul
 ### 4.3 Moderator Selection
 
 **Mixed System:**
-- Half of the moderators are appointed by the president
-- Half are elected by the staff
+- Half of the moderators are appointed by the president, and the other half are elected by the staff
+- Numbers are subject to change depending on the league density
 
 ### 4.4 Unexpected Presidential Departure
 
@@ -330,6 +339,25 @@ Staff members are allowed to participate in league games under the following con
 - No more than 2 staff members can be part of the same team
 - Staff members must declare any potential conflicts of interest related to their participation in the league
 - All decisions made by staff members who are also players will be subject to heightened scrutiny and must be documented for review
+
+### 8.3 Presidential Participation in Games
+
+The President is allowed to participate in league games under the following conditions:
+- The President must declare their intention to participate before the start of each season
+- Participation must be approved by a majority vote of the Captains' Council
+- The President cannot be on the same team as any of the *appointed* Staff members
+- The President must recuse themselves from any decisions directly affecting:
+  - Their team
+  - Any match they participate in
+  - Any match involving their team, even if they're not playing
+- All decisions made by the President that could affect game outcomes must be publicly documented and justified
+- The President must declare any potential conflicts of interest related to their participation in the league
+- The President's league participation will be reviewed by the Captains' Council at the end of each season
+- This review will consider the impact on league operations, fairness, and community perception
+- The President cannot participate in discussions or votes related to rule changes that could directly affect their performance or team's standing
+- In cases where the President's participation significantly impacts their ability to fulfill their duties, the Captains' Council may recommend temporary reassignment of certain responsibilities
+- The Captains' Council reserves the right to revoke the President's participation privilege at any time if it is deemed to be detrimental to the league's integrity or operations
+- For any conflicts involving the President's team or matches, the Founder will oversee the resolution process
 
 ## 9. Transparency
 
