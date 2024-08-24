@@ -2,9 +2,11 @@
 
 ## 1. Introduction
 
-This document outlines the comprehensive structure, rules, and guidelines that govern LEAGUE7 operations. Our league is designed to provide a challenging, fair, and exciting competitive environment for players of all skill levels, while fostering a strong sense of community among Quidditch Champions players.
+This document outlines the comprehensive structure, rules, and guidelines that govern league operations. LEAGUE7 is designed to provide a challenging, fair, and exciting competitive environment for players of all skill levels, while fostering a strong sense of community among Quidditch Champions players.
 
-LEAGUE7 operates in alignment with the official seasons of Quidditch Champions, ensuring that our competition remains fresh and relevant to the game's evolving meta. Each LEAGUE7 season is divided into two phases: the O.W.L.s (Ordinary Wizarding Levels), which serve as our qualifying round, and the N.E.W.T.s (Nastily Exhausting Wizarding Test), where the top teams compete for the championship.
+We operate in alignment with the official seasons of Quidditch Champions, ensuring that the competition remains fresh and relevant to the game's evolving meta. Each LEAGUE7 season is divided into two phases: 
+- The O.W.L.s (Ordinary Wizarding Levels), which serve as our qualifying round, and,
+- The N.E.W.T.s (Nastily Exhausting Wizarding Test), where the top 7 teams compete for the championship.
 
 The following guidelines have been carefully crafted to ensure a balanced, competitive, and enjoyable experience for all participants. Please read through these rules thoroughly and join us in creating a fun league experience.
 

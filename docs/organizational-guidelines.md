@@ -377,4 +377,10 @@ The President is allowed to participate in league games under the following cond
 
 ## 10. Conclusion
 
-This guideline ensures fair, competitive, and enjoyable experiences for all participants in the league. 
+The LEAGUE7 Organizational Guidelines establish a comprehensive framework for league governance, emphasizing transparency, fairness, and community involvement. At the core of this structure is a balanced leadership system, featuring a Founder responsible for system integrity, an elected President overseeing operations, a team of Staff members managing rules and enforcement, and a Captains' Council providing crucial checks and balances. 
+
+To support this structure, the guidelines outline detailed processes for elections, rule changes, and conflict resolution. The President and some Staff members are elected through a transparent voting system, while others are appointed, creating a mix of continuity and fresh perspectives. Rule changes require careful consideration and approval from the Captains' Council, with provisions for fast-tracking urgent issues. Additionally, a structured conflict resolution process encourages direct communication while providing clear escalation paths when needed.
+
+Transparency is a key focus throughout the guidelines. Most discussions and decision-making processes are open to community observation, and regular updates are provided to all members. This openness extends to the participation of Staff and the President in league games, with strict conditions and heightened scrutiny to maintain fairness. The guidelines also establish a code of conduct that sets clear expectations for behavior in both community spaces and during gameplay, further enhancing the league's commitment to transparency and fairness.
+
+Demonstrating foresight, the document includes provisions for league expansion, unexpected situations, and even the potential succession of the Founder role. It strikes a balance between providing a stable framework and allowing for adaptability as the league grows and evolves. By clearly defining roles, responsibilities, and processes, these guidelines aim to create a fair, competitive, and enjoyable environment for all LEAGUE7 participants, ensuring the league's longevity and success.
