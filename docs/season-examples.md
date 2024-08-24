@@ -1,92 +1,164 @@
-# Season Examples
-> Below are the corrected example scenarios for the first Season, aligned with the league guidelines.
+# Example Scenarios
 
-## Scenario 1: 5 Teams
+This document illustrates how LEAGUE7 operates using two example scenarios: 
+- a 20-team regular structure, and
+- a 30-team expanded structure. 
 
-### Pre-season (September 1 - September 30, 2024)
-- Registration deadline: September 15, 2024
-- Only 5 teams register
-- Pre-season exhibition period is initiated to attract more teams
+These scenarios demonstrate the league's adaptability and commitment to fair, exciting competition.
 
-### Extended Pre-season (October 1 - October 31, 2024)
-- League start is postponed
-- Efforts continue to attract at least one more team
+## Scenario 1: 20-Team Regular Structure
 
-### If 2 more teams team joins by October 31:
+Imagine LEAGUE7 has just opened registrations for its *Defense Against the Dark Arts* season on December, 2024. Assume 20 teams have signed up. After the deadline the Staff creates a 10-week schedule for the O.W.L.s. 
 
-#### Phase 1 (November 1 - December 15, 2024)
-- Each team plays 6 matches (one against each other team)
+### O.W.L.s Phase
 
-#### Phase 2 (December 16, 2024 - March 15, 2025)
-- All 7 teams qualify for Phase 2
-- Each team plays 12 matches (twice against each other team)
-- League winner determined by final standings
+Each team will face every other team once, resulting in 19 matches per team, expecting 2 matches to be played each week. Teams like the Thunderbirds and Phoenix Flames quickly establish themselves as frontrunners, while others like the Flobberworm Crawlers struggle to find their rhythm.
 
-## Scenario 2: 10 Teams
+As the dust settles after the final O.W.L.s match, the Staff tallies the points and assigns grades:
 
-### Pre-season (September 1 - September 30, 2024)
-- Registration deadline: September 15, 2024
-- 10 teams register
+| Rank | Team | Points | Grade | Advance to N.E.W.T.s |
+|:----:|:-----|:------:|:------:|--------------------:|
+| 1    | Thunderbirds | 850 | O | Yes |
+| 2    | Phoenix Flames | 820 | O | Yes |
+| 3    | Basilisk Strikers | 795 | E | Yes |
+| 4    | Hippogriff Flyers | 780 | E | Yes |
+| 5    | Manticore Maulers | 765 | E | Yes |
+| 6    | Dragon Tamers | 750 | E | Yes |
+| 7    | Pixie Tricksters | 735 | A | Yes |
+| 8    | Sphinx Riddlers | 720 | A | No |
+| 9    | Centaur Archers | 705 | A | No |
+| 10   | Mermaid Divers | 690 | A | No |
+| 11   | Goblin Goldminers | 675 | A | No |
+| 12   | Unicorn Chargers | 660 | A | No |
+| 13   | Werewolf Pack | 645 | P | No |
+| 14   | Dementor's Kiss | 630 | P | No |
+| 15   | Banshee Screamers | 615 | P | No |
+| 16   | Giant Stompers | 600 | P | No |
+| 17   | Kelpie Riders | 585 | D | No |
+| 18   | Gnome Gardeners | 570 | D | No |
+| 19   | Bowtruckle Branch | 555 | T | No |
+| 20   | Flobberworm Crawlers | 540 | T | No |
 
-### Phase 1 (October 1 - December 31, 2024)
-- Each team plays 9 matches (one against each other team)
-- Points system: 
-  - Maximum 100 points per match
-  - Winners gain an additional 50 points
+Grading breakdown:
+- Top 2 teams (10%): Outstanding (O)
+- Next 4 teams (20%): Exceeds Expectations (E)
+- Next 6 teams (30%): Acceptable (A)
+- Next 4 teams (20%): Poor (P)
+- Next 2 teams (10%): Dreadful (D)
+- Bottom 2 teams (10%): Troll (T)
 
-### Phase 2 (January 1 - March 15, 2025)
-- Top 7 teams from Phase 1 qualify for Phase 2
-- Each team plays 12 matches (twice against each other team)
-- Classic league points system:
-  - 3 points for a win
-  - 0 points for a loss
-- League winner determined by final standings
+### Advancement to N.E.W.T.s
 
-## Scenario 3: 20 Teams
+The top 7 teams advance to the N.E.W.T.s phase:
+1. Thunderbirds (O)
+2. Phoenix Flames (O)
+3. Basilisk Strikers (E)
+4. Hippogriff Flyers (E)
+5. Manticore Maulers (E)
+6. Dragon Tamers (E)
+7. Pixie Tricksters (A)
 
-### Pre-season (September 1 - September 30, 2024)
-- Registration deadline: September 15, 2024
-- 20 teams register
+### N.E.W.T.s Phase
 
-### Phase 1 (October 1 - January 31, 2025)
-- Each team plays 19 matches (one against each other team)
-- This phase is extended due to the high number of matches
-- Points system: 
-  - Maximum 100 points per match
-  - Winners gain an additional 50 points
+The N.E.W.T.s phase is even more intense, with each team playing every other team twice. After 6 weeks of thrilling matches:
 
-### Phase 2 (February 1 - March 15, 2025)
-- Top 7 teams from Phase 1 qualify for Phase 2
-- Each team plays 12 matches (twice against each other team)
-- Classic league points system:
-  - 3 points for a win
-  - 0 points for a loss
-- League winner determined by final standings
+| Rank | Team | Wins | Losses | Points |
+|:----:|:-----|:----:|:------:|:------:|
+| 1    | Phoenix Flames | 10 | 2 | 30 |
+| 2    | Thunderbirds | 9 | 3 | 27 |
+| 3    | Basilisk Strikers | 8 | 4 | 24 |
+| 4    | Hippogriff Flyers | 7 | 5 | 21 |
+| 5    | Dragon Tamers | 5 | 7 | 15 |
+| 6    | Manticore Maulers | 3 | 9 | 9 |
+| 7    | Pixie Tricksters | 0 | 12 | 0 |
 
-## Scenario 4: 35 Teams (Expanded Structure)
+Final Results:
+- Champion: Phoenix Flames
+- Runner-up: Thunderbirds
+- Third Place: Basilisk Strikers
 
-### Pre-season (September 1 - September 30, 2024)
-- Registration deadline: September 15, 2024
-- 35 teams register, triggering the expanded league structure
+## Scenario 2: 30-Team Expanded League
 
-### Phase 1: Regional Divisions (October 1 - December 31, 2024)
-- Teams divided into 3 regional divisions of 11-12 teams each
-- Each team plays 10-11 matches (one against each other team in their division)
-- Points system: 
-  - Maximum 100 points per match
-  - Winners gain an additional 50 points
+In the following season, assume LEAGUE7's popularity increases, and 30 teams register. The Staff decides to implement the expanded structure, dividing the teams into two independent divisions of 15 teams each.
 
-### Phase 2: Expanded Format (January 1 - March 15, 2025)
-- Top 5-6 teams from each division qualify (16 teams total)
-- 16 teams divided into two groups of 8
-- Each team plays 7 matches (one against each other team in their group)
-- Classic league points system:
-  - 3 points for a win
-  - 0 points for a loss
+### O.W.L.s Phase
 
-### Knockout Stage (March 1 - March 15, 2025)
-- Top 4 teams from each group advance
-- Quarter-finals, Semi-finals, 3rd Place Match, and Final
-- League winner determined by knockout stage results
+Over 10 weeks, teams in each division compete fiercely. The Gryffindor Lions dominate Division 1, while the Holyhead Harpies lead the charge in Division 2. At the end of the O.W.L.s phase, the standings look like this:
 
-Note: In all scenarios, tiebreakers and other specific rules as outlined in the league guidelines will be applied as necessary.
+#### Division 1 
+
+| Rank | Team | Points | Grade | Advance to N.E.W.T.s |
+|:----:|:-----|:------:|:------:|--------------------:|
+| 1    | Gryffindor Lions | 720 | O | Yes |
+| 2    | Slytherin Serpents | 705 | E | Yes |
+| 3    | Ravenclaw Eagles | 690 | E | Yes |
+| 4    | Hufflepuff Badgers | 675 | E | Playoff |
+| 5    | Beauxbatons Butterflies | 660 | A | No |
+| 6    | Durmstrang Wolves | 645 | A | No |
+| 7    | Ilvermorny Thunderbirds | 630 | A | No |
+| 8    | Castelobruxo Caipora | 615 | A | No |
+| 9    | Mahoutokoro Tanuki | 600 | A | No |
+| 10   | Uagadou Dream Walkers | 585 | P | No |
+| 11   | Koldovstoretz Firebirds | 570 | P | No |
+| 12   | Wizarding Academy of Dramatic Arts | 555 | P | No |
+| 13   | Merge School of Underwater Spellage | 540 | D | No |
+| 14   | Brazilian Wizarding School | 525 | T | No |
+| 15   | Patagonian Institute of Ancient Runelore | 510 | T | No |
+
+#### Division 2
+
+| Rank | Team | Points | Grade | Advance to N.E.W.T.s |
+|:----:|:-----|:------:|:------:|--------------------:|
+| 1    | Holyhead Harpies | 715 | O | Yes |
+| 2    | Chudley Cannons | 700 | E | Yes |
+| 3    | Puddlemere United | 685 | E | Yes |
+| 4    | Appleby Arrows | 670 | E | Playoff |
+| 5    | Ballycastle Bats | 655 | A | No |
+| 6    | Caerphilly Catapults | 640 | A | No |
+| 7    | Falmouth Falcons | 625 | A | No |
+| 8    | Kenmare Kestrels | 610 | A | No |
+| 9    | Montrose Magpies | 595 | A | No |
+| 10   | Pride of Portree | 580 | P | No |
+| 11   | Tutshill Tornados | 565 | P | No |
+| 12   | Wigtown Wanderers | 550 | P | No |
+| 13   | Wimbourne Wasps | 535 | D | No |
+| 14   | Yorkshire Yetis | 520 | T | No |
+| 15   | London Lycanthropes | 505 | T | No |
+
+Grading breakdown for each division:
+- Top 1 team (6.67%): Outstanding (O)
+- Next 3 teams (20%): Exceeds Expectations (E)
+- Next 5 teams (33.33%): Acceptable (A)
+- Next 3 teams (20%): Poor (P)
+- Next 1 team (6.67%): Dreadful (D)
+- Bottom 2 teams (13.33%): Troll (T)
+
+### Advancement to N.E.W.T.s
+
+From each division:
+- The O grade team automatically advances (2 teams total)
+- The top two E grade teams automatically advance (4 teams total)
+- The third E grade teams from each division play a playoff match for the 7th N.E.W.T.s spot
+
+Playoff for 7th N.E.W.T.s spot:
+Hufflepuff Badgers (Division 1) vs Appleby Arrows (Division 2)
+Result: Hufflepuff Badgers win and advance to N.E.W.T.s
+
+### N.E.W.T.s Phase
+
+The 7 qualifying teams battle it out over 6 weeks of intense competition:
+
+| Rank | Team | Wins | Losses | Points |
+|:----:|:-----|:----:|:------:|:------:|
+| 1    | Gryffindor Lions | 11 | 1 | 33 |
+| 2    | Holyhead Harpies | 9 | 3 | 27 |
+| 3    | Slytherin Serpents | 8 | 4 | 24 |
+| 4    | Ravenclaw Eagles | 7 | 5 | 21 |
+| 5    | Chudley Cannons | 5 | 7 | 15 |
+| 6    | Puddlemere United | 2 | 10 | 6 |
+| 7    | Hufflepuff Badgers | 0 | 12 | 0 |
+
+Final Results:
+- Champion: Gryffindor Lions
+- Runner-up: Holyhead Harpies
+- Third Place: Slytherin Serpents

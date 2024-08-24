@@ -1,4 +1,4 @@
-# Gameplay Guidelines
+# Gameplay Guidelines (Pre-release Setting)
 
 ## 1. Introduction
 
