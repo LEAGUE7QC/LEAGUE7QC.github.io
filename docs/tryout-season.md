@@ -68,10 +68,10 @@ This exciting period is designed for players to showcase their individual skills
 
 ### 6.1 Base Scoring
 - Players earn points based on badges achieved in each match:
-  - Bronze Medal: 25 points
-  - Silver Medal: 50 points
-  - Gold Medal: 100 points
-  - Platinum Medal: 250 points
+  - Bronze Badge: 25 points
+  - Silver Badge: 50 points
+  - Gold Badge: 100 points
+  - Platinum Badge: 250 points
 - Detailed definition for badges will be announced after the game's release and before the season starts.
 
 ### 6.2 Role-Specific Bonuses
