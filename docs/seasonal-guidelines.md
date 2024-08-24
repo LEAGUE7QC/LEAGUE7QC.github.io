@@ -19,7 +19,7 @@ The following guidelines have been carefully crafted to ensure a balanced, compe
 
 - Teams must register by the specified deadline for each LEAGUE7 season
 - Deadlines will be set for one week before the start of each season
-- Registration forms will be available on the league website
+- Registration forms will be available on the LEAGUE7 website
 - Each team must designate a captain and provide a roster of players
 - Registration requirements will be announced when the forms are released 
 
@@ -43,8 +43,6 @@ Each season will be divided into two phases:
   2. Head-to-head record (if applicable)
   3. Total scores difference (points scored minus points conceded)
 
-
-
 ### 3.3 Grading and Advancement
 
 - At the conclusion of the O.W.L.s phase, teams are ranked based on their total points
@@ -67,7 +65,6 @@ Each season will be divided into two phases:
     1. Apply the tiebreakers listed in Section 3.2
     2. If ties persist, Staff will consult with the Captains' Council to determine the fairest resolution
 
-
 ### 3.4 Phase 2: N.E.W.T.s (Classic League for Top Teams)
 
 - Each team will play against every other team twice (home and away)
@@ -82,17 +79,33 @@ Each season will be divided into two phases:
   2. Goals scored
   3. Head-to-head record (if applicable)
 
-### 3.5 League Winner
+### 3.5 Finalization
 
-- The winner of the N.E.W.T.s round will be recognized as the official season champion
-- The champion will receive a trophy, a place in Hall of Fame, and other prizes as determined by Staff
+- Final standings will be officially announced by Staff within 48 hours of the last match
+- These results will form the basis for awards and recognition as detailed in section 7
 
-### 3.6 Triwizard Tournament (Rare Event)
+### 3.6 Triwizard Tournament (A Rare Event)
 
-- When we have 3 different N.E.W.T.s champions from 3 consecutive seasons, a special Triwizard Tournament will be organized
-- This tournament will feature the 3 championship-winning teams competing against each other
-- The format and rules of the Triwizard Tournament will be determined by Staff in consultation with the Captains' Council
-- The winner of the Triwizard Tournament will be crowned the Triwizard Champion and receive special recognition and prizes
+- The Triwizard Tournament is an extraordinary, infrequent event that brings together champions from multiple seasons
+- Eligibility:
+  - When three different teams have won championships across any number of consecutive seasons, they become eligible for a Triwizard Tournament
+  - Example 1: If Team A wins Season 1, Team B wins Season 2, and Team C wins Season 3, they become eligible
+  - Example 2: If Team A wins Seasons 1 and 3, Team B wins Season 2, and Team C wins Season 4, Teams A, B, and C become eligible
+- Invitation Process:
+  - Eligible teams will be privately contacted by Staff to gauge their interest in participating
+  - Participation is voluntary, but highly encouraged due to the prestigious nature of the event
+- Tournament Structure:
+  - The Triwizard Tournament will feature a unique format, distinct from regular season play
+  - Specific details of the tournament structure will be revealed to participants and the community when the tournament is announced
+- Timing:
+  - The tournament will be scheduled at Staff's discretion, taking into account the regular season calendar and other factors
+  - A regular season may be cancelled to accommodate the Triwizard Tournament
+- Prizes and Recognition:
+  - The winner of the Triwizard Tournament will be crowned the Triwizard Champion
+  - Special recognition and unique prizes will be awarded, details of which will remain confidential until the tournament announcement
+- Community Engagement:
+  - The Triwizard Tournament will be promoted as a major community event
+  - Special viewing parties, prediction contests, and other community activities may be organized around the tournament
 
 ## 4. Game Rules
 
@@ -155,8 +168,12 @@ Changes approved by the Captains' Council vote will be implemented at the start 
 
 ### 7.1 Season Champions
 
-- The winners of each season will be recognized as the official season champions
-- Champions will receive a trophy and other prizes as determined by Staff
+- The winner of the N.E.W.T.s round will be recognized as the official season champion
+- Champions will receive:
+  - Official recognition as the season champion (added to Hall of Fame)
+  - A trophy or other symbol of their victory
+  - Other prizes as determined by Staff (e.g., in-game rewards, if available)
+- The runners-up (2nd and 3rd place teams) may also receive recognition or prizes, as determined by Staff
 
 ### 7.2 Individual Awards
 
@@ -172,12 +189,12 @@ Changes approved by the Captains' Council vote will be implemented at the start 
 
 ### 8.1 Official Streams
 
-TBD. (Open for discussion, see #active-discussions)
+TBD. (See #active-discussions)
 
 ### 8.2 Player Perspectives
 
 - Players are allowed to stream their own perspectives during matches
-- Stream delays and other necessary precautions must be taken to prevent stream sniping or cheating
+- Stream delays and other necessary precautions must be taken to prevent cheating
 - If guidelines for official streams are not set up, at least one member from each team should provide a screenshare for a staff member
 
 ## 9. Conclusion

@@ -100,10 +100,10 @@ Over 10 weeks, teams in each division compete fiercely. The Gryffindor Lions dom
 | 9    | Mahoutokoro Tanuki | 600 | A | No |
 | 10   | Uagadou Dream Walkers | 585 | P | No |
 | 11   | Koldovstoretz Firebirds | 570 | P | No |
-| 12   | Wizarding Academy of Dramatic Arts | 555 | P | No |
-| 13   | Merge School of Underwater Spellage | 540 | D | No |
-| 14   | Brazilian Wizarding School | 525 | T | No |
-| 15   | Patagonian Institute of Ancient Runelore | 510 | T | No |
+| 12   | Academy of Dark Arts | 555 | P | No |
+| 13   | Underwater Spellage | 540 | D | No |
+| 14   | Patagonian Institute | 525 | T | No |
+| 15   | Ancient Runelore | 510 | T | No |
 
 #### Division 2
 
@@ -141,8 +141,8 @@ From each division:
 - The third E grade teams from each division play a playoff match for the 7th N.E.W.T.s spot
 
 Playoff for 7th N.E.W.T.s spot:
-Hufflepuff Badgers (Division 1) vs Appleby Arrows (Division 2)
-Result: Hufflepuff Badgers win and advance to N.E.W.T.s
+- Hufflepuff Badgers (Division 1) vs Appleby Arrows (Division 2)
+- Result: Hufflepuff Badgers win and advance to N.E.W.T.s
 
 ### N.E.W.T.s Phase
 
@@ -150,15 +150,17 @@ The 7 qualifying teams battle it out over 6 weeks of intense competition:
 
 | Rank | Team | Wins | Losses | Points |
 |:----:|:-----|:----:|:------:|:------:|
-| 1    | Gryffindor Lions | 11 | 1 | 33 |
+| 1    | Puddlemere United | 11 | 1 | 33 |
 | 2    | Holyhead Harpies | 9 | 3 | 27 |
 | 3    | Slytherin Serpents | 8 | 4 | 24 |
 | 4    | Ravenclaw Eagles | 7 | 5 | 21 |
 | 5    | Chudley Cannons | 5 | 7 | 15 |
-| 6    | Puddlemere United | 2 | 10 | 6 |
+| 6    | Gryffindor Lions | 2 | 10 | 6 |
 | 7    | Hufflepuff Badgers | 0 | 12 | 0 |
 
 Final Results:
-- Champion: Gryffindor Lions
+- Champion: Puddlemere United
 - Runner-up: Holyhead Harpies
 - Third Place: Slytherin Serpents
+
+See [Hall of Fame](hall-of-fame.md "Hall of Fame").
