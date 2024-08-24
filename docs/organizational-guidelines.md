@@ -152,7 +152,7 @@ This document outlines the organizational structure, election processes, and rul
 - The voting period will last 48 hours
 - Results will be publicly announced in the #election-results channel immediately after the voting period ends
 
-**Term Limits:** Presidents are limited to two 6-month terms but can be re-elected.
+**Term Limits:** Presidents are limited to two 8-month terms but can be re-elected.
 
 ### 4.2 Staff Selection
 
@@ -172,7 +172,7 @@ This document outlines the organizational structure, election processes, and rul
 - Selected staff members will be announced in the #announcements channel
 - Each staff member's role and responsibilities will be clearly outlined
 
-**Term Limits:** Staff members serve one-year terms but can be re-assigned.
+**Term Limits:** Staff members serve 12-month terms but can be re-assigned.
 
 ### 4.3 Moderator Selection
 
