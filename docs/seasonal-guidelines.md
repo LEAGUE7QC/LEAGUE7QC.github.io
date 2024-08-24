@@ -33,7 +33,7 @@ Each season will be divided into two phases:
 
 ### 3.2 Phase 1: O.W.L.s (Points-based Ranking Games)
 
-- Each team will play against every other team once
+- Each team will play against every other team **once**
 - Games will be scheduled by Staff in consultation with the Captains' Council 
 - Points will be accumulated based on points scored in matches (with a maximum of 100 points per match)
 - Winners will gain an additional 55 points (amount is subject to change, see #active-dicussions)
@@ -87,13 +87,7 @@ Each season will be divided into two phases:
 - The winner of the N.E.W.T.s round will be recognized as the official season champion
 - The champion will receive a trophy, a place in Hall of Fame, and other prizes as determined by Staff
 
-
-### 3.6 Order of LEAGUE7
-
-- The team finishing at the top of the N.E.W.T.s standings, in addition to being crowned the season champion, will be inducted into the Order of LEAGUE7
-- This prestigious title recognizes the team's exceptional performance throughout the season
-
-### 3.7 Triwizard Tournament
+### 3.6 Triwizard Tournament (Rare Event)
 
 - When we have 3 different N.E.W.T.s champions from 3 consecutive seasons, a special Triwizard Tournament will be organized
 - This tournament will feature the 3 championship-winning teams competing against each other
