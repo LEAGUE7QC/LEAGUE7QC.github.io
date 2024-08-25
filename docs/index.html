@@ -31,37 +31,38 @@
   
   <script>
    window.$docsify = {
-  name: 'LEAGUE7',
-  repo: '',
-  logo: 'images/logo_League7.png',
-  loadSidebar: true,
-  subMaxLevel: 2,
-  loadNavbar: false,
-  themeColor: '#ffbd00',
-  plugins: [
-    function(hook, vm) {
-      hook.doneEach(function() {
-        if (vm.route.file === 'current-season.md') {
-          // Options for the season-stats-table (searching enabled)
-          loadCSVData('https://docs.google.com/spreadsheets/d/1qYgidoEtctctXI8RlmDgrsohbw2CBhGXmve6zTBLCeo/pub?gid=1790099973&single=true&output=csv', 'season-stats-table', {
-            paging: false,
-            searching: false,
-            ordering: true,
-            info: false,
-          });
+    name: 'LEAGUE7',
+    repo: '',
+    logo: 'images/logo_League7.png',
+    loadSidebar: true,
+    subMaxLevel: 2,
+    loadNavbar: false,
+    auto2top: true,
+    themeColor: '#ffbd00',
+    plugins: [
+      function(hook, vm) {
+        hook.doneEach(function() {
+          if (vm.route.file === 'current-season.md') {
+            // Options for the season-stats-table (searching enabled)
+            loadCSVData('https://docs.google.com/spreadsheets/d/1qYgidoEtctctXI8RlmDgrsohbw2CBhGXmve6zTBLCeo/pub?gid=1790099973&single=true&output=csv', 'season-stats-table', {
+              paging: false,
+              searching: false,
+              ordering: true,
+              info: false,
+            });
 
-          // Options for the team-rosters-table (searching disabled)
-          loadCSVData('https://docs.google.com/spreadsheets/d/1qYgidoEtctctXI8RlmDgrsohbw2CBhGXmve6zTBLCeo/pub?gid=1305660520&single=true&output=csv', 'team-rosters-table', {
-            paging: false,
-            searching: false,
-            ordering: false,
-            info: false,
-          });
-        }
-      });
-    }
-  ]
-};
+            // Options for the team-rosters-table (searching disabled)
+            loadCSVData('https://docs.google.com/spreadsheets/d/1qYgidoEtctctXI8RlmDgrsohbw2CBhGXmve6zTBLCeo/pub?gid=1305660520&single=true&output=csv', 'team-rosters-table', {
+              paging: false,
+              searching: false,
+              ordering: false,
+              info: false,
+            });
+          }
+        });
+      }
+    ]
+  };
   </script>
 
   <!-- Docsify v4 -->
