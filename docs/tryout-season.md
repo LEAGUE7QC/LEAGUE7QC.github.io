@@ -72,11 +72,9 @@ This exciting period is designed for players to showcase their individual skills
 ## 6. Scoring System
 
 ### 6.1 Base Scoring
-- Players earn points based on badges achieved in each match:
-  - Bronze Badge: 25 points
-  - Silver Badge: 50 points
-  - Gold Badge: 100 points
-  - Platinum Badge: 250 points
+- Players earn points based on badges achieved in each match.
+- Different badges will award varying amounts of points based on the difficulty and importance of the achievement.
+ - *For example*, Seekers might gain a badge worth 100 points for each Snitch catch.
 - Detailed definition for badges will be announced after the game's release and before the season starts.
 
 ### 6.2 Role-Specific Bonuses
