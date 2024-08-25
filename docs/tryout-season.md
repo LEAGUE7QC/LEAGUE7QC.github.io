@@ -69,7 +69,7 @@ This exciting period is designed for players to showcase their individual skills
 - Players must share their screen with their assigned observer during the matches.
 
 ### 5.2 Match Structure
-- Players can choose to play a single game or a best-of-three series.
+- Players will play a single game or a best-of-three series (the decision will be voted).
 - Players are free to use any in-game settings or strategies allowed by the official game.
 - No additional restrictions will be imposed by the league after season starts.
 
