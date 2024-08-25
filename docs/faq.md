@@ -1,5 +1,11 @@
 # FAQ
 
+> ### How do EU and NA divisions work in LEAGUE7?
+EU and NA players are combined into a single pool for the Tryout Season. However, for the Regular Seasons, EU and NA split into separate, independent divisions. Each division runs its own O.W.L.s and N.E.W.T.s phases and crowns its own champion. Teams can select either division but must commit to it for the entire season. Mixed EU/NA teams are permitted but must choose one division for competition. This structure balances diverse play during tryouts with convenient match times and fair competition in the regular season.
+
+> ### Does a person need to participate in the Tryout Season to participate in the league?
+No, participation in the Tryout Season is not mandatory to join the regular league season. The Tryout Season is designed to help players showcase their skills and potentially form teams, but it's not a prerequisite for league participation. Players can join existing teams or form new teams for the regular season without having taken part in the Tryout Season.
+
 > ### Can we add or remove players from our team during the season?
 No, you cannot add or remove players from your once a season has started. However, in emergency situations, changes might be considered at the discretion of the Staff and Captains' Council. These situations would be evaluated on a case-by-case basis, and any changes would require approval from both the Staff and the Captains' Council. It's important to build a roster with enough players to account for potential absences or issues throughout the season.
 
