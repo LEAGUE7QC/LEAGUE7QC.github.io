@@ -53,9 +53,13 @@ This exciting period is designed for players to showcase their individual skills
 
 ### 4.4 Conflict Resolution
 - If any conflicts or disagreements arise between paired players, they must report to the staff immediately.
-- In such cases, staff can either assign a new partner from the same role or choose to observe the matches themselves to mediate any disputes.
+- Staff will assess the situation and take appropriate action, which may include:
+  - Assigning a new partner from the same role
+  - Observing the matches themselves to mediate any disputes
+  - Providing a ruling based on the evidence presented
 - Any attempts to manipulate the system or collude will result in disqualification from the Tryout Season.
 - In the event of an odd number of participants in a role, one player each week may be paired with a staff member or a designated neutral observer for that role.
+
 
 ## 5. Match Format
 
@@ -96,16 +100,13 @@ This exciting period is designed for players to showcase their individual skills
 - Reporting will be done in agreement with the assigned observer.
 - A standardized form must be completed, detailing badges earned and relevant opponent badges.
 
-### 7.2 Dispute Resolution
-- If any problems occur between the player and observer, they must request a staff member to observe the games as well.
-
-### 7.3 Missed Matches
+### 7.2 Missed Matches
 - If a player is unable to complete their weekly match due to unforeseen circumstances they must notify their assigned observer and a staff member as soon as possible.
 - The player will be allowed to make up the missed match in the following week, in addition to that week's regular match.
 - A maximum of two make-up matches will be allowed per season.
 - Failure to complete matches without proper notification may result in a score of zero for that week.
 
-### 7.4 Weekly Ranking
+### 7.3 Weekly Ranking
 - Reported results will be collected by staff and added to the rankings as they are submitted.
 - Updated rankings will be published regularly throughout the week.
 
