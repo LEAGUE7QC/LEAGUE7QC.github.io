@@ -5,7 +5,11 @@ I'm Melanore, and I've got some exciting news to share.
 
 I've just started a new league called **LEAGUE7** for Harry Potter: Quidditch Champions video game, and I'd love for you to be a part of it. For those who like their info quick and snappy, here's the **TLDR**: 
 
-We'll have a president (you'll vote for them), some staff members to keep things running smoothly, and a council of team captains. I'll be in the background, making sure the system works properly. We need 7 teams to get the ball rolling. Everyone gets a say in big decisions and rule changes. The key? Play fair, be kind, and most importantly, have fun!
+We're running a 7-week <span style="color:#ffbd00">[Tryout Season](tryout-season.md)</span> where you'll play as an individual, not on a team. You'll be paired with different players each week to both compete (you will solo-queue) and observe (you will verify their results). Show off your skills in your preferred role (Seeker, Chaser, Beater, or Keeper), earn points, and potentially catch the eye of future team captains. It's all about having fun, making friends, and prepping for our full season.
+
+While we're starting with this exciting Tryout Season, it's also good to know what's coming next. 
+
+For <span style="color:#ffbd00">[Regular Seasons](seasonal-guidelines)</span>, we'll have a president (you'll vote for them), some staff members to keep things running smoothly, and a council of team captains. I'll be in the background, making sure the system works properly. We need 7 teams to get the ball rolling. Everyone gets a say in big decisions and rule changes. The key? Play fair, be kind, and most importantly, have fun!
 
 Curious for more? Here's the full story:
 

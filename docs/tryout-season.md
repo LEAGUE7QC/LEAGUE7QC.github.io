@@ -17,9 +17,13 @@ This exciting period is designed for players to showcase their individual skills
 
 ### 2.2 Schedule
 - Match timing will be arranged by players themselves with their assigned observers (see Section 4).
-- Matches can be played any day of the week, with the following time restrictions:
-  - Weekdays: 8pm - 10pm
-  - Weekends: 12pm - 10pm
+- All matches MUST be played during the following designated peak hours:
+  - Weekdays: 6pm - 10pm local time
+  - Weekends: 2pm - 10pm local time
+  - These peak hours are mandatory to ensure fair queue times and balanced matchmaking for all participants.
+- Players must coordinate with their assigned observers to schedule matches within these strict time frames.
+- No matches are allowed outside of these designated peak hours unless explicitly authorized by staff due to exceptional circumstances.
+- If a player cannot participate during these peak hours due to persistent conflicts, they must contact staff immediately to discuss their situation and potential solutions.
 - Players must submit scores for 1 match per week.
 
 ## 3. Player Registration
@@ -34,6 +38,7 @@ This exciting period is designed for players to showcase their individual skills
 ### 4.1 Mutual Observation
 - All players participating in the Tryout Season will serve as both players and observers within their chosen role.
 - Each week, players will be **randomly** paired with another participant who plays the same role (e.g., Seekers with Seekers, Chasers with Chasers, etc.).
+- Players from EU and NA regions will be paired within their respective regions to ensure compatible time zones and reduce latency issues.
 - In each pair, both individuals will play their own matches and observe their partner's matches (see Section 5).
 - When observing, players are responsible for watching their partner's matches in their shared role and verifying the results.
 - Players are expected to uphold the integrity of the competition both when playing and when observing their role counterparts.
