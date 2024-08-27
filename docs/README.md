@@ -1,27 +1,75 @@
 
-### Hi there! 
+<img src="images/l7hagridhalf.png" alt="alt text" width="420"  style="position:absolute;top:92px;left:400px;z-index:-1" >
 
-I'm Melanore, and I've got some exciting news to share. 
+# Welcome to LEAGUE7!
+ 
+Hello Quidditch Champions and PS1 Hagrids,
 
-I've just started a new league called **LEAGUE7** for Harry Potter: Quidditch Champions video game, and I'd love for you to be a part of it. For those who like their info quick and snappy, here's the **TLDR**: 
+<div class="ps1hagridcontainer" style="z-index:2">
 
-We're running a 7-week <span style="color:#ffbd00">[Tryout Season](tryout-season.md)</span> where you'll play as an individual, not on a team. You'll be paired with different players each week to both compete (you will solo-queue) and observe (you will verify their results). Show off your skills in your preferred role (Seeker, Chaser, Beater, or Keeper), earn points, and potentially catch the eye of future team captains. It's all about having fun, making friends, and prepping for our full season.
+I, Melanore, am excited to introduce <b>LEAGUE7</b>, a fan-made, community-<br/>driven league for Harry Potter: Quidditch Champions. It is designed to be<br/> a transparent and inclusive league, with a structure that ensures every<br/> voice is heard. 
 
-While we're starting with this exciting Tryout Season, it's also good to know what's coming next. 
+Just like at Hogwarts, we're here to build friendships, create some<br/> friendly rivalry, and *share the magic with friends and family*. 
 
-For <span style="color:#ffbd00">[Regular Seasons](seasonal-guidelines)</span>, we'll have a president (you'll vote for them), some staff members to keep things running smoothly, and a council of team captains. I'll be in the background, making sure the system works properly. We need 7 teams to get the ball rolling. Everyone gets a say in big decisions and rule changes. The key? Play fair, be kind, and most importantly, have fun!
+I hope you're interested, because I'd like to briefly <br/> explain what we have going on here.
 
-Curious for more? Here's the full story:
+</div>
 
-I've put a lot of thought into creating rules that ensure fair play and a great experience for everyone. While I won't be running the day-to-day operations, I'll be there to make sure these rules are followed and stay transparent. *I need to take your trust for granted.* But here's the deal - if you spot any issues with the rules or think I am missing something crucial, speak up! Your input is what will make this league unique.
+## Tryout Season: Your Path to Glory :zap:
 
-I'm not concerned about whether this league becomes something big or remains short-termed. I'm genuinely excited either way. If it grows big, I've got no problem stepping back and handing the reins to folks who are even more passionate, since I'll have already set up a solid system. If it stays small, that's fine too. My goal is simple - to create a league where we can all enjoy this game we love, make some great memories, and have a blast doing it.
+We're kicking things off with our Tryout Season, starting right after the game's launch on September 3rd. Here's what you need to know:
 
-I'm currently not planning on any advertisements, it'll just be a friendly environment where people join through word-of-mouth. If you're reading this, thank the person who sent you the link. If you send it to another friend, appreciated.
+- **Registrations are open now!** You can sign up as an individual player to prove your skills in your main role.
+- We will form **four separate divisions**, one for each role. You will compete in the division of your chosen role.
+- We will randomly pair you with another participant in your division, weekly. You will have **dual roles** each week:
+  - As a *player*: You will compete in a solo queue match during peak hours.
+  - As an *observer*: You will watch and verify your partner's match results.
+- You will get **new pairings every week** to ensure fair play and diverse experiences.
+- We will use a **point system** based on your performance metrics (like badges earned in matches). We'll share full details after the game launches.
+- You will play either single matches or best-of-three series &mdash; *the format will be decided by community vote*.
 
-That's all for now. If you're interested in joining or have any questions, join our  <span style="color:#ffbd00">[Discord](https://discord.gg/nekcxCwrHc)</span>!
+Read more about the <span style="color:#ffbd00">[Tryout Season](tryout-season.md)</span>. 
 
-Thank you for your time. 
+## Looking Ahead: Regular Seasons :zap:
+
+We're planning our regular seasons for when 6v6 custom matches become available (expected Winter 2024). Here's a sneak peek for Defence Against the Dark Arts (DADA) Season:
+
+### Season Structure:
+1. **O.W.L.s (Ordinary Wizarding Levels, *i.e.* qualifying round)**:
+   - Your team will play against every other team *once*.
+   - This phase will run for about 10 weeks (subject to change based on team numbers and official season timelines).
+   - You will earn points based on your match performance (for example: a 90-40 win will grant you 90 points plus a winner's bonus).
+   - We will collect cumulative points at the end, and your team will get grades, just like in a DADA class.
+
+2. **N.E.W.T.s (Nastily Exhausting Wizarding Test, *i.e.* championship round)**:
+   - Only the top 7 teams with highest O.W.L.s scores will play here.
+   - You will compete for about 6 weeks, playing each team twice (home and away) in best-of-three series (did someone say nastily exhausting?).
+   - We will use simple scoring system: 3 points for a win, 0 points for a loss.
+   - If your team has the most points at the end, you will win the season cup and guarantee a place in our hall of fame!
+
+Read more about <span style="color:#ffbd00">[Regular Seasons](seasonal-guidelines.md)</span>. 
+
+## How We Run Things :zap:
+
+LEAGUE7 is all about being open and involving everyone. Here's a quick look at how we work:
+- **President:** You will elect a president who will oversee league operations and ensure fair play.
+- **Captains' Council**: If you're a team captain, you will help make big decisions. Every team will have a voice in decisions.
+- **Staff and Mods**: We have a team to keep things running smoothly.
+- **Your Voice Matters**: You will vote on important changes, and we will constantly seek your ideas and feedback.
+
+Read more about our <span style="color:#ffbd00">[Organizational Setup](organizational-guidelines.md)</span>. 
+
+## Join Us!
+
+Hopefully, I made it clear that LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a friendly community. Hop into our Discord to meet other players, get updates, and help shape LEAGUE7!
+
+Join <span style="color:#ffbd00">[LEAGUE7 Discord](https://discord.gg/nekcxCwrHc)</span>.
+
+We're looking forward to seeing you in the game!
+
+Whether you're aiming to be the next Viktor Krum or just want to enjoy a game of Quidditch with fellow fans, there's a place for you here! 
+
+Let's have some fun!
 
 &mdash; *Melanore*
- 
+
