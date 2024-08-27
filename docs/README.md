@@ -5,13 +5,19 @@
  
 Hello Quidditch Champions and PS1 Hagrids,
 
-<div class="ps1hagridcontainer" style="z-index:2">
+<div class="ps1hagridcontainer-top" style="z-index:2">
 
-I, Melanore, am excited to introduce <b>LEAGUE7</b>, a fan-made, community-<br/>driven league for Harry Potter: Quidditch Champions. It is designed to be<br/> a transparent and inclusive league, with a structure that ensures every<br/> voice is heard. 
+I, Melanore, am excited to introduce <b>LEAGUE7</b>, a fan-made, community-driven league for [Harry Potter: Quidditch Champions](https://www.quidditchchampions.com/en-us). It is designed to be a transparent and inclusive league, with a structure that ensures every voice is heard. 
 
-Just like at Hogwarts, we're here to build friendships, create some<br/> friendly rivalry, and *share the magic with friends and family*. 
+</div>
+<div class="ps1hagridcontainer-mid" style="z-index:2">
 
-I hope you're interested, because I'd like to briefly <br/> explain what we have going on here.
+Just like at Hogwarts, we're here to build friendships, create some friendly rivalry, and *share the magic with friends and family*. 
+
+</div>
+<div class="ps1hagridcontainer-bottom" style="z-index:2">
+
+I hope you're interested, because I'd like to briefly explain what we have going on here.
 
 </div>
 
