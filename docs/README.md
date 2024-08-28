@@ -1,5 +1,5 @@
 
-<img src="images/l7hagridhalf.png" alt="alt text" width="420"  style="position:absolute;top:92px;left:400px;z-index:-1" >
+<img src="images/l7hagridhalf.png" alt="alt text" width="420"  style="position:absolute;top:88px;left:400px;z-index:-1" >
 
 # Welcome to LEAGUE7!
  
@@ -21,7 +21,7 @@ I hope you're interested, because I'd like to briefly explain what we have going
 
 </div>
 
-## Tryout Season: Your Path to Glory :zap:
+## Tryout Season: Your path to glory 
 
 We're kicking things off with our Tryout Season, starting right after the game's launch on September 3rd. Here's what you need to know:
 
@@ -36,7 +36,7 @@ We're kicking things off with our Tryout Season, starting right after the game's
 
 Read more about the <span style="color:#ffbd00">[Tryout Season](tryout-season.md)</span>. 
 
-## Looking Ahead: Regular Seasons :zap:
+## Looking ahead: Regular Seasons
 
 We're planning our regular seasons for when 6v6 custom matches become available (expected Winter 2024). Here's a sneak peek for Defence Against the Dark Arts (DADA) Season:
 
@@ -55,7 +55,7 @@ We're planning our regular seasons for when 6v6 custom matches become available 
 
 Read more about <span style="color:#ffbd00">[Regular Seasons](seasonal-guidelines.md)</span>. 
 
-## How We Run Things :zap:
+## How we run things
 
 LEAGUE7 is all about being open and involving everyone. Here's a quick look at how we work:
 - **President:** You will elect a president who will oversee league operations and ensure fair play.

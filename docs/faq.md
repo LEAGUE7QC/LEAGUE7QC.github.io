@@ -17,3 +17,6 @@ Yes, you can join our Tryout Season! You can also use the #looking-for-players c
 
 > ### Do teams have to re-apply for each season or do existing teams always exist unless they specifically say they are quitting?
 Teams should reapply for each season. This ensures that all participating teams are active and committed to the upcoming season, and allows for any necessary updates to team information or rosters.
+
+> ### How many subs a team can have? Is there a sub pool?
+Substitutions are not allowed during a <i>single</i> game. Once a game starts, that lineup must remain unchanged unless there's a technical issue as outlined in the substitution rules. However, there are no limits on player changes between games in a series. This means you can freely adjust your lineup after each game.
