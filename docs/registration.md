@@ -32,7 +32,7 @@ While not explicitly stated as a requirement, it's recommended that players regi
 <div style="padding: 0px; border-radius: 0px; display: flex; justify-content: center; align-items: center;width:100%;">
 <div style="filter: invert(1);width:100%;">
   <div style="filter: saturate(100%) brightness(85%) contrast(0.9)">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfLvOJRRGnGai-gG_gSjpqq9Gs5FsKPJ1rzg5vuUU3xhtYlg/viewform?embedded=true" width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfLvOJRRGnGai-gG_gSjpqq9Gs5FsKPJ1rzg5vuUU3xhtYlg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
  </div>
 </div>
 </div>
