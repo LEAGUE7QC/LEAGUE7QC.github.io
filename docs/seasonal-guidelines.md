@@ -17,7 +17,7 @@ The following guidelines have been carefully crafted to ensure a balanced, compe
 - Each season will follow the official Quidditch Champions season schedule (expected to be approximately 4 months)
 - A short break will be observed between seasons (approximately 1 week) 
 
-### 2.3 Registration Process
+### 2.2 Registration Process
 
 - Teams must register by the specified deadline for each LEAGUE7 season
 - Deadlines will be set for one week before the start of each season
@@ -235,8 +235,8 @@ The advancement process will depend on the number of divisions:
   - E grade teams from all divisions will compete in a mini-tournament for the 7th position
 
 - For 4 divisions:
-  - B grade from each division advances to N.E.W.T.s (4 teams)
-  - O grade teams from all divisions will compete in a mini-tournament for the remaining 3 positions
+  - O grade from each division advances to N.E.W.T.s (4 teams)
+  - E grade teams from all divisions will compete in a mini-tournament for the remaining 3 positions
 
 #### A.4 N.E.W.T.s Phase Format
 
