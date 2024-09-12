@@ -69,7 +69,7 @@ Read more about our <span style="color:#ffbd00">[Organizational Setup](organizat
 
 Hopefully, I made it clear that LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a friendly community. Hop into our Discord to meet other players, get updates, and help shape LEAGUE7!
 
-Join <span style="color:#ffbd00">[LEAGUE7 Discord](https://discord.gg/nekcxCwrHc)</span>.
+Join <span style="color:#ffbd00">[LEAGUE7 Discord](https://discord.gg/Ph8GUq3veh)</span>.
 
 We're looking forward to seeing you in the game!
 

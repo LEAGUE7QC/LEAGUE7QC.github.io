@@ -12,5 +12,5 @@
 * [Changelog](changelog.md "L7 | Changelog")
 
 ----
-* [<span style="color:#ffbd00">⚡ JOIN L7 DISCORD ⚡</span>](https://discord.gg/nekcxCwrHc)
+* [<span style="color:#ffbd00">⚡ JOIN L7 DISCORD ⚡</span>](https://discord.gg/Ph8GUq3veh)
 
