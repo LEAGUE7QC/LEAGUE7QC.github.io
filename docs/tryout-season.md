@@ -12,8 +12,8 @@ This exciting period is designed for players to showcase their individual skills
 - The Tryout Season will last for 7 weeks.
 - **Registration is currently open**. (see <span style="color:#ffbd00">[Registration](registration.md)</span>)
 - Key dates:
-    - Registration deadline: September 23, 2024 (subject to change)
-    - Tryout Season start date: October 7, 2024 (subject to change)
+    - Registration deadline: eaarly October (T.B.D.)
+    - Tryout Season start date: October 7, 2024 
 
 ### 2.2 Schedule
 - Match timing will be arranged by players themselves with their assigned observers (see Section 4).
@@ -74,25 +74,9 @@ This exciting period is designed for players to showcase their individual skills
 - No additional restrictions will be imposed by the league after season starts.
 
 ## 6. Scoring System
-
-### 6.1 Base Scoring
 - Players earn points based on badges achieved in each match.
-- Different badges will award varying amounts of points based on the difficulty and importance of the achievement.
- - *For example*, Seekers might gain a badge worth 100 points for each Snitch catch.
-- Detailed definition for badges will be announced after the game's release and before the season starts.
-
-### 6.2 Role-Specific Bonuses
 - Additional points are awarded for key performance indicators in each role.
-- Detailed bonus point allocations will be announced after the game's release and before the season starts.
-- *For example*, faster snitch catch time will provide a bonus for Seekers.
-
-### 6.3 Opponent Adjustment Factor
-- Scores are adjusted based on the strength of opponents faced, calculated using relevant opposing team badges.
-- *For example*, a potential calculation for Seeker: 
-    - Adjustment Factor = 1 + (0.1 * number of opposing Beater's *Knock out Seekers* badges) + (0.05 * number of opposing Seeker's *Bump* badges)
-    - Adjusted Score = (Base Score + Role-Specific Bonuses) * Adjustment Factor
 - Detailed formulation will be announced after the game's release and before the season starts.
-
 
 ## 7. Reporting and Verification
 
