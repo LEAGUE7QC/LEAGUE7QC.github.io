@@ -1,22 +1,22 @@
-# Fall Cup
+# Tryout Season
 
 ## Organizational Team
-**President:** TBD.
+**President:** 
+- Virtual Witchcraft (sirfelix)
 
-**Staff members:** TBD.
+**Staff members:** 
+- Laggy (laggylestrange)
+- Zach (zachofalltrades)
+- Shippo Tail (shippo_tail)
+- Zex (zexoii)
 
-**Captains Council:** TBD.
+**Registration:** 
+
+**Details:** Read the guidelines [here](/tryout-season) and [register](/registration).
 
 ## Statistics
 Below you'll find examples of season statistics and team roster tables. These tables are updated regularly, with data fed directly from Google Sheets to ensure accuracy. Staff will maintain and update this information, keeping you informed of the latest changes. 
 
-<div id="season-stats-table"></div>
-
-## Team Rosters
-As we approach the start of the league, expect to see these tables expand with more comprehensive data, providing a fuller picture of our team's progress throughout the season.
-
-<div id="team-rosters-table"></div>
-
-
-## Schedule
-TBD.
+## Participants
+See the list.
+<div id="tryout-participants"></div>

@@ -204,7 +204,7 @@ TBD. (See #active-discussions)
 
 The LEAGUE7 structure provides an exciting opportunity for teams to compete at the highest level while allowing for rest and strategic planning between seasons. Staff, in collaboration with the Captains' Council, will continuously monitor and adjust these guidelines as needed to maintain the integrity and excitement of the league.
 
-## APPENDIX
+## APPENDIX 
 
 ### A. Expanded League Structure for Large-Scale Participation
 
@@ -265,5 +265,6 @@ The President will oversee the implementation of this expanded structure, ensuri
 At the end of each season using this expanded structure, Staff and the Captains' Council will conduct a thorough review of its effectiveness. Based on this review, proposals for adjustments may be made for future seasons, subject to the standard rule change process.
 
 
+## EXAMPLES
 
-
+Pelase see the following page for two example scenarios: [Season Examples](season-examples.md)

@@ -3,7 +3,7 @@
   
   <td width="50%" rowspan="4"  style="padding:20;"> 
 
-  <img alt="Puddlemere United" src="https://www.hp-lexicon.org/wp-content/uploads/2018/07/puddlemere-united-logo-1.png" /></td></tr> <tr> <td>
+  <img alt="Puddlemere United" src="images\teams\puddlemore-united.png" /></td></tr> <tr> <td>
   Puddlemere United, one of the oldest teams in the British and Irish Quidditch League, brings its rich history and winning tradition to LEAGUE7. Known for their navy-blue robes emblazoned with two crossed golden bulrushes, Puddlemere United has a passionate fanbase and a reputation for excellence that spans centuries.
   
   </td></tr><tr><td><b>Showcase</b></td></tr><tr>

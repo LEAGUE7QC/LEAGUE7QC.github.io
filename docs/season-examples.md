@@ -1,4 +1,4 @@
-# Example Scenarios
+# Season Examples
 
 This document illustrates how LEAGUE7 operates using two example scenarios: 
 - a 20-team regular structure, and
