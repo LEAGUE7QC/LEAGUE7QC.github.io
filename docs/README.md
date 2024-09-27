@@ -1,7 +1,7 @@
 
 # Welcome to LEAGUE7
 
-Welcome to LEAGUE7, the premier competitive league for Quidditch Champions! 
+Welcome to LEAGUE7, the premier competitive league for Harry Potter: Quidditch Champions! 
 
 We offer an exciting, fair, and community-driven environment for players of all skill levels. Our league is built on the principles of transparency, fairness, and community involvement, ensuring a thrilling experience for both participants and spectators.
 
@@ -19,7 +19,7 @@ LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a v
 - [Changelog](/changelog) – Track all updates and changes to the league
 - [Code of Ethics](/code-of-ethics) – Our community standards that all members must uphold
 
-### Our Guidelines
+### Our Guidelines:
 * [Seasonal Guidelines](seasonal-guidelines.md) - Learn about our regular 6v6 season structures
 * [Organizational Guidelines](organizational-guidelines.md) - Understand how LEAGUE7 operates
 * [Moderational Guidelines](moderational-guidelines.md) - Our approach to maintaining a positive community **[Coming Soon]**
