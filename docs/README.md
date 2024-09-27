@@ -5,7 +5,7 @@ Welcome to LEAGUE7, the premier competitive league for Quidditch Champions!
 
 We offer an exciting, fair, and community-driven environment for players of all skill levels. Our league is built on the principles of transparency, fairness, and community involvement, ensuring a thrilling experience for both participants and spectators.
 
-LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a vibrant, passionate community who enjoy playing Quidditch!
+LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a vibrant, passionate community.
 
 
 > ## Register for Tryout Season!
