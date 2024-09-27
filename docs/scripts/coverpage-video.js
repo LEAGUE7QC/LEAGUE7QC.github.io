@@ -25,6 +25,9 @@
       video.style.objectFit = options.objectFit;
       video.style.zIndex = options.zIndex;
       video.style.pointerEvents = 'none'; // Ensure user can interact with coverpage content
+
+      video.setAttribute('playsinline', '');
+      video.setAttribute('webkit-playsinline', '');
   
       // Wait until the cover page is ready
       const checkCoverPage = setInterval(function() {
