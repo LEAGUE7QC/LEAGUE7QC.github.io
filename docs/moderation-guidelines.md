@@ -1,4 +1,4 @@
-# Discord Moderation Guidelines (Under Review)
+# LEAGUE7 Discord Moderation Guidelines (Under Review)
 
 ## 1. Introduction
 
@@ -12,12 +12,22 @@ These guidelines ensure fair and consistent moderation in the LEAGUE7 Discord se
 - Consult with other moderators when unsure about a situation
 - Respect member privacy and never share personal information
 
-## 3. Communication Protocol
+## 3. Communication Guidelines
+
+### 3.1 Text Chat Protocol
 
 - Conduct all official communications regarding warnings, infractions, timeouts, and appeals through the ticket system
 - Use DMs only to notify users of new tickets or updates, with content identical to the ticket information
 - Do not consider DM discussions as official or use them as proof in moderation decisions
 - Ensure all moderation-related discussions and decisions are transparent and documented in appropriate channels or tickets
+
+### 3.2 Voice Chat Guidelines
+
+- Moderators do not intervene in personal disputes or complaints about individuals in voice chats
+- Members are encouraged to use Discord's built-in features to manage their voice chat experience:
+  - Mute individuals they don't wish to hear
+  - Use locked rooms for private conversations
+- We remind members that there is no way to verify or act on complaints about voice chat behavior unless it violates other server rules (e.g., hate speech, threats) and is reported with evidence
 
 ## 4. Infraction Categories
 
@@ -74,10 +84,10 @@ These guidelines ensure fair and consistent moderation in the LEAGUE7 Discord se
 - Further timeouts: Escalate to extended timeout
 
 #### 5.2.3 Timeout Procedure
-1. Inform the user of the reason for the timeout via Ticket
-2. Set the timeout duration in Discord
-3. Document the action in the #moderation-log channel
-4. Send a DM to the user with the same content as the ticket, directing them to the ticket channel
+1. Assign the "Timed Out" role to the user, which prevents them from writing in general chat channels
+2. Inform the user of the reason for the timeout via Ticket
+3. Set the timeout duration by scheduling the role removal
+4. Document the action in the #moderation-log channel
 
 ### 5.3 Extended Timeouts
 
@@ -96,10 +106,11 @@ These guidelines ensure fair and consistent moderation in the LEAGUE7 Discord se
 
 #### 5.3.3 Extended Timeout Procedure
 1. Consult with at least one other moderator before issuing
-2. Document the reason and duration in the #moderation-log channel
-3. Open a ticket to inform the user before implementing
-4. Notify relevant parties if the user is part of a team or a member of the Captains' Council
-5. Send a DM to the user directing them to the ticket channel
+2. Assign the "Extended Timeout" role to the user, which prevents them from writing in general chat channels
+3. Document the reason and duration in the #moderation-log channel
+4. Open a ticket to inform the user before implementing
+5. Notify relevant parties if the user is part of a team or a member of the Captains' Council
+6. Schedule the role removal based on the timeout duration
 
 ### 5.4 Immediate Action Situations
 - Immediately remove content and apply a 7-day extended timeout for users who:
@@ -107,21 +118,29 @@ These guidelines ensure fair and consistent moderation in the LEAGUE7 Discord se
   - Share personal information of others (doxxing)
   - Make violent threats
   - Are suspected bot accounts or attempting to raid
-- Inform the user via ticket and follow up with a DM directing them to the ticket channel
+- Assign the "Extended Timeout" role and inform the user via ticket
 
-## 6. Voice Chat Guidelines
+## 6. Timeout Roles
 
-- Moderators do not intervene in personal disputes or complaints about individuals in voice chats
-- Members are encouraged to use Discord's built-in features to manage their voice chat experience:
-  - Mute individuals they don't wish to hear
-  - Use locked rooms for private conversations
-- We remind members that there is no way to verify or act on complaints about voice chat behavior unless it violates other server rules (e.g., hate speech, threats) and is reported with evidence
+### 6.1 "Timed Out" Role
+- This role is used for regular timeouts
+- It prevents users from writing in general chat channels
+- Users with this role can still read messages and participate in tickets
+
+### 6.2 "Extended Timeout" Role
+- This role is used for extended timeouts
+- It has the same restrictions as the "Timed Out" role but is used for longer durations
+- Moderators should regularly review users with this role to ensure timely removal
+
+### 6.3 Role Management
+- Assign and remove timeout roles manually (A bot for scheduled removal is under development)
+- This system ensures that timeout roles do not interfere with a user's ability to participate in tickets or appeals
 
 ## 7. Appeal Process
 
 ### 7.1 How to Appeal
 - Inform users they can appeal moderation actions by opening a new ticket or responding to their existing moderation ticket
-- If a user is timed out and unable to access the ticket system, they can reach out to another moderator via DMs
+- In rare circumstances, if a user and unable to access the ticket system, they can reach out to another moderator via DMs
 - Moderators must create a ticket on behalf of the user if an appeal is received, posting the exact text from the user
 
 ### 7.2 Appeal Review
