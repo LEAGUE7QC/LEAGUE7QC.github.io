@@ -1,6 +1,6 @@
 
 
-<a href=""><img src="images/L7/Main_3D.png" class="landing-logo" /></a>
+<img src="images/L7/Main_3D.png" class="landing-logo" />
 
 <div class="landing-title"></div>
 
