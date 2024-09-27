@@ -1,4 +1,4 @@
-# LEAGUE7 Discord Moderation Guidelines (Under Review)
+# Discord Moderation Guidelines (Under Review)
 
 ## 1. Introduction
 
@@ -94,7 +94,10 @@ These guidelines ensure fair and consistent moderation in the LEAGUE7 Discord se
 #### 5.3.1 Moderate Extended Timeouts
 - Use for severe rule violations or repeated moderate infractions
 - Duration: 3 to 14 days, depending on severity and history
-- Inform the President when issuing a Moderate Extended Timeout
+- Inform the President, Staff, and Captain's Council when issuing a Moderate Extended Timeout to:
+  - Ensure transparency in moderation actions
+  - Allow for timely adjustments to team rosters or league schedules if necessary
+  - Maintain a cohesive approach to serious infractions across all levels of league management
 
 #### 5.3.2 Maximum Extended Timeouts
 - Reserve for extreme cases such as:
