@@ -7,7 +7,7 @@ Official registration forms are available here. Please review requirements befor
 > Season will be announced soon. Team registrations are currently closed.
 
 
-## Individual Registration Form <span style="color:#ffbd00">(ON)</span>
+## Tryout Season Registration Form <span style="color:#ffbd00">(ON)</span>
 1. All participating individuals must be present in the Discord server.
 2. Individuals should be prepared to participate for the full duration (maximum 7 weeks).
 3. Players are required to share their gameplay via screen sharing on Discord (or shareplay on console).

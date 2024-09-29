@@ -22,9 +22,15 @@ LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a v
 ### Our Guidelines:
 * [Seasonal Guidelines](seasonal-guidelines.md) - Learn about our regular 6v6 season structures
 * [Organizational Guidelines](organizational-guidelines.md) - Understand how LEAGUE7 operates
-* [Moderational Guidelines](moderational-guidelines.md) - Our approach to maintaining a positive community **[Coming Soon]**
+* [Moderation Guidelines](moderation-guidelines.md) - Our approach to maintaining a positive community 
+
+## Check out our trailer!
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/gweEPV4IQeM?si=xntzZCXzJKVA_XYS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## More to come!
+
 We're finalizing our backend to provide a smooth experience for everyone. In the meantime, polish your brooms, unite with your friends, and be ready to be called into action! Upcoming:
 - Team registrations
 - Broadcasting system

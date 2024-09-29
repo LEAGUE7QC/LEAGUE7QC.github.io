@@ -1,4 +1,4 @@
-# Regular Seasonal Guidelines
+# Regular Seasonal Rules & Guidelines
 
 ## 1. Introduction
 

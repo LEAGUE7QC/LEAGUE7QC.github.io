@@ -1,4 +1,4 @@
-# Discord Moderation Guidelines (Under Review)
+# Discord Moderation Rules & Guidelines
 
 ## 1. Introduction
 

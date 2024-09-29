@@ -1,4 +1,4 @@
-# Organizational Guidelines
+# Organizational Rules &  Guidelines
 
 ## 1. Introduction
 This document outlines the organizational structure, election processes, and rules for LEAGUE7 governance. This league is built on the principles of transparency, fairness, and community involvement. This document aims to clearly explain every aspect of our operations to ensure all participants have a thorough understanding of how the league functions.
