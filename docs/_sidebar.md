@@ -1,6 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 * [Preface](/ "LEAGUE7 | Preface")
+* [Season Standings](season-standings.md "L7 | Season Standings")
 * [Tryout Season](tryout-season.md "L7 | Tryout Season")
 * [Registration](registration.md "L7 | Registration")
 * [FAQ](faq.md "L7 | FAQ")
