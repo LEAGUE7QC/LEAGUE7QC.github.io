@@ -11,4 +11,4 @@
 
 [<span style="color:black">JOIN OUR DISCORD</span>](https://discord.gg/Ph8GUq3veh)
 [LEARN MORE](/?id=welcome-to-league7)
-[REGISTER FOR TRYOUT SEASON](/registration)
+[STANDINGS FOR TRYOUT SEASON](/season-standings)
