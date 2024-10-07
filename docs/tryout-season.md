@@ -8,7 +8,6 @@ These guidelines will help direct you through the first step within your LEAGUE7
 
 ### 2.1 Duration:
 - The Tryout Season will last for a minimum of 3 weeks; upwards of 7 weeks.
-- Registration is currently **OPEN!** 
 - Key dates:
   - Registration deadline: October 5, 2024 
   - Tryout Season start date: October 7, 2024 
