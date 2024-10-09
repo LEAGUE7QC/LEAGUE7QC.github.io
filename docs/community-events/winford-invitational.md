@@ -6,14 +6,15 @@ As LEAGUE7, we are excited to support the **Winford Invitational** as an excitin
 Before you jump into details, we want to clarify the following key points:
 - As an independently run event, Winford will be primarily responsible for tournament operations and issue resolution.
 - LEAGUE7's role is to provide logistical support and a community platform.
-- We're working closely with Winford to ensure the best possible experience for all participants, despite the short notice.
+- We're working closely with Winford to ensure the best possible experience for all participants, while keeping to his requested event timeline.
 - This collaboration serves as a valuable opportunity for us to gather insights that will help improve future events and league operations.
 
 We appreciate your understanding and enthusiasm as we explore new ways to enhance the competitive Quidditch Champions scene. Your participation and feedback are crucial, and we'll use this experience to refine our approach to community events moving forward.
 
 
-## Tournament Details & Rules
-**Date & Time:** Saturday, October 12, 2024, at 2 PM EST (1 PM CST)
+## Details & Rules
+- **Date & Time:** Saturday, October 12, 2024, at 2 PM EST (1 PM CST)
+- **Registration Deadline:** Saturday, October 12, 2024, at 12 PM EST (11 AM CST)
 
 ### Requirements
 - **Teams:** Teams will consist of 2 players, Beater and Keeper duos. No seekers.
@@ -28,6 +29,7 @@ We appreciate your understanding and enthusiasm as we explore new ways to enhanc
 - Players can freely change skill builds and brooms between matches.
 
 ### Registration
+**Deadline:** Saturday, October 12, 2024, at 12 PM EST (1 PM CST)
 1. Register your 2-player team through the form at **the end** of this page.
 2. Join the LEAGUE7 <span style="color:#f2c02f">[**Discord**](https://discord.gg/Ph8GUq3veh)</span> for event communications.
 3. Tune in to the live stream on Winford's <span style="color:#ab7efc">[**Twitch**](https://www.twitch.tv/winford)</span> channel.
@@ -42,12 +44,16 @@ We appreciate your understanding and enthusiasm as we explore new ways to enhanc
 - Highlight reels may be created from recorded gameplay
 
 ## Questions?
-Please drop any queries about the event through the <span style="color:#ab7efc">[**live stream**](https://www.twitch.tv/winford)</span> or **#winford-invitational** text channel in <span style="color:#f2c02f">[**LEAGEU7 Discord server**](https://discord.gg/Ph8GUq3veh)</span>.
+Please drop any queries about the event through the <span style="color:#ab7efc">[**live stream**](https://www.twitch.tv/winford)</span> or **#winford-invitational** text channel in LEAGUE7 <span style="color:#f2c02f">[**Discord**](https://discord.gg/Ph8GUq3veh)</span> server.
 
+## Registration Form
+If you have read and understood the tournament details and requirements above, please proceed to register for the Winford Invitational!
+
+See you all on the pitch!
 <div style="padding: 10px; border-radius: 0px; display: flex; justify-content: center; align-items: center;">
 <div style="filter: invert(1);">
   <div style="filter: saturate(100%) brightness(85%) contrast(0.95)">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqpjspwzbn4Qc2SqflCiaubIzLD_AUHQNILVzOxVK5WEifbA/viewform?embedded=true" width="640" height="1800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqpjspwzbn4Qc2SqflCiaubIzLD_AUHQNILVzOxVK5WEifbA/viewform?embedded=true" width="640" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
  </div>
 </div>
 </div>
