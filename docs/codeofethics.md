@@ -1,45 +1,65 @@
-
-
-# Code of Ethics
-
+# LEAGUE7 Code of Ethics
+Below you will find the Code of Ethics for LEAGUE7, which outlines the principles and standards of behavior expected from all members of our Harry Potter: Quidditch Champions community.
 ## 1. Purpose 
-LEAGUE7 Code of Ethics outlines the ethical standards and principles that all participants, including players, staff, moderators, and the leadership, must adhere to. This document aims to foster a positive, inclusive, and fair environment for all members of the league.
-
+This Code of Ethics outlines the standards of behavior expected from all members of LEAGUE7, including players, staff, moderators, and leadership. Our goal is to create a fun, fair, and inclusive environment for competitive Quidditch Champions gameplay.
 ## 2. Principles 
-### 2.1 Integrity 
-All participants are expected to act with honesty, integrity, and transparency in their dealings within the league. Participants should avoid any actions that could be perceived as dishonest, deceitful, or misleading. 
+
+### 2.1 Fair Play 
+- Members must play by the rules of Quidditch Champions and LEAGUE7.
+- Cheating, hacking, or exploiting game bugs is strictly prohibited.
 
 ### 2.2 Respect 
-Participants must treat all individuals within the league with respect, dignity, and courtesy, regardless of their role, team affiliation, or personal characteristics. Harassment, discrimination, or hate speech of any kind will not be tolerated. 
+- Treat all members with respect, regardless of skill level, team affiliation, or personal characteristics.
+- Harassment, hate speech, and excessive trash talk are not allowed.
+- Be a good sport in victory and defeat.
 
-### 2.3 Fairness 
-Participants are expected to uphold the principles of fair play and sportsmanship in all league activities. Cheating, exploiting, or any form of unfair advantage is strictly prohibited. 
+### 2.3 Integrity 
+- Be honest in your interactions within the league.
+- Report bugs or exploits to league staff instead of using them for personal gain.
+- Uphold the spirit of fair competition.
 
-### 2.4 Responsibility 
-Participants should take responsibility for their actions and decisions within the league. Any mistakes or errors should be promptly acknowledged and addressed. 
-
-### 2.5 Confidentiality 
-Participants must respect the privacy and confidentiality of sensitive league information, such as personal player details or private league discussions. Confidential information should only be shared with the explicit permission of the individuals involved.
+### 2.4 Community 
+- Contribute positively to the LEAGUE7 community.
+- Help new players and share knowledge to improve the overall level of play.
+- Participate in league events and discussions constructively.
 
 ## 3. Conflicts of Interest 
+
 ### 3.1 Definition 
-A conflict of interest arises when a participant's personal or professional interests interfere with their ability to act in the best interests of the league. 
+A conflict of interest occurs when a member's personal interests could unfairly influence their actions in the league.
 
 ### 3.2 Disclosure 
-Participants must disclose any potential conflicts of interest to the league leadership as soon as they arise. This includes any personal, financial, or professional relationships that could influence their decision-making within the league. 
+Members must disclose potential conflicts, such as:
+- Being involved in LEAGUE7 management while also competing
+- Having close personal relationships with members of other teams
+- Additionally, administrators and any individuals in league operational roles must disclose their involvement in other leagues or communities.
 
-### 3.3 Recusal 
-Participants with conflicts of interest must recuse themselves from any decisions or actions that could be influenced by these conflicts. In cases where recusal is not possible, the league leadership will determine the appropriate course of action.
+### 3.3 Management
+- League administration will work with members to manage conflicts fairly, which may include recusal from certain decisions or matches. 
+- Management of conflicts will follow the Organizational Guidelines.
 
 ## 4. Ethical Violations 
+
 ### 4.1 Reporting 
-Participants are encouraged to report any suspected ethical violations to the league leadership or moderators. Reports can be made anonymously through a designated channel, and all reports will be treated with confidentiality. 
+- Report suspected rule violations or unethical behavior immediately.
+- False or malicious reports are themselves considered ethical violations.
 
 ### 4.2 Investigation 
-All reported ethical violations will be promptly and thoroughly investigated by the league leadership or an appointed ethics committee. Investigations will be conducted fairly and impartially, with all relevant parties given the opportunity to present their perspectives. 
+- Reports will be investigated promptly and fairly, following the league rules & guidelines.
+- All parties involved will have a chance to present their side.
 
-### 4.3 Consequences 
-Participants found to have violated the Code of Ethics may face consequences, including warnings, suspensions, or permanent bans from the league, depending on the severity of the violation. Consequences will be determined by the league leadership, in consultation with the Captains' Council and the ethics committee, if applicable.
+## 5. Streaming and Content Creation
+- Members are encouraged to stream their gameplay and create content.
+- Respect the intellectual property rights of Quidditch Champions and LEAGUE7.
+- Maintain good sportsmanship in public content related to the league.
 
-## 5. Conclusion 
-LEAGUE7 Code of Ethics serves as a compass for all participants, guiding our actions and decisions towards creating a fair, respectful, and inclusive gaming community. By upholding these principles and holding each other accountable, we can ensure the long-term success and integrity of our league.
+## 6. Privacy and Data Protection
+- Respect the privacy of other members.
+- Don't share personal information of other players without their consent.
+
+## 7. Review and Updates
+This Code of Ethics will be reviewed and updated regularly to ensure it remains relevant and effective. Any changes will be communicated to all members.
+
+## 8. Conclusion 
+By following this Code of Ethics, we can ensure LEAGUE7 remains a fun, competitive, and welcoming community for all Quidditch Champions players. Remember, it's just a game – let's enjoy it together!
+ 
