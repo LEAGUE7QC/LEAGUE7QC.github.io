@@ -29,10 +29,11 @@ We appreciate your understanding and enthusiasm as we explore new ways to enhanc
 - Players can freely change skill builds and brooms between matches.
 
 ### Registration
-**Deadline:** Saturday, October 12, 2024, at 12 PM EST (1 PM CST)
-1. Register your 2-player team through the form at **the end** of this page.
+1. Register your 2-player team through the form at the end of this page.
+   - Deadline: Saturday, October 12, 2024, at 12 PM EST (11 AM CST)
 2. Join the LEAGUE7 <span style="color:#f2c02f">[**Discord**](https://discord.gg/Ph8GUq3veh)</span> for event communications.
 3. Tune in to the live stream on Winford's <span style="color:#ab7efc">[**Twitch**](https://www.twitch.tv/winford)</span> channel.
+
 
 ### Viewer Interaction & Engagement
 - **MVP Polls:** After each match series, viewers can vote for the MVP via chat polls.
