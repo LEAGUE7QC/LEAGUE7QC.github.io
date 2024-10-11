@@ -54,7 +54,7 @@ See you all on the pitch!
 <div style="padding: 10px; border-radius: 0px; display: flex; justify-content: center; align-items: center;">
 <div style="filter: invert(1);">
   <div style="filter: saturate(100%) brightness(85%) contrast(0.95)">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqpjspwzbn4Qc2SqflCiaubIzLD_AUHQNILVzOxVK5WEifbA/viewform?embedded=true" width="640" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqpjspwzbn4Qc2SqflCiaubIzLD_AUHQNILVzOxVK5WEifbA/viewform?embedded=true" width="600" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
  </div>
 </div>
 </div>
