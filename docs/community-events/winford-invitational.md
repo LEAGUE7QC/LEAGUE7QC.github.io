@@ -1,4 +1,9 @@
 ![Winford Invitational](../images/events/Winford_Invitational.png)
+
+
+> The event has concluded! Results and winner details will be shared here soon!
+
+
 ## Winford Invitational (in association with LEAGUE7)
 
 As LEAGUE7, we are excited to support the **Winford Invitational** as an exciting community-driven 2v2 tournament event! While this is not an official LEAGUE7 tournament, we're collaborating to help bring this event to life in response to the community's interest in diverse competitive experiences in Quidditch Champions. 
@@ -15,6 +20,7 @@ We appreciate your understanding and enthusiasm as we explore new ways to enhanc
 ## Details & Rules
 - **Date & Time:** Saturday, October 12, 2024, at 2 PM EST (1 PM CST)
 - **Registration Deadline:** Saturday, October 12, 2024, at 12 PM EST (11 AM CST)
+- **Brackets and Results:** [Challonge](https://challonge.com/winfordinvitational/module?scale_to_fit=1)
 
 ### Requirements
 - **Teams:** Teams will consist of 2 players, Beater and Keeper duos. No seekers.
@@ -43,18 +49,3 @@ We appreciate your understanding and enthusiasm as we explore new ways to enhanc
 ### Post-Tournament Recognition
 - Winners will be recognized and featured in LEAGUE7's Hall of Fame.
 - Highlight reels may be created from recorded gameplay
-
-## Questions?
-Please drop any queries about the event through the <span style="color:#ab7efc">[**live stream**](https://www.twitch.tv/winford)</span> or **#winford-invitational** text channel in LEAGUE7 <span style="color:#f2c02f">[**Discord**](https://discord.gg/Ph8GUq3veh)</span> server.
-
-## Registration Form
-If you have read and understood the tournament details and requirements above, please proceed to register for the Winford Invitational!
-
-See you all on the pitch!
-<div style="padding: 10px; border-radius: 0px; display: flex; justify-content: center; align-items: center;">
-<div style="filter: invert(1);">
-  <div style="filter: saturate(100%) brightness(85%) contrast(0.95)">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqpjspwzbn4Qc2SqflCiaubIzLD_AUHQNILVzOxVK5WEifbA/viewform?embedded=true" width="600" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
- </div>
-</div>
-</div>
