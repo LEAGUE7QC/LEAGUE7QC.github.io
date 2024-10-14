@@ -1,0 +1,212 @@
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: auto;
+        }
+        .player-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 40px;
+        }
+        .player-card {
+            width: 280px;
+            color: #e9e9e9;
+            border: 1px solid #000000;
+            border-radius: 8px;
+            background-color: #292a2e;
+            overflow: hidden;
+        }
+        .player-image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        .player-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.2);  /* 20% zoom */
+            transition: transform 0.3s ease;  /* Smooth transition for hover effect */
+        }
+        .player-card:hover img {
+            transform: scale(1.3);  /* Additional zoom on hover */
+        }
+        .player-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .player-info {
+            padding: 15px;
+        }
+        .player-name {
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .player-role {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .stats-title {
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        .stat-bar, .skill-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        
+        }
+        .stat-name, .skill-name {
+            width: 120px;
+            font-size: 0.8em;
+            font-weight: normal;
+
+        }
+        .tick-container {
+            display: flex;
+            gap: 2px;
+        }
+        .tick {
+            width: 15px;
+            height: 7px;
+            border: 1px solid #ffbd00;
+        }
+        .tick.filled {
+            background-color: #ffbd00;
+        }
+        .skill-tick {
+            border-color: #28a745;
+        }
+        .skill-tick.filled {
+            background-color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div id="player-cards" class="player-cards">
+        <!-- Player cards will be dynamically inserted here -->
+    </div>
+
+    <script>
+        const broomStats = ['Speed', 'Boost', 'Acceleration', 'Health', 'Regen', 'Stun', 'Maneuver', 'Drift', 'Dodge'];
+        
+        function createTicks(value, max, isSkill = false) {
+            const ticks = [];
+            for (let i = 0; i < max; i++) {
+                ticks.push(`<div class="tick ${isSkill ? 'skill-tick' : ''} ${i < value ? 'filled' : ''}"></div>`);
+            }
+            return ticks.join('');
+        }
+
+        function createStatBar(name, value, max, isSkill = false) {
+            return `
+                <div class="${isSkill ? 'skill-bar' : 'stat-bar'}">
+                    <span class="${isSkill ? 'skill-name' : 'stat-name'}">${name}</span>
+                    <div class="tick-container">
+                        ${createTicks(value, max, isSkill)}
+                    </div>
+                </div>
+            `;
+        }
+
+        function createPlayerCard(player) {
+            const skillBars = player.skills.map(skill => createStatBar(skill.name, skill.value, 6, true)).join('');
+            const broomStatBars = broomStats.map(stat => createStatBar(stat, player.broomStats[stat.toLowerCase()], 7)).join('');
+
+            return `
+                <div class="player-card">
+                    <div class="player-image-container">
+                        <img src="${player.name}/portrait.png" alt="${player.name} - ${player.role} of the Week">
+                    </div>
+                    <div class="player-info">
+                        <div class="player-name">${player.name}</div>
+                        <div class="player-role">is the ${player.role} of the week!</div>
+                        <div class="stats-title">Skills:</div>
+                        ${skillBars}
+                        <div class="stats-title">Broom ${player.broomName} (${player.broomLevel}):</span></div>
+                        ${broomStatBars}
+                    </div>
+                </div>
+            `;
+        }
+
+        const players = [
+            {
+                name: 'Illmage',
+                role: 'Chaser',
+                skills: [
+                    { name: 'Quaffle Handling', value: 6 },
+                    { name: 'Teamwork', value: 0 },
+                    { name: 'Tackling', value: 4 }
+                ],
+                broomName: 'Firebolt',
+                broomLevel: 5,
+                broomStats: {
+                    speed: 7, boost: 4, acceleration: 7, health: 6, regen: 2,
+                    stun: 4, maneuver: 1, drift: 4, dodge: 1
+                }
+            },
+            {
+                name: 'Ketchup',
+                role: 'Beater',
+                skills: [
+                    { name: 'Bludger Handling', value: 5 },
+                    { name: 'Teamwork', value: 0 },
+                    { name: 'Tackling', value: 5 }
+                ],
+                broomName: 'Firebolt',
+                broomLevel: 5,
+                broomStats: {
+                    speed: 7, boost: 4, acceleration: 7, health: 6, regen: 2,
+                    stun: 4, maneuver: 1, drift: 4, dodge: 1
+                }
+            },
+            {
+                name: 'YukioTakeda',
+                role: 'Keeper',
+                skills: [
+                    { name: 'Defence', value: 6 },
+                    { name: 'Teamwork', value: 0 },
+                    { name: 'Attacking', value: 4 }
+                ],
+                broomName: 'Firebolt',
+                broomLevel: 5,
+                broomStats: {
+                    speed: 7, boost: 4, acceleration: 7, health: 6, regen: 2,
+                    stun: 4, maneuver: 1, drift: 4, dodge: 1
+                }
+            },
+            {
+                name: 'BigZave',
+                role: 'Seeker',
+                skills: [
+                    { name: 'Seeking', value: 0 },
+                    { name: 'Defence', value: 5 },
+                    { name: 'Disruption', value: 5 }
+                ],
+                broomName: 'Cleansweep',
+                broomLevel: 5,
+                broomStats: {
+                    speed: 5, boost: 3, acceleration: 7, health: 3, regen: 2,
+                    stun: 1, maneuver: 5, drift: 5, dodge: 5
+                }
+            }
+        ];
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const playerCardsContainer = document.getElementById('player-cards');
+            players.forEach(player => {
+                playerCardsContainer.innerHTML += createPlayerCard(player);
+            });
+        });
+
+    </script>

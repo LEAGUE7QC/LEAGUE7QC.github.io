@@ -52,7 +52,7 @@ function createTeamStatsGraphs(data, containerId) {
       maintainAspectRatio: true,
       scales: {
         x: {
-          stacked: false,  // grid: {color: '#414349'},          // ticks: {color: '#414349'},
+          stacked: false,
         },
         y: {
           stacked: false,
@@ -203,4 +203,70 @@ function createParticipantsLineChart(data, containerId) {
       highlightedParticipant = null;
       chart.update();
     };
+}
+
+function createRoleSpecificBarGraph(data, containerId, role) {
+  const colors = {
+    Chaser: 'rgba(146, 56, 50, 1)',
+    Seeker: 'rgba(255, 206, 86, 1)',
+    Beater: 'rgba(54, 162, 235, 1)',
+    Keeper: 'rgba(75, 192, 192, 1)'
+  };
+
+  const roleData = data.filter(participant => participant.ROLE === role);
+  roleData.sort((a, b) => parseInt(b.TOTAL) - parseInt(a.TOTAL));
+
+  const graphContainer = document.getElementById(containerId);
+  let roleCanvas = graphContainer.querySelector('canvas');
+  if (!roleCanvas) {
+    roleCanvas = document.createElement('canvas');
+    graphContainer.appendChild(roleCanvas);
+  }
+
+  if (chartInstances[containerId]) {
+    chartInstances[containerId].destroy();
+  }
+
+  chartInstances[containerId] = new Chart(roleCanvas, {
+    type: 'bar',
+    data: {
+      labels: roleData.map(p => p.PARTICIPANT),
+      datasets: [{
+        label: `${role} Scores`,
+        data: roleData.map(p => parseInt(p.TOTAL)),
+        backgroundColor: colors[role],
+        borderColor: 'rgba(0, 0, 0, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Total Score'
+          }
+        },
+        x: {
+          ticks: {
+            autoSkip: false,
+            maxRotation: 90,
+            minRotation: 90
+          }
+        }
+      },
+      plugins: {
+        title: {
+          display: false,
+          text: `${role} Scores`
+        },
+        legend: {
+          display: false
+        }
+      }
+    }
+  });
 }

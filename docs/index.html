@@ -125,8 +125,13 @@
                     loadCSVData(' https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants', {
                       paging: true,
                       searching: true,
-                      ordering: false,
+                      ordering: true,
                     },true); 
+                    // Load role-specific graphs
+                    loadChaserGraph();
+                    loadSeekerGraph();
+                    loadBeaterGraph();
+                    loadKeeperGraph();
                   }
                 });
               }
