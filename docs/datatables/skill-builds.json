@@ -1,0 +1,8 @@
+{
+    "skills": {
+      "Chaser": ["Quaffle H.", "Teamwork", "Tackling"],
+      "Keeper": ["Defence", "Teamwork", "Attacking"],
+      "Seeker": ["Seeking", "Defence", "Disruption"],
+      "Beater": ["Bludger H.", "Teamwork", "Tackling"]
+    }
+  }

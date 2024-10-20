@@ -78,132 +78,153 @@ function createTeamStatsGraphs(data, containerId) {
 }
 
 function createParticipantsLineChart(data, containerId) {
-    const graphContainer = document.getElementById(containerId);
-    
-    // Create canvas for Participants Line Chart if it doesn't exist
-    let participantsCanvas = graphContainer.querySelector('canvas');
-    if (!participantsCanvas) {
-      participantsCanvas = document.createElement('canvas');
-      graphContainer.insertBefore(participantsCanvas, graphContainer.firstChild);
-    }
+  const graphContainer = document.getElementById(containerId);
   
-    // Destroy previous chart instance if it exists
-    if (chartInstances[containerId]) {
-      chartInstances[containerId].destroy();
-    }
-  
-    const weeks = ['W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7'];
-    const roles = ['Chaser', 'Seeker', 'Beater', 'Keeper'];
-    const colors = {
+ // Create canvas for Participants Line Chart if it doesn't exist
+ let participantsCanvas = graphContainer.querySelector('canvas');
+ if (!participantsCanvas) {
+     participantsCanvas = document.createElement('canvas');
+     participantsCanvas.style.height = '400px'; // Set desired height
+     participantsCanvas.style.width = '100%'; // Optional: Set width to fill the container
+     graphContainer.insertBefore(participantsCanvas, graphContainer.firstChild);
+ } else {
+     // If the canvas already exists, update its height and width
+     participantsCanvas.style.height = '400px'; // Set desired height
+     participantsCanvas.style.width = '100%'; // Optional: Set width to fill the container
+ }
+
+ // Destroy previous chart instance if it exists
+ if (chartInstances[containerId]) {
+     chartInstances[containerId].destroy();
+ }
+
+  // Add W0 to weeks
+  const weeks = ['W0', 'W1', 'W2', 'W3'];
+  const roles = ['Chaser', 'Seeker', 'Beater', 'Keeper'];
+  const colors = {
       Chaser: 'rgba(146, 56, 50, 1)',
-      Seeker: 'rgba(255, 206, 86,1)',
+      Seeker: 'rgba(255, 206, 86, 1)',
       Beater: 'rgba(54, 162, 235, 1)',
       Keeper: 'rgba(75, 192, 192, 1)'
-    };
-  
-    // Process data
-    const datasets = data.map(participant => ({
-      label: participant.PARTICIPANT,
-      data: weeks.map(week => parseInt(participant[week]) || 0),
-      borderColor: colors[participant.ROLE],
-      backgroundColor: colors[participant.ROLE].replace('1)', '0.2)'),
-      fill: false,
-      tension: 0.4,
-      hidden: false // Start with all lines visible
-    }));
-  
-    // Create Participants Line Chart
-    chartInstances[containerId] = new Chart(participantsCanvas, {
+  };
+
+  // Process data
+  const datasets = data.map(participant => {
+    const participantData = weeks.map((week, index) => {
+      if (index === 0) return 0; // Return 0 for W0
+      if (index === 1) return parseInt(participant[week]) || 0; // Keep 0 for W1
+      return parseInt(participant[week]) || null; // Use null for other weeks if value is 0
+  });
+
+      return {
+          label: participant.PARTICIPANT,
+          data: participantData, 
+          borderColor: colors[participant.ROLE],
+          backgroundColor: colors[participant.ROLE].replace('1)', '0.2)'),
+          fill: false,
+          tension: 0.2,
+          borderWidth: 2, 
+          pointRadius: 2, 
+          pointHoverRadius: 4, 
+          pointStyle: 'circle',
+          hidden: false // Start with all lines visible
+      };
+  });
+
+  // Create Participants Line Chart
+  chartInstances[containerId] = new Chart(participantsCanvas, {
       type: 'line',
       data: { labels: weeks, datasets: datasets },
       options: {
-        responsive: true,
-        maintainAspectRatio: true,
-        scales: {
-          x: { title: { display: true, text: 'Weeks' } },
-          y: { beginAtZero: true, title: { display: true, text: 'Score' } }
-        },
-        plugins: {
-          title: { display: true, text: 'Weekly Performance by Participants' },
-          legend: {
-            display: true,
-            position: 'bottom',
-            labels: {
-              generateLabels: function(chart) {
-                return roles.map(role => ({
-                  text: role,
-                  fillStyle: colors[role],
-                  strokeStyle: colors[role],
-                  lineWidth: 2,
-                  hidden: false
-                }));
-              }
-            },
-            onClick: function(e, legendItem, legend) {
-              const role = legendItem.text;
-              const { chart } = legend;
-              chart.data.datasets.forEach(dataset => {
-                if (data.find(p => p.PARTICIPANT === dataset.label).ROLE === role) {
-                  dataset.hidden = !dataset.hidden;
-                }
-              });
-              chart.update();
-            }
+          responsive: true,
+          maintainAspectRatio: true,
+          scales: {
+              x: { title: { display: true, text: 'Weeks' } },
+              y: { beginAtZero: true, title: { display: true, text: 'Score' } }
           },
-          tooltip: {
-            mode: 'nearest',
-            intersect: false,
-            callbacks: {
-              title: function(context) {
-                return `Week ${context[0].label.substring(1)}`;
+          plugins: {
+              title: { display: false, text: 'Weekly Performance by Participants' },
+              legend: {
+                  display: true,
+                  position: 'top',
+                  labels: {
+                    generateLabels: function(chart) {
+                      return roles.map(role => ({
+                          text: role,
+                          fillStyle: colors[role],
+                          strokeStyle: colors[role],
+                          lineWidth: 2,
+                          hidden: false
+                      }))
+                      }
+                  },
+                  onClick: function(e, legendItem, legend) {
+                      const role = legendItem.text;
+                      const { chart } = legend;
+                      chart.data.datasets.forEach(dataset => {
+                          if (data.find(p => p.PARTICIPANT === dataset.label).ROLE === role) {
+                              dataset.hidden = !dataset.hidden;
+                          }
+                      });
+                      chart.update();
+                  }
               },
-              label: function(context) {
-                const participant = data.find(p => p.PARTICIPANT === context.dataset.label);
-                return `${participant.ROLE} - ${participant.PARTICIPANT}: ${context.parsed.y}`;
+              tooltip: {
+                  mode: 'nearest',
+                  intersect: false,
+                  callbacks: {
+                      title: function(context) {
+                          return `Week ${context[0].label.substring(1)}`;
+                      },
+                      label: function(context) {
+                          const participant = data.find(p => p.PARTICIPANT === context.dataset.label);
+                          return `${participant.ROLE} - ${participant.PARTICIPANT}: ${context.parsed.y}`;
+                      }
+                  }
               }
-            }
-          }
-        },
-        hover: { mode: 'nearest', intersect: true }
+          },
+          hover: { mode: 'nearest', intersect: true }
       }
-    });
+  });
 
-    // Function to toggle highlight for a specific participant's line
-    window.toggleHighlightParticipant = function(participantName) {
+  // Function to toggle highlight for a specific participant's line
+  window.toggleHighlightParticipant = function(participantName) {
       const chart = chartInstances[containerId];
       if (highlightedParticipant === participantName) {
-        // If the clicked participant is already highlighted, unhighlight it
-        chart.data.datasets.forEach(dataset => {
-          dataset.borderWidth = 2;
-          dataset.hidden = false;
-        });
-        highlightedParticipant = null;
+          // If the clicked participant is already highlighted, unhighlight it
+          chart.data.datasets.forEach(dataset => {
+              dataset.borderWidth = 1; // Reset to thinner line
+              dataset.hidden = false;
+          });
+          highlightedParticipant = null;
       } else {
-        // Highlight the clicked participant
-        chart.data.datasets.forEach(dataset => {
-          if (dataset.label === participantName) {
-            dataset.borderWidth = 3;
-            dataset.hidden = false;
-          } else {
-            dataset.hidden = true;
-          }
-        });
-        highlightedParticipant = participantName;
+          // Highlight the clicked participant
+          chart.data.datasets.forEach(dataset => {
+              if (dataset.label === participantName) {
+                  dataset.borderWidth = 2; // Thicker line for highlighted participant
+                  dataset.hidden = false;
+              } else {
+                  dataset.hidden = true;
+              }
+          });
+          highlightedParticipant = participantName;
       }
       chart.update();
-    };
+  };
 
-    // Function to reset the chart to its original state
-    window.resetChart = function() {
+  // Function to reset the chart to its original state
+  window.resetChart = function() {
       const chart = chartInstances[containerId];
       chart.data.datasets.forEach(dataset => {
-        dataset.borderWidth = 2;
-        dataset.hidden = false;
+          dataset.borderWidth = 1; // Reset to thinner line
+          dataset.hidden = false;
       });
       highlightedParticipant = null;
       chart.update();
-    };
+  };
 }
+
+
 
 function createRoleSpecificBarGraph(data, containerId, role) {
   const colors = {

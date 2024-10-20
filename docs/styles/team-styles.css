@@ -1,0 +1,222 @@
+.teams-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .team {
+    background-color: var(--sidebar-background);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid var(--sidebar-border-color);
+    width: calc(50% - 10px);
+    text-align: center;
+  }
+  .team-border {    
+    font-weight: var(--strong-font-weight);
+    border-radius: 5px 5px 0 0;
+    margin:-5px;
+    color: var(--strong-color, currentColor);
+    text-transform: uppercase;
+    padding: 10px; }
+
+  .team-logo {
+    margin-top:20px;
+    max-width: 80%!important;
+  }
+  
+  .team-colors {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .color-swatch {
+    width: 20px;
+    height: 20px;
+    margin: 0px 2px 5px;
+    border-radius: 50%;
+    border: 1px solid var(--search-input-background-color);
+  }
+  
+  .player-list, .full-roster {
+    list-style-type: none;
+    padding: 0 !important;
+    margin:0 !important;
+  }
+  
+  .player {
+    background-color: var(--base-background-color);
+    border-radius: 2px;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  .player-info {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .position-sprite {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .player-name {
+    cursor: pointer;
+    margin-right: auto;
+  }
+  
+  .player-realname {
+    font-style: italic;
+    color: #575757;
+  }
+  
+  .player-profile {
+    display: none;
+    position: absolute;
+    width: 300px; 
+    border: 1px solid var(--sidebar-border-color);
+    border-radius: 4px;
+    background-color: var(--base-background-color);
+    overflow: hidden;
+    z-index: 10;
+  }
+  
+  .player-details {
+    margin-top: 10px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.detail-sprite {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+ 
+  .profile-image {
+    width: 100%;
+  }
+  .profile-content {
+    padding: 2px 10px 10px 10px;
+    width: 80%;
+  }
+  
+  .player-profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.2);
+  }
+
+  .stats-title {
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  .stat-bar, .skill-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stat-name, .skill-name {
+    width: 100%;
+    font-size: 80%;
+    font-weight: normal;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .tick-container {
+    display: flex;
+    gap: 2px;
+  }
+  
+  .tick {
+    width: 7px;
+    height: 7px;
+  }
+  
+  .tick.filled {
+    background-color: #ffbd00;
+  }
+  
+  .player:last-child .player-profile,
+  .player:nth-last-child(2) .player-profile {
+    left: auto;
+    right: 0;
+  }
+  
+  .see-full-roster {
+    background:none;
+    font-style: italic;
+    font-size: 90%;
+    border: none; 
+    padding: 5px 40px;
+    margin-bottom: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: var(--strong-color);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .see-full-roster:hover { 
+    color: #ffbd00;
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  .full-roster {
+    list-style-type: none;
+    padding: 0 !important;
+  }
+  
+  #expand-all-button {
+    text-align: center;
+    margin-bottom: 2px;
+    padding: 5px 30px;
+    background-color: #202020;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #expand-all-button:hover {
+    color: #ffbd00;
+  }
+
+  @media (max-width: 768px) {
+    .team {
+      width: 100%;
+    }
+    
+    .player-profile {
+      width: 90%;
+      left: 5%;
+      right: 5%;
+    }
+  
+    .player-profile .player-info {
+      padding: 10px;
+    }
+  
+    .player-profile .player-image-container {
+      height: 450px;
+    }
+  }

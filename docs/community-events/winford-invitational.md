@@ -1,10 +1,9 @@
-![Winford Invitational](../images/events/Winford_Invitational.png)
 
 
-> The event has concluded! Results and winner details will be shared here soon!
+> Below is the list of events that have concluded
 
 
-## Winford Invitational (in association with LEAGUE7)
+## Winford Invitational
 
 As LEAGUE7, we are excited to support the **Winford Invitational** as an exciting community-driven 2v2 tournament event! While this is not an official LEAGUE7 tournament, we're collaborating to help bring this event to life in response to the community's interest in diverse competitive experiences in Quidditch Champions. 
 
@@ -16,8 +15,8 @@ Before you jump into details, we want to clarify the following key points:
 
 We appreciate your understanding and enthusiasm as we explore new ways to enhance the competitive Quidditch Champions scene. Your participation and feedback are crucial, and we'll use this experience to refine our approach to community events moving forward.
 
+![Winford Invitational](../images/events/Winford_Invitational.png)
 
-## Details & Rules
 - **Date & Time:** Saturday, October 12, 2024, at 2 PM EST (1 PM CST)
 - **Registration Deadline:** Saturday, October 12, 2024, at 12 PM EST (11 AM CST)
 - **Brackets and Results:** [Challonge](https://challonge.com/winfordinvitational/module?scale_to_fit=1)

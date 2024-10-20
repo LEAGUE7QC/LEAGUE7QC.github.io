@@ -1,0 +1,32 @@
+{
+    "teams": [
+      {
+        "name": "Gryffindor Lions",
+        "logo": "gryffindor_logo.png",
+        "colors": ["#740001", "#D3A625"],
+        "captain": "illmage",
+        "players": [ "Ron Weasley", "Fred Weasley", "Cedric Diggory", "Ginny Weasley", "Luna Lovegood", "Neville Longbottom", "George Weasley", "Cho Chang",  "Katie Bell"]
+      },
+      {
+        "name": "Slytherin Serpents",
+        "logo": "slytherin_logo.png",
+        "colors": ["#1a472a", "#2a623d"],
+        "captain": "Miles Bletchley",
+        "players": ["Draco Malfoy", "Miles Bletchley", "Graham Montague", "Cassius Warrington", "Vincent Crabbe", "Gregory Goyle", "Pansy Parkinson", "Blaise Zabini", "Theodore Nott"]
+      },
+      {
+        "name": "Hufflepuff Badgers",
+        "logo": "hufflepuff_logo.png",
+        "colors": ["#ecb939", "#1e1e1f"],
+        "captain": "Susan Bones",
+        "players": ["Cedric Diggory", "Susan Bones", "Ernie Macmillan", "Hannah Abbott", "Justin Finch-Fletchley", "Zacharias Smith", "Megan Jones", "Wayne Hopkins", "Leanne", "Oliver Rivers"]
+      },
+      {
+        "name": "Ravenclaw Eagles",
+        "logo": "ravenclaw_logo.png",
+        "colors": ["#0e1a40", "#946b2d"],
+        "captain": "Melanore",
+        "players": ["Melanore", "Padma Patil", "Terry Boot", "Michael Corner", "Anthony Goldstein", "Lisa Turpin", "Mandy Brocklehurst"]
+      }
+    ]
+  }

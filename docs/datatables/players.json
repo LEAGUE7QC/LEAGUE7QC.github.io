@@ -1,0 +1,219 @@
+{
+    "players": [
+      {
+        "name": "Melanore",
+        "position": "Chaser",
+        "realname": "@melanore",
+        "broom": "Firebolt",
+        "level": "5",
+        "skills": "6/0/4",
+        "residency": "NA",
+        "input": "Controller",
+        "house": "Ravenclaw"
+      },
+      {
+        "name": "Ron Weasley",
+        "position": "Keeper",
+        "broom": "",
+        "realname": "",
+        "level": "",
+        "skills": ""
+      },
+      {
+        "name": "Ginny Weasley",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "5",
+        "skills": "4/2/4"
+      },
+      {
+        "name": "Draco Malfoy",
+        "position": "Seeker",
+        "broom": "Firebolt",
+        "level": "5",
+        "skills": "4/1/5"
+      },
+      {
+        "name": "Miles Bletchley",
+        "position": "Keeper",
+        "broom": "Firebolt",
+        "level": "5",
+        "skills": "2/5/3"
+      },
+      {
+        "name": "Luna Lovegood",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "5/1/4"
+      },
+      {
+        "name": "Neville Longbottom",
+        "position": "Beater",
+        "broom": "Firebolt",
+        "level": "3",
+        "skills": "2/3/5"
+      },
+      {
+        "name": "Cho Chang",
+        "position": "Seeker",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "5/2/3"
+      },
+      {
+        "name": "Fred Weasley",
+        "position": "Beater",
+        "broom": "Firebolt",
+        "level": "5",
+        "skills": "4/3/3"
+      },
+      {
+        "name": "George Weasley",
+        "position": "Beater",
+        "broom": "Firebolt",
+        "level": "5",
+        "skills": "4/3/3"
+      },
+      {
+        "name": "Cedric Diggory",
+        "position": "Seeker",
+        "broom": "Firebolt",
+        "level": "5",
+        "skills": "5/2/3"
+      },
+      {
+        "name": "Susan Bones",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "4/3/3"
+      },
+      {
+        "name": "Ernie Macmillan",
+        "position": "Keeper",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "3/4/3"
+      },
+      {
+        "name": "Hannah Abbott",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "3",
+        "skills": "3/2/5"
+      },
+      {
+        "name": "Justin Finch-Fletchley",
+        "position": "Beater",
+        "broom": "Firebolt",
+        "level": "3",
+        "skills": "3/3/4"
+      },
+      {
+        "name": "Zacharias Smith",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "5/1/4"
+      },
+      {
+        "name": "Megan Jones",
+        "position": "Beater",
+        "broom": "Firebolt",
+        "level": "3",
+        "skills": "2/4/4"
+      },
+      {
+        "name": "Wayne Hopkins",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "4/2/4"
+      },
+      {
+        "name": "Leanne",
+        "position": "Keeper",
+        "broom": "Firebolt",
+        "level": "3",
+        "skills": "2/5/3"
+      },
+      {
+        "name": "Oliver Rivers",
+        "position": "Beater",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "3/3/4"
+      },
+      {
+        "name": "Padma Patil",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "4/2/4"
+      },
+      {
+        "name": "Terry Boot",
+        "position": "Keeper",
+        "broom": "Firebolt",
+        "level": "5",
+        "skills": "3/5/2"
+      },
+      {
+        "name": "Michael Corner",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "5/1/4"
+      },
+      {
+        "name": "Anthony Goldstein",
+        "position": "Beater",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "3/3/4"
+      },
+      {
+        "name": "Lisa Turpin",
+        "position": "Seeker",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "5/2/3"
+      },
+      {
+        "name": "Mandy Brocklehurst",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "3",
+        "skills": "4/2/4"
+      },
+      {
+        "name": "Su Li",
+        "position": "Beater",
+        "broom": "Firebolt",
+        "level": "3",
+        "skills": "2/4/4"
+      },
+      {
+        "name": "Morag MacDougal",
+        "position": "Chaser",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "5/1/4"
+      },
+      {
+        "name": "Stephen Cornfoot",
+        "position": "Keeper",
+        "broom": "Firebolt",
+        "level": "4",
+        "skills": "2/5/3"
+      },
+      {
+        "name": "Kevin Entwhistle",
+        "position": "Beater",
+        "broom": "Firebolt",
+        "level": "3",
+        "skills": "3/3/4"
+      }
+    ]
+  }
