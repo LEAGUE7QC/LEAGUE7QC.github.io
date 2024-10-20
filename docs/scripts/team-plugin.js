@@ -150,7 +150,7 @@ function runteamPlugin() {
         const broomLevelIndex = Math.max(0, Math.min(parseInt(playerData.level || '1') - 1, broomData.levels.length - 1));
         const broomLevel = broomData.levels[broomLevelIndex] || [];
     
-        const playerImageUrl = `images/players/${playerName.toLowerCase().replace(/ /g, '_')}.png`;
+        const playerImageUrl = `images/players/${playerName.replace(/ /g, '_')}.png`;
         const placeholderUrl = 'images/players/placeholder_portrait.png';
     
         const createTicks = (value, max, isSkill = false) => {
@@ -207,7 +207,7 @@ function runteamPlugin() {
         `;
       },
       getPositionSprite(position) {
-        return `images/sprites/${position.toLowerCase()}.png`;
+        return `images/sprites/${position}.png`;
       },
       addPlayerProfileListeners() {
           const players = document.querySelectorAll('.player:not(.unavailable)');
