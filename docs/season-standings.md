@@ -13,6 +13,10 @@ Without further ado, let's celebrate our standout performers of the week:
 
 <iframe src="player-pages/players-of-the-week.html" width="100%" height="1240" frameborder="0"></iframe>
 
+**Previous week top players:**
+
+- **Week 1:** illmage (Chaser), Ketchup (Beater), YukioTakeda (Keeper), BigZave (Seeker)
+
 ## Role-Specific Standings
 ### Chaser Standings
 Below you'll find our aspiring Chasers showcasing their scoring prowess during the Tryout Season. This graph represents their cumulative performances, highlighting those who consistently maneuver through defenses and rack up points. Keep an eye out for players demonstrating exceptional Quaffle-handling skills – they might just be the next star Chaser for your team!
