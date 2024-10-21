@@ -7,7 +7,7 @@
   .team {
     background-color: var(--sidebar-background);
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 20px;
     border: 1px solid var(--sidebar-border-color);
     width: calc(50% - 10px);
@@ -16,16 +16,21 @@
   .team-border {    
     font-weight: var(--strong-font-weight);
     border-radius: 5px 5px 0 0;
-    margin:-5px;
+    margin:-10px;
     color: var(--strong-color, currentColor);
     text-transform: uppercase;
-    padding: 10px; }
+    padding: 15px; }
 
   .team-logo {
     margin-top:20px;
     max-width: 80%!important;
+    transition: transform 0.3s ease;
   }
   
+.team-header:hover .team-logo {
+  
+  transform: scale(1.2); 
+}
   .team-colors {
     display: flex;
     justify-content: center;
@@ -53,9 +58,9 @@
   }
   
   .player-info {
-    padding: 10px 10px;
+    padding: 7px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
   }
   
@@ -63,16 +68,19 @@
     width: 25px;
     height: 25px;
     margin-right: 10px;
+    margin-left: -7px;
   }
   
   .player-name {
     cursor: pointer;
-    margin-right: auto;
   }
   
-  .player-realname {
+  .player-unavailable {
+    font-size: 95%;
+    margin-left: auto;
     font-style: italic;
     color: #575757;
+    margin-right:-10px;
   }
   
   .player-profile {
@@ -186,7 +194,31 @@
     list-style-type: none;
     padding: 0 !important;
   }
+
+  .social-icons {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right:-10px;
+    justify-content: right;
+  }
   
+
+  .social-icon-link {
+    margin-right: 3px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    filter: grayscale(30%);
+  }
+  .social-icon-link:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+  .social-icon {
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+  }
+
   #expand-all-button {
     text-align: center;
     margin-bottom: 2px;
@@ -213,7 +245,8 @@
     }
   
     .player-profile .player-info {
-      padding: 10px;
+      padding: 0px;
+      display: none;
     }
   
     .player-profile .player-image-container {

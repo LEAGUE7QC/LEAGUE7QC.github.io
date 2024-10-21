@@ -132,8 +132,9 @@ function runteamPlugin() {
           return `
             <li class="player unavailable">
               <div class="player-info">
-                <span class="player-name">${playerName}</span>
-                <span class="player-realname">Player unavailable</span>
+                <img src="images/sprites/missingrole.png" class="position-sprite" alt="Missing Role">
+                <span class="player-name">${playerName}</span> 
+                <span class="player-unavailable">player unavailable</span>
               </div>
               <div class="player-profile">
               </div>
@@ -180,31 +181,64 @@ function runteamPlugin() {
           createStatBar(stat, broomLevel[index] || 0, 7)
         ).join('');
     
+        const socialIcons = this.renderSocialIcons(playerData);
         return `
           <li class="player ${captainClass}">
-          
-            <div class="player-info">
-              <img src="${this.getPositionSprite(playerData.position || 'fill')}" class="position-sprite">
-              <span class="player-name">${playerData.name || playerName}${isCaptain ? ' (C)' : ''}</span>
-              <span class="player-realname">${playerData.realname || 'Unknown'}</span>
+          <div class="player-info">
+            <img src="${this.getPositionSprite(playerData.position || 'fill')}" class="position-sprite">
+            <span class="player-name">${playerData.displayname || playerName}${isCaptain ? ' (Captain)' : ''}</span>
+            <div class="social-icons">${socialIcons}</div>
+            
+          </div>
+          <div class="player-profile">
+            <div class="profile-image">
+              <img src="${playerImageUrl}" onerror="this.src='${placeholderUrl}';" >
             </div>
-            <div class="player-profile">
-              <div class="profile-image">
-                <img src="${playerImageUrl}" onerror="this.src='${placeholderUrl}';" >
+            <div class="profile-content">
+              <div class="profile-column profile-details">
+                <div class="stats-title">${playerData.position || ''} Skills</div>
+                ${skillBars || 'No data available'}
               </div>
-              <div class="profile-content">
-                <div class="profile-column profile-details">
-                  <div class="stats-title">${playerData.position || ''} Skills</div>
-                  ${skillBars || 'No data available'}
-                </div>
-                <div class="profile-column broom-stats">
-                  <div class="stats-title">${playerData.broom || 'Unknown'} (${playerData.level || 'N/A'})</div>
-                  ${broomStatBars || 'No data available'}
-                </div>
+              <div class="profile-column broom-stats">
+                <div class="stats-title">${playerData.broom || 'Unknown'} (${playerData.level || 'N/A'})</div>
+                ${broomStatBars || 'No data available'}
               </div>
             </div>
-          </li>
+          </div>
+        </li>
         `;
+      },
+      renderSocialIcons(playerData) {
+        const socialPlatforms = ['discord', 'twitch', 'youtube', 'instagram', 'x',  'tiktok'];
+        const icons = socialPlatforms.map(platform => {
+          if (playerData[platform]) {
+            if (platform === 'discord') {
+              // For Discord, create a span with a title attribute for the tooltip
+              return `<span class="social-icon-container" title="@${playerData[platform]}">
+                        <img src="images/sprites/${platform}.png" class="social-icon social-icon-link"">
+                      </span>`;
+            } else {
+              // For other platforms, create a link as before
+              return `<a href="${this.getSocialLink(platform, playerData[platform])}" target="_blank" class="social-icon-link">
+                        <img src="images/sprites/${platform}.png" class="social-icon">
+                      </a>`;
+            }
+          }
+          return '';
+        }).filter(icon => icon !== ''); // Remove empty strings
+      
+        return icons.join('');
+      },
+      getSocialLink(platform, username) {
+        const links = {
+          discord: `${username}`,
+          twitch: `https://www.twitch.tv/${username}`,
+          youtube: `https://www.youtube.com/@${username}`,
+          instagram: `https://www.instagram.com/${username}`,
+          tiktok: `https://tiktok.com/@${username}`,
+          x: `https://x.com/${username}`,
+        };
+        return links[platform] || '#';
       },
       getPositionSprite(position) {
         return `images/sprites/${position}.png`;
@@ -212,7 +246,7 @@ function runteamPlugin() {
       addPlayerProfileListeners() {
           const players = document.querySelectorAll('.player:not(.unavailable)');
           players.forEach(player => {
-            const playerInfo = player.querySelector('.player-info');
+            const playerInfo = player.querySelector('.player-name');
             const profile = player.querySelector('.player-profile');
             
             playerInfo.addEventListener('mousemove', (event) => {

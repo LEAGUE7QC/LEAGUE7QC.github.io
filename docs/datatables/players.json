@@ -3,13 +3,20 @@
       {
         "name": "Melanore",
         "position": "Chaser",
-        "realname": "@melanore",
         "broom": "Firebolt",
         "level": "5",
         "skills": "6/0/4",
-        "residency": "NA",
+        "platform": "Steam",
         "input": "Controller",
-        "house": "Ravenclaw"
+        "house": "Ravenclaw",
+        "region": "NA",
+        "country": "Turkiye",
+        "discord": "melanore",
+        "twitch": "melanore7",
+        "tiktok": "",
+        "youtube": "",
+        "instagram": "",
+        "x": ""
       },
       {
         "name": "Ron Weasley",
