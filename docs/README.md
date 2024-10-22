@@ -7,22 +7,26 @@ We offer an exciting, fair, and community-driven environment for players of all 
 
 LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a vibrant, passionate community.
 
-
-> ## Register for Tryout Season!
-> While waiting for 6v6, join our Tryout Season starting October 7, 2024. Showcase your skills, make new friends, and potentially secure a spot on a competitive team for the regular seasons... [<span style="color:#ffbd00">[Read more]</span>](tryout-season.md)
+> ## Register as a Player!
+> This is the first step for all players who wish to participate in our upcoming seasons, regardless of your team status. Registration takes about 5 minutes... [<span style="color:#ffbd00">[Read more]</span>](registration.md)
 
 ### Quick Links:
 - [FAQ](/faq) – Find answers to the most common questions
 - [Registration](/registration) – Sign up for the Tryout Season or upcoming 6v6 league
-- [Calendar](seasonal-guidelines.md) – Stay up-to-date with all LEAGUE7 events **[Coming Soon]**
-- [Hall of Fame](hall-of-fame.md) – The best champions will be showcased here
+- [Season Standings](/season-standings) – Check the weekly updates of the Tryout Season!
 - [Changelog](/changelog) – Track all updates and changes to the league
 - [Code of Ethics](/code-of-ethics) – Our community standards that all members must uphold
+
 
 ### Our Guidelines:
 * [Seasonal Guidelines](seasonal-guidelines.md) - Learn about our regular 6v6 season structures
 * [Organizational Guidelines](organizational-guidelines.md) - Understand how LEAGUE7 operates
 * [Moderation Guidelines](moderation-guidelines.md) - Our approach to maintaining a positive community 
+
+#### Under Construction:
+- [Team Rosters](team-rosters.md) – The teams that will compete will be showcased here
+- [Hall of Fame](hall-of-fame.md) – The best champions will be showcased here
+- [Calendar]() – Stay up-to-date with all LEAGUE7 events **[Coming Soon]**
 
 ## Check out our trailer!
 
