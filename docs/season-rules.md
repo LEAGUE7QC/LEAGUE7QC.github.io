@@ -294,143 +294,107 @@ Captains' Council evaluates each patch within 48 hours through voting:
   - Avoid sharing private team communications
   - Consider disabling personal streams if heated or tilted
 
-## Appendix A: Season Examples
+## APPENDIX - Season Structure Examples
 
-### A.1 Grading Example
-Single division  (15 teams):
+These examples demonstrate how LEAGUE7's season progression works in practice.
 
-| Rank | Team | Match Points | Game Score | Grade | Advance to N.E.W.T.s |
-|:----:|:-----|:------:|:------:|:------:|--------------------:|
-| 1    | Vratsa Vultures | 36 | 620-340 | O | Yes |
-| 2    | Braga Broomfleet | 33 | 580-360 | O | Yes |
-| 3    | Fitchburg Finches | 30 | 540-380 | E | Yes |
-| 4    | Gimbi Giant-Slayers | 27 | 520-400 | E | Yes |
-| 5    | Karasjok Kites | 24 | 490-450 | E | Yes |
-| 6    | Thularra Thunders | 21 | 470-460 | E | Yes |
-| 7    | Toyohashi Tengu | 18 | 450-470 | A | Yes |
-| 8    | Moose Jaw Meteorites | 15 | 430-480 | A | No |
-| 9    | Stonewall Stormers | 12 | 410-490 | A | No |
-| 10   | Quiberon Quafflepunchers | 9 | 390-510 | A | No |
-| 11   | Heidelberg Harriers | 8 | 360-530 | P | No |
-| 12   | Gorodok Gargoyles | 7 | 340-550 | P | No |
-| 13   | Tarapoto Tree-Skimmers | 6 | 320-570 | D | No |
-| 14   | Sumbawanga Sunrays | 3 | 300-590 | T | No |
-| 15   | Sweetwater All-Stars | 0 | 280-610 | T | No |
+### A.1 Single Division Format Example (15 Teams)
+Shows season progression with standard advancement.
 
- 
-### A.2 Two-Division Grading Example
+| Rank | Team | Points | W | L | PF | PA | DIFF | Grade | Advance to N.E.W.T.s |
+|:----:|:-----|:------:|:-:|:-:|:--:|:--:|:----:|:-----:|:---------:|
+| 1 | Holyhead Harpies | 39 | 13 | 1 | 1280 | 820 | +460 | O | Yes |
+| 2 | Montrose Magpies | 36 | 12 | 2 | 1240 | 860 | +380 | O | Yes |
+| 3 | Appleby Arrows | 33 | 11 | 3 | 1180 | 890 | +290 | E | Yes |
+| 4 | Puddlemere United | 30 | 10 | 4 | 1160 | 920 | +240 | E | Yes |
+| 5 | Wimbourne Wasps | 27 | 9 | 5 | 1120 | 960 | +160 | E | Yes |
+| 6 | Kenmare Kestrels | 24 | 8 | 6 | 1080 | 980 | +100 | E | Yes |
+| 7 | Tutshill Tornados | 21 | 7 | 7 | 1040 | 1020 | +20 | A | Yes |
+| 8 | Ballycastle Bats | 18 | 6 | 8 | 1020 | 1060 | -40 | A | No |
+| 9 | Pride of Portree | 15 | 5 | 9 | 990 | 1020 | -30 | A | Yes* |
+| 10 | Caerphilly Catapults | 15 | 5 | 9 | 980 | 1040 | -60 | A | No |
+| 11 | Falmouth Falcons | 9 | 3 | 11 | 860 | 1180 | -320 | P | No |
+| 12 | Wigtown Wanderers | 6 | 2 | 12 | 820 | 1220 | -400 | D | No |
+| 13 | Yorkshire Yetis | 6 | 2 | 12 | 800 | 1240 | -440 | D | No |
+| 14 | London Lions | 3 | 1 | 13 | 780 | 1260 | -480 | T | No |
+| 15 | Chudley Cannons | 3 | 1 | 13 | 760 | 1290 | -530 | T | No |
 
-Division 1 (12 teams):
+*Pride of Portree* qualifies as wildcard due to highest point differential (-30) among non-advancing teams, despite being tied on points with Caerphilly Catapults (-60).
 
-| Rank | Team | Match Points | Total Game Scores | Grade | Advance to N.E.W.T.s |
-|:----:|:-----|:------:|:------:|:------:|--------------------:|
-| 1    | Holyhead Harpies | 33 | 580-320 | O | Yes |
-| 2    | Montrose Magpies | 30 | 540-290 | E | Yes |
-| 3    | Wigtown Wanderers | 27 | 490-380 | E | Yes |
-| 4    | Puddlemere United | 24 | 510-450 | E | Playoff |
-| 5    | Ballycastle Bats | 21 | 460-470 | A | No |
-| 6    | Caerphilly Catapults | 18 | 420-440 | A | No |
-| 7    | Appleby Arrows | 15 | 380-420 | A | No |
-| 8    | Kenmare Kestrels | 12 | 350-460 | P | No |
-| 9    | Falmouth Falcons | 9 | 320-480 | P | No |
-| 10   | Tutshill Tornados | 6 | 290-510 | D | No |
-| 11   | Pride of Portree | 3 | 270-490 | D | No |
-| 12   | Chudley Cannons | 0 | 240-540 | T | No |
+### A.2 Dual Division Format Example (30 Teams)
 
 
-Division 2 (12 teams):
+**Division 1:** Top 3 teams advance + potential wildcard based on point differential from positions 4-15.* 
 
-| Rank | Team | Match Points | Total Game Scores | Grade | Advance to N.E.W.T.s |
-|:----:|:-----|:------:|:------:|:------:|--------------------:|
-| 1    | Tokyo Tengu | 30 | 560-300 | O | Yes |
-| 2    | Stonewall Stormers | 30 | 520-280 | E | Yes |
-| 3    | Sweetwater All-Stars | 27 | 500-360 | E | Yes |
-| 4    | Moose Jaw Meteorites | 24 | 480-420 | E | Playoff |
-| 5    | Gimbi Giant-Slayers | 18 | 450-460 | A | No |
-| 6    | Sumbawanga Sunrays | 18 | 440-450 | A | No |
-| 7    | Vratsa Vultures | 15 | 400-440 | A | No |
-| 8    | Quiberon Quafflepunchers | 12 | 360-480 | P | No |
-| 9    | Heidelberg Harriers | 9 | 340-460 | P | No |
-| 10   | Braga Broomfleet | 6 | 300-490 | D | No |
-| 11   | Gorodok Gargoyles | 3 | 280-520 | D | No |
-| 12   | Tarapoto Tree-Skimmers | 0 | 260-550 | T | No |
+| Rank | Team | Points | W | L | PF | PA | DIFF | Grade | Advance to N.E.W.T.s |
+|:----:|:-----|:------:|:-:|:-:|:--:|:--:|:----:|:-----:|:---------:|
+| 1 | Montrose Magpies | 39 | 13 | 1 | 1260 | 840 | +420 | O | Yes |
+| 2 | Puddlemere United | 36 | 12 | 2 | 1220 | 880 | +340 | O | Yes |
+| 3 | Holyhead Harpies | 33 | 11 | 3 | 1180 | 900 | +280 | E | Yes |
+| 4 | Appleby Arrows | 30 | 10 | 4 | 1140 | 940 | +200 | E | Yes* |
+| 5 | Ballycastle Bats | 27 | 9 | 5 | 1100 | 980 | +120 | E | No |
+| 6 | Wigtown Wanderers | 24 | 8 | 6 | 1060 | 1020 | +40 | A | No |
+| 7 | Caerphilly Catapults | 21 | 7 | 7 | 1020 | 1060 | -40 | A | No |
+| 8 | Pride of Portree | 18 | 6 | 8 | 980 | 1100 | -120 | A | No |
+| 9 | Falmouth Falcons | 15 | 5 | 9 | 940 | 1140 | -200 | A | No |
+| 10 | Kenmare Kestrels | 12 | 4 | 10 | 900 | 1180 | -280 | P | No |
+| 11 | Tutshill Tornados | 9 | 3 | 11 | 860 | 1220 | -360 | P | No |
+| 12 | London Lions | 6 | 2 | 12 | 820 | 1260 | -440 | P | No |
+| 13 | Yorkshire Yetis | 6 | 2 | 12 | 780 | 1300 | -520 | D | No |
+| 14 | Chudley Cannons | 3 | 1 | 13 | 740 | 1340 | -600 | T | No |
+| 15 | Wimbourne Wasps | 3 | 1 | 13 | 700 | 1380 | -680 | T | No |
 
 
-### A.3 Schedule Management Example
-```
-Team Alpha's Schedule Planning:
-Week 1: vs Team Beta (Wednesday 8 PM UTC)
-Week 1: vs Team Gamma (Saturday 7 PM UTC)
-  - 72-hour gap maintained
-  - Both matches approved by staff
-Week 2: Single match only (per two-match limit)
-```
+*Appleby Arrows* qualify as wildcard due to highest point differential among non-advancing teams.
 
-### A.4 Tiebreaker Calculation Example
-```
-Scenario: Teams tied at 24 points
-Team A vs Team B head-to-head: Team A won
-Team A: 20 games won out of 30 (66.7%)
-Team B: 19 games won out of 30 (63.3%)
-Result: Team A ranks higher
-```
-## Appendix B: Technical Examples
- 
-### B.1 Disconnection Scenarios
-```
-Early Game Example:
-- Disconnection at 6:30 (30 seconds in)
-- Team allowed restart
-- Player returns within 2 minutes
-- Game proceeds normally
 
-Mid-Game Example:
-- Disconnection at 3:30 (Score 40-20)
-- Point difference = 20
-- Game replayed due to ≤30 point difference
+**Division 2:** Top 4 teams advance.
 
-Late Game Example:
-- Disconnection at 1:30
-- Score stands regardless of situation
-```
+| Rank | Team | Points | W | L | PF | PA | DIFF | Grade | Advance to N.E.W.T.s |
+|:----:|:-----|:------:|:-:|:-:|:--:|:--:|:----:|:-----:|:---------:|
+| 1 | Vratsa Vultures | 42 | 14 | 0 | 1300 | 800 | +500 | O | Yes |
+| 2 | Heidelberg Harriers | 36 | 12 | 2 | 1240 | 860 | +380 | O | Yes |
+| 3 | Grodzisk Goblins | 33 | 11 | 3 | 1200 | 900 | +300 | E | Yes |
+| 4 | Quiberon Quanchers | 30 | 10 | 4 | 1180 | 920 | +260 | E | Yes |
+| 5 | Braga Broomfleet | 27 | 9 | 5 | 1140 | 960 | +180 | E | No |
+| 6 | Bigonville Bombers | 24 | 8 | 6 | 1100 | 1000 | +100 | A | No |
+| 7 | Sofia Sphinxes | 21 | 7 | 7 | 1060 | 1040 | +20 | A | No |
+| 8 | Karasjok Kites | 18 | 6 | 8 | 1020 | 1080 | -60 | A | No |
+| 9 | Gimbi Giant-Slayers | 15 | 5 | 9 | 980 | 1120 | -140 | A | No |
+| 10 | Moose Jaw Meteorites | 12 | 4 | 10 | 940 | 1160 | -220 | P | No |
+| 11 | Stonewall Stormers | 9 | 3 | 11 | 900 | 1200 | -300 | P | No |
+| 12 | Tarapoto Tree-Skimmers | 6 | 2 | 12 | 860 | 1240 | -380 | P | No |
+| 13 | Gorodok Gargoyles | 6 | 2 | 12 | 820 | 1280 | -460 | D | No |
+| 14 | Toyohashi Tengu | 3 | 1 | 13 | 780 | 1320 | -540 | T | No |
+| 15 | Sumbawanga Sunrays | 0 | 0 | 14 | 740 | 1360 | -620 | T | No |
 
-### B.2 Patch Impact Example
-```
-Monday: Patch announced for following Monday
-Tuesday-Sunday: Regular matches continue
-Monday: Patch releases
-Tuesday-Wednesday: Council votes
-Thursday: Implementation begins based on vote
-```
 
-## Appendix C: Tournament Structure
- 
-### C.1 Division Creation Example
-```
-20 Teams Total:
-8 EU-majority (6+ EU players)
-6 NA-majority (6+ NA players)
-6 Mixed teams
+### A.3 Tiebreaker Example
+*This example demonstrates how tied teams are ranked, following the tiebreaker process in order.*
 
-Division Assignment:
-Division 1: EU-majority + Mixed (EU preference)
-Division 2: NA-majority + Mixed (NA preference)
-```
+#### Scenario: End of O.W.L.s Tie
+The Braga Broomfleet and Bigonville Bombers are tied with these stats:
 
-### C.2 N.E.W.T.s Progression
-```
-Double Elimination Format:
-Round 1: All teams in winners bracket
-Round 2: Split into winners/losers brackets
-Round 3: Bracket progression continues
-Finals: Best-of-5 championship match
-```
+| Team | Points | W | L | PF | PA | DIFF |
+|:-----|:------:|:-:|:-:|:--:|:--:|:----:|
+| Braga Broomfleet | 27 | 9 | 5 | 1140 | 960 | +180 |
+| Bigonville Bombers | 27 | 9 | 5 | 1100 | 1000 | +100 |
 
-### C.3 Broadcast Schedule Example
-```
-Priority System:
-1. Winners bracket matches
-2. Elimination matches
-3. Lower bracket matches
-4. Regular season highlights
-```
+Tiebreaker Process:
+1. Direct match results between tied teams:
+    - Braga Broomfleet vs Bigonville Bombers head-to-head match:
+      - Braga won 2-1 in games
+      - Result: Braga Broomfleet ranks higher
+
+If teams had split their matches, next tiebreakers would apply:
+
+2. Percentage of total games won:
+    - Braga: 20 games won out of 30 played (66.7%)
+    - Bigonville: 19 games won out of 30 played (63.3%)
+    - Result: Braga would still rank higher
+
+3. Game win rate in matches between tied teams would be next
+4. Tiebreaker match if teams available within 48 hours
+5. Staff-supervised coin flip as final resort
+
+*Note: In this case, the first tiebreaker (head-to-head) was sufficient to determine the final ranking.*
