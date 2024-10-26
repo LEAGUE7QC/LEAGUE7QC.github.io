@@ -13,7 +13,7 @@ Harry Potter: Quidditch Champions runs approximately 2-month seasons (estimated 
 
 Each LEAGUE7 season is divided into two phases:
 - O.W.L.s (Ordinary Wizarding Levels): Qualifying round using round-robin format
-- N.E.W.T.s (Nastily Exhausting Wizarding Tests): Top 7 teams compete in a double-elimination tournament
+- N.E.W.T.s (Nastily Exhausting Wizarding Tests): Top teams compete in a double-elimination tournament
 
 ## 2. Season Organization and Registration
 
@@ -21,7 +21,7 @@ Each LEAGUE7 season is divided into two phases:
 
 #### 2.1.1 Season Duration
 Each season spans approximately three months:
-- Two weeks for team registration and preparation
+- 2 weeks for team registration and preparation
 - 8-15 weeks for O.W.L.s matches (depends on number of teams)
 - 2 weeks for N.E.W.T.s matches
 - 1-2 weeks break before next season
@@ -52,7 +52,7 @@ Each season spans approximately three months:
   - This is only allowed for the first season due to uncertainty of the game state
   - Maximum 4 changes allowed after season start date
   - Players cannot rejoin same team in same season
-  - 48-hour notice before new player's first match
+  - 48-hour notice is required before new player's first match
   - All changes must be registered and announced through official Discord
 
 #### 2.2.3 Roster Lock Periods
@@ -74,7 +74,7 @@ Each season spans approximately three months:
   - Team scheduling preferences
   - Need for balanced division sizes
 
-*Note: Division structure may change between seasons as game features develop. Region-locked divisions may be implemented if server selection becomes available and network stability requires it.*
+*Note: Division structure may change between seasons as game features develop. Region-locked grand divisions may be implemented if server selection becomes available and network stability requires it.*
 
 ## 3. Competition Format and Progression
 
@@ -113,9 +113,8 @@ Each season spans approximately three months:
 
 ### 3.2 Advancement and Grading
 
-
 #### 3.2.1 Advancement to N.E.W.T.s 
-- The 7 highest-ranked teams advance based on O.W.L.s performance
+- The 7 highest-ranked teams advance based on O.W.L.s ranking
 - 8th spot (Wildcard) determined by highest point differential scored in matches
   - Calculated from all O.W.L.s matches (only the first 2 matches per bo3 games)
   - Encourages competitive play regardless of standing
@@ -139,8 +138,7 @@ Each season spans approximately three months:
 - 8-team double elimination bracket
   - Seeding based on O.W.L.s final standings
   - Wildcard team enters as 8th seed
-- Matches are best-of-3 until the grand final
-- Championship match is best-of-5
+- Matches are best-of-3 until the grand final, championship match is best-of-5
 - Winners bracket matches prioritized for the weekends for live broadcasting purposes
   - If teams cannot participate in live broadcast times, matches will be scheduled at their convenience
   - Staff may record these matches for delayed broadcast during weekend streaming hours
@@ -388,15 +386,15 @@ Tiebreaker Process:
       - Braga won 2-1 in games
       - Result: Braga Broomfleet ranks higher
 
-**If** teams had split their matches, next tiebreakers would apply:
+**If** for some reason teams had split their matches, next tiebreakers would apply:
 
 2. Percentage of total games won:
     - Braga: 20 games won out of 30 played (66.7%)
     - Bigonville: 19 games won out of 30 played (63.3%)
     - Result: Braga would still rank higher
-
 3. Game win rate in matches between tied teams would be next
 4. Tiebreaker match if teams available within 48 hours
-5. Staff-supervised coin flip as final resort
+5. Highest point differential would advance if teams are not available
+6. If still ties, staff-supervised coin flip as final resort
 
 *Note: In this case, the first tiebreaker (head-to-head) was sufficient to determine the final ranking.*
