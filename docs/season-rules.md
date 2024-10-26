@@ -11,7 +11,7 @@ LEAGUE7 provides a structured competitive environment for Harry Potter: Quidditc
 ### 1.2 Season Structure Overview
 Harry Potter: Quidditch Champions runs approximately 2-month seasons (estimated based on Season 1 arrival date). LEAGUE7 extends this to trimester-based seasons for more comprehensive competition, while keeping the names in alignment with the official seasons on the start dates.
 
-Each LEAUGE7 season is divided into two phases:
+Each LEAGUE7 season is divided into two phases:
 - O.W.L.s (Ordinary Wizarding Levels): Qualifying round using round-robin format
 - N.E.W.T.s (Nastily Exhausting Wizarding Tests): Top 7 teams compete in a double-elimination tournament
 
@@ -104,15 +104,24 @@ Each season spans approximately three months:
   - Match loss: 0 points
 - Teams are ranked by total points earned. 
 - Tiebreakers apply in order:
-  1. Direct match results between tied teams
+  1. Last played direct match results between tied teams 
   2. Percentage of total games won  
   3. Game win rate in matches between tied teams
-  4. If two teams available within 48 hours, a tiebreaker match will be played
-  5. Staff-supervised coin flip
+  4. If two teams available within 48 hours, a new tiebreaker match will be played
+  5. Highest point differential scored in games (calculated from the first 2 matches per bo3 of all O.W.L.s games)
+  6. Staff-supervised coin flip
 
-### 3.2 Grading and Advancement
+### 3.2 Advancement and Grading
 
-#### 3.2.1 Grading Scale
+
+#### 3.2.1 Advancement to N.E.W.T.s 
+- The 7 highest-ranked teams advance based on O.W.L.s performance
+- 8th spot (Wildcard) determined by highest point differential scored in matches
+  - Calculated from all O.W.L.s matches (only the first 2 matches per bo3 games)
+  - Encourages competitive play regardless of standing
+  - Tiebreaker: Head-to-head record, then total points scored
+
+#### 3.2.2 Grading Scale
 | Grade | Standing | Team Percentage |
 |-------|:--------:|:---------------:|
 | Outstanding (O) | Top | 10% |
@@ -122,14 +131,7 @@ Each season spans approximately three months:
 | Dreadful (D) | Bottom | 10% |
 | Troll (T) | Lowest | 10% |
 
-#### 3.2.2 N.E.W.T.s Qualification
-- The 7 highest-ranked teams advance based on O.W.L.s performance
-- 8th spot (Wildcard) determined by highest point differential
-  - Calculated from all O.W.L.s matches
-  - Encourages competitive play regardless of standing
-  - Tiebreaker: Head-to-head record, then total points scored
-
-*Note: Grades are a fun classification inspired by the Harry Potter universe and do not affect advancement. The top 7 teams in the standings will advance regardless of their grade. The wildcard team will hold its original grade letter. Grades will be used for historical tracking of team/player performances and fun league rankings such as 'Outstanding Players' league, 'Troll Division' showmatches, and other future community events.*
+*Note: Grades are a fun classification inspired by the Harry Potter universe and do not affect advancement. The top 7 teams in the standings will advance regardless of their grade. The wildcard team will hold its original grade letter. Grades will be used for historical tracking of team/player performances and fun league rankings such as 'Outstanding Players' league, 'Troll Division' showmatches, and other future community events inspired by the Wizarding World.*
 
 ### 3.3 Phase Two: N.E.W.T.s 
 
@@ -139,7 +141,7 @@ Each season spans approximately three months:
   - Wildcard team enters as 8th seed
 - Matches are best-of-3 until the grand final
 - Championship match is best-of-5
-- Winners bracket matches prioritized for live broadcast
+- Winners bracket matches prioritized for the weekends for live broadcasting purposes
   - If teams cannot participate in live broadcast times, matches will be scheduled at their convenience
   - Staff may record these matches for delayed broadcast during weekend streaming hours
 
@@ -178,7 +180,7 @@ Specific game settings and configuration will be announced following the officia
   - Fair play concerns
 - Staff documents significant events:
   - Disconnections and other technical issues
-  - Timestamps of ingame events (marks on goals, snitch catches, non-medal saves, etc.)
+  - Timestamps of ingame events (marks on chaser scores, snitch catches, keeper saves, etc.)
   - Score verification
   - Rule interpretations
 
@@ -386,7 +388,7 @@ Tiebreaker Process:
       - Braga won 2-1 in games
       - Result: Braga Broomfleet ranks higher
 
-If teams had split their matches, next tiebreakers would apply:
+**If** teams had split their matches, next tiebreakers would apply:
 
 2. Percentage of total games won:
     - Braga: 20 games won out of 30 played (66.7%)
