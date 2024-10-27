@@ -326,7 +326,6 @@ function createRoleSpecificBarGraph(data, containerId, role) {
       plugins: {
         title: {
           display: true,
-          text: `${role} Weekly Scores`
         },
         legend: {
           display: true,
