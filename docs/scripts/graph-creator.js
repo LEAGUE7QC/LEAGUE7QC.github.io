@@ -108,13 +108,29 @@ function createParticipantsLineChart(data, containerId) {
       Keeper: 'rgba(75, 192, 192, 1)'
   };
 
-  // Process data
+  // Modified data processing
   const datasets = data.map(participant => {
+    let runningTotal = 0;
+    
     const participantData = weeks.map((week, index) => {
-      if (index === 0) return 0; // Return 0 for W0
-      if (index === 1) return parseInt(participant[week]) || 0; // Keep 0 for W1
-      return parseInt(participant[week]) || null; // Use null for other weeks if value is 0
-  });
+      if (index === 0) return 0;
+      
+      const weekValue = parseInt(participant[week]);
+      const nextWeekValue = index < weeks.length - 1 ? parseInt(participant[weeks[index + 1]]) : null;
+      
+      // Show 0 only if next week has a non-zero value
+      if ((!weekValue || isNaN(weekValue)) && nextWeekValue && !isNaN(nextWeekValue) && nextWeekValue !== 0) {
+        return runningTotal;
+      }
+      
+      // Only add to running total if there's actual data
+      if (!isNaN(weekValue) && weekValue !== 0) {
+        runningTotal += weekValue;
+        return runningTotal;
+      }
+      
+      return null;
+    });
 
       return {
           label: participant.PARTICIPANT,
@@ -227,11 +243,28 @@ function createParticipantsLineChart(data, containerId) {
 
 
 function createRoleSpecificBarGraph(data, containerId, role) {
-  const colors = {
-    Chaser: 'rgba(146, 56, 50, 1)',
-    Seeker: 'rgba(255, 206, 86, 1)',
-    Beater: 'rgba(54, 162, 235, 1)',
-    Keeper: 'rgba(75, 192, 192, 1)'
+  const baseColors = {
+    Chaser: 'rgba(146, 56, 50, 1)',    // Base red
+    Seeker: 'rgba(255, 206, 86, 1)',   // Base yellow
+    Beater: 'rgba(54, 162, 235, 1)',   // Base blue
+    Keeper: 'rgba(75, 192, 192, 1)'    // Base teal
+  };
+
+  // Function to darken a color by a factor
+  function darkenColor(rgba, factor) {
+    const colorParts = rgba.match(/[\d.]+/g);
+    const r = Math.max(0, parseInt(colorParts[0]) * (1 - factor));
+    const g = Math.max(0, parseInt(colorParts[1]) * (1 - factor));
+    const b = Math.max(0, parseInt(colorParts[2]) * (1 - factor));
+    return `rgba(${r}, ${g}, ${b}, ${colorParts[3]})`;
+  }
+
+  // Create week-specific colors based on role color
+  const baseColor = baseColors[role];
+  const weekColors = {
+    W1: baseColor,                    // Original color
+    W2: darkenColor(baseColor, 0.2),  // 20% darker
+    W3: darkenColor(baseColor, 0.4)   // 40% darker
   };
 
   const roleData = data.filter(participant => participant.ROLE === role);
@@ -241,51 +274,78 @@ function createRoleSpecificBarGraph(data, containerId, role) {
   let roleCanvas = graphContainer.querySelector('canvas');
   if (!roleCanvas) {
     roleCanvas = document.createElement('canvas');
+    roleCanvas.style.height = '400px'; // Increased height
+    roleCanvas.style.width = '100%';   // Full width
     graphContainer.appendChild(roleCanvas);
+  } else {
+    roleCanvas.style.height = '400px'; // Increased height
+    roleCanvas.style.width = '100%';   // Full width
   }
 
   if (chartInstances[containerId]) {
     chartInstances[containerId].destroy();
   }
 
+  // Create datasets for each week
+  const weeks = ['W1', 'W2', 'W3'];
+  const datasets = weeks.map(week => ({
+    label: `Week ${week.substring(1)}`,
+    data: roleData.map(p => parseInt(p[week]) || 0),
+    backgroundColor: weekColors[week],
+    borderColor: 'rgba(0, 0, 0, 1)',
+    borderWidth: 1
+  }));
+
   chartInstances[containerId] = new Chart(roleCanvas, {
     type: 'bar',
     data: {
       labels: roleData.map(p => p.PARTICIPANT),
-      datasets: [{
-        label: `${role} Scores`,
-        data: roleData.map(p => parseInt(p.TOTAL)),
-        backgroundColor: colors[role],
-        borderColor: 'rgba(0, 0, 0, 1)',
-        borderWidth: 1
-      }]
+      datasets: datasets
     },
     options: {
       responsive: true,
       maintainAspectRatio: true,
       scales: {
-        y: {
-          beginAtZero: true,
-          title: {
-            display: true,
-            text: 'Total Score'
-          }
-        },
         x: {
+          stacked: true,
           ticks: {
             autoSkip: false,
             maxRotation: 90,
             minRotation: 90
           }
+        },
+        y: {
+          stacked: true,
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Score'
+          }
         }
       },
       plugins: {
         title: {
-          display: false,
-          text: `${role} Scores`
+          display: true,
+          text: `${role} Weekly Scores`
         },
         legend: {
-          display: false
+          display: true,
+          position: 'top'
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              const weekLabel = context.dataset.label;
+              const score = context.parsed.y;
+              return `${weekLabel}: ${score}`;
+            },
+            afterBody: function(tooltipItems) {
+              const index = tooltipItems[0].dataIndex;
+              const participant = roleData[index];
+              const total = parseInt(participant.TOTAL);
+              return [`Total: ${total}`];
+            }
+          }
         }
       }
     }
