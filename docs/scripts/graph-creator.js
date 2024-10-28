@@ -99,7 +99,7 @@ function createParticipantsLineChart(data, containerId) {
  }
 
   // Add W0 to weeks
-  const weeks = ['W0', 'W1', 'W2', 'W3'];
+  const weeks = ['W0', 'W1', 'W2', 'W3', 'W4'];
   const roles = ['Chaser', 'Seeker', 'Beater', 'Keeper'];
   const colors = {
       Chaser: 'rgba(146, 56, 50, 1)',
@@ -264,7 +264,8 @@ function createRoleSpecificBarGraph(data, containerId, role) {
   const weekColors = {
     W1: baseColor,                    // Original color
     W2: darkenColor(baseColor, 0.2),  // 20% darker
-    W3: darkenColor(baseColor, 0.4)   // 40% darker
+    W3: darkenColor(baseColor, 0.4),   // 40% darker
+    W4: darkenColor(baseColor, 0.6)   // 60% darker
   };
 
   const roleData = data.filter(participant => participant.ROLE === role);
@@ -287,7 +288,7 @@ function createRoleSpecificBarGraph(data, containerId, role) {
   }
 
   // Create datasets for each week
-  const weeks = ['W1', 'W2', 'W3'];
+  const weeks = ['W1', 'W2', 'W3', 'W4'];
   const datasets = weeks.map(week => ({
     label: `Week ${week.substring(1)}`,
     data: roleData.map(p => parseInt(p[week]) || 0),

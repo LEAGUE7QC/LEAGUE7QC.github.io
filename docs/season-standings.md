@@ -16,6 +16,7 @@ Without further ado, let's celebrate our standout performers of the week:
 **Previous week top players:**
 
 - **Week 1:** illmage (Chaser), Ketchup (Beater), YukioTakeda (Keeper), BigZave (Seeker)
+- **Week 2:** Smartbean (Chaser), Nylis (Beater), YukioTakeda (Keeper), Burgerfan (Seeker)
 
 ## Role-Specific Standings
 ### Chaser Standings
@@ -44,10 +45,7 @@ Below you'll find examples of season statistics. These tables are updated regula
 Please see the full details [here](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRusyWABDkgfO0g0ykeZMZtLdFzQa2GlRn7lhE7Ntp2EQ7i0FUwA3QWfvTvWXoNo8U_wtU_ZOTqUHQj/pubhtml?gid=545214444&single=true) if you want to see individual medals.
 
 <div id="tryout-participants"></div>
-
-
-## Bean Bonus Room
-Will be announced soon!
+ 
 
 ## Administrative Team
 **President:** 
