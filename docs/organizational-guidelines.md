@@ -45,13 +45,6 @@ This document outlines the organizational structure, election processes, and rul
 
 **Selection:** Two appointed by the president (thereafter referred to as "appointed staff members"), three elected by the Captains' Council
 
-#### 2.3.1 Staff-Captain Dual Role
-- Staff members are permitted to serve as team captains
-- When serving in both roles:
-  - Their voting rights are exclusively as a captain
-  - They cannot submit rule proposals directly affecting their team
-  - They must declare their dual role status in any staff discussions affecting teams
-
 **Responsibilities:**
 - Create and enforce game rules
 - Submit rule change proposals for Captains' Council voting
@@ -61,6 +54,13 @@ This document outlines the organizational structure, election processes, and rul
 **Limitations:**
 - Can participate in league games under strict conditions (see Section 8.2)
 - Cannot unilaterally implement rule changes without Captains' Council approval
+
+#### 2.3.1 Staff-Captain Dual Role
+- Staff members are permitted to serve as team captains
+- When serving in both roles:
+  - Their voting rights are exclusively as a captain
+  - They cannot submit rule proposals directly affecting their team
+  - They must declare their dual role status in any staff discussions affecting teams
 
 ### 2.4 Moderators
 
