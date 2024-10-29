@@ -1,4 +1,4 @@
-# Organizational Rules &  Guidelines
+# Organizational Rules & Guidelines
 
 ## 1. Introduction
 This document outlines the organizational structure, election processes, and rules for LEAGUE7 governance. This league is built on the principles of transparency, fairness, and community involvement. This document aims to clearly explain every aspect of our operations to ensure all participants have a thorough understanding of how the league functions.
@@ -44,6 +44,13 @@ This document outlines the organizational structure, election processes, and rul
 **Number:** Five staff members (number subject to change depending on participant numbers)
 
 **Selection:** Two appointed by the president (thereafter referred to as "appointed staff members"), three elected by the Captains' Council
+
+#### 2.3.1 Staff-Captain Dual Role
+- Staff members are permitted to serve as team captains
+- When serving in both roles:
+  - Their voting rights are exclusively as a captain
+  - They cannot submit rule proposals directly affecting their team
+  - They must declare their dual role status in any staff discussions affecting teams
 
 **Responsibilities:**
 - Create and enforce game rules
@@ -223,7 +230,16 @@ In the event of a new president being elected while appointed staff members are 
 
 ### 5.1 Proposal Submission
 
-**Eligibility:** Only staff members can submit rule change proposals
+**Eligibility:** 
+- Only staff members can submit rule change proposals
+- Staff members who are also captains cannot submit proposals that:
+  - Directly affect their team's standing
+  - Modify rules specifically relevant to their team's strategy
+  - Create potential competitive advantages for their team
+- When a staff-captain wishes to suggest such changes, they must:
+  - Present the idea to another staff member
+  - Have that staff member formally submit the proposal
+  - Participate in the subsequent discussion only as a captain
 
 **Process:**
 - Proposals must be submitted in the #rule-proposals channel
@@ -323,10 +339,7 @@ Section 7 in its entirety, including all subsections, cannot be modified through
 ### 8.1 Minimum Team Requirement
 
 - The league will officially begin with a minimum of 7 registered teams
-- If 5-7 teams register by the deadline:
-  - A pre-season exhibition period will be held to attract more teams
-  - This period will last up to 1 month
-  - If 7 teams are not registered by the end of this period, the league start will be postponed
+- Details will be announced before every season
 
 ### 8.2 Staff Participation in Games
 

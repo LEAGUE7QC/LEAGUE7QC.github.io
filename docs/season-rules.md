@@ -1,4 +1,4 @@
-# LEAGUE7 Seasons Official Rules
+# LEAGUE7 Season Rules & Format
 
 > ### Important Notice
 This document provides the initial framework for LEAGUE7 operations before the Captains' Council formation. Following team registrations and Council formation, amendments can be made through the rule change process detailed in the Organizational Guidelines.
@@ -20,9 +20,8 @@ Each LEAGUE7 season is divided into two phases:
 ### 2.1 Season Duration
 Each season spans approximately three months:
 - 2 weeks for team registration and preparation
-- 8-15 weeks for O.W.L.s matches (depends on number of registered teams)
+- 7-15 weeks for O.W.L.s matches (depends on number of registered teams and number of matches per week)
 - 2 weeks for N.E.W.T.s matches
-- 1-2 weeks break before next season
 
 ### 2.2 Registration Timeline
 - Team registration ends one week before season start
@@ -48,15 +47,20 @@ Each season spans approximately three months:
 - Roster sizes:
   - Minimum 6 players
   - Maximum 9 players
+- Players can only be registered with one team at a time
+  - Players cannot be substitutes for other teams
+  - Players must complete current season or be formally removed before joining another team
 - Teams must maintain minimum roster size throughout season
-- Teams may adjust rosters throughout **Season 1**: 
-  - This is only allowed for the first season due to uncertainty of the game state
-  - Maximum 4 changes (add/remove players) allowed after season start date
-  - 48-hour notice is required before new player's first match
+- **Season 1 Exception - Roster Adjustments:**
+  - Due to game's early state, roster changes are allowed during Season 1
+  - Limited to 4 total changes (add/remove = 1 change) after season starts
+  - 48-hour notice required before new player's first match
   - Emergency changes may be permitted outside normal rules in extreme circumstances
   - All changes must be registered and announced through official Discord
 - Roster changes freeze 2 weeks before O.W.L.s conclusion
 - N.E.W.T.s roster must be subset of O.W.L.s roster
+
+*Note: LEAGUE7 uses a flexible roster system - We only maintain a list of all registered team players. There is no distinction between starters and substitutes. Captains can freely select any registered players for each game. No need to declare player roles or game lineups in advance*
 
 ### 3.2 Division Structure
 #### Primary Format (Expected for Season 1)
@@ -192,19 +196,19 @@ Specific game settings and configuration will be announced following the officia
 - Team captains' mutual agreement takes precedence in handling technical issues
 - When captains cannot agree, follow resolution table below: 
 
-| Time \ Points Diff | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 |
-|:---------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| > 5:00      | R | R | R | R | R | R | R | R | R |
-| 5:00 - 4:30 | R | R | R | R | R | R | . | . | . |
-| 4:30 - 4:00 | R | R | R | R | R | . | . | . | . |
-| 4:00 - 3:30 | R | R | R | R | . | . | . | . | . |
-| 3:30 - 3:00 | R | R | R | . | . | . | . | . | S |
-| 3:00 - 2:30 | R | R | . | . | . | . | . | S | S |
-| 2:30 - 2:00 | R | . | . | . | . | . | S | S | S |
-| 2:00 - 1:30 | . | . | . | . | . | S | S | S | S |
-| 1:30 - 1:00 | . | . | . | . | S | S | S | S | S |
-| 1:00 - 0:30 | . | . | . | S | S | S | S | S | S |
-| < 0:30      | S | S | S | S | S | S | S | S | S |
+| Time \ Points Diff | 0 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 |
+|:---------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| > 5:00      | R | R | R | R | R | R | R | R | R | R |
+| 5:00 - 4:30 | R | R | R | R | R | R | . | . | . | S |
+| 4:30 - 4:00 | R | R | R | R | R | . | . | . | . | S |
+| 4:00 - 3:30 | R | R | R | R | . | . | . | . | . | S |
+| 3:30 - 3:00 | R | R | R | . | . | . | . | . | . | S |
+| 3:00 - 2:30 | R | R | . | . | . | . | . | . | S | S |
+| 2:30 - 2:00 | R | . | . | . | . | . | . | S | S | S |
+| 2:00 - 1:30 | R | . | . | . | . | . | S | S | S | S |
+| 1:30 - 1:00 | R | . | . | . | . | S | S | S | S | S |
+| 1:00 - 0:30 | R | . | . | . | S | S | S | S | S | S |
+| < 0:30      | R | S | S | S | S | S | S | S | S | S |
 
 - R: Restart - All players return to menu and requeue
 - S: Substitute - Player attempts to rejoin ongoing game

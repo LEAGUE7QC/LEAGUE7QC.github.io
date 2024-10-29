@@ -67,6 +67,22 @@
             margin: 0 0.2em !important;
           }
           
+    .hp-quote-wrapper {
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: 30px;
+      margin-right: 50px;
+      color:dimgray;}
+
+    .hp-quote-text {
+     font-size: 110%;
+     font-style: italic;
+     text-align: left;}
+
+    .hp-quote-author {
+      text-align: right;
+    }
+
     :root {
       --base-font-size: 14px;
       --theme-color   : #ffbd00;
@@ -134,7 +150,7 @@
                     loadBeaterGraph();
                     loadKeeperGraph();
                   }
-                  if (vm.route.file === 'team-rosters.md') {
+                  if (vm.route.file === 'season/01/team-rosters.md') {
                     setTimeout(() => {
                       if (typeof window.runteamPlugin === 'function') {
                         window.runteamPlugin();

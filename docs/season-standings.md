@@ -46,14 +46,3 @@ Please see the full details [here](https://docs.google.com/spreadsheets/u/1/d/e/
 
 <div id="tryout-participants"></div>
  
-
-## Administrative Team
-**President:** 
-- Virtual Witchcraft (sirfelix)
-
-**Staff members:** 
-- Laggy (laggylestrange)
-- Shippo Tail (shippo_tail)
-- Dark (urdarkerend)
-- Zach (zachofalltrades)
-- Zex (zexoii)
