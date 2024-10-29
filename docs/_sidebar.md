@@ -15,7 +15,7 @@
 * [Information](/season/01/information.md "L7 | S01 General Information")
 * [Team Rosters](/season/01/team-rosters.md "L7 | Team Rosters")
 * [Match Calendar](/season/01/calendar.md "L7 | Match Calendar") 
-* [Scores & Standings](/season/01/standings.md "L7 | Season Standings")
+* [Stats & Standings](/season/01/standings.md "L7 | Season Standings")
 
 **L7 RULES & GUIDELINES**
 * [Code of Ethics](codeofethics.md "L7 | Code of Ethics")
