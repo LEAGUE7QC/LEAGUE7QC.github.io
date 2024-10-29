@@ -6,7 +6,7 @@ This season marks the beginning of competitive Quidditch Champions history, feat
 
 ## Requirements
 
-Please read [<span style="color:#ffbd00">Season Rules & Format</span>](/season-rules) before you ask any questions regarding details. Although his page provides brief, TL;DR information; all players are required to read and agree to the ruleset upon registration with a team.
+Please read [<span style="color:#ffbd00">Season Rules & Format</span>](/season-rules). Although this page provides brief, TL;DR information; all players are required to read and agree to the ruleset upon registration with a team.
 
 <div class="hp-quote-wrapper">
 <div class="hp-quote-text">"Ginny's O.W.L.s were approaching and she was therefore forced to study for hours into the night."</div><div class="hp-quote-author">— Harry Potter</div></div>
