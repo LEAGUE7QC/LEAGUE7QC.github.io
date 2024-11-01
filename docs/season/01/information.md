@@ -1,12 +1,12 @@
-# Information - Season 01
+# Information - D.A.D.A. (S01)
 
-We're excited to launch our first Season: **<span style="color:#ffbd00">Defence Against the Dark Arts</span>**!
+We're excited to launch our first season: **<span style="color:#ca1619">Defence Against the Dark Arts</span>**!
 
-This season marks the beginning of competitive Quidditch Champions history, featuring an exciting format that combines intense regular season matches (O.W.L.s) with a high-stakes playoff tournament (N.E.W.T.s). Every match counts, every point matters, and legends will be made.
+This season marks the beginning of 6v6 competitive Quidditch Champions history, featuring an exciting format that combines intense regular season matches (O.W.L.s) with a high-stakes playoff tournament (N.E.W.T.s). Every match counts, every point matters, and legends will be made.
 
 ## Requirements
 
-Please read [<span style="color:#ffbd00">Season Rules & Format</span>](/season-rules). Although this page provides brief, TL;DR information; all players are required to read and agree to the ruleset upon registration with a team.
+Please read [<span style="color:#ffbd00">Season Rules & Format</span>](/season-rules) before you ask any questions regarding details. Although this page provides brief, TLDR information; all players are required to read and agree to the ruleset upon registration with a team.
 
 <div class="hp-quote-wrapper">
 <div class="hp-quote-text">"Ginny's O.W.L.s were approaching and she was therefore forced to study for hours into the night."</div><div class="hp-quote-author">— Harry Potter</div></div>
@@ -17,8 +17,10 @@ Team captains will register their teams through the [<span style="color:#ffbd00"
 
 ### Season Structure
 - **Registration Period**: 2 weeks
-- **Regular Season (O.W.L.s)**: 7-15 weeks of round-robin competition
-- **Playoffs (N.E.W.T.s)**: 2 weeks of double-elimination intensity
+    - Team Sign-ups Begin: October 28, 2024
+    - <span style="color:#ffbd00">Registration Closes</span>: **November 15, 2024**
+- **O.W.L.s** (Regular Season): 7-15 weeks of round-robin competition
+- **N.E.W.T.s** (Playoffs): 2 weeks of double-elimination brackets
 - **Roster Size**:  6-9 players, with 4 mid-season roster changes allowed
 - **Match Format**: Best-of-3 during O.W.L.s, best-of-5 for N.E.W.T.s finals
 
@@ -31,7 +33,7 @@ Team captains will register their teams through the [<span style="color:#ffbd00"
 - Teams are encouraged to arrange mutually convenient match times
 
 ### From O.W.L.s to N.E.W.T.s
-- During O.W.L.s, every team face every other team once - every game and score matters!
+- During O.W.L.s, every team face every other team once - *every game and score matters!*
 - Top 7 teams qualify based on standings; 8th spot (Wildcard) determined by highest point differential
 - N.E.W.T.s features an intense tournament, grand final to crown our champion!
 
