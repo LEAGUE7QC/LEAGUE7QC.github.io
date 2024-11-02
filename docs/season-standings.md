@@ -16,7 +16,7 @@ Without further ado, let's celebrate our standout performers of the week:
 **Previous week top players:**
 
 - **Week 1:** illmage (Chaser), Ketchup (Beater), YukioTakeda (Keeper), BigZave (Seeker)
-- **Week 2:** Smartbean (Chaser), Nylis (Beater), YukioTakeda (Keeper), Burgerfan (Seeker)
+- **Week 2:** Smartbean (Chaser), Nylis (Beater), YukioTakeda (Keeper), Gordo (Seeker)
 
 ## Role-Specific Standings
 ### Chaser Standings
