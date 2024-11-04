@@ -7,7 +7,7 @@ The LEAGUE7 Tryout Season kicked off on October 7th! To stay in the loop:
 
 ## Players of the Week
 
-As we soar through the first weeks of the Tryout Season, four extraordinary wizards have truly distinguished themselves on the pitch last week! These rising stars have demonstrated exceptional skill, unwavering determination, and the true spirit of Quidditch in their performances.
+As we soar through the final weeks of the Tryout Season, four extraordinary wizards have truly distinguished themselves on the pitch last week! These rising stars have demonstrated exceptional skill, unwavering determination, and the true spirit of Quidditch in their performances.
 
 Without further ado, let's celebrate our standout performers of the week:
 
@@ -17,6 +17,7 @@ Without further ado, let's celebrate our standout performers of the week:
 
 - **Week 1:** illmage (Chaser), Ketchup (Beater), YukioTakeda (Keeper), BigZave (Seeker)
 - **Week 2:** Smartbean (Chaser), Nylis (Beater), YukioTakeda (Keeper), Gordo (Seeker)
+- **Week 3:** ashylan (Chaser), Ketchup (Beater), YukioTakeda (Keeper), Gordo (Seeker)
 
 ## Role-Specific Standings
 ### Chaser Standings
