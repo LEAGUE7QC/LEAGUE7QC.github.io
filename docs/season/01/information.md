@@ -18,7 +18,7 @@ Team captains will register their teams through the [<span style="color:#ffbd00"
 ### Season Structure
 - **Registration Period**: 2 weeks
     - Team Sign-ups Begin: October 28, 2024
-    - <span style="color:#ffbd00">Registration Closes</span>: **November 15, 2024**
+    - <span style="color:#ffbd00">Registration Closes</span>: **November 22, 2024**
 - **O.W.L.s** (Regular Season): 7-15 weeks of round-robin competition
 - **N.E.W.T.s** (Playoffs): 2 weeks of double-elimination brackets
 - **Roster Size**:  6-9 players, with 4 mid-season roster changes allowed
