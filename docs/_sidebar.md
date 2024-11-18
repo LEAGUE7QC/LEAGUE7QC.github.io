@@ -5,6 +5,7 @@
 * [FAQ](faq.md "L7 | FAQ")
 * [Contact Us](contact-us.md "L7 | Contact Us")
 * [Past Events](/community-events/winford-invitational "L7 | Past Events")
+* [Quidditch Board (WIP)](/quidditch-pitch.md "L7 | Quidditch Board")
  
 
 **TRYOUT SEASON**

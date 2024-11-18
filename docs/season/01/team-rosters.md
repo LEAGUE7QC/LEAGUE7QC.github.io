@@ -1,8 +1,7 @@
 
 ## Participating Teams
-Below are example teams, randomly generated as placeholders, demonstrating how their logos, colors, and rosters will be displayed.
- 
-<div id="team-display"> </div>
+Check out the teams already registered to compete in Defence Against the Dark Arts Season! Registrations are still open, so there's still time to join the fun!
 
-## Team Managers
-Another list of managers will be here.
+Note that, if a player is marked as *unavailable*, they just need to submit their individual forms before the deadline to make their team official and ready to compete.
+
+<div id="team-display"> </div>

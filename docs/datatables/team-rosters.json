@@ -1,32 +1,67 @@
 {
     "teams": [
       {
-        "name": "Gryffindor Lions",
-        "logo": "gryffindor_logo.png",
-        "colors": ["#740001", "#D3A625"],
-        "captain": "illmage",
-        "players": [ "Ron Weasley", "Fred Weasley", "Cedric Diggory", "Ginny Weasley", "Luna Lovegood", "Neville Longbottom", "George Weasley", "Cho Chang",  "Katie Bell"]
+        "name": "Rising Phoenix International",
+        "tag": "PHX",
+        "colors": ["#d63a2b", "#f5cd54"],
+        "captain": "n e o",
+        "players": [ "n e o",	"NaTy53",	"Silvainius",		"Glas","Tediready",	"jaws",	"Denji", "Malikosis", "SlyHaddock7477"]
       },
       {
-        "name": "Slytherin Serpents",
-        "logo": "slytherin_logo.png",
-        "colors": ["#1a472a", "#2a623d"],
-        "captain": "Miles Bletchley",
-        "players": ["Draco Malfoy", "Miles Bletchley", "Graham Montague", "Cassius Warrington", "Vincent Crabbe", "Gregory Goyle", "Pansy Parkinson", "Blaise Zabini", "Theodore Nott"]
+        "name": "Winguardians",
+        "tag": "WIN",
+        "colors": ["#543D7B", "#FFB43B"],
+        "captain": "shinobiCoderr",
+        "players": ["shinobiCoderr", "Unknown_KEY",	"Flyrish",	"KDtox",	"illmage", "YourNintendo64TTV",	"Amarict", "Aeriberry",	"Woonie"]
       },
       {
-        "name": "Hufflepuff Badgers",
-        "logo": "hufflepuff_logo.png",
-        "colors": ["#ecb939", "#1e1e1f"],
-        "captain": "Susan Bones",
-        "players": ["Cedric Diggory", "Susan Bones", "Ernie Macmillan", "Hannah Abbott", "Justin Finch-Fletchley", "Zacharias Smith", "Megan Jones", "Wayne Hopkins", "Leanne", "Oliver Rivers"]
+        "name": "Thin Ice",
+        "tag": "TI",
+        "colors": ["#13233A", "#3FCACE"],
+        "captain": "JMauler",
+        "players": ["JMauler", "Banthanor", "YukioTakeda", "LosBobs", "Johnny", "Pasawen", "JimTones", "Snichael"]
       },
       {
-        "name": "Ravenclaw Eagles",
-        "logo": "ravenclaw_logo.png",
-        "colors": ["#0e1a40", "#946b2d"],
-        "captain": "Melanore",
-        "players": ["Melanore", "Padma Patil", "Terry Boot", "Michael Corner", "Anthony Goldstein", "Lisa Turpin", "Mandy Brocklehurst"]
+        "name": "Nimbus Nighthawks",
+        "tag": "NNH",
+        "colors": ["#3c78d8", "#000000"],
+        "captain": "RexBlazer924",
+        "players": ["RexBlazer924", "DeFyBoomer69", "Shaneofthedead66", "RelievedRope742", "MoLDYCh33ZE", "TheOnlyScourage"]
+      },
+      {
+        "name": "Hazi Dementors",
+        "tag": "HD",
+        "colors": ["#97517f", "#000000"],
+        "captain": "ItBSmokiTTV",
+        "players": ["ItBSmokiTTV", "DavidERB", "MOLOMBO", "Ash Shacklebolt", "DeterminedDoug", "TheMabooHighShuffle", "LeftCurveCEO", "Oof", "emoura"]
+      },
+      {
+        "name": "The Oakshaft Owls",
+        "tag": "OWL",
+        "colors": ["#abccf9", "#ededed"],
+        "captain": "MichyMo",
+        "players": ["MichyMo", "DarkRitNighthawk", "Osito_Luna8793", "The HoBoKaGe", "Alf1776", "Sandman1427", "CometCon"]
+      },
+      {
+        "name": "Hellfire Hogs",
+        "tag": "HH",
+        "colors": ["#2A1157", "#38B6FF"],
+        "captain": "Moonech",
+        "players": ["Moonech", "Bilbo T-Baggin", "BergoBibamus", "PenTraDoXx", "Syndi", "JackD53", "Mome", "MilverTheMaid"]
+      },
+      {
+        "name": "Mad Marauders",
+        "tag": "MAD",
+        "colors": ["#Fffdd0", "#ab263A"],
+        "captain": "Smartbean",
+        "players": ["Smartbean", "Spacebhabes", "Mukisan", "Beccarina", "Daddy batknight","HamJamLettuce",  "Kinky Whiskey", "thebadgeruk", "Prophecy"]
+      },
+      {
+        "name": "Horcrux Trixsters",
+        "tag": "HT",
+        "colors": ["#eab228", "#35500a"],
+        "captain": "TFice",
+        "players": ["TFice", "YourLittleSpoon", "ashylan", "doorphin", "Zexoii", "Robin"]
       }
     ]
   }
