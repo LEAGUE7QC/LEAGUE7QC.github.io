@@ -5,7 +5,7 @@ Welcome to the Quidditch Board, an interactive tool designed to help you visuali
 > Note: This feature is still work in progress.
 
 
-<div id="quidditch-pitch" style="margin-left:-60%"></div>
+<div id="quidditch-board" style="margin-left:-60%"></div>
 
 
 ## Instructions

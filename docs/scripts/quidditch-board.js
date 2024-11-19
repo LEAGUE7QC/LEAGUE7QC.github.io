@@ -36,7 +36,8 @@ const QuiddichBoard = () => {
   const [selectedTeams, setSelectedTeams] = React.useState({ home: 'default', away: 'default' });
   const [activeRoster, setActiveRoster] = React.useState({ home: [], away: [] });
   const [inactivePlayers, setInactivePlayers] = React.useState({ home: new Set(), away: new Set() });
-  const [draggedPlayer, setDraggedPlayer] = React.useState(null);
+  // const [draggedPlayer, setDraggedPlayer] = React.useState(null);
+  const draggedPlayerRef = React.useRef(null);
 
   React.useEffect(() => {
     // Initialize both teams as default
@@ -204,29 +205,33 @@ const QuiddichBoard = () => {
     });
   };
 
+  // handling players on first drag
   const handleDragStart = (e, player) => {
-    setDraggedPlayer(player);
+    // console.log("drag");
+    draggedPlayerRef.current = player; // Use ref instead of state
     const dragImage = new Image();
     dragImage.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
     e.dataTransfer.setDragImage(dragImage, 0, 0);
   };
-
+  
   const handleDrag = (e) => {
-    if (!draggedPlayer) return;
+    e.preventDefault();
+    if (!draggedPlayerRef.current) return;
     
     const rect = e.currentTarget.getBoundingClientRect();
     const newX = Math.max(0, Math.min(FIELD_WIDTH, e.clientX - rect.left));
     const newY = Math.max(0, Math.min(FIELD_HEIGHT, e.clientY - rect.top));
-    
-    setPlayers(prev => ({
+  
+    setPlayers((prev) => ({
       ...prev,
-      [draggedPlayer.team]: prev[draggedPlayer.team].map(p => {
-        if (p.id === draggedPlayer.id) {
-          return { ...p, x: newX, y: newY };
-        }
-        return p;
-      })
+      [draggedPlayerRef.current.team]: prev[draggedPlayerRef.current.team].map((p) => 
+        p.id === draggedPlayerRef.current.id ? { ...p, x: newX, y: newY } : p
+      ),
     }));
+  };
+  
+  const handleDragEnd = () => {
+    draggedPlayerRef.current = null; // Clear the ref
   };
 
   // UI Components
@@ -310,7 +315,8 @@ const QuiddichBoard = () => {
         backgroundRepeat: 'no-repeat', // Prevent repeating
         position: 'relative',
         overflow: 'hidden',
-        borderRadius: '10rem'
+        borderRadius: '20rem',
+        backgroundColor: 'rgba(0, 0, 0, 0)', // Fallback color
       },
       onDragOver: (e) => {
         e.preventDefault();
@@ -322,21 +328,23 @@ const QuiddichBoard = () => {
           key: player.id,
           draggable: true,
           onDragStart: (e) => handleDragStart(e, player),
-          onDragEnd: () => setDraggedPlayer(null),
+          onDragEnd: () => handleDragEnd(),
           style: { 
             position: 'absolute',
             left: player.x,
             top: player.y,
             transform: 'translate(-50%, -50%)',
             cursor: 'move',
-            textAlign: 'center'
+            textAlign: 'center',
+            padding: '5px',
+            borderRadius: '10px',
           }
         },
           React.createElement('div', {
             style: {
-              width: '1.5rem',
-              height: '1.5rem',
-              margin: '0 auto 0.125rem',
+              width: '2rem',
+              height: '2rem',
+              margin: 'auto',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center'
@@ -355,8 +363,11 @@ const QuiddichBoard = () => {
           React.createElement('div', {
             style: {
               color: 'white',
-              fontSize: '1em',
-              whiteSpace: 'nowrap'
+              fontSize: '0.8em',
+              whiteSpace: 'nowrap',
+              //backgroundColor: 'rgba(0, 0, 0, 0.1)', // fallback color
+              //'padding-left' : '10px',
+              //'padding-right' : '10px',
             }
           },
             selectedTeams[player.team] === 'default' ? 

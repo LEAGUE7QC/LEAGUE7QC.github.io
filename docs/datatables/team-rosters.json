@@ -54,14 +54,21 @@
         "tag": "MAD",
         "colors": ["#Fffdd0", "#ab263A"],
         "captain": "Smartbean",
-        "players": ["Smartbean", "Spacebhabes", "Mukisan", "Beccarina", "Daddy batknight","HamJamLettuce",  "Kinky Whiskey", "thebadgeruk", "Prophecy"]
+        "players": ["Smartbean", "Spacebhabes", "Mukisan", "Beccarina", "lifesizemidget","HamJamLettuce",  "Kinky Whiskey", "thebadgeruk", "Prophecy"]
       },
       {
-        "name": "Horcrux Trixsters",
-        "tag": "HT",
-        "colors": ["#eab228", "#35500a"],
-        "captain": "TFice",
-        "players": ["TFice", "YourLittleSpoon", "ashylan", "doorphin", "Zexoii", "Robin"]
+        "name": "Dumbledork's Army",
+        "tag": "DA",
+        "colors": ["#86679d", "#F0D047"],
+        "captain": "LaggyLestrangeTTV",
+        "players": ["LaggyLestrangeTTV", "skipper13", "Blackrose243", "DYNAMITECOP3", "KingMoraj", "tee-dreamz", "MegWood", "Cleet", "ttvgaminghog1"]
+      },
+      {
+        "name": "Basilisk Brewers",
+        "tag": "BB",
+        "colors": ["#000000", "#672081"],
+        "captain": "DarrkDreamer",
+        "players": ["DarrkDreamer", "CrazyChiika", "swolekale", "EverlastingBert", "Blynkinlogs", "GroobyGames", "CraftyCat9", "Sanlechumi", "LoquatLychee871"]
       }
     ]
   }
