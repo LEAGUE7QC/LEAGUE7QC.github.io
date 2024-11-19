@@ -318,7 +318,6 @@ const QuiddichBoard = () => {
         backgroundRepeat: 'no-repeat',
         position: 'relative',
         overflow: 'hidden',
-        borderRadius: '20rem',
         backgroundColor: 'rgba(0, 0, 0, 0)',
       },
       onDragOver: (e) => {
@@ -396,7 +395,7 @@ const QuiddichBoard = () => {
         style: {
             display: 'grid',
             width:  FIELD_WIDTH,
-            gridTemplateColumns: 'repeat(2, 400px)', // Two columns, each 100px wide
+            gridTemplateColumns: 'repeat(2, 300px)', // Two columns, each 300px wide
             gap: '0.5rem', // Space between columns
             justifyContent: 'center', // Center the grid horizontally
             marginBottom: '0.5rem',
