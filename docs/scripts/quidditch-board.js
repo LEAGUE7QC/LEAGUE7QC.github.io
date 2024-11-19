@@ -207,8 +207,7 @@ const QuiddichBoard = () => {
 
   // handling players on first drag
   const handleDragStart = (e, player) => {
-    // console.log("drag");
-    draggedPlayerRef.current = player; // Use ref instead of state
+    draggedPlayerRef.current = player;
     const dragImage = new Image();
     dragImage.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
     e.dataTransfer.setDragImage(dragImage, 0, 0);
@@ -219,19 +218,23 @@ const QuiddichBoard = () => {
     if (!draggedPlayerRef.current) return;
     
     const rect = e.currentTarget.getBoundingClientRect();
-    const newX = Math.max(0, Math.min(FIELD_WIDTH, e.clientX - rect.left));
-    const newY = Math.max(0, Math.min(FIELD_HEIGHT, e.clientY - rect.top));
-  
-    setPlayers((prev) => ({
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    
+    // Ensure coordinates stay within bounds
+    const newX = Math.max(0, Math.min(FIELD_WIDTH, x));
+    const newY = Math.max(0, Math.min(FIELD_HEIGHT, y));
+    
+    setPlayers(prev => ({
       ...prev,
-      [draggedPlayerRef.current.team]: prev[draggedPlayerRef.current.team].map((p) => 
+      [draggedPlayerRef.current.team]: prev[draggedPlayerRef.current.team].map(p => 
         p.id === draggedPlayerRef.current.id ? { ...p, x: newX, y: newY } : p
-      ),
+      )
     }));
   };
-  
+
   const handleDragEnd = () => {
-    draggedPlayerRef.current = null; // Clear the ref
+    draggedPlayerRef.current = null;
   };
 
   // UI Components
@@ -309,14 +312,14 @@ const QuiddichBoard = () => {
       style: {
         width: `${FIELD_WIDTH}px`,
         height: `${FIELD_HEIGHT}px`,
-        backgroundImage: 'url("images/tools/qpitch.png")', // Set the background image
-        backgroundSize: '100% 100%', // Ensure the image stretches to fit the container
-        backgroundPosition: 'center', // Center the image
-        backgroundRepeat: 'no-repeat', // Prevent repeating
+        backgroundImage: 'url("images/tools/qpitch.png")',
+        backgroundSize: '100% 100%',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
         position: 'relative',
         overflow: 'hidden',
         borderRadius: '20rem',
-        backgroundColor: 'rgba(0, 0, 0, 0)', // Fallback color
+        backgroundColor: 'rgba(0, 0, 0, 0)',
       },
       onDragOver: (e) => {
         e.preventDefault();
@@ -328,16 +331,17 @@ const QuiddichBoard = () => {
           key: player.id,
           draggable: true,
           onDragStart: (e) => handleDragStart(e, player),
-          onDragEnd: () => handleDragEnd(),
+          onDragEnd: handleDragEnd,
           style: { 
             position: 'absolute',
-            left: player.x,
-            top: player.y,
+            left: `${player.x}px`,
+            top: `${player.y}px`,
             transform: 'translate(-50%, -50%)',
             cursor: 'move',
             textAlign: 'center',
             padding: '5px',
             borderRadius: '10px',
+            zIndex: draggedPlayerRef.current?.id === player.id ? 2 : 1,
           }
         },
           React.createElement('div', {
