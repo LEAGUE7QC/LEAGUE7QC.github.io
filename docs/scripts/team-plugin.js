@@ -5,7 +5,10 @@ function runteamPlugin() {
       rosters: null,
       players: null
     },
-    mounted() { this.fetchAllData(); },
+    mounted() { 
+      this.fetchAllData(); 
+    },
+    
     async fetchAllData() {
       try {
         const [rostersResponse, playersResponse] = await Promise.all([
@@ -27,40 +30,70 @@ function runteamPlugin() {
       }
     },
 
-    getRolePriority(role) {
-      const priorities = {
-        'Seeker': 1,
-        'Keeper': 2,
-        'Beater': 3,
-        'Chaser': 4
+    getInitialRoster(players) {
+      // Group players by their positions
+      const playersByPosition = {
+        Seeker: [],
+        Keeper: [],
+        Beater: [],
+        Chaser: [],
+        Other: []
       };
-      return priorities[role] || 999; // Default high priority for unknown roles
-    },
-    
-    sortPlayersByRole(playerNames) {
-      const players = playerNames.map(name => {
+
+      // Get player data and group by position
+      players.forEach(name => {
         const playerData = this.data.players.players.find(p => p.name === name);
-        return {
-          name,
-          position: playerData ? playerData.position : 'Unknown',
-          priority: playerData ? this.getRolePriority(playerData.position) : 999
-        };
-      });
-    
-      let chaserCount = 0;
-      return players.sort((a, b) => {
-        // If both are chasers, maintain their original order
-        if (a.position === 'Chaser' && b.position === 'Chaser') {
-          if (chaserCount < 3) {
-            chaserCount++;
-            return -1;
-          }
-          return 1;
+        const position = playerData ? playerData.position : 'Other';
+        if (playersByPosition.hasOwnProperty(position)) {
+          playersByPosition[position].push(name);
+        } else {
+          playersByPosition.Other.push(name);
         }
-        // Sort by role priority
-        return a.priority - b.priority;
-      }).map(player => player.name);
+      });
+
+      // Initialize arrays for initial display and remaining players
+      const initialDisplay = [];
+      const remaining = [];
+
+      // First, add one of each required position in the specified order
+      const requiredPositions = ['Seeker', 'Keeper', 'Beater'];
+      requiredPositions.forEach(position => {
+        if (playersByPosition[position].length > 0) {
+          initialDisplay.push(playersByPosition[position][0]);
+          playersByPosition[position].shift(); // Remove the used player
+        }
+      });
+
+      // Add up to 3 Chasers
+      const chaserCount = Math.min(3, playersByPosition.Chaser.length);
+      for (let i = 0; i < chaserCount; i++) {
+        initialDisplay.push(playersByPosition.Chaser[0]);
+        playersByPosition.Chaser.shift();
+      }
+
+      // If we have less than 6 players in initial display, fill with remaining players
+      const remainingPlayers = [
+        ...playersByPosition.Seeker,
+        ...playersByPosition.Keeper,
+        ...playersByPosition.Beater,
+        ...playersByPosition.Chaser,
+        ...playersByPosition.Other
+      ];
+
+      while (initialDisplay.length < 6 && remainingPlayers.length > 0) {
+        initialDisplay.push(remainingPlayers[0]);
+        remainingPlayers.shift();
+      }
+
+      // Any players not used in initial display go to remaining
+      remaining.push(...remainingPlayers);
+
+      return {
+        initial: initialDisplay,
+        remaining: remaining
+      };
     },
+
     renderTeams() {
       const content = document.querySelector('#team-display');
       if (!content) {
@@ -86,8 +119,6 @@ function runteamPlugin() {
       teamsContainer.className = 'teams-container';
       content.appendChild(teamsContainer);
       
-      const initialPlayerCount = 6;
-      
       const sortedTeams = this.data.rosters.teams.sort((a, b) => a.name.localeCompare(b.name));
       
       sortedTeams.forEach(team => {
@@ -111,44 +142,44 @@ function runteamPlugin() {
           <div class="team-colors">
             ${team.colors.map(color => `<div class="color-swatch" style="background-color: ${color};"></div>`).join('')}
           </div>
-          <div class="team-border">${team.name}</div>
+          <div class="team-border">${team.tag} - ${team.name}</div>
         `;
     
-        // Sort players alphabetically
-        const sortedPlayers = [...team.players].sort((a, b) => a.localeCompare(b));
-    
+        const roster = this.getInitialRoster(team.players);
+
         const initialPlayerList = document.createElement('ul');
         initialPlayerList.className = 'player-list';
-        sortedPlayers.slice(0, initialPlayerCount).forEach(playerName => {
+        roster.initial.forEach(playerName => {
           const playerElement = this.renderPlayer(playerName, team.captain);
           initialPlayerList.innerHTML += playerElement;
         });
         teamElement.appendChild(initialPlayerList);
         
-        if (sortedPlayers.length > initialPlayerCount) {
-            const fullRosterButton = document.createElement('button');
-            fullRosterButton.className = 'see-full-roster';
-            fullRosterButton.textContent = 'see full roster';
-            teamElement.appendChild(fullRosterButton);
-            
-            const fullRosterList = document.createElement('ul');
-            fullRosterList.className = 'full-roster hidden';
-            sortedPlayers.slice(initialPlayerCount).forEach(playerName => {
-              const playerElement = this.renderPlayer(playerName, team.captain);
-              fullRosterList.innerHTML += playerElement;
-            });
-            teamElement.appendChild(fullRosterList);
-            
-            fullRosterButton.addEventListener('click', () => {
-              this.toggleRoster(fullRosterList, fullRosterButton);
-            });
-          }
+        if (roster.remaining.length > 0) {
+          const fullRosterButton = document.createElement('button');
+          fullRosterButton.className = 'see-full-roster';
+          fullRosterButton.textContent = 'see full roster';
+          teamElement.appendChild(fullRosterButton);
+          
+          const fullRosterList = document.createElement('ul');
+          fullRosterList.className = 'full-roster hidden';
+          roster.remaining.forEach(playerName => {
+            const playerElement = this.renderPlayer(playerName, team.captain);
+            fullRosterList.innerHTML += playerElement;
+          });
+          teamElement.appendChild(fullRosterList);
+          
+          fullRosterButton.addEventListener('click', () => {
+            this.toggleRoster(fullRosterList, fullRosterButton);
+          });
+        }
         
         teamsContainer.appendChild(teamElement);
       });
       
       this.addPlayerProfileListeners();
     },
+
     renderPlayer(playerName, captainName) {
       const playerData = this.data.players.players.find(p => p.name === playerName);
       if (!playerData) {
@@ -169,10 +200,6 @@ function runteamPlugin() {
       const captainClass = isCaptain ? 'captain' : '';
       const socialIcons = this.renderSocialIcons(playerData);
 
-      // Get background image from qcPicture if available
-      //const backgroundStyle = playerData.qcPicture ? 
-      //  `background-image: url('${playerData.qcPicture}'); background-size: cover; background-position: center;` : '';
-
       const backgroundStyle = `background-image: url('images/players/placeholder_portrait.png'); background-size: cover; background-position: center;`;
 
       return `
@@ -182,47 +209,42 @@ function runteamPlugin() {
             <span class="player-name">${playerData.name}${isCaptain ? ' (Captain)' : ''}</span>
             <div class="social-icons">${socialIcons}</div>
           </div>
-
-
-
-
+          <div class="player-profile" style="${backgroundStyle}">
+            <div class="profile-overlay"></div>
+            <div class="profile-content">
+              <div class="player-attributes">
+                <div class="attribute">
+                  <img src="images/sprites/${playerData.position.toLowerCase()}.png" class="attribute-icon" title="Position: ${playerData.position}">
+                  ${playerData.secondaryPosition ? 
+                    `<img src="images/sprites/${playerData.secondaryPosition.toLowerCase()}.png" class="attribute-icon" title="Secondary Position: ${playerData.secondaryPosition}">` 
+                    : ''}
+                </div>
+                <div class="attribute">
+                  <img src="images/sprites/region_${playerData.region.toLowerCase()}.png" class="attribute-icon" title="Region: ${playerData.region}">
+                  <img src="images/sprites/${playerData.platform.toLowerCase()}.png" class="attribute-icon" title="Platform: ${playerData.platform}">
+                </div>
+                <div class="attribute">
+                  <img src="images/sprites/${playerData.input.toLowerCase().replace(/ /g, '_')}.png" class="attribute-icon" title="Input: ${playerData.input}">
+                  <img src="images/sprites/${playerData.hogwartsHouse.toLowerCase()}.png" class="attribute-icon" title="House: ${playerData.hogwartsHouse}">
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
       `;
     },
-
-//    <div class="player-profile" style="${backgroundStyle}">
-//            <div class="profile-overlay"></div>
-//            <div class="profile-content">
-//              <div class="player-attributes">
-//                <div class="attribute">
-//                  <img src="images/sprites/${playerData.position.toLowerCase()}.png" class="attribute-icon" title="Position: ${playerData.position}">
-//                  ${playerData.secondaryPosition ? 
-//                    `<img src="images/sprites/${playerData.secondaryPosition.toLowerCase()}.png" class="attribute-icon" title="Secondary Position: ${playerData.secondaryPosition}">` 
-//                    : ''}
-//                </div>
-//                <div class="attribute">
-//                  <img src="images/sprites/region_${playerData.region.toLowerCase()}.png" class="attribute-icon" title="Region: ${playerData.region}">
-//                  <img src="images/sprites/${playerData.platform.toLowerCase()}.png" class="attribute-icon" title="Platform: ${playerData.platform}">
-//                </div>
-//                <div class="attribute">
-//                  <img src="images/sprites/${playerData.input.toLowerCase().replace(/ /g, '_')}.png" class="attribute-icon" title="Input: ${playerData.input}">
-//                  <img src="images/sprites/${playerData.hogwartsHouse.toLowerCase()}.png" class="attribute-icon" title="House: ${playerData.hogwartsHouse}">
-//                </div>
-//              </div>
-//            </div>
-//          </div>
           
     renderSocialIcons(playerData) {
       const socialPlatforms = {
         discord: playerData.discord,
         twitch: playerData.twitch,
         youtube: playerData.youtube,
-        x: playerData.twitter, // Note: twitter in JSON maps to 'x' platform
+        x: playerData.twitter,
         tiktok: playerData.tiktok
       };
 
       return Object.entries(socialPlatforms)
-        .filter(([_, username]) => username) // Only show platforms with usernames
+        .filter(([_, username]) => username)
         .map(([platform, username]) => {
           if (platform === 'discord') {
             return `<span class="social-icon-container" title="@${username}">
@@ -235,6 +257,7 @@ function runteamPlugin() {
           }
         }).join('');
     },
+
     getSocialLink(platform, username) {
       const links = {
         discord: `${username}`,
@@ -245,6 +268,7 @@ function runteamPlugin() {
       };
       return links[platform] || '#';
     },
+
     addPlayerProfileListeners() {
       const players = document.querySelectorAll('.player:not(.unavailable)');
       players.forEach(player => {
@@ -274,6 +298,7 @@ function runteamPlugin() {
         });
       });
     },
+
     toggleRoster(rosterList, rosterButton) {
       if (rosterList.classList.contains('hidden')) {
         rosterList.classList.remove('hidden');
@@ -283,6 +308,7 @@ function runteamPlugin() {
         rosterButton.textContent = 'see full roster';
       }
     },
+
     toggleAllRosters() {
       const expandAllButton = document.getElementById('expand-all-button');
       const fullRosterButtons = document.querySelectorAll('.see-full-roster');

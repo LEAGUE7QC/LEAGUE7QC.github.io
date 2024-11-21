@@ -11,8 +11,8 @@
         "name": "Winguardians",
         "tag": "WIN",
         "colors": ["#543D7B", "#FFB43B"],
-        "captain": "shinobiCoderr",
-        "players": ["shinobiCoderr", "Unknown_KEY",	"Flyrish",	"KDtox",	"illmage", "YourNintendo64TTV",	"Amarict", "Aeriberry",	"Woonie"]
+        "captain": "Flyrish",
+        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "YourNintendo64TTV",	"Amarict", "Aeriberry",	"Woonie"]
       },
       {
         "name": "Thin Ice",
@@ -69,6 +69,55 @@
         "colors": ["#000000", "#672081"],
         "captain": "DarrkDreamer",
         "players": ["DarrkDreamer", "CrazyChiika", "swolekale", "EverlastingBert", "Blynkinlogs", "GroobyGames", "CraftyCat9", "Sanlechumi", "LoquatLychee871"]
+      },
+      {
+        "name": "The Nexus",
+        "tag": "NXL",
+        "colors": ["#5F5F5F", "#D4AF37"],
+        "captain": "Riley907",
+        "players": ["Riley907", "An0n77m0us", "EmanX0ttv", "ItsSayruh", "Blacklin666", "Box Queen DVNE"]
+      },
+      {
+        "name": "Houston Spartan",
+        "tag": "HST",
+        "colors": ["#bc1616", "#111010"],
+        "captain": "AusGoss",
+        "players": ["AusGoss", "MrTallTales", "DarthPineapple", "Kdthewriter", "Cowboy_Jackman", "Hawkin", "RNP_Shadow"]
+      },
+      {
+        "name": "Team Unown",
+        "tag": "UNO",
+        "colors": ["#000000", "#ffffff"],
+        "captain": "riverbrah",
+        "players": ["riverbrah", "Lihsir", "SectionL", "carddi", "ADHDecent", "JayGuard", "Wise_M0nkey"]
+      },
+      {
+        "name": "Quaffle House",
+        "tag": "QH",
+        "colors": ["#000000", "#fff200"],
+        "captain": "Urdarkerend",
+        "players": ["Urdarkerend", "not ross", "Campor", "Hotdog", "Sawdey", "BraxtonYaxley", "ZachOfAllTrades"]
+      },
+      {
+        "name": "The Knock Out Knights",
+        "tag": "KOK",
+        "colors": ["#4169E1", "#FFD700"],
+        "captain": "JeffreyStoner",
+        "players": ["JeffreyStoner", "Tegridy", "Faldoma", "Ludo_Down", "CptCarnage", "NEMESIS", "Nocki", "DeathCommrade", "Nylis"]
+      },
+      {
+        "name": "The Knock Out Griffins",
+        "tag": "KOG",
+        "colors": ["#007fd8", "#9fe5fe"],
+        "captain": "BigZave",
+        "players": ["BigZave", "Sparks100", "Vamp", "Udom0rn", "JustKetchup", "enekoetxe", "SquidCrowHorse146", "Pieraz", "LinaRKH"]
+      },
+      {
+        "name": "Riddles Reapers",
+        "tag": "REV",
+        "colors": ["#9966cc", "#383B39"],
+        "captain": "CodeDelyric",
+        "players": ["CodeDelyric", "JangoTheMerc_TTV", "Wandering_Katie", "scytale", "Litromney7", "TheSickUps", "RavenclawQuidditch", "Cyle95", "puppyk96"]
       }
     ]
   }

@@ -1,7 +1,11 @@
-
+ 
 ## Participating Teams
 Check out the teams already registered to compete in Defence Against the Dark Arts Season! Registrations are still open, so there's still time to join the fun!
 
-Note that, if a player is marked as *unavailable*, they just need to submit their individual forms before the deadline to make their team official and ready to compete.
+Teams are listed in alphabetical order. Each team roster displays their 6 players in their primary positions (when available), prioritizing: 1 Seeker, 1 Keeper, 1 Beater, and 3 Chasers. Remaining team members can be viewed by clicking the 'see full roster' button below each team. 
+
+Please note LEAGUE7 does not require starter or substitue information - teams can use any players from their roster during a match!
+
+> Note that if a player is marked as <i>unavailable</i>, they need to submit their individual forms as soon as possible. Teams will be removed if they cannot complete the requirements before the season starts.
 
 <div id="team-display"> </div>
