@@ -209,7 +209,7 @@ function runteamPlugin() {
             <span class="player-name">${playerData.name}${isCaptain ? ' (Captain)' : ''}</span>
             <div class="social-icons">${socialIcons}</div>
           </div>
-          <div class="player-profile" style="${backgroundStyle}">
+          <div class="disabled-player-profile" style="${backgroundStyle}">
             <div class="profile-overlay"></div>
             <div class="profile-content">
               <div class="player-attributes">

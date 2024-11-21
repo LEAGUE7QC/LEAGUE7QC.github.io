@@ -38,6 +38,7 @@
     .team-header:hover .team-logo {
       transform: scale(1.1);
     }
+
   .team-colors {
     display: flex;
     justify-content: center;
@@ -100,7 +101,9 @@
     overflow: hidden;
     z-index: 10;
   }
-  
+  .disabled-player-profile{
+    display: none;
+  }
   .player-details {
     margin-top: 10px;
 }
