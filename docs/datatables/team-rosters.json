@@ -33,7 +33,7 @@
         "tag": "HD",
         "colors": ["#97517f", "#000000"],
         "captain": "ItBSmokiTTV",
-        "players": ["ItBSmokiTTV", "DavidERB", "MOLOMBO", "Ash Shacklebolt", "DeterminedDoug", "TheMabooHighShuffle", "LeftCurveCEO", "Oof", "emoura"]
+        "players": ["ItBSmokiTTV", "DavidERB", "MOLOMBO", "Ash Shacklebolt", "DeterminedDoug", "TheMabooHighShuffle", "Oof", "emoura"]
       },
       {
         "name": "The Oakshaft Owls",
@@ -60,8 +60,8 @@
         "name": "Dumbledork's Army",
         "tag": "DA",
         "colors": ["#86679d", "#F0D047"],
-        "captain": "LaggyLestrangeTTV",
-        "players": ["LaggyLestrangeTTV", "skipper13", "Blackrose243", "DYNAMITECOP3", "KingMoraj", "tee-dreamz", "MegWood", "Cleet", "ttvgaminghog1"]
+        "captain": "laggylestrange",
+        "players": ["laggylestrange", "skipper13", "Blackrose243", "DYNAMITECOP3", "KingMoraj", "tee-dreamz", "MegWood", "Cleet", "ttvgaminghog1"]
       },
       {
         "name": "Basilisk Brewers",
@@ -71,18 +71,11 @@
         "players": ["DarrkDreamer", "CrazyChiika", "swolekale", "EverlastingBert", "Blynkinlogs", "GroobyGames", "CraftyCat9", "Sanlechumi", "LoquatLychee871"]
       },
       {
-        "name": "The Nexus",
-        "tag": "NXL",
-        "colors": ["#5F5F5F", "#D4AF37"],
-        "captain": "Riley907",
-        "players": ["Riley907", "An0n77m0us", "EmanX0ttv", "ItsSayruh", "Blacklin666", "Box Queen DVNE"]
-      },
-      {
         "name": "Houston Spartan",
         "tag": "HS",
         "colors": ["#bc1616", "#111010"],
         "captain": "AusGoss",
-        "players": ["AusGoss", "MrTallTales", "DarthPineapple", "Kdthewriter", "Cowboy_Jackman", "Hawkin", "RNP_Shadow"]
+        "players": ["AusGoss", "MrTallTales", "DarthPineapple", "Kdthewriter", "Cowboy_Jackman", "Hawkin", "RNPSHADOW"]
       },
       {
         "name": "Team Unown",
@@ -96,7 +89,7 @@
         "tag": "QH",
         "colors": ["#000000", "#fff200"],
         "captain": "Urdarkerend",
-        "players": ["Urdarkerend", "not ross", "Campor", "Hotdog", "Sawdey", "BraxtonYaxley", "ZachOfAllTrades"]
+        "players": ["Urdarkerend", "not ross", "Campor", "Hotdog", "BraxtonYaxley", "ZachOfAllTrades", "XshucksX", "berkin"]
       },
       {
         "name": "The Knock Out Knights",
@@ -108,16 +101,23 @@
       {
         "name": "The Knock Out Griffins",
         "tag": "KOG",
-        "colors": ["#007fd8", "#9fe5fe"],
+        "colors": ["#FFD700", "#000000"],
         "captain": "BigZave",
-        "players": ["BigZave", "Sparks100", "Vamp", "Udom0rn", "JustKetchup", "enekoetxe", "SquidCrowHorse146", "Pieraz", "LinaRKH"]
+        "players": ["BigZave", "Sparks100", "Vamp", "Udom0rn", "JustKetchup", "enekoetxe", "SquidCrowHorse146", "LinaRKH"]
       },
       {
-        "name": "Riddles Reapers",
+        "name": "Riddle's Revenants",
         "tag": "REV",
         "colors": ["#9966cc", "#383B39"],
         "captain": "CodeDelyric",
-        "players": ["CodeDelyric", "JangoTheMerc_TTV", "Wandering_Katie", "scytale", "Litromney7", "TheSickUps", "RavenclawQuidditch", "Cyle95", "puppyk96"]
+        "players": ["CodeDelyric", "JangoTheMerc_TTV", "Wandering_Katie", "scytale", "Litromney7", "TheSickUps", "RavenclawQuidditch", "Cyle95", "shaunthebear"]
+      },
+      {
+        "name": "Order of Merlin",
+        "tag": "OOM",
+        "colors": ["#5E9084", "#FFFFFF"],
+        "captain": "SlytherinBludger",
+        "players": ["SlytherinBludger", "VikRe", "YesImShade", "QuickSolstice342", "Argonauts", "Safti0_0", "singularity", "Sdundul"]
       }
     ]
   }
