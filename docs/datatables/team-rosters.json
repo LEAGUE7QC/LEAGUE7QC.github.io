@@ -29,13 +29,6 @@
         "players": ["RexBlazer924", "DeFyBoomer69", "Shaneofthedead66", "RelievedRope742", "MoLDYCh33ZE", "TheOnlyScourage"]
       },
       {
-        "name": "Hazi Dementors",
-        "tag": "HD",
-        "colors": ["#97517f", "#000000"],
-        "captain": "ItBSmokiTTV",
-        "players": ["ItBSmokiTTV", "DavidERB", "MOLOMBO", "Ash Shacklebolt", "DeterminedDoug", "TheMabooHighShuffle",  "Oof", "emoura"]
-      },
-      {
         "name": "The Oakshaft Owls",
         "tag": "OWL",
         "colors": ["#abccf9", "#ededed"],
@@ -146,13 +139,6 @@
         "colors": ["#202A44", "#dda84b"],
         "captain": "FraunktheGoat",
         "players": ["ttv/WMgaming95", "OutOfManaPotions", "Beesman93", "StaticKiwi", "TTV_MysticRune22", "WARBE4RD", "xMizorex", "ViceAdmiral30", "YaboiKevKev"]
-      },
-      {
-        "name": "The Knockout Vampires",
-        "tag": "KOV",
-        "colors": ["#DC143C", "#FFD700"],
-        "captain": "Ckightk",
-        "players": ["Ckightk", "Aaron Montalvo", "Bobhammam", "BIGBOSS", "thesunsetdriver", "DeluWolf", "JeTkIn4",  "GregOrgeous"]
       },
       {
         "name": "Crazy Comms",
