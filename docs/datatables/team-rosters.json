@@ -138,7 +138,7 @@
         "tag": "KON",
         "colors": ["#202A44", "#dda84b"],
         "captain": "ttv/WMgaming95",
-        "players": ["ttv/WMgaming95", "OutOfManaPotions", "Beesman93", "StaticKiwi", "TTV_MysticRune22", "WARBE4RD", "xMizorex", "ViceAdmiral30", "YaboiKevKev"]
+        "players": ["ttv/WMgaming95",  "StaticKiwi", "TTV_MysticRune22", "WARBE4RD", "xMizorex", "ViceAdmiral30", "YaboiKevKev"]
       },
       {
         "name": "Crazy Comms",
@@ -166,14 +166,14 @@
         "tag": "KOV",
         "colors": ["#DC143C", "#FFD700"],
         "captain": "Ckightk",
-        "players": ["Ckightk", "Aaron Montalvo", "Bobhammam", "BIGBOSS", "thesunsetdriver", "DeluWolf", "JeTkIn4", "lukariddleovic15", "GregOrgeous"]
+        "players": ["Ckightk", "Aaron Montalvo", "Bobhammam", "BIGBOSS", "thesunsetdriver", "DeluWolf", "JeTkIn4",  "GregOrgeous", "lilsaucinger80"]
       },
       {
         "name": "The Ragtag Trailblazers",
         "tag": "RT",
         "colors": ["#E1C16E", "#483C32"],
         "captain": "Don Quixote",
-        "players": ["Don Quixote", "Tronak", "Pax Libertas", "tuonela", "Silberphoenix5", "Steve_Mayster", "Oerba", "JT21drea"]
+        "players": ["Don Quixote", "Tronak", "Paxlibertas", "tuonela", "Silberphoenix5", "Steve_Mayster", "Oerba", "JT21drea"]
       }
     ]
   }

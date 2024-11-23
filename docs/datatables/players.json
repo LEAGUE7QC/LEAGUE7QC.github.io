@@ -3229,7 +3229,7 @@
       "platform": "Playstation",
       "input": "Controller",
       "hogwartsHouse": "Ravenclaw",
-      "twitter": "I don't have one",
+      "twitter": "",
       "twitch": "Gyonics",
       "youtube": "",
       "tiktok": ""
@@ -3803,9 +3803,9 @@
       "platform": "Playstation",
       "input": "Controller",
       "hogwartsHouse": "Gryffindor",
-      "twitter": "N/A",
-      "twitch": "N/A",
-      "youtube": "N/A",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
       "tiktok": "ericw1217"
     },
     {
@@ -3971,10 +3971,10 @@
       "platform": "Steam",
       "input": "Keyboard and Mouse",
       "hogwartsHouse": "Slytherin",
-      "twitter": "na",
+      "twitter": "",
       "twitch": "fishplayingtetris",
-      "youtube": "na",
-      "tiktok": "na"
+      "youtube": "",
+      "tiktok": ""
     },
     {
       "discord": "diskjockii",
@@ -3985,10 +3985,10 @@
       "platform": "Xbox Series",
       "input": "Controller",
       "hogwartsHouse": "Gryffindor",
-      "twitter": "N/A",
-      "twitch": "N/A",
-      "youtube": "N/A",
-      "tiktok": "N/A"
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
     },
     {
       "discord": "American Dad",
@@ -4070,7 +4070,7 @@
       "input": "Controller",
       "hogwartsHouse": "Ravenclaw",
       "twitter": "",
-      "twitch": "https://www.twitch.tv/leafgreenv2",
+      "twitch": "leafgreenv2",
       "youtube": "",
       "tiktok": ""
     },
@@ -4083,7 +4083,7 @@
       "platform": "Xbox Series",
       "input": "Both ",
       "hogwartsHouse": "Hufflepuff",
-      "twitter": "@B2W_Joshua",
+      "twitter": "B2W_Joshua",
       "twitch": "B2W_Joshua",
       "youtube": "",
       "tiktok": ""
@@ -4097,10 +4097,10 @@
       "platform": "Steam",
       "input": "Keyboard and Mouse",
       "hogwartsHouse": "Slytherin",
-      "twitter": "Don't have it.",
+      "twitter": "",
       "twitch": "Yannayka",
-      "youtube": "N/A",
-      "tiktok": "N/A"
+      "youtube": "",
+      "tiktok": ""
     },
     {
       "discord": "leftcurveceo",
@@ -4111,10 +4111,10 @@
       "platform": "Steam",
       "input": "Keyboard and Mouse",
       "hogwartsHouse": "Ravenclaw",
-      "twitter": "None",
+      "twitter": "",
       "twitch": "leftcurveceo",
-      "youtube": "none",
-      "tiktok": "none"
+      "youtube": "",
+      "tiktok": ""
     },
     {
       "discord": "ExtenzFlex_",
@@ -4125,6 +4125,34 @@
       "platform": "Playstation",
       "input": "Controller",
       "hogwartsHouse": "Gryffindor",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "johnwinford",
+      "name": "Winford",
+      "position": "Chaser",
+      "secondaryPosition": "Seeker",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Gryffindor",
+      "twitter": "johnawinford",
+      "twitch": "Winford",
+      "youtube": "winfordstream",
+      "tiktok": "winfordtwitch"
+    },
+    {
+      "discord": "PaxLibertas",
+      "name": "Paxlibertas",
+      "position": "Keeper",
+      "secondaryPosition": "Chaser",
+      "region": "INT",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Hufflepuff",
       "twitter": "",
       "twitch": "",
       "youtube": "",
