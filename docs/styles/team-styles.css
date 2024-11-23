@@ -229,7 +229,9 @@
     list-style-type: none;
     padding: 0 !important;
   }
-  
+  .captain-name {
+    color: #ffbd00;
+}
   .position-sprite {
     width: 25px;
     height: 25px;
@@ -238,10 +240,16 @@
   .position-sprite-secondary {
     width: 15px;
     height: 15px;
-    margin-left: -10px;
-    margin-right: 10px;
   }
   
+.region-sprite {
+  width: 20px;
+  height: 20px;
+  opacity: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
   .social-icons {
     display: inline-flex;
     margin-left: auto;
