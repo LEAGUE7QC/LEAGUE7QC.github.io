@@ -4157,6 +4157,62 @@
       "twitch": "",
       "youtube": "",
       "tiktok": ""
+    },
+    {
+      "discord": "axxjosiexxa",
+      "name": "AxXjosieXxA",
+      "position": "Chaser",
+      "secondaryPosition": "Flex",
+      "region": "INT",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Hufflepuff",
+      "twitter": "axxjosiexxa",
+      "twitch": "axxjosiexxa",
+      "youtube": "axxjosie xxa",
+      "tiktok": "axxjosiexxa"
+    },
+    {
+      "discord": "JolVuH",
+      "name": "JolVuH",
+      "position": "Seeker",
+      "secondaryPosition": "Chaser",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Hufflepuff",
+      "twitter": "N/A",
+      "twitch": "JolVuH",
+      "youtube": "N/A",
+      "tiktok": "N/A"
+    },
+    {
+      "discord": "zaccreatives",
+      "name": "zaccreatives",
+      "position": "Chaser",
+      "secondaryPosition": "Flex",
+      "region": "INT",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "zaccreatives",
+      "youtube": "zaccreatives",
+      "tiktok": ""
+    },
+    {
+      "discord": "tnka_trk",
+      "name": "WinterGuardian47",
+      "position": "Beater",
+      "secondaryPosition": "Chaser",
+      "region": "INT",
+      "platform": "Xbox Series",
+      "input": "Controller",
+      "hogwartsHouse": "",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
     }
   ]
 }

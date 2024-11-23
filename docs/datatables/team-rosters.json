@@ -138,7 +138,7 @@
         "tag": "KON",
         "colors": ["#202A44", "#dda84b"],
         "captain": "ttv/WMgaming95",
-        "players": ["ttv/WMgaming95",  "StaticKiwi", "TTV_MysticRune22", "xMizorex", "ViceAdmiral30", "YaboiKevKev", "Winford"]
+        "players": ["ttv/WMgaming95",  "StaticKiwi", "xMizorex", "ViceAdmiral30", "YaboiKevKev", "Winford"]
       },
       {
         "name": "Crazy Comms",
@@ -148,7 +148,7 @@
         "players": ["AlphaTux", "UrBoiSkinnyHP", "makoonQC", "Rajon", "NeoBoller", "omekata", "F3N3X", "RealCyprisTTV", "ShonyQC"]
       },
       {
-        "name": "Hazi Dementors",
+        "name": "Hazi Dementorz",
         "tag": "HD",
         "colors": ["#97517f", "#000000"],
         "captain": "ItBSmokiTTV",
@@ -173,7 +173,14 @@
         "tag": "RT",
         "colors": ["#E1C16E", "#483C32"],
         "captain": "Don Quixote",
-        "players": ["Don Quixote", "Tronak", "Paxlibertas", "tuonela", "Silberphoenix5", "Steve_Mayster", "Oerba", "JT21drea"]
+        "players": ["Don Quixote", "Tronak", "Paxlibertas", "tuonela", "Silberphoenix5", "Steve_Mayster", "Oerba", "JT21drea", "zaccreatives"]
+      },
+      {
+        "name": "The Half-Giants",
+        "tag": "HG",
+        "colors": ["#1f8b4c", "#f1c40f"],
+        "captain": "WARBE4RD",
+        "players": ["WARBE4RD", "Beesman93", "Parvish", "ShippoTail", "TTV_MysticRune22", "WinterGuardian47""]
       }
     ]
   }
