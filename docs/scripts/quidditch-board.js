@@ -1,5 +1,4 @@
-// Constants and Types
-const SCALE = 4;  // Try different scales like 2, 3, 4 etc.
+const SCALE = 4;
 const FIELD_WIDTH = 400 * SCALE;
 const FIELD_HEIGHT = 140 * SCALE;
 const MAX_HEIGHT = 120 * SCALE;
@@ -7,8 +6,8 @@ const MAX_HEIGHT = 120 * SCALE;
 const QuiddichBoard = () => {
   const CENTER_X = FIELD_WIDTH / 2;
   const CENTER_Y = FIELD_HEIGHT / 2;
-  const OFFSET_X = 50 * SCALE;  // Distance from center for chasers/beaters
-  const END_OFFSET = 40 * SCALE;  // Distance from edges for keepers
+  const OFFSET_X = 50 * SCALE;
+  const END_OFFSET = 40 * SCALE;
   
   const rolePositions = {
     home: {
@@ -17,7 +16,10 @@ const QuiddichBoard = () => {
       'Seeker': { x: CENTER_X, y: 30 * SCALE, z: MAX_HEIGHT/2+30 },
       'Chaser 1': { x: CENTER_X - (OFFSET_X/2), y: CENTER_Y - (20 * SCALE), z: MAX_HEIGHT/2-40 },
       'Chaser 2': { x: CENTER_X-40 - (OFFSET_X/2), y: CENTER_Y, z: MAX_HEIGHT/2-40 },
-      'Chaser 3': { x: CENTER_X - (OFFSET_X/2), y: CENTER_Y + (20 * SCALE), z: MAX_HEIGHT/2-40 }
+      'Chaser 3': { x: CENTER_X - (OFFSET_X/2), y: CENTER_Y + (20 * SCALE), z: MAX_HEIGHT/2-40 },
+      'Bench 1': { x: 20 * SCALE, y: 10 * SCALE, z: MAX_HEIGHT/2-20 },
+      'Bench 2': { x: 40 * SCALE, y: 10 * SCALE, z: MAX_HEIGHT/2-20 },
+      'Bench 3': { x: 60 * SCALE, y: 10 * SCALE, z: MAX_HEIGHT/2-20 }
     },
     away: {
       'Keeper': { x: FIELD_WIDTH - END_OFFSET, y: CENTER_Y, z: MAX_HEIGHT/2-20 },
@@ -25,7 +27,10 @@ const QuiddichBoard = () => {
       'Seeker': { x: CENTER_X, y: FIELD_HEIGHT - (30 * SCALE), z: MAX_HEIGHT/2+30 },
       'Chaser 1': { x: CENTER_X + (OFFSET_X/2), y: CENTER_Y - (20 * SCALE), z: MAX_HEIGHT/2-40 },
       'Chaser 2': { x: CENTER_X+40 + (OFFSET_X/2), y: CENTER_Y, z: MAX_HEIGHT/2-40 },
-      'Chaser 3': { x: CENTER_X + (OFFSET_X/2), y: CENTER_Y + (20 * SCALE), z: MAX_HEIGHT/2-40 }
+      'Chaser 3': { x: CENTER_X + (OFFSET_X/2), y: CENTER_Y + (20 * SCALE), z: MAX_HEIGHT/2-40 },
+      'Bench 1': { x: FIELD_WIDTH - (20 * SCALE), y: 10 * SCALE, z: MAX_HEIGHT/2-20 },
+      'Bench 2': { x: FIELD_WIDTH - (40 * SCALE), y: 10 * SCALE, z: MAX_HEIGHT/2-20 },
+      'Bench 3': { x: FIELD_WIDTH - (60 * SCALE), y: 10 * SCALE, z: MAX_HEIGHT/2-20 }
     }
   };
 
@@ -35,15 +40,13 @@ const QuiddichBoard = () => {
   const [players, setPlayers] = React.useState({ home: [], away: [] });
   const [selectedTeams, setSelectedTeams] = React.useState({ home: 'default', away: 'default' });
   const [activeRoster, setActiveRoster] = React.useState({ home: [], away: [] });
-  const [inactivePlayers, setInactivePlayers] = React.useState({ home: new Set(), away: new Set() });
-  // const [draggedPlayer, setDraggedPlayer] = React.useState(null);
   const draggedPlayerRef = React.useRef(null);
 
   React.useEffect(() => {
     // Initialize both teams as default
     handleTeamSelect('home', 'default');
     handleTeamSelect('away', 'default');
-  }, [])
+  }, []);
 
   // Default Team Setup
   const defaultTeam = {
@@ -68,7 +71,6 @@ const QuiddichBoard = () => {
           playerLookup[player.name] = player;
         });
   
-        // Sort teams alphabetically by name
         rostersData.teams.sort((a, b) => a.name.localeCompare(b.name));
   
         setTeams(rostersData.teams);
@@ -85,35 +87,44 @@ const QuiddichBoard = () => {
   const assignRoles = (teamPlayers) => {
     const assigned = [];
     let chaserCount = 1;
+    let benchCount = 1;
 
+    // First, assign primary positions
     teamPlayers.forEach(playerName => {
       const player = playerData[playerName];
       if (!player) return;
 
-      const role = player.position === 'Chaser' ? `Chaser ${chaserCount++}` : player.position;
-      assigned.push({ name: playerName, role, primary: true });
+      if (player.position === 'Chaser' && chaserCount <= 3) {
+        assigned.push({ name: playerName, role: `Chaser ${chaserCount++}`, primary: true });
+      } else if (['Keeper', 'Beater', 'Seeker'].includes(player.position) && 
+                 !assigned.find(p => p.role === player.position)) {
+        assigned.push({ name: playerName, role: player.position, primary: true });
+      }
     });
 
-    const roles = ['Keeper', 'Beater', 'Seeker', 'Chaser 1', 'Chaser 2', 'Chaser 3'];
-    roles.forEach(role => {
-      if (!assigned.find(p => p.role === role)) {
-        const availablePlayer = teamPlayers.find(playerName => {
-          const player = playerData[playerName];
-          return player && !assigned.find(p => p.name === playerName) && 
-                 (player.secondaryPosition === role.replace(/ \d+$/, ''));
-        });
-
-        if (availablePlayer) {
-          assigned.push({ name: availablePlayer, role, primary: false });
-        }
+    // Then, assign remaining players to bench
+    teamPlayers.forEach(playerName => {
+      if (!assigned.find(p => p.name === playerName) && benchCount <= 3) {
+        assigned.push({ name: playerName, role: `Bench ${benchCount++}`, primary: false });
       }
     });
 
     return assigned;
   };
 
-  // Icon Management
-  const getRoleIcon = (role, team) => {
+  // Updated Icon Management
+  const getRoleIcon = (role, team, playerName) => {
+    // If it's a bench position, get the actual player's position from playerData
+    if (role.startsWith('Bench') && playerName) {
+      const player = playerData[playerName];
+      if (player) {
+        const baseRole = player.position.toLowerCase();
+        const suffix = team === 'away' ? '_gold' : '';
+        return `images/sprites/${baseRole}${suffix}.png`;
+      }
+    }
+    
+    // For regular positions, use the role directly
     const baseRole = role.replace(/ \d+$/, '').toLowerCase();
     const suffix = team === 'away' ? '_gold' : '';
     return `images/sprites/${baseRole}${suffix}.png`;
@@ -125,7 +136,6 @@ const QuiddichBoard = () => {
       setPlayers(prev => ({ ...prev, [side]: [] }));
       setSelectedTeams(prev => ({ ...prev, [side]: 'none' }));
       setActiveRoster(prev => ({ ...prev, [side]: [] }));
-      setInactivePlayers(prev => ({ ...prev, [side]: new Set() }));
       return;
     }
 
@@ -140,7 +150,6 @@ const QuiddichBoard = () => {
       setPlayers(prev => ({ ...prev, [side]: defaultPlayers }));
       setSelectedTeams(prev => ({ ...prev, [side]: 'default' }));
       setActiveRoster(prev => ({ ...prev, [side]: [] }));
-      setInactivePlayers(prev => ({ ...prev, [side]: new Set() }));
       return;
     }
 
@@ -148,7 +157,7 @@ const QuiddichBoard = () => {
     if (!team) return;
 
     const assignedPlayers = assignRoles(team.players);
-    const positionedPlayers = assignedPlayers.slice(0, 6).map((player, id) => ({
+    const positionedPlayers = assignedPlayers.map((player, id) => ({
       id: side === 'home' ? id + 1 : id + 7,
       name: player.name,
       role: player.role,
@@ -160,52 +169,9 @@ const QuiddichBoard = () => {
     setPlayers(prev => ({ ...prev, [side]: positionedPlayers }));
     setSelectedTeams(prev => ({ ...prev, [side]: teamName }));
     setActiveRoster(prev => ({ ...prev, [side]: team.players }));
-    setInactivePlayers(prev => ({ ...prev, [side]: new Set() }));
   };
 
-  const togglePlayer = (team, playerName) => {
-    setInactivePlayers(prev => {
-      const newInactive = new Set(prev[team]);
-      if (newInactive.has(playerName)) {
-        newInactive.delete(playerName);
-      } else {
-        newInactive.add(playerName);
-      }
-
-      const activeTeamPlayers = activeRoster[team]
-        .filter(name => !newInactive.has(name));
-        
-      const assignedPlayers = assignRoles(activeTeamPlayers);
-      const currentPositions = new Map(players[team].map(p => [p.role, p]));
-      
-      const positionedPlayers = assignedPlayers.map((player, id) => {
-        const position = rolePositions[team][player.role];
-        const currentPlayer = currentPositions.get(player.role);
-        return {
-          id: currentPlayer?.id || (team === 'home' ? id + 1 : id + 7),
-          name: player.name,
-          role: player.role,
-          team,
-          primary: player.primary,
-          x: currentPlayer?.x || position.x,
-          y: currentPlayer?.y || position.y,
-          z: currentPlayer?.z || position.z
-        };
-      });
-
-      setPlayers(prev => ({
-        ...prev,
-        [team]: positionedPlayers
-      }));
-
-      return {
-        ...prev,
-        [team]: newInactive
-      };
-    });
-  };
-
-  // handling players on first drag
+  // Drag and Drop Handlers
   const handleDragStart = (e, player) => {
     draggedPlayerRef.current = player;
     const dragImage = new Image();
@@ -221,7 +187,6 @@ const QuiddichBoard = () => {
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
     
-    // Ensure coordinates stay within bounds
     const newX = Math.max(0, Math.min(FIELD_WIDTH, x));
     const newY = Math.max(0, Math.min(FIELD_HEIGHT, y));
     
@@ -238,8 +203,37 @@ const QuiddichBoard = () => {
   };
 
   // UI Components
-  const TeamSelect = ({ team, title }) => (
-    React.createElement('div', {
+  const TeamSelect = ({ team, title }) => {
+    // Helper function to sort players by role
+    const sortPlayersByRole = (players) => {
+      const roleOrder = {
+        'Seeker': 1,
+        'Keeper': 2,
+        'Beater': 3,
+        'Chaser': 4
+      };
+
+      return players.slice().sort((a, b) => {
+        const playerA = playerData[a];
+        const playerB = playerData[b];
+        
+        if (!playerA || !playerB) return 0;
+        
+        // Get base roles without numbers
+        const roleA = playerA.position;
+        const roleB = playerB.position;
+        
+        // Compare based on role order
+        if (roleOrder[roleA] !== roleOrder[roleB]) {
+          return roleOrder[roleA] - roleOrder[roleB];
+        }
+        
+        // If same role (especially for Chasers), maintain original order
+        return 0;
+      });
+    };
+
+    return React.createElement('div', {
       style: { padding: '0.5rem' }
     },
       React.createElement('p', {
@@ -269,43 +263,58 @@ const QuiddichBoard = () => {
           marginTop: '0.5rem'
         }
       },
-        React.createElement('div', {
-          style: { marginBottom: '0.25rem' }
-        }, 'Roster:'),
-        // Render roster players
-        activeRoster[team]
-          .slice()
-          .sort((a, b) => a.localeCompare(b)) // Sort alphabetically
-          .map(playerName => {
-            const player = playerData[playerName];
-            const roleIcon = player ? getRoleIcon(player.position, team) : null;
-            
-            return React.createElement('div', {
-              key: playerName,
-              onClick: () => togglePlayer(team, playerName),
-              style: { 
-                cursor: 'pointer',
-                textDecoration: inactivePlayers[team].has(playerName) ? 'line-through' : 'none',
-                opacity: inactivePlayers[team].has(playerName) ? 0.5 : 1,
-                display: 'flex',
-                alignItems: 'center',
-                padding: '0.125rem 0',
-                backgroundColor: 'var(--sidebar-background)',
-                margin: '5px',
-                paddingLeft: '15px'
+        // Group and render players by role
+        ['Seeker', 'Keeper', 'Beater', 'Chaser'].map(roleGroup => {
+          const playersInRole = activeRoster[team]
+            .filter(playerName => {
+              const player = playerData[playerName];
+              return player && player.position === roleGroup;
+            });
+
+          if (playersInRole.length === 0) return null;
+
+          return React.createElement('div', {
+            key: roleGroup,
+            style: {
+              marginBottom: '0.5rem'
+            }
+          },
+            React.createElement('div', {
+              style: {
+                fontSize: '0.9em',
+                color: 'var(--text-muted)',
+                paddingLeft: '15px',
+                marginTop: '0.5rem'
               }
-            },
-            roleIcon && React.createElement('img', {
-              src: roleIcon,
-              alt: player.position,
-              style: { width: '1.5rem', height: '1.5rem', marginRight: '0.5rem' }
-            }),
-            playerName
-            );
-          })
+            }, roleGroup + 's'),
+            playersInRole.map(playerName => {
+              const player = playerData[playerName];
+              const roleIcon = player ? getRoleIcon(player.position, team) : null;
+              
+              return React.createElement('div', {
+                key: playerName,
+                style: { 
+                  display: 'flex',
+                  alignItems: 'center',
+                  padding: '0.125rem 0',
+                  backgroundColor: 'var(--sidebar-background)',
+                  margin: '5px',
+                  paddingLeft: '15px'
+                }
+              },
+              roleIcon && React.createElement('img', {
+                src: roleIcon,
+                alt: player.position,
+                style: { width: '1.5rem', height: '1.5rem', marginRight: '0.5rem' }
+              }),
+              playerName
+              );
+            })
+          );
+        })
       )
     )
-  );
+  };
 
   const PlayField = () => (
     React.createElement('div', {
@@ -354,7 +363,7 @@ const QuiddichBoard = () => {
             }
           },
             React.createElement('img', {
-              src: getRoleIcon(player.role, player.team),
+              src: getRoleIcon(player.role, player.team, player.name),
               alt: player.role,
               style: {
                 width: '100%',
@@ -368,9 +377,6 @@ const QuiddichBoard = () => {
               color: 'white',
               fontSize: '0.8em',
               whiteSpace: 'nowrap',
-              //backgroundColor: 'rgba(0, 0, 0, 0.1)', // fallback color
-              //'padding-left' : '10px',
-              //'padding-right' : '10px',
             }
           },
             selectedTeams[player.team] === 'default' ? 
@@ -394,10 +400,10 @@ const QuiddichBoard = () => {
       React.createElement('div', { 
         style: {
             display: 'grid',
-            width:  FIELD_WIDTH,
-            gridTemplateColumns: 'repeat(2, 300px)', // Two columns, each 300px wide
-            gap: '0.5rem', // Space between columns
-            justifyContent: 'center', // Center the grid horizontally
+            width: FIELD_WIDTH,
+            gridTemplateColumns: 'repeat(2, 300px)',
+            gap: '0.5rem',
+            justifyContent: 'center',
             marginBottom: '0.5rem',
         },
       },
