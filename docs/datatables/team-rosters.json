@@ -131,7 +131,7 @@
         "tag": "NXL",
         "colors": ["#5F5F5F", "#D4AF37"],
         "captain": "Riley907",
-        "players": ["Riley907", "An0n77m0us", "Okami_Null", "ItsSayruh", "Box Queen DVNE", "VanirLatune"]
+        "players": ["Riley907", "An0n77m0us", "Okami_Null", "ItsSayruh", "Box Queen DVNE", "VanirLatune", "Severus"]
       },
       {
         "name": "The Knock Out Nifflers",
@@ -159,7 +159,7 @@
         "tag": "HOW",
         "colors": ["#ffd700", "#c8e9e9"],
         "captain": "XtremeBUTTER",
-        "players": ["XtremeBUTTER", "SiyrisBlack", "ExtenzFlex", "B2WJoshuaTTV", "LeafGreenV2", "DiskJockii", "Yannae", "fishplaytetris"]
+        "players": ["XtremeBUTTER", "SiyrisBlack", "NandyChippi", "B2WJoshuaTTV", "LeafGreenV2", "DiskJockii", "Yannae", "fishplaytetris"]
       },
       {
         "name": "The Knockout Vampires",
@@ -167,6 +167,13 @@
         "colors": ["#DC143C", "#FFD700"],
         "captain": "Ckightk",
         "players": ["Ckightk", "Aaron Montalvo", "Bobhammam", "BIGBOSS", "thesunsetdriver", "DeluWolf", "JeTkIn4", "lukariddleovic15", "GregOrgeous"]
+      },
+      {
+        "name": "The Ragtag Trailblazers",
+        "tag": "RT",
+        "colors": ["#E1C16E", "#483C32"],
+        "captain": "Don Quixote",
+        "players": ["Don Quixote", "Tronak", "Pax Libertas", "tuonela", "Silberphoenix5", "Steve_Mayster", "Oerba", "JT21drea"]
       }
     ]
   }

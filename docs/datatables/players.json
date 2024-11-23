@@ -3852,7 +3852,7 @@
     },
     {
       "discord": "Oerba",
-      "name": "Oerba ",
+      "name": "Oerba",
       "position": "Beater",
       "secondaryPosition": "",
       "region": "EU",
@@ -4115,6 +4115,20 @@
       "twitch": "leftcurveceo",
       "youtube": "none",
       "tiktok": "none"
+    },
+    {
+      "discord": "ExtenzFlex_",
+      "name": "NandyChippi",
+      "position": "Chaser",
+      "secondaryPosition": "Flex",
+      "region": "NA",
+      "platform": "Playstation",
+      "input": "Controller",
+      "hogwartsHouse": "Gryffindor",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
     }
   ]
 }
