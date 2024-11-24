@@ -592,7 +592,7 @@
       "discord": "skipper13",
       "name": "skipper13",
       "position": "Keeper",
-      "secondaryPosition": "Flex",
+      "secondaryPosition": "Keeper",
       "region": "NA",
       "platform": "Playstation",
       "input": "both, also play on steam too",
@@ -642,20 +642,6 @@
       "twitter": "",
       "twitch": "JustKetchup9",
       "youtube": "JustKetchup9",
-      "tiktok": ""
-    },
-    {
-      "discord": "420PM_.",
-      "name": "xOofPSN",
-      "position": "Chaser",
-      "secondaryPosition": "Flex",
-      "region": "INT",
-      "platform": "Playstation",
-      "input": "Controller",
-      "hogwartsHouse": "Ravenclaw",
-      "twitter": "",
-      "twitch": "xOofPSN",
-      "youtube": "",
       "tiktok": ""
     },
     {
@@ -1334,7 +1320,7 @@
       "discord": "logan.__.",
       "name": "illmage",
       "position": "Chaser",
-      "secondaryPosition": "Flex",
+      "secondaryPosition": "",
       "region": "NA",
       "platform": "Steam",
       "input": "Keyboard and Mouse",
@@ -1977,8 +1963,8 @@
     {
       "discord": "adhdecent",
       "name": "ADHDecent",
-      "position": "Chaser",
-      "secondaryPosition": "Beater",
+      "position": "Beater",
+      "secondaryPosition": "Chaser",
       "region": "EU",
       "platform": "Steam",
       "input": "Keyboard and Mouse",
@@ -4167,10 +4153,10 @@
       "platform": "Steam",
       "input": "Controller",
       "hogwartsHouse": "Hufflepuff",
-      "twitter": "N/A",
+      "twitter": "",
       "twitch": "JolVuH",
-      "youtube": "N/A",
-      "tiktok": "N/A"
+      "youtube": "",
+      "tiktok": ""
     },
     {
       "discord": "zaccreatives",
@@ -4239,6 +4225,20 @@
       "hogwartsHouse": "",
       "twitter": "",
       "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "wolfeyerandom",
+      "name": "Wolfeye",
+      "position": "Chaser",
+      "secondaryPosition": "Keeper",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "wolfeyerandom",
       "youtube": "",
       "tiktok": ""
     }
