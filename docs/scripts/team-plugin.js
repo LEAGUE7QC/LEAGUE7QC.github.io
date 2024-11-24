@@ -206,6 +206,7 @@ function runteamPlugin() {
         <li class="player ${captainClass}">
           <div class="player-info">
             <img src="images/sprites/${playerData.position.toLowerCase()}.png" class="position-sprite">
+            <img src="images/sprites/${(playerData.secondaryPosition.toLowerCase() || 'flex')}.png" class="position-sprite">
             <span class="player-name ${isCaptain ? 'captain-name' : ''}">${playerData.name}</span>
               <img src="images/sprites/${playerData.region.toLowerCase()}.png" class="region-sprite">
             <div class="social-icons">${socialIcons}</div>
