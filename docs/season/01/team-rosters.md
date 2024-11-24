@@ -6,6 +6,4 @@ Teams are listed in alphabetical order. Each team roster displays their 6 player
 
 Please note LEAGUE7 does not require starter or substitue information - teams can use any players from their roster during a match!
 
-> Note that team rosters are still dynamic and being updated.
-
 <div id="team-display"> </div>
