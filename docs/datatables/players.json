@@ -493,8 +493,8 @@
     {
       "discord": "Ludo_Down",
       "name": "Ludo_Down",
-      "position": "Keeper",
-      "secondaryPosition": "Chaser",
+      "position": "Chaser",
+      "secondaryPosition": "Keeper",
       "region": "NA",
       "platform": "Steam",
       "input": "Keyboard and Mouse",
