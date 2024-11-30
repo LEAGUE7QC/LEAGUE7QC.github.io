@@ -7,16 +7,11 @@ We offer an exciting, fair, and community-driven environment for players of all 
 
 LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a vibrant, passionate community.
 
-> ### Register as a Player!
-> This is the first step for all players who wish to participate in our upcoming seasons, regardless of your team status. Registration takes about 5 minutes... [<span style="color:#ffbd00">[Read more]</span>](registration.md)
-
 ### Quick Links:
-- [FAQ](/faq) – Find answers to the most common questions
-- [Registration](/registration) – Sign up for the Tryout Season or upcoming 6v6 league
-- [Season Standings](/season-standings) – Check the weekly updates of the Tryout Season!
+- [Season Summary](/season/01/information) – Quick information about our upcoming 6v6 league
 - [Code of Ethics](/code-of-ethics) – Our community standards that all members must uphold
+- [FAQ](/faq) – Find answers to the most common questions
 - [Contact Us](/contact-us) – Learn about how to contact us
-
 
 ### Our Guidelines:
 * [Season Rules & Format](season-rules.md) - Learn about our regular 6v6 season structures
@@ -31,8 +26,8 @@ LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a v
 ### More to come!
 
 We're finalizing our backend to provide a smooth experience for everyone. In the meantime, polish your brooms, unite with your friends, and be ready to be called into action! Upcoming:
-- Team registrations
 - Broadcasting system
+- Quidditch Board
 - Player statistics and leaderboards
 - And much more!
 
