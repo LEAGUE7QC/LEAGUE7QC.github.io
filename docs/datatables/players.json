@@ -4241,6 +4241,62 @@
       "twitch": "wolfeyerandom",
       "youtube": "",
       "tiktok": ""
+    },
+    {
+      "discord": "imariarts",
+      "name": "Imari",
+      "position": "Beater",
+      "secondaryPosition": "",
+      "region": "EU",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Gryffindor",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "Twinkle toes ",
+      "name": "Twinkle toes",
+      "position": "Beater",
+      "secondaryPosition": "Chaser",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "b34rm4n",
+      "name": "B34RM4N",
+      "position": "Chaser",
+      "secondaryPosition": "",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Slytherin",
+      "twitter": "",
+      "twitch": "b34rm4n",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "pingukowalski",
+      "name": "Pingu_Kowalski",
+      "position": "Chaser",
+      "secondaryPosition": "",
+      "region": "INT",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Hufflepuff",
+      "twitter": "pingufps_",
+      "twitch": "pingufps_",
+      "youtube": "",
+      "tiktok": ""
     }
   ]
 }
