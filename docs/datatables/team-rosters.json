@@ -43,11 +43,11 @@
         "players": ["Moonech", "Bilbo T-Baggin", "BergoBibamus", "PenTraDoXx", "Syndi", "JackD53", "Mome", "MilverTheMaid", "Tamaquashad"]
       },
       {
-        "name": "Mad Marauders",
+        "name": "Mad Mobsters",
         "tag": "MAD",
         "colors": ["#Fffdd0", "#ab263A"],
         "captain": "Smartbean",
-        "players": ["Smartbean", "Spacebhabes", "Mukisan", "Beccarina", "LifeSizeMidget","HamJamLettuce",  "Kinky Whiskey", "thebadgeruk", "Prophecy"]
+        "players": ["Smartbean", "Mukisan", "Beccarina", "LifeSizeMidget","HamJamLettuce",  "Kinky Whiskey", "thebadgeruk", "Prophecy"]
       },
       {
         "name": "Dumbledork's Army",
@@ -99,8 +99,8 @@
         "players": ["BigZave", "Sparks100", "Vamp", "Udom0rn", "JustKetchup", "enekoetxe", "SquidCrowHorse146", "LinaRKH", "Serec"]
       },
       {
-        "name": "Riddle's Revenants",
-        "tag": "REV",
+        "name": "Revenants Quidditch Club",
+        "tag": "RQC",
         "colors": ["#9966cc", "#383B39"],
         "captain": "CodeDelyric",
         "players": ["CodeDelyric", "JangoTheMerc_TTV", "Wandering_Katie", "scytale", "Litromney7", "TheSickUps", "RavenclawQuidditch", "Cyle95", "shaunthebear"]
@@ -155,8 +155,8 @@
         "players": ["ItBSmokiTTV", "DavidERB", "MOLOMBO", "Ash Shacklebolt", "DeterminedDoug", "TheMabooHighShuffle", "Oof", "emoura", "leftcurveCEO"]
       },
       {
-        "name": "Half-Blood Howlers",
-        "tag": "HOW",
+        "name": "The Tenebrous Thestrals",
+        "tag": "TTT",
         "colors": ["#ffd700", "#c8e9e9"],
         "captain": "XtremeBUTTER",
         "players": ["XtremeBUTTER", "SiyrisBlack", "NandyChippi", "B2WJoshuaTTV", "LeafGreenV2", "DiskJockii", "Yannae", "fishplaytetris"]
