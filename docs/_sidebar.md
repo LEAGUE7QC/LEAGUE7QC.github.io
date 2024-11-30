@@ -5,18 +5,17 @@
 * [FAQ](faq.md "L7 | FAQ")
 * [Contact Us](contact-us.md "L7 | Contact Us")
 * [Past Events](/community-events/winford-invitational "L7 | Past Events")
- 
 
-**TRYOUT SEASON**
-* [Season Standings](season-standings.md "L7 | Season Standings")
-* [Tryout Season Ruleset](tryout-season.md "L7 | Tryout Season")
-
-**SEASON 01 (Soon)**
+**DADA SEASON - S01**
 * [Information](/season/01/information.md "L7 | S01 General Information")
 * [Team Rosters](/season/01/team-rosters.md "L7 | Team Rosters")
 * [Match Calendar](/season/01/calendar.md "L7 | Match Calendar") 
 * [Stats & Standings](/season/01/standings.md "L7 | Season Standings")
 * [Quidditch Board (WIP)](/quidditch-board.md "L7 | Quidditch Board")
+
+**TRYOUT SEASON**
+* [Season Standings](season-standings.md "L7 | Season Standings")
+* [Tryout Season Ruleset](tryout-season.md "L7 | Tryout Season")
 
 **L7 RULES & GUIDELINES**
 * [Code of Ethics](codeofethics.md "L7 | Code of Ethics")

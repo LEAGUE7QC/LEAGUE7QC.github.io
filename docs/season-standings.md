@@ -3,20 +3,15 @@ Here are the stats from LEAGUE7's five weeks of Tryout Season matches (October 7
 
 Throughout this initial competitive period, we've witnessed extraordinary displays of skill, teamwork, and dedication from our players. As we compile the final statistics and celebrate our community's achievements, our final weekly standouts will be featured here until next week, when all Tryout Season award winners will be inducted into the Hall of Fame.
 
-## Players of the Week
+## Players of the Weeks
 
-As another incredible week of the Tryout Season comes to a close, four extraordinary wizards have left an indelible mark on the pitch! Through displays of exceptional skill, unwavering determination, and the true spirit of Quidditch, these rising stars have proven themselves worthy of recognition.
-
-Let's celebrate our outstanding performers from last week:
-
-<iframe src="player-pages/players-of-the-week.html" width="100%" height="1240" frameborder="0"></iframe>
-
-**Previous week top players:**
+As each incredible week of the Tryout Season comes to a close, four extraordinary wizards have left an indelible mark on the pitch! Through displays of exceptional skill, unwavering determination, and the true spirit of Quidditch, these rising stars have proven themselves worthy of recognition.
 
 - **Week 1:** illmage (Chaser), Ketchup (Beater), YukioTakeda (Keeper), BigZave (Seeker)
 - **Week 2:** Smartbean (Chaser), Nylis (Beater), YukioTakeda (Keeper), Gordo (Seeker)
 - **Week 3:** ashylan (Chaser), Ketchup (Beater), YukioTakeda (Keeper), Gordo (Seeker)
 - **Week 4:** illmage (Chaser), Ketchup (Beater), ZachOfAllTrades (Keeper), Gordo (Seeker)
+- **Week 5:** illmage (Chaser), Ketchup (Beater), ZachOfAllTrades (Keeper), JayGuard (Seeker)
 
 ## Role-Specific Standings
 ### Chaser Standings
