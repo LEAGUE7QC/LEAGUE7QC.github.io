@@ -4297,6 +4297,62 @@
       "twitch": "pingufps_",
       "youtube": "",
       "tiktok": ""
+    },
+    {
+      "discord": "Engelmannju",
+      "name": "Chemicool516",
+      "position": "Beater",
+      "secondaryPosition": "Chaser",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "Shardian__#5421",
+      "name": "ShardianPreston",
+      "position": "Beater",
+      "secondaryPosition": "Chaser",
+      "region": "INT",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "NA",
+      "twitch": "ShardSolar",
+      "youtube": "ShardSolar",
+      "tiktok": "ShardPreston"
+    },
+    {
+      "discord": "Tantrum1x",
+      "name": "Tantrum1x",
+      "position": "Chaser",
+      "secondaryPosition": "Seeker",
+      "region": "NA",
+      "platform": "Playstation",
+      "input": "Controller",
+      "hogwartsHouse": "Slytherin",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "kinghammer700",
+      "name": "BludgerToTheFace",
+      "position": "Beater",
+      "secondaryPosition": "Chaser",
+      "region": "NA",
+      "platform": "Playstation",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "NA",
+      "twitch": "NA",
+      "youtube": "NA",
+      "tiktok": "NA"
     }
   ]
 }
