@@ -51,6 +51,7 @@ Each season spans approximately three months:
   - Players cannot be substitutes for other teams
   - Players must complete current season or be formally removed before joining another team
 - Teams must maintain minimum roster size throughout season
+- Each team player must be available in the official LEAGUE7 Discord server at all times.
 - **Season 1 Exception - Roster Adjustments:**
   - Due to game's early state, roster changes are allowed during Season 1
   - Limited to 4 total changes (add/remove = 1 change) after season starts
@@ -63,17 +64,14 @@ Each season spans approximately three months:
 *Note: LEAGUE7 uses a flexible roster system - We only maintain a list of all registered team players. There is no distinction between starters and substitutes. Captains can freely select any registered players for each game. No need to declare player roles or game lineups in advance*
 
 ### 3.2 Division Structure
-#### Primary Format (Expected for Season 1)
-- All teams compete in a single division (where teams play against every other team at least once)
-- Alternative format may be implemented based on total registered teams
 
 #### Regional Divisions Contingency
 - Regional divisions will be formed if team count exceeds manageable limit for timeline
 - Implementation may depend on game features (such as server selection) and network stability
 - Teams are assigned to divisions based on:
+  - Team region preferences
   - Number of players in each region
   - Team time zone distribution
-  - Team scheduling preferences
   - Need for balanced division sizes
 
 *Note: Division structure may change between seasons as game features develop. Region-locked grand divisions may be implemented if server selection becomes available and network stability requires it.*
@@ -88,15 +86,9 @@ Each season spans approximately three months:
 
 ### 4.2 Match Scheduling
 - Both team captains must confirm schedule agreements in writing on LEAGUE7's official Discord 
-- If captains cannot agree on a match time, the default gameplay time will be used as fallback time
-- Default gameplay time will be determined by a Captain's Council vote at the start of the season
-    - For single division: 12:00 PM PST on either Saturday or Sunday
-    - For EU/NA divisions: 8:00 PM CET/CST on either Saturday or Sunday
-    - For other variations: Staff will provide suitable fallback options for voting 
-- Schedule conflict resolution:
-  1. Teams must first attempt direct negotiation
-  2. If no agreement within 48 hours, Staff mediates and may assign default time
-  3. If a team fails to show up at the assigned default time, that team forfeits the match
+- If captains cannot agree on a match time, the captains need to let Staff know about the situation.
+  - Non-responsive team(s) will be treated as if declaring a forfeit. 
+  
 
 ### 4.3 Scoring System
 - Teams are ranked by match series won
@@ -136,6 +128,8 @@ Each season spans approximately three months:
       - Higher position in original standings
       - Total points scored in all games
       - Head-to-head record during O.W.L.s
+- In case of two or multiple divisions, even distribution of top players across each division advances
+  - *Example:* Top 3+1 teams advance in 2 division format.
 
 ### 5.2 Tournament Format
 - 8-team double elimination bracket
@@ -174,7 +168,7 @@ Specific game settings and configuration will be announced following the officia
   - Confirms match completion
 
 ### 6.4 Matches Without Staff
-- Both team captains must provide a record their gameplay
+- Both team captains must provide a record their gameplay (when possible)
 - Teams must share final scoreboard screenshots in match-reporting channel
 - Both captains must confirm match results in writing
 - Teams should maintain their own match notes of significant events
@@ -199,21 +193,20 @@ Specific game settings and configuration will be announced following the officia
 | Time \ Points Diff | 0 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 |
 |:---------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | > 5:00      | R | R | R | R | R | R | R | R | R | R |
-| 5:00 - 4:30 | R | R | R | R | R | R | . | . | . | S |
-| 4:30 - 4:00 | R | R | R | R | R | . | . | . | . | S |
-| 4:00 - 3:30 | R | R | R | R | . | . | . | . | . | S |
-| 3:30 - 3:00 | R | R | R | . | . | . | . | . | . | S |
-| 3:00 - 2:30 | R | R | . | . | . | . | . | . | S | S |
-| 2:30 - 2:00 | R | . | . | . | . | . | . | S | S | S |
-| 2:00 - 1:30 | R | . | . | . | . | . | S | S | S | S |
-| 1:30 - 1:00 | R | . | . | . | . | S | S | S | S | S |
-| 1:00 - 0:30 | R | . | . | . | S | S | S | S | S | S |
+| 5:00 - 4:30 | R | R | R | R | R | R | R | R | R | S |
+| 4:30 - 4:00 | R | R | R | R | R | R | R | R | R | S |
+| 4:00 - 3:30 | R | R | R | R | R | R | R | R | R | S |
+| 3:30 - 3:00 | R | R | R | R | R | R | R | R | R | S |
+| 3:00 - 2:30 | R | R | R | R | R | R | R | R | S | S |
+| 2:30 - 2:00 | R | R | R | R | R | R | R | S | S | S |
+| 2:00 - 1:30 | R | R | R | R | R | R | S | S | S | S |
+| 1:30 - 1:00 | R | R | R | R | R | S | S | S | S | S |
+| 1:00 - 0:30 | R | R | R | R | S | S | S | S | S | S |
 | < 0:30      | R | S | S | S | S | S | S | S | S | S |
 
 - R: Restart - All players return to menu and requeue
 - S: Substitute - Player attempts to rejoin ongoing game
   - If a random player joins instead, game ends with current scoreboard
-- Empty: To be determined by Captains' Council before season starts
 
 ### 7.2 Issue Monitoring
 - Suspicious patterns result in investigation
