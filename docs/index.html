@@ -121,14 +121,18 @@
     plugins: [
               function(hook, vm) {
                 hook.doneEach(function() {
-                  if (vm.route.file === 'hall-of-fame.md') {
+                  if (vm.route.file === 'season/01/standings.md') {
                     // Options for the season-stats
-                    loadCSVData('https://docs.google.com/spreadsheets/d/1qYgidoEtctctXI8RlmDgrsohbw2CBhGXmve6zTBLCeo/pub?gid=1790099973&single=true&output=csv', 'season-stats-table', {
+                    loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTNSR5EOLa0z72ue8LTYkT6gWuzBAM8HuD91pd7CyDeLBpAgeORsrO2ZJYu1yH8SP612Srn8X_ruM3G/pub?gid=1017454485&single=true&output=csv', 'west-season-stats-table', {
                       paging: false,
                       searching: false,
                       ordering: true,
-                      showgraph: true,
-                    },true);
+                    },false); 
+                    loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTNSR5EOLa0z72ue8LTYkT6gWuzBAM8HuD91pd7CyDeLBpAgeORsrO2ZJYu1yH8SP612Srn8X_ruM3G/pub?gid=294770020&single=true&output=csv', 'east-season-stats-table', {
+                      paging: false,
+                      searching: false,
+                      ordering: true,
+                    },false); 
                    
                     // Options for the team-rosters
                     loadCSVData('https://docs.google.com/spreadsheets/d/1qYgidoEtctctXI8RlmDgrsohbw2CBhGXmve6zTBLCeo/pub?gid=1305660520&single=true&output=csv', 'team-rosters-table', {
