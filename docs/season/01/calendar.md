@@ -1,4 +1,4 @@
-## Information
+## O.W.L.s Round Robin 
 
 Each round represents a week of matches beginning on the listed date:
 
@@ -27,6 +27,8 @@ Each round represents a week of matches beginning on the listed date:
 - Round 13: Week of March 10
 
 This schedule clearly lays out the five rounds of matches while accounting for a two-week holiday break. Each round begins on a Monday and teams should schedule their matches within their assigned week.
+ 
+ > If you see "challonge.com is blocked," please turn off your adblocker.
 
 ## Full Calendar
 
