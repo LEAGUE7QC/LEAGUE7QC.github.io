@@ -1,4 +1,4 @@
-function loadCSVData(filePath, containerId, options, showGraph = true, role = null) {
+function loadCSVData(filePath, containerId, options, showGraph = true, role = null, tableType = null) {
   Papa.parse(filePath, {
     download: true,
     header: true,
@@ -66,38 +66,69 @@ function loadCSVData(filePath, containerId, options, showGraph = true, role = nu
         table.appendChild(tbody);
         container.appendChild(table);
 
-        // Initialize DataTables with custom options and column widths
-        const dataTable = $(table).DataTable({
+        // Initialize DataTables with custom options based on table type
+        let tableConfig = {
           ...options,
-          autoWidth: false,
-          columnDefs: [ 
-            {
-              targets: 0,
-              width: '100%' 
+          autoWidth: false
+        };
+
+        if (tableType === 'roster-changes-table') {
+          tableConfig = {
+            ...tableConfig,
+            columnDefs: [
+              {
+                targets: 0, // Date column
+                width: '25%',
+                className: 'text-left',
+                // Add type for date sorting
+                type: 'date',
+                // Add render function to ensure consistent date format
+                render: function(data, type, row) {
+                  if (type === 'sort') {
+                    // Convert "Month Day, Year" to YYYY-MM-DD for proper sorting
+                    const date = new Date(data);
+                    return date.toISOString();
+                  }
+                  return data;
+                }
+              },
+              {
+                targets: 1, // Changes column
+                width: 'auto',
+                className: 'text-left'
+              }
+            ],
+            pageLength: 7,
+            lengthMenu: [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+            order: [[0, 'desc']], // This will now correctly sort by date
+            responsive: true,
+            language: {
+              search: "Filter changes by team or player name: ",
+              lengthMenu: "Show _MENU_ updates per page",
+              info: "Showing _START_ to _END_ of _TOTAL_ roster updates"
             },
-            {
-              targets: ['W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'TOTAL'].map(col => Object.keys(data[0]).indexOf(col)),
-              className: 'text-center'
-            }
-          ]
-        });
+            autoWidth: true
+          };
+        }
+
+        const dataTable = $(table).DataTable(tableConfig);
       }
     }
   });
 }
 
 function loadChaserGraph() {
-  loadCSVData('https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants-chaser', {}, true, 'Chaser');
+  loadCSVData('https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants-chaser', {}, true, 'Chaser', null);
 }
 
 function loadSeekerGraph() {
-  loadCSVData('https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants-seeker', {}, true, 'Seeker');
+  loadCSVData('https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants-seeker', {}, true, 'Seeker', null);
 }
 
 function loadBeaterGraph() {
-  loadCSVData('https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants-beater', {}, true, 'Beater');
+  loadCSVData('https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants-beater', {}, true, 'Beater', null);
 }
 
 function loadKeeperGraph() {
-  loadCSVData('https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants-keeper', {}, true, 'Keeper');
+  loadCSVData('https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants-keeper', {}, true, 'Keeper', null);
 }

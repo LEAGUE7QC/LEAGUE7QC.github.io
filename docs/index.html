@@ -128,19 +128,23 @@
                       searching: false,
                       ordering: true,
                     },false); 
+                    
                     loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTNSR5EOLa0z72ue8LTYkT6gWuzBAM8HuD91pd7CyDeLBpAgeORsrO2ZJYu1yH8SP612Srn8X_ruM3G/pub?gid=294770020&single=true&output=csv', 'east-season-stats-table', {
                       paging: false,
                       searching: false,
                       ordering: true,
                     },false); 
-                   
-                    // Options for the team-rosters
-                    loadCSVData('https://docs.google.com/spreadsheets/d/1qYgidoEtctctXI8RlmDgrsohbw2CBhGXmve6zTBLCeo/pub?gid=1305660520&single=true&output=csv', 'team-rosters-table', {
-                      paging: false,
-                      searching: true,
-                      ordering: false,
-                    },false); 
                   }
+                  
+                  if (vm.route.file === 'season/01/team-rosters.md') {
+                    // Options for the tryout-participants
+                    loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTrz5-y2iLwqVuUMo6n63A8N63UYiU2pvRfqUf6QdV3t7Sgl7cciPAISUDAb8LDgfmAgPuiPiB9BGJD/pub?gid=400794292&single=true&output=csv', 'roster-changes-table', {
+                      paging: true,
+                      searching: true,
+                      ordering: true,
+                    }, false, null, 'roster-changes-table'); 
+                  }
+
                   if (vm.route.file === 'season-standings.md') {
                     // Options for the tryout-participants
                     loadCSVData(' https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants', {
@@ -148,6 +152,7 @@
                       searching: true,
                       ordering: true,
                     },true); 
+                    
                     // Load role-specific graphs
                     loadChaserGraph();
                     loadSeekerGraph();
