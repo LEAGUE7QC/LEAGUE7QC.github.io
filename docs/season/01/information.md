@@ -18,9 +18,9 @@ Team captains will register their teams through the [<span style="color:#ffbd00"
 ### Season Structure
 - **Registration Period**: 2 weeks
     - Team Sign-ups Begin: October 28, 2024
-    - <span style="color:#ffbd00">Registration Closes</span>: **November 22, 2024**
-- **O.W.L.s** (Regular Season): 7-15 weeks of round-robin competition
-- **N.E.W.T.s** (Playoffs): 2 weeks of double-elimination brackets
+    - Registration Closed: November 22, 2024
+- **O.W.L.s** (Regular Season): 13 weeks of round-robin competition in 2 divisions
+- **N.E.W.T.s** (Playoffs): 2 weeks of double-elimination brackets for top teams
 - **Roster Size**:  6-9 players, with 4 mid-season roster changes allowed
 - **Match Format**: Best-of-3 during O.W.L.s, best-of-5 for N.E.W.T.s finals
 
@@ -29,12 +29,12 @@ Team captains will register their teams through the [<span style="color:#ffbd00"
 
 ### Match Schedules
 - Complete schedule released after registration period is done
-- During O.W.L.s teams must play minimum 1 match per week (maximum 2 is allowed)
+- During O.W.L.s teams must play minimum 1 match per week (maximum 2 is allowed for emergencies)
 - Teams are encouraged to arrange mutually convenient match times
 
 ### From O.W.L.s to N.E.W.T.s
 - During O.W.L.s, every team face every other team once - *every game and score matters!*
-- Top 7 teams qualify based on standings; 8th spot (Wildcard) determined by highest point differential
+- Top teams qualify based on standings; an additional spot determined by highest point differential
 - N.E.W.T.s features an intense tournament, grand final to crown our champion!
 
 <div class="hp-quote-wrapper">
