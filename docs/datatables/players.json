@@ -2971,8 +2971,8 @@
     {
       "discord": "shaunthebear",
       "name": "shaunthebear",
-      "position": "Keeper",
-      "secondaryPosition": "Beater",
+      "position": "Chaser",
+      "secondaryPosition": "Keeper",
       "region": "NA",
       "platform": "Steam",
       "input": "Keyboard and Mouse",
@@ -4353,6 +4353,20 @@
       "twitch": "NA",
       "youtube": "NA",
       "tiktok": "NA"
+    },
+    {
+      "discord": "freddyphysh",
+      "name": "freddyphysh",
+      "position": "Seeker",
+      "secondaryPosition": "Chaser",
+      "region": "NA",
+      "platform": "Xbox Series",
+      "input": "Controller",
+      "hogwartsHouse": "Hufflepuff",
+      "twitter": "freddyphysh",
+      "twitch": "freddyphysh",
+      "youtube": "freddyphysh",
+      "tiktok": "freddyphyshttv"
     }
   ]
 }
