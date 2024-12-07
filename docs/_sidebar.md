@@ -11,7 +11,7 @@
 * [Team Rosters](/season/01/team-rosters.md "L7 | Team Rosters")
 * [Match Calendar](/season/01/calendar.md "L7 | Match Calendar") 
 * [Stats & Standings](/season/01/standings.md "L7 | Season Standings")
-* [Quidditch Board (WIP)](/quidditch-board.md "L7 | Quidditch Board")
+* [Quidditch Board](/quidditch-board.md "L7 | Quidditch Board")
 
 **TRYOUT SEASON**
 * [Season Standings](season-standings.md "L7 | Season Standings")
