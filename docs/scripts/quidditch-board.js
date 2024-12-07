@@ -526,7 +526,6 @@ const QuiddichBoard = () => {
             pointerEvents: 'none', // Prevent names from interfering with drag
             textAlign: 'center',
             backgroundColor: 'rgba(0, 0, 0, 0)', // Optional: adds contrast against the field
-            padding: '2px 4px',
             borderRadius: '3px',
           }
         },
