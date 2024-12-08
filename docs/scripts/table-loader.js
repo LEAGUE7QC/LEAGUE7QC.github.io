@@ -142,6 +142,7 @@ function createDataTable(data, container, options, tableType) {
     ...(tableType === 'stats-table' ? {
       order: [
         [data[0].hasOwnProperty('#M') ? Object.keys(data[0]).indexOf('#M') : 0, 'desc'],
+        [data[0].hasOwnProperty('PS') ? Object.keys(data[0]).indexOf('PS') : 0, 'desc'],
         [data[0].hasOwnProperty('GWR') ? Object.keys(data[0]).indexOf('GWR') : 0, 'desc'],
         [data[0].hasOwnProperty('GW') ? Object.keys(data[0]).indexOf('GW') : 0, 'desc'],
         [data[0].hasOwnProperty('MW') ? Object.keys(data[0]).indexOf('MW') : 0, 'desc']
