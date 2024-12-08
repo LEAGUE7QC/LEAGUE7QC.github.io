@@ -141,11 +141,12 @@ function createDataTable(data, container, options, tableType) {
     ...(tableType === 'roster-changes-table' ? ROSTER_TABLE_CONFIG : {}),
     ...(tableType === 'stats-table' ? {
       order: [
-        [data[0].hasOwnProperty('#M') ? Object.keys(data[0]).indexOf('#M') : 0, 'desc'],
-        [data[0].hasOwnProperty('PS') ? Object.keys(data[0]).indexOf('PS') : 0, 'desc'],
-        [data[0].hasOwnProperty('GWR') ? Object.keys(data[0]).indexOf('GWR') : 0, 'desc'],
+        [data[0].hasOwnProperty('MW') ? Object.keys(data[0]).indexOf('MW') : 0, 'desc'],
         [data[0].hasOwnProperty('GW') ? Object.keys(data[0]).indexOf('GW') : 0, 'desc'],
-        [data[0].hasOwnProperty('MW') ? Object.keys(data[0]).indexOf('MW') : 0, 'desc']
+        [data[0].hasOwnProperty('GWR') ? Object.keys(data[0]).indexOf('GWR') : 0, 'desc'],
+        [data[0].hasOwnProperty('PS') ? Object.keys(data[0]).indexOf('PS') : 0, 'desc'],
+        [data[0].hasOwnProperty('#M') ? Object.keys(data[0]).indexOf('#M') : 0, 'desc'],
+        [data[0].hasOwnProperty('#G') ? Object.keys(data[0]).indexOf('#G') : 0, 'desc']
       ],
       columnDefs: [
         {
