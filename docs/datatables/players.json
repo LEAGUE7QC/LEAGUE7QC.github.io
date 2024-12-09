@@ -1822,7 +1822,7 @@
     },
     {
       "discord": "notoriousunknown",
-      "name": "ttv/wmgaming95",
+      "name": "wmgaming95",
       "position": "Chaser",
       "secondaryPosition": "Beater",
       "region": "NA",
@@ -4313,7 +4313,7 @@
       "tiktok": ""
     },
     {
-      "discord": "Shardian__#5421",
+      "discord": "Shardian__",
       "name": "ShardianPreston",
       "position": "Beater",
       "secondaryPosition": "Chaser",
@@ -4367,6 +4367,48 @@
       "twitch": "freddyphysh",
       "youtube": "freddyphysh",
       "tiktok": "freddyphyshttv"
+    },
+    {
+      "discord": "arax734",
+      "name": "arax734",
+      "position": "Seeker",
+      "secondaryPosition": "Chaser",
+      "region": "EU",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Slytherin",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "CompuGamer11",
+      "name": "Compugamer11",
+      "position": "Keeper",
+      "secondaryPosition": "Flex",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "robbo28",
+      "name": "TRobbo11",
+      "position": "Seeker",
+      "secondaryPosition": "Chaser",
+      "region": "NA",
+      "platform": "Playstation",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "@tmizzle98",
+      "twitch": "Tyreese68",
+      "youtube": "N/A",
+      "tiktok": "@trobbo28"
     }
   ]
 }
