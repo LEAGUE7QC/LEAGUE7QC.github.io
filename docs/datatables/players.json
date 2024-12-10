@@ -4321,7 +4321,7 @@
       "platform": "Steam",
       "input": "Keyboard and Mouse",
       "hogwartsHouse": "Ravenclaw",
-      "twitter": "NA",
+      "twitter": "",
       "twitch": "ShardSolar",
       "youtube": "ShardSolar",
       "tiktok": "ShardPreston"
@@ -4349,10 +4349,10 @@
       "platform": "Playstation",
       "input": "Controller",
       "hogwartsHouse": "Ravenclaw",
-      "twitter": "NA",
-      "twitch": "NA",
-      "youtube": "NA",
-      "tiktok": "NA"
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
     },
     {
       "discord": "freddyphysh",
@@ -4405,10 +4405,24 @@
       "platform": "Playstation",
       "input": "Controller",
       "hogwartsHouse": "Ravenclaw",
-      "twitter": "@tmizzle98",
+      "twitter": "tmizzle98",
       "twitch": "Tyreese68",
-      "youtube": "N/A",
+      "youtube": "",
       "tiktok": "@trobbo28"
+    },
+    {
+      "discord": "fastereddy135",
+      "name": "FasterEddy135",
+      "position": "Chaser",
+      "secondaryPosition": "Keeper",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Primary controller - sometimes switch to keyboard/mouse for keeper",
+      "hogwartsHouse": "Gryffindor",
+      "twitter": "",
+      "twitch": "fastereddy_135",
+      "youtube": "",
+      "tiktok": ""
     }
   ]
 }
