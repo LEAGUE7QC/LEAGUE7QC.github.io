@@ -58,6 +58,7 @@ const QuiddichBoard = () => {
   const [drawings, setDrawings] = React.useState([]);
   const canvasRef = React.useRef(null);
   const currentPathRef = React.useRef([]);
+  
 
   // Drawing handlers
   const startDrawing = (e) => {
@@ -146,6 +147,35 @@ const QuiddichBoard = () => {
     name: "Default",
     players: ["Keeper", "Beater", "Seeker", "Chaser 1", "Chaser 2", "Chaser 3"]
   };
+
+   // Data Fetching
+  React.useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [rostersResponse, playersResponse] = await Promise.all([
+          fetch('datatables/team-rosters.json'),
+          fetch('datatables/players.json')
+        ]);
+
+        const rostersData = await rostersResponse.json();
+        const playersData = await playersResponse.json();
+
+        const playerLookup = {};
+        playersData.players.forEach(player => {
+          playerLookup[player.name] = player;
+        });
+
+        rostersData.teams.sort((a, b) => a.name.localeCompare(b.name));
+
+        setTeams(rostersData.teams);
+        setPlayerData(playerLookup);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData(); // <-- Add this line to call the function
+  }, []);
 
   React.useEffect(() => {
     const canvas = canvasRef.current;
