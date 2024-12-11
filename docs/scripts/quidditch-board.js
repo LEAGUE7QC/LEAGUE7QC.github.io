@@ -52,7 +52,90 @@ const QuiddichBoard = () => {
   });
   const draggedPlayerRef = React.useRef(null);
 
-  React.useEffect(() => {
+  // Drawing state
+  const [isDrawingMode, setIsDrawingMode] = React.useState(false);
+  const [isDrawing, setIsDrawing] = React.useState(false);
+  const [drawings, setDrawings] = React.useState([]);
+  const canvasRef = React.useRef(null);
+  const currentPathRef = React.useRef([]);
+
+  // Drawing handlers
+  const startDrawing = (e) => {
+    if (!isDrawingMode) return;
+    const canvas = canvasRef.current;
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    
+    setIsDrawing(true);
+    currentPathRef.current = [{ x, y }];
+  };
+
+  const draw = (e) => {
+    if (!isDrawing || !isDrawingMode) return;
+    
+    const canvas = canvasRef.current;
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    
+    currentPathRef.current.push({ x, y });
+    
+    // Clear and redraw everything
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, FIELD_WIDTH, FIELD_HEIGHT);
+    
+    // Draw all existing paths
+    drawings.forEach(drawing => {
+      const path = drawing.path;
+      if (path.length < 2) return;
+      
+      ctx.beginPath();
+      ctx.strokeStyle = drawing.color;
+      ctx.lineWidth = 3;
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      
+      ctx.moveTo(path[0].x, path[0].y);
+      for (let i = 1; i < path.length; i++) {
+        ctx.lineTo(path[i].x, path[i].y);
+      }
+      ctx.stroke();
+    });
+    
+    // Draw current path
+    if (currentPathRef.current.length > 1) {
+      ctx.beginPath();
+      ctx.strokeStyle = '#ffbd00';
+      ctx.lineWidth = 3;
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      
+      ctx.moveTo(currentPathRef.current[0].x, currentPathRef.current[0].y);
+      for (let i = 1; i < currentPathRef.current.length; i++) {
+        ctx.lineTo(currentPathRef.current[i].x, currentPathRef.current[i].y);
+      }
+      ctx.stroke();
+    }
+  };
+  
+  const stopDrawing = () => {
+    if (isDrawing && isDrawingMode) {
+      setDrawings(prevDrawings => [...prevDrawings, { 
+        path: currentPathRef.current,
+        color: '#ffbd00'
+      }]);
+    }
+    setIsDrawing(false);
+  };
+  const clearCanvas = () => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, FIELD_WIDTH, FIELD_HEIGHT);
+    setDrawings([]); // Clear the drawings array
+  };
+
+   React.useEffect(() => {
     // Initialize both teams as default
     handleTeamSelect('home', 'default');
     handleTeamSelect('away', 'default');
@@ -64,34 +147,30 @@ const QuiddichBoard = () => {
     players: ["Keeper", "Beater", "Seeker", "Chaser 1", "Chaser 2", "Chaser 3"]
   };
 
-  // Data Fetching
   React.useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [rostersResponse, playersResponse] = await Promise.all([
-          fetch('datatables/team-rosters.json'),
-          fetch('datatables/players.json')
-        ]);
-  
-        const rostersData = await rostersResponse.json();
-        const playersData = await playersResponse.json();
-  
-        const playerLookup = {};
-        playersData.players.forEach(player => {
-          playerLookup[player.name] = player;
-        });
-  
-        rostersData.teams.sort((a, b) => a.name.localeCompare(b.name));
-  
-        setTeams(rostersData.teams);
-        setPlayerData(playerLookup);
-      } catch (error) {
-        console.error('Error fetching data:', error);
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, FIELD_WIDTH, FIELD_HEIGHT);
+    
+    drawings.forEach(drawing => {
+      const path = drawing.path;
+      if (path.length < 2) return;
+      
+      ctx.beginPath();
+      ctx.strokeStyle = drawing.color;
+      ctx.lineWidth = 3;
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      
+      ctx.moveTo(path[0].x, path[0].y);
+      for (let i = 1; i < path.length; i++) {
+        ctx.lineTo(path[i].x, path[i].y);
       }
-    };
-  
-    fetchData();
-  }, []);
+      ctx.stroke();
+    });
+  }, [drawings, isDrawingMode, players]);
 
   // Role Assignment
   const assignRoles = (teamPlayers) => {
@@ -206,11 +285,35 @@ const QuiddichBoard = () => {
         p.id === draggedPlayerRef.current.id ? { ...p, x: newX, y: newY } : p
       )
     }));
-  };
+
+    const canvas = canvasRef.current;
+  if (!canvas) return;
+  
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, FIELD_WIDTH, FIELD_HEIGHT);
+  
+  drawings.forEach(drawing => {
+    const path = drawing.path;
+    if (path.length < 2) return;
+    
+    ctx.beginPath();
+    ctx.strokeStyle = drawing.color;
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    
+    ctx.moveTo(path[0].x, path[0].y);
+    for (let i = 1; i < path.length; i++) {
+      ctx.lineTo(path[i].x, path[i].y);
+    }
+    ctx.stroke();
+  });
+};
 
   const handleDragEnd = () => {
     draggedPlayerRef.current = null;
   };
+
 
   // Role Circle Component
   const RoleCircle = ({ player, radius, color, visible }) => (
@@ -354,6 +457,53 @@ const QuiddichBoard = () => {
         borderRadius: '4px',
       }
     },
+      // Drawing controls group
+      React.createElement('div', {
+        style: {
+          display: 'flex',
+          alignItems: 'center',
+          gap: '1rem',
+          marginBottom: '0.5rem',
+          borderBottom: '1px solid var(--background-tertiary)',
+          paddingBottom: '0.5rem'
+        }
+      },
+        // Drawing mode toggle
+        React.createElement('label', {
+          style: {
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            cursor: 'pointer',
+            color: 'var(--text-normal)',
+          }
+        },
+          React.createElement('input', {
+            type: 'checkbox',
+            checked: isDrawingMode,
+            onChange: () => setIsDrawingMode(prev => !prev),
+            style: {
+              cursor: 'pointer'
+            }
+          }),
+          'Enable/Disable drawing mode '
+        ),
+        // Clear drawing button
+        React.createElement('button', {
+          onClick: clearCanvas,
+          style: {
+            padding: '0.25rem 0.75rem',
+            backgroundColor: 'var(--interactive-normal)',
+            color: 'var(--text-normal)',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer',
+            marginLeft: '0.5rem',
+            fontSize: '0.9em'
+          }
+        }, '🧹 Clear current drawing')
+      ),
+      // Radius visibility controls
       [
         {
           id: 'keeperPKick',
@@ -383,7 +533,8 @@ const QuiddichBoard = () => {
             alignItems: 'center',
             gap: '0.5rem',
             cursor: 'pointer',
-            color: 'var(--text-normal)'
+            color: 'var(--text-normal)',
+            padding: '0.25rem 0'
           }
         },
           React.createElement('input', {
@@ -412,127 +563,170 @@ const QuiddichBoard = () => {
         )
       )
     )
-  );
+  ); 
 
   const PlayField = () => (
     React.createElement('div', {
       style: {
         width: `${FIELD_WIDTH}px`,
         height: `${FIELD_HEIGHT}px`,
-        backgroundImage: 'url("images/tools/qpitch.png")',
-        backgroundSize: '100% 100%',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        position: 'relative',
-        overflow: 'hidden',
-        backgroundColor: 'rgba(0, 0, 0, 0)',
-      },
-      onDragOver: (e) => {
-        e.preventDefault();
-        handleDrag(e);
+        position: 'relative'
       }
     },
-      // Render circles for all roles
-      Object.values(players).flat().map(player => {
-        const circles = [];
-        
-        if (player.role === 'Keeper') {
-          circles.push(
-            React.createElement(RoleCircle, {
-              key: `keeper-${player.id}`,
-              player,
-              radius: KEEPER_PKICK_RADIUS,
-              color: '#ec2525',
-              visible: radiusVisibility.keeperPKick
-            })
-          );
+      // Background field (z-index: 0)
+      React.createElement('div', {
+        style: {
+          width: '100%',
+          height: '100%',
+          backgroundImage: 'url("images/tools/qpitch.png")',
+          backgroundSize: '100% 100%',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          zIndex: 0
         }
-        else if (player.role === 'Seeker') {
-          circles.push(
-            React.createElement(RoleCircle, {
-              key: `seeker-${player.id}`,
-              player,
-              radius: SEEKER_BUMP_RADIUS,
-              color: '#e8c500',
-              visible: radiusVisibility.seekerBump
-            })
-          );
-        }
-        else if (player.role.startsWith('Chaser')) {
-          circles.push(
-            React.createElement(RoleCircle, {
-              key: `chaser-${player.id}`,
-              player,
-              radius: CHASER_PASS_RADIUS,
-              color: '#a1d187',
-              visible: radiusVisibility.chaserPass
-            })
-          );
-        }
-        else if (player.role === 'Beater') {
-          circles.push(
-            React.createElement(RoleCircle, {
-              key: `beater-${player.id}`,
-              player,
-              radius: BEATER_INTERCEPT_RADIUS,
-              color: '#2557ec',
-              visible: radiusVisibility.beaterIntercept
-            })
-          );
-        }
-        return circles;
       }),
-      // Player Icons (drag targets and radius centers)
-      Object.values(players).flat().map((player) => 
-        React.createElement('div', {
-          key: `icon-${player.id}`,
-          draggable: true,
-          onDragStart: (e) => handleDragStart(e, player),
-          onDragEnd: handleDragEnd,
-          style: { 
-            position: 'absolute',
-            left: `${player.x}px`,
-            top: `${player.y}px`,
-            transform: 'translate(-50%, -50%)',
-            cursor: 'move',
-            width: '2rem',
-            height: '2rem',
-            zIndex: draggedPlayerRef.current?.id === player.id ? 2 : 1,
-          }
+      // Drawing canvas (Always z-index: 1)
+      React.createElement('canvas', {
+        ref: canvasRef,
+        width: FIELD_WIDTH,
+        height: FIELD_HEIGHT,
+        onMouseDown: isDrawingMode ? startDrawing : null,
+        onMouseMove: isDrawingMode ? draw : null,
+        onMouseUp: isDrawingMode ? stopDrawing : null,
+        onMouseLeave: isDrawingMode ? stopDrawing : null,
+        style: {
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          zIndex: 1,
+          pointerEvents: isDrawingMode ? 'auto' : 'none',
+          cursor: isDrawingMode ? 'crosshair' : 'default'
+        }
+      }),
+      // Player elements container (z-index: 2)
+      React.createElement('div', {
+        style: {
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          zIndex: 2,  // Always on top
+          pointerEvents: isDrawingMode ? 'none' : 'auto'
         },
-          React.createElement('img', {
-            src: getRoleIcon(player.role, player.team, player.name),
-            alt: player.role,
-            style: {
-              width: '100%',
-              height: '100%',
-              objectFit: 'contain'
+        onDragOver: (e) => {
+          e.preventDefault();
+          handleDrag(e);
+        }
+      },
+        // Render circles for all roles
+        Object.values(players).flat().map(player => {
+          const circles = [];
+          
+          if (player.role === 'Keeper') {
+            circles.push(
+              React.createElement(RoleCircle, {
+                key: `keeper-${player.id}`,
+                player,
+                radius: KEEPER_PKICK_RADIUS,
+                color: '#ec2525',
+                visible: radiusVisibility.keeperPKick
+              })
+            );
+          }
+          else if (player.role === 'Seeker') {
+            circles.push(
+              React.createElement(RoleCircle, {
+                key: `seeker-${player.id}`,
+                player,
+                radius: SEEKER_BUMP_RADIUS,
+                color: '#e8c500',
+                visible: radiusVisibility.seekerBump
+              })
+            );
+          }
+          else if (player.role.startsWith('Chaser')) {
+            circles.push(
+              React.createElement(RoleCircle, {
+                key: `chaser-${player.id}`,
+                player,
+                radius: CHASER_PASS_RADIUS,
+                color: '#a1d187',
+                visible: radiusVisibility.chaserPass
+              })
+            );
+          }
+          else if (player.role === 'Beater') {
+            circles.push(
+              React.createElement(RoleCircle, {
+                key: `beater-${player.id}`,
+                player,
+                radius: BEATER_INTERCEPT_RADIUS,
+                color: '#2557ec',
+                visible: radiusVisibility.beaterIntercept
+              })
+            );
+          }
+          return circles;
+        }),
+        // Player Icons
+        Object.values(players).flat().map((player) => 
+          React.createElement('div', {
+            key: `icon-${player.id}`,
+            draggable: !isDrawingMode,
+            onDragStart: (e) => handleDragStart(e, player),
+            onDragEnd: handleDragEnd,
+            style: { 
+              position: 'absolute',
+              left: `${player.x}px`,
+              top: `${player.y}px`,
+              transform: 'translate(-50%, -50%)',
+              cursor: isDrawingMode ? 'default' : 'move',
+              width: '2rem',
+              height: '2rem',
+              zIndex: draggedPlayerRef.current?.id === player.id ? 2 : 1,
+              pointerEvents: isDrawingMode ? 'none' : 'auto'
             }
-          })
+          },
+            React.createElement('img', {
+              src: getRoleIcon(player.role, player.team, player.name),
+              alt: player.role,
+              style: {
+                width: '100%',
+                height: '100%',
+                objectFit: 'contain'
+              }
+            })
+          )
+        ),
+        // Player Names
+        Object.values(players).flat().map((player) => 
+          React.createElement('div', {
+            key: `name-${player.id}`,
+            style: { 
+              position: 'absolute',
+              left: `${player.x}px`,
+              top: `${player.y + 20}px`,
+              transform: 'translate(-50%, 0)',
+              color: 'white',
+              fontSize: '0.8em',
+              whiteSpace: 'nowrap',
+              pointerEvents: 'none',
+              textAlign: 'center',
+              backgroundColor: 'rgba(0, 0, 0, 0)',
+              borderRadius: '3px',
+              zIndex: draggedPlayerRef.current?.id === player.id ? 2 : 1,
+            }
+          },
+          selectedTeams[player.team] === 'default' ? 
+            player.role :
+            (player.name || '')
+          )
         )
-      ),
-      // Player Names (positioned below icons)
-      Object.values(players).flat().map((player) => 
-        React.createElement('div', {
-          key: `name-${player.id}`,
-          style: { 
-            position: 'absolute',
-            left: `${player.x}px`,
-            top: `${player.y + 20}px`, // Offset below the icon
-            transform: 'translate(-50%, 0)',
-            color: 'white',
-            fontSize: '0.8em',
-            whiteSpace: 'nowrap',
-            pointerEvents: 'none', // Prevent names from interfering with drag
-            textAlign: 'center',
-            backgroundColor: 'rgba(0, 0, 0, 0)', // Optional: adds contrast against the field
-            borderRadius: '3px',
-          }
-        },
-        selectedTeams[player.team] === 'default' ? 
-          player.role :
-          (player.name || '')
-      ))
+      )
     )
   );
 
@@ -568,20 +762,20 @@ const QuiddichBoard = () => {
         }
       }, 'PLAYER INFORMATION'),
       React.createElement('div', null,
-      React.createElement('div', { 
-        style: {
+        React.createElement('div', { 
+          style: {
             display: 'grid',
             width: FIELD_WIDTH,
             gridTemplateColumns: 'repeat(2, 300px)',
             gap: '0.5rem',
             justifyContent: 'center',
             marginBottom: '0.5rem',
+          },
         },
-      },
-        React.createElement(TeamSelect, { team: 'home', title: 'Team 1 (White)' }),
-        React.createElement(TeamSelect, { team: 'away', title: 'Team 2 (Gold)' })
+          React.createElement(TeamSelect, { team: 'home', title: 'Team 1 (White)' }),
+          React.createElement(TeamSelect, { team: 'away', title: 'Team 2 (Gold)' })
+        )
       )
-    )
     )
   );
 };
