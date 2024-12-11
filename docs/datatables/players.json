@@ -4408,7 +4408,7 @@
       "twitter": "tmizzle98",
       "twitch": "Tyreese68",
       "youtube": "",
-      "tiktok": "@trobbo28"
+      "tiktok": "trobbo28"
     },
     {
       "discord": "fastereddy135",
@@ -4417,10 +4417,38 @@
       "secondaryPosition": "Keeper",
       "region": "NA",
       "platform": "Steam",
-      "input": "Primary controller - sometimes switch to keyboard/mouse for keeper",
+      "input": "Controller",
       "hogwartsHouse": "Gryffindor",
       "twitter": "",
       "twitch": "fastereddy_135",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "nifty4987",
+      "name": "HarryBluff",
+      "position": "Chaser",
+      "secondaryPosition": "",
+      "region": "INT",
+      "platform": "Xbox Series",
+      "input": "Controller",
+      "hogwartsHouse": "",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "OlympusMew",
+      "name": "OlympusMew",
+      "position": "Seeker",
+      "secondaryPosition": "Flex",
+      "region": "NA",
+      "platform": "Epic Games",
+      "input": "Controller",
+      "hogwartsHouse": "Slytherin",
+      "twitter": "",
+      "twitch": "OlympusMew",
       "youtube": "",
       "tiktok": ""
     }
