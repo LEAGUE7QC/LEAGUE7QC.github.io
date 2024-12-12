@@ -33,14 +33,14 @@
         "tag": "OWL",
         "colors": ["#abccf9", "#ededed"],
         "captain": "MichyMo",
-        "players": ["MichyMo", "DarkRitNighthawk", "Osito_Luna8793", "The HoBoKaGe", "Sandman1427", "DackJaniels", "BludgerToTheFace", "FasterEddy135"]
+        "players": ["MichyMo", "DarkRitNighthawk", "Osito_Luna8793", "The HoBoKaGe", "Sandman1427", "DackJaniels", "BludgerToTheFace", "FasterEddy135", "Potology"]
       },
       {
         "name": "Hellfire Hogs",
         "tag": "HOG",
         "colors": ["#2A1157", "#38B6FF"],
         "captain": "Moonech",
-        "players": ["Moonech", "Bilbo T-Baggin", "PenTraDoXx", "Syndi", "JackD53", "Mome", "MilverTheMaid", "Tamaquashad", "Pingu_Kowalski"]
+        "players": ["Moonech", "Bilbo T-Baggin", "PenTraDoXx", "Syndi", "JackD53", "Mome", "MilverTheMaid", "Tamaquashad", "pingu"]
       },
       {
         "name": "Mad Mobsters",
@@ -180,7 +180,7 @@
         "tag": "HG",
         "colors": ["#1f8b4c", "#f1c40f"],
         "captain": "WARBE4RD",
-        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "TTV_MysticRune22", "WinterGuardian47", "AxXjosieXxA"]
+        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "TTV_MysticRune22", "WinterGuardian47", "AxXjosieXxA", "Mungoose"]
       }
     ]
   }

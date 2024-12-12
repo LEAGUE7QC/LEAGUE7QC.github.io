@@ -4451,6 +4451,48 @@
       "twitch": "OlympusMew",
       "youtube": "",
       "tiktok": ""
+    },
+    {
+      "discord": "mungooseman",
+      "name": "Mungoose",
+      "position": "Seeker",
+      "secondaryPosition": "Beater",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Gryffindor",
+      "twitter": "MungooseMan",
+      "twitch": "mungooseman",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "koi_boi_tracy",
+      "name": "Big Pig",
+      "position": "Beater",
+      "secondaryPosition": "Flex",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Gryffindor",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "potology",
+      "name": "Potology",
+      "position": "Chaser",
+      "secondaryPosition": "Beater",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Slytherin",
+      "twitter": "",
+      "twitch": "Potology",
+      "youtube": "",
+      "tiktok": ""
     }
   ]
 }
