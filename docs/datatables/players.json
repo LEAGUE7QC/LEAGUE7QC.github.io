@@ -4535,6 +4535,20 @@
       "twitch": "",
       "youtube": "",
       "tiktok": ""
+    },
+    {
+      "discord": "bazookaqueen_",
+      "name": "BazookaQueen",
+      "position": "Seeker",
+      "secondaryPosition": "Chaser",
+      "region": "NA",
+      "platform": "Playstation",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "bazooka_queen8",
+      "youtube": "Bazooka Queen",
+      "tiktok": "bazooka_queen"
     }
   ]
 }
