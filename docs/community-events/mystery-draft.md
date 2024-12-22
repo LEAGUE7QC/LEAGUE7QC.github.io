@@ -5,7 +5,7 @@ Take a break from the usual competitive grind and join us for LEAGUE7's most lai
 
 No pressure, no expectations - just good times with good company. Bring your holiday spirit and sense of adventure as we close out the year with this festive celebration of Quidditch!
 
-**Special Thanks to Our Sponsor**: This event's prizes are generously sponsored by skipper13! Each player on the winning team will receive $5.
+**Special Thanks to Our Sponsor**: This event's prizes are generously sponsored by Skipper13! Each player on the winning team will receive $5.
 
 ## Event Details 
 
