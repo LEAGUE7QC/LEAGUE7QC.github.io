@@ -5,6 +5,8 @@ Take a break from the usual competitive grind and join us for LEAGUE7's most lai
 
 No pressure, no expectations - just good times with good company. Bring your holiday spirit and sense of adventure as we close out the year with this festive celebration of Quidditch!
 
+**Special Thanks to Our Sponsor**: This event's prizes are generously sponsored by skipper13! Each player on the winning team will receive $5.
+
 ## Event Details 
 
 - **Date:** Saturday, December 28th, 2024  
@@ -48,12 +50,23 @@ Our holiday-themed draft event incorporates a unique "present box" system:
 3. Process continues until all players are drafted
 
 ## Important Notes
-
 - Players must be available for the full duration of the event
 - Check-in required 30 minutes before draft begins, late arrivals will not be accommodated once the draft begins
 - All tournament communication will be conducted through the #mystery-draft channel
 - Each team will be assigned a private text channel after the draft
 - Tournament schedule and format may adjust based on final participant count
 
-## Registration
-Registration form will be announced here with 2 questions: Discord name, preferred role(s).
+## Winners' Holiday Prize
+This tournament's prizes are sponsored by skipper13 and are managed by them:
+- Each player on the winning team will receive $5
+- Prize distribution will be handled directly by skipper13
+- All prize-related questions should be directed to skipper13
+ 
+## Registration Form
+<div style="padding: 10px; border-radius: 0px; display: flex; justify-content: center; align-items: center;">
+    <div style="filter: invert(1);">
+    <div style="filter: saturate(100%) brightness(85%) contrast(0.95)">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTftATxOcFs01fcc5qSqcDJ90u9oiU7tN5zeB5aozBLHqGYw/viewform?embedded=true" width="600" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    </div>
+</div>
