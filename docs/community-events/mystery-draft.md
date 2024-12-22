@@ -57,10 +57,10 @@ Our holiday-themed draft event incorporates a unique "present box" system:
 - Tournament schedule and format may adjust based on final participant count
 
 ## Winners' Holiday Prize
-This tournament's prizes are sponsored by skipper13 and are managed by them:
+This tournament's prizes are sponsored by Skipper13 and are managed by them:
 - Each player on the winning team will receive $5
-- Prize distribution will be handled directly by skipper13
-- All prize-related questions should be directed to skipper13
+- Prize distribution will be handled directly by Skipper13
+- All prize-related questions should be directed to Skipper13
  
 ## Registration Form
 <div style="padding: 10px; border-radius: 0px; display: flex; justify-content: center; align-items: center;">
