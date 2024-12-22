@@ -24,6 +24,7 @@ No pressure, no expectations - just good times with good company. Bring your hol
 3. Submit your application through the form below to participate in this event
    - Applications will be processed in order of submission (first come, first served)
    - You will receive the event role on Discord within 24 hours as confirmation
+**Registration Deadline:** Thursday midnight, December 26th, 2024
 
 ## The Mystery Draft System 
 
