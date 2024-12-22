@@ -64,6 +64,7 @@ This tournament's prizes are sponsored by Skipper13 and are managed by them:
 - All prize-related questions should be directed to Skipper13
  
 ## Registration Form
+Submit your application through the form below to participate in this event ([click for mobile view.](https://docs.google.com/forms/d/e/1FAIpQLSeTftATxOcFs01fcc5qSqcDJ90u9oiU7tN5zeB5aozBLHqGYw/viewform))
 <div style="padding: 10px; border-radius: 0px; display: flex; justify-content: center; align-items: center;">
     <div style="filter: invert(1);">
     <div style="filter: saturate(100%) brightness(85%) contrast(0.95)">
