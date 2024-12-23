@@ -4549,6 +4549,48 @@
       "twitch": "bazooka_queen8",
       "youtube": "Bazooka Queen",
       "tiktok": "bazooka_queen"
+    },
+    {
+      "discord": "Lamanna09",
+      "name": "TheOTPHJ",
+      "position": "Seeker",
+      "secondaryPosition": "Chaser",
+      "region": "NA",
+      "platform": "Xbox Series",
+      "input": "Controller",
+      "hogwartsHouse": "Gryffindor",
+      "twitter": "NA",
+      "twitch": "TheeOTPHJ",
+      "youtube": "NA",
+      "tiktok": "NA"
+    },
+    {
+      "discord": "Udomorn",
+      "name": "Udomorn",
+      "position": "Chaser",
+      "secondaryPosition": "Flex",
+      "region": "EU",
+      "platform": "Xbox Series",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": ".warbeard",
+      "name": "WARBE4RD",
+      "position": "Chaser",
+      "secondaryPosition": "Beater",
+      "region": "NA",
+      "platform": "Xbox Series",
+      "input": "Controller",
+      "hogwartsHouse": "Hufflepuff",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
     }
   ]
 }
