@@ -38,7 +38,7 @@ Our holiday-themed draft event incorporates a unique "present box" system:
 
 1. Players will be sorted into *mystery present boxes*
 2. During the draft round, captains can either:
-   - Select from previously revealed players
+   - Select from previously revealed players, or,
    - Unwrap a new mystery box and select one player from it
 
 **Example Draft Round:**
@@ -53,13 +53,15 @@ Our holiday-themed draft event incorporates a unique "present box" system:
 ## Important Notes
 - Players must be available for the full duration of the event
 - Check-in required 30 minutes before draft begins, late arrivals will not be accommodated once the draft begins
-- All tournament communication will be conducted through the #mystery-draft channel
-- Each team will be assigned a private text channel after the draft
+- All tournament communication will be conducted through the #event-general channel
+- Each team will be assigned a private text/voice channel after the draft (when necessary)
 - Tournament schedule and format may adjust based on final participant count
 
 ## Winners' Holiday Prize
 This tournament's prizes are sponsored by Skipper13 and are managed by them:
 - Each player on the winning team will receive $5
+   - We have had another sponsor, clairefetti! 
+   - Winning teams will receive 7$ per player for 1st place, 5$ per player for 2nd place, and 3$ per player for 3rd place! 
 - Prize distribution will be handled directly by Skipper13
 - All prize-related questions should be directed to Skipper13
  
