@@ -4559,10 +4559,10 @@
       "platform": "Xbox Series",
       "input": "Controller",
       "hogwartsHouse": "Gryffindor",
-      "twitter": "NA",
+      "twitter": "",
       "twitch": "TheeOTPHJ",
-      "youtube": "NA",
-      "tiktok": "NA"
+      "youtube": "",
+      "tiktok": ""
     },
     {
       "discord": "Udomorn",
@@ -4591,6 +4591,48 @@
       "twitch": "",
       "youtube": "",
       "tiktok": ""
+    },
+    {
+      "discord": "CloverOfLuck",
+      "name": "CloverOfLuck",
+      "position": "Chaser",
+      "secondaryPosition": "",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "alexander486180",
+      "name": "GreenBlackCat",
+      "position": "Seeker",
+      "secondaryPosition": "Chaser",
+      "region": "EU",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Hufflepuff",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "ItzGeeQ",
+      "name": "ItzGeeQ",
+      "position": "Chaser",
+      "secondaryPosition": "Seeker",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "ItzGeeQ_Gaming",
+      "youtube": "ItzGeeQ_Gaming",
+      "tiktok": "ItzGeeQ_Gaming"
     }
   ]
 }
