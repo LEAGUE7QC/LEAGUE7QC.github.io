@@ -4633,6 +4633,34 @@
       "twitch": "ItzGeeQ_Gaming",
       "youtube": "ItzGeeQ_Gaming",
       "tiktok": "ItzGeeQ_Gaming"
+    },
+    {
+      "discord": "Clairefetti ",
+      "name": "Clairefetti",
+      "position": "Chaser",
+      "secondaryPosition": "Keeper",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "aewdoido",
+      "name": "Aewdoido",
+      "position": "Seeker",
+      "secondaryPosition": "Chaser",
+      "region": "INT",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Slytherin",
+      "twitter": "https://x.com/aewdoido",
+      "twitch": "aewdoido",
+      "youtube": "",
+      "tiktok": ""
     }
   ]
 }
