@@ -7,7 +7,7 @@
 * [Past Events](/community-events/winford-invitational "L7 | Past Events")
 
 **COMMUNITY EVENTS**
-* [Holidays At L7 <span style="color:#ffbd00">(NEW!)</span>](/community-events/mystery-draft "L7 | S01 General Information")
+* [Holidays At L7](/community-events/mystery-draft "L7 | S01 General Information")
 
 **DADA SEASON - S01**
 * [Information](/season/01/information.md "L7 | S01 General Information")
