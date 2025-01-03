@@ -61,7 +61,7 @@
         "tag": "BB",
         "colors": ["#000000", "#672081"],
         "captain": "DarrkDreamer",
-        "players": ["DarrkDreamer", "CrazyChiika", "swolekale", "EverlastingBert", "Blynkinlogs", "GroobyGames", "CraftyCat9", "Sanlechumi", "LoquatLychee871"]
+        "players": ["DarrkDreamer", "CrazyChiika", "swolekale", "EverlastingBert", "Sanlechumi", "LoquatLychee871"]
       },
       {
         "name": "Houston Spartans",
@@ -75,7 +75,7 @@
         "tag": "UNO",
         "colors": ["#000000", "#ffffff"],
         "captain": "riverbrah",
-        "players": ["riverbrah", "Lihsir", "SectionL", "carddi", "ADHDecent", "JayGuard", "KarlssonQC", "Wolfeye"]
+        "players": ["riverbrah", "SectionL", "carddi", "ADHDecent", "JayGuard", "KarlssonQC", "Wolfeye"]
       },
       {
         "name": "Quaffle House",
@@ -124,7 +124,7 @@
         "tag": "TBT",
         "colors": ["#299ad1", "#ffffff"],
         "captain": "FraunktheGoat",
-        "players": ["FraunktheGoat", "ashylan", "AlgaeHamster303", "Clairefetti", "Avada", "LandonQC", "PhazeLink", "ShardianPreston"]
+        "players": ["FraunktheGoat", "ashylan", "AlgaeHamster303", "Clairefetti", "Avada", "LandonQC", "PhazeLink"]
       },
       {
         "name": "The Nexus",
@@ -145,7 +145,7 @@
         "tag": "CC",
         "colors": ["#EE0000", "#000000"],
         "captain": "AlphaTux",
-        "players": ["AlphaTux", "UrBoiSkinnyHP", "makoonQC", "Rajon", "NeoBoller", "omekata", "F3N3X", "RealCyprisTTV", "ShonyQC"]
+        "players": ["AlphaTux", "UrBoiSkinnyHP", "makoonQC", "NeoBoller", "omekata", "F3N3X", "RealCyprisTTV", "ShonyQC", "Lihsir"]
       },
       {
         "name": "Hazi Dementorz",
@@ -166,7 +166,7 @@
         "tag": "KOV",
         "colors": ["#DC143C", "#FFD700"],
         "captain": "Ckightk",
-        "players": ["Ckightk", "Aaron Montalvo", "Bobhammam", "BIGBOSS", "thesunsetdriver", "DeluWolf", "lilsaucinger80", "Osiris", "Imari"]
+        "players": ["Ckightk", "Aaron Montalvo", "Bobhammam", "BIGBOSS", "thesunsetdriver", "DeluWolf", "lilsaucinger80", "Osiris", "Imari", "zaccreatives"]
       },
       {
         "name": "The Ragtag Trailblazers",
@@ -180,7 +180,7 @@
         "tag": "HG",
         "colors": ["#1f8b4c", "#f1c40f"],
         "captain": "WARBE4RD",
-        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "TTV_MysticRune22", "AxXjosieXxA", "Darkshadowfox91"]
+        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "AxXjosieXxA", "Darkshadowfox91"]
       }
     ]
   }
