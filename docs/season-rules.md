@@ -54,9 +54,9 @@ Each season spans approximately three months:
 - Each team player must be available in the official LEAGUE7 Discord server at all times.
 - **Season 1 Exception - Roster Adjustments:**
   - Due to game's early state, roster changes are allowed during Season 1
-  - Limited to 4 total changes (add/remove = 1 change) after season starts
-  - 48-hour notice required before new player's first match
-  - Emergency changes may be permitted outside normal rules in extreme circumstances
+  - Limited to 4 total changes (player addition) after season starts. Player departures do not count as roster changes
+  - 48-hour notice required before any new player's first match, including emergency substitutions
+  - Emergency substitutions must use existing substitute players as first response, and contact staff immediately when situation arises
   - All changes must be registered and announced through official Discord
 - Roster changes freeze 2 weeks before O.W.L.s conclusion
 - N.E.W.T.s roster must be subset of O.W.L.s roster
@@ -85,10 +85,17 @@ Each season spans approximately three months:
 - Teams may schedule up to two matches per week with Staff approval
 
 ### 4.2 Match Scheduling
-- Both team captains must confirm schedule agreements in writing on LEAGUE7's official Discord 
+- Both team captains must confirm schedule agreements in writing on LEAGUE7's official Discord
+- Teams must complete schedule agreement by Wednesday of the match week
+- Default match times for Season 1 (effective after January 6th):
+  - East Division: Saturday, 12:00 PM Pacific Time
+  - West Division: Sunday, 12:00 PM Pacific Time
+- Default times apply only when:
+  - Captains cannot agree on a time by Wednesday of the round's week
+  - This applies to initial scheduling only, not rescheduling
+- Originally scheduled times take precedence over default times
 - If captains cannot agree on a match time, the captains need to let Staff know about the situation.
-  - Non-responsive team(s) will be treated as if declaring a forfeit. 
-  
+  - Non-responsive team(s) may be treated as if declaring a forfeit. 
 
 ### 4.3 Scoring System
 - Teams are ranked by match series won
@@ -121,15 +128,28 @@ Each season spans approximately three months:
 ## 5. N.E.W.T.s
 
 ### 5.1 Advancement Requirements
-- The 7 highest-ranked teams advance based on O.W.L.s ranking
-- 8th spot (Wildcard) determined by highest point differential scored in games
-  - Encourages competitive play regardless of standing
-  - If multiple teams have the same point differential, the following tiebreakers apply in order:
-      - Higher position in original standings
-      - Total points scored in all games
-      - Head-to-head record during O.W.L.s
-- In case of two or multiple divisions, even distribution of top players across each division advances
-  - *Example:* Top 3+1 teams advance in 2 division format.
+- The 7 highest-ranked teams advance based on O.W.L.s ranking using the following criteria:
+  1. Match series wins
+  2. Total game wins across all series
+  3. Game Win Rate: (Games Won / Total Games Played) × 100
+  4. Point Differential: Sum of all score differences across all games
+- The 8th spot (Wildcard/Howler) is determined by:
+  1. Team with least number of forfeits among remaining teams
+  2. If teams are tied on number of forfeits, highest point differential in scored games
+  3. If still tied:
+     - Higher position in original O.W.L.s standings
+     - Total points scored in all games
+     - Head-to-head record during O.W.L.s
+- In case of multiple divisions:
+  - Even distribution of top teams from each division advances
+  - Example: In a 2-division format:
+    - Top 3 teams from each division advance automatically
+    - 1 Wildcard/Howler spot determined using criteria above
+    - If divisions have uneven sizes, advancement numbers may be adjusted proportionally
+- All advancing teams must:
+  - Maintain minimum roster requirements
+  - Have no outstanding rule violations
+  - Use only players who were on their O.W.L.s roster
 
 ### 5.2 Tournament Format
 - 8-team double elimination bracket
@@ -184,11 +204,27 @@ Specific game settings and configuration will be announced following the officia
   - Disputed scores
   - Technical issues
 
+### 6.6 Match Forfeiture
+A team forfeits under the following conditions:
+- Team does not show up for scheduled date
+- Team unable to field six (6) players by game time
+- Teams unresponsive regarding scheduling (without alerting staff prior)
+- Either team demonstrates intentional use of an in-game exploit
+- Either team violates LEAGUE7 Code of Conduct or Seasonal Rules prior to or during game
+
+Forfeiture Results:
+- Forfeiting team receives 0-2 Loss
+- Score difference recorded as 0:0
+- When applicable, non-forfeiting team receives 2-0 Win with 0:0 score difference
+
 ## 7. Technical Management
 
 ### 7.1 Technical Issues and Disconnections
-- Team captains' mutual agreement takes precedence in handling technical issues
-- When captains cannot agree, follow resolution table below: 
+- No matter which team has issue, players must secure a screenshot of the technical issue.
+- Team captains' mutual agreement takes precedence in handling technical issues.
+- Captains will be allowed to discuss for 7 minutes to find a mutual agreement.
+  - Captains are advised to discuss all possible scenarios pre-game.
+- When captains cannot agree, follow resolution table: 
 
 | Time \ Points Diff | 0 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 |
 |:---------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -204,14 +240,17 @@ Specific game settings and configuration will be announced following the officia
 | 1:00 - 0:30 | R | R | R | R | S | S | S | S | S | S |
 | < 0:30      | R | S | S | S | S | S | S | S | S | S |
 
-- R: Restart - All players return to menu and requeue
-- S: Substitute - Player attempts to rejoin ongoing game
-  - If a random player joins instead, game ends with current scoreboard
+where, <br>
+**R is Restart**:  The results of the current game is discarded. <br>
+**S is Substitute**: Game continues while player (disconnected or substitute) attempts to rejoin ongoing game.  <br>
+If a random player joins instead, game ends with current scoreboard at the time of the technical issue.
+
 
 ### 7.2 Issue Monitoring
 - Suspicious patterns result in investigation
 - Staff maintains a record of all disconnections
 - Multiple disconnections from the same player or team will trigger a review
+  - If the same player disconnects repeatedly during a match series, Staff may require the team to use a substitute player
 
 ### 7.3 Patch Management
 - When a patch is announced from UBS or WB:
@@ -235,8 +274,12 @@ Specific game settings and configuration will be announced following the officia
   - Staff may record these matches for delayed broadcast during weekend streaming hours
 
 ### 8.2 Player Streams
-- The league does not regulate personal stream content or interactions
-- However, players are advised to maintain professional conduct while streaming to avoid interpersonal conflicts:
+- Teams may broadcast their own gameplay on private channels
+- At least one stream must be available in Discord for verification purposes
+- Non-team broadcasters must:
+  - Request and receive permission from teams before broadcasting gameplay
+  - Mark broadcasts as "Unofficial" in title, description, and verbal communication
+  - Comply with captain/team requests to stop unauthorized broadcasting
+- Players are advised to maintain professional conduct while streaming to avoid interpersonal conflicts:
   - Avoid negative commentary about opposing teams or players
-  - Avoid sharing private team communications
   - Consider disabling personal streams if heated or tilted
