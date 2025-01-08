@@ -128,7 +128,7 @@ These guidelines ensure fair and consistent moderation in the LEAGUE7 Discord se
 ### 6.1 "Timed Out" Role
 - This role is used for regular timeouts
 - It prevents users from writing in general chat channels
-- Users with this role can still read messages and participate in tickets
+- Users with this role can won't be able to see messages, however still participate in tickets
 
 ### 6.2 "Extended Timeout" Role
 - This role is used for extended timeouts
