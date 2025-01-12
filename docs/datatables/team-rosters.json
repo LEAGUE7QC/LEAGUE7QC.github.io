@@ -12,21 +12,21 @@
         "tag": "WIN",
         "colors": ["#45268a", "#e2ac16"],
         "captain": "Flyrish",
-        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "YourNintendo64TTV",	"Amarict", "Aeriberry",	"Woonie"]
+        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "Amarict", "Aeriberry",	"Woonie"]
       },
       {
         "name": "Thin Ice",
         "tag": "TI",
         "colors": ["#13233A", "#3FCACE"],
         "captain": "JMauler",
-        "players": ["JMauler", "Banthanor", "YukioTakeda", "LosBobs", "Johnny", "Pasawen", "JimTones", "Snichael", "Rajon"]
+        "players": ["JMauler", "Banthanor", "YukioTakeda", "LosBobs", "Pasawen", "JimTones", "Snichael", "Rajon"]
       },
       {
         "name": "Nimbus Nighthawks",
         "tag": "NNH",
         "colors": ["#3c78d8", "#000000"],
         "captain": "RexBlazer924",
-        "players": ["RexBlazer924", "RelievedRope742", "MoLDYCh33ZE", "TheOnlyScourage", "Tantrum1x", "ViSioN SC0PES", "OlympusMew", "Aewdoido"]
+        "players": ["RexBlazer924", "RelievedRope742", "MoLDYCh33ZE", "TheOnlyScourage", "Tantrum1x", "ViSioN SC0PES", "OlympusMew", "Aewdoido", "FraunktheGoat"]
       },
       {
         "name": "The Oakshaft Owls",
@@ -67,8 +67,8 @@
         "name": "Team Unown",
         "tag": "UNO",
         "colors": ["#000000", "#ffffff"],
-        "captain": "riverbrah",
-        "players": ["riverbrah", "SectionL", "carddi", "ADHDecent", "JayGuard", "KarlssonQC", "Wise_M0nkey", "Clairefetti"]
+        "captain": "KarlssonQC",
+        "players": ["KarlssonQC", "SectionL", "ADHDecent", "JayGuard", "Wise_M0nkey", "Clairefetti", "LandonQC"]
       },
       {
         "name": "Quaffle House",
@@ -111,13 +111,13 @@
         "colors": ["#a18251", "#ffffff"],
         "captain": "Nikkistixs92",
         "players": ["Nikkistixs92", "FattyMoMatty", "Gertnett", "Dementor", "timebomb011", "Itz_Harry447", "Hoppla", "LinaRKH", "GroobyGames"]
-      }, 
+      },
       {
         "name": "The Nexus",
         "tag": "NXS",
         "colors": ["#5F5F5F", "#D4AF37"],
         "captain": "Riley907",
-        "players": ["Riley907", "ItsSayruh", "B34RM4N", "VanirLatune", "JolVuH", "KingKumaXIII", "Chemicool516", "CloverOfLuck"]
+        "players": ["Riley907", "ItsSayruh", "B34RM4N", "VanirLatune", "JolVuH", "KingKumaXIII", "Chemicool516", "CloverOfLuck", "ModestLogic"]
       },
       {
         "name": "The Knock Out Nifflers",
@@ -166,7 +166,7 @@
         "tag": "HG",
         "colors": ["#1f8b4c", "#f1c40f"],
         "captain": "WARBE4RD",
-        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "AxXjosieXxA", "Darkshadowfox91"]
+        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "AxXjosieXxA", "Darkshadowfox91", "ShardianPreston"]
       }
     ]
   }
