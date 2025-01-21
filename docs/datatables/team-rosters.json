@@ -12,7 +12,7 @@
         "tag": "WIN",
         "colors": ["#45268a", "#e2ac16"],
         "captain": "Flyrish",
-        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "Amarict", "Aeriberry",	"Woonie"]
+        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "Amarict", "Aeriberry",	"Woonie", "ZachOfAllTrades"]
       },
       {
         "name": "Thin Ice",
@@ -33,21 +33,21 @@
         "tag": "OWL",
         "colors": ["#abccf9", "#ededed"],
         "captain": "MichyMo",
-        "players": ["MichyMo", "DarkRitNighthawk", "Osito_Luna8793", "The HoBoKaGe", "Sandman1427", "DackJaniels", "BludgerToTheFace", "FasterEddy135", "Potology"]
+        "players": ["MichyMo", "DarkRitNighthawk", "Osito_Luna8793", "Sandman1427", "DackJaniels", "BludgerToTheFace", "FasterEddy135", "Potology", "Cowboy_Jackman"]
       },
       {
         "name": "Hellfire Hogs",
         "tag": "HOG",
         "colors": ["#2A1157", "#38B6FF"],
         "captain": "Moonech",
-        "players": ["Moonech", "Bilbo T-Baggin", "PenTraDoXx", "Syndi", "JackD53", "Mome", "MilverTheMaid", "Tamaquashad", "pingu"]
+        "players": ["Moonech", "Bilbo T-Baggin", "PenTraDoXx", "Syndi", "JackD53",  "MilverTheMaid", "Tamaquashad", "pingu", "DiskJockii"]
       },
       {
         "name": "Mad Mobsters",
         "tag": "MAD",
-        "colors": ["#Fffdd0", "#ab263A"],
+        "colors": ["#000000", "#910000"],
         "captain": "Smartbean",
-        "players": ["Smartbean", "Mukisan", "Beccarina", "Kinky Whiskey", "thebadgeruk", "Prophecy", "JangoTheMerc_TTV","CrazyChiika"]
+        "players": ["Smartbean", "Mukisan", "Beccarina", "Kinky Whiskey", "thebadgeruk", "Prophecy", "JangoTheMerc_TTV","CrazyChiika", "Cyle95"]
       },
       {
         "name": "Dumbledork's Army",
@@ -61,21 +61,14 @@
         "tag": "HS",
         "colors": ["#bc1616", "#111010"],
         "captain": "AusGoss",
-        "players": ["AusGoss", "MrTallTales", "DarthPineapple", "Kdthewriter", "Cowboy_Jackman", "Hawkin", "BraveNewWrld", "ANK"]
+        "players": ["AusGoss", "MrTallTales", "Kdthewriter", "Hawkin", "1Worden", "lukeminx", "DeterminedDoug", "WesternUniverse", "Endrewski"]
       },
       {
         "name": "Team Unown",
         "tag": "UNO",
         "colors": ["#000000", "#ffffff"],
         "captain": "KarlssonQC",
-        "players": ["KarlssonQC", "SectionL", "ADHDecent", "JayGuard", "Wise_M0nkey", "Clairefetti", "LandonQC"]
-      },
-      {
-        "name": "Quaffle House",
-        "tag": "QH",
-        "colors": ["#000000", "#fff200"],
-        "captain": "Urdarkerend",
-        "players": ["Urdarkerend", "Campor", "Hotdog", "ZachOfAllTrades", "shucks", "berkin", "Liv"]
+        "players": ["KarlssonQC", "SectionL", "ADHDecent", "JayGuard", "Wise_M0nkey", "Clairefetti", "LandonQC", "DavidERB"]
       },
       {
         "name": "The Knock Out Knights",
@@ -89,21 +82,21 @@
         "tag": "KOG",
         "colors": ["#FFD700", "#000000"],
         "captain": "BigZave",
-        "players": ["BigZave", "Sparks100", "Vamp", "Udom0rn", "JustKetchup", "enekoetxe", "SquidCrowHorse146", "Serec", "JoakimMos"]
+        "players": ["BigZave", "Sparks100", "Vamp", "Udomorn", "JustKetchup", "enekoetxe", "SquidCrowHorse146", "Serec", "JoakimMos"]
       },
       {
         "name": "Revenants Quidditch Club",
         "tag": "RQC",
         "colors": ["#9966cc", "#383B39"],
         "captain": "CodeDelyric",
-        "players": ["CodeDelyric", "scytale", "Litromney7","RavenclawQuidditch", "shaunthebear", "TRobbo11", "Compugamer11", "BazookaQueen", "TheOTPHJ"]
+        "players": ["CodeDelyric", "Litromney7","RavenclawQuidditch", "shaunthebear", "TRobbo11", "Compugamer11", "BazookaQueen", "TheOTPHJ", "SaffronJolly"]
       },
       {
         "name": "Order of Merlin",
         "tag": "OOM",
         "colors": ["#5E9084", "#FFFFFF"],
         "captain": "SlytherinBludger",
-        "players": ["SlytherinBludger", "VikRe", "LukisusLT", "YesImShade", "QuickSolstice342", "Argonauts", "Safti0_0", "singularity", "Sdundul"]
+        "players": ["SlytherinBludger", "VikRe", "LukisusLT", "YesImShade", "Argonauts", "Safti0_0", "singularity", "Sdundul", "CraftyCat9"]
       },
       {
         "name": "The Knock Out Squires",
@@ -116,8 +109,8 @@
         "name": "The Nexus",
         "tag": "NXS",
         "colors": ["#5F5F5F", "#D4AF37"],
-        "captain": "Riley907",
-        "players": ["Riley907", "ItsSayruh", "B34RM4N", "VanirLatune", "JolVuH", "KingKumaXIII", "Chemicool516", "CloverOfLuck", "ModestLogic"]
+        "captain": "B34RM4N",
+        "players": ["B34RM4N", "Riley907", "ItsSayruh", "VanirLatune", "JolVuH", "KingKumaXIII", "Chemicool516", "CloverOfLuck", "ModestLogic"]
       },
       {
         "name": "The Knock Out Nifflers",
@@ -138,14 +131,14 @@
         "tag": "HD",
         "colors": ["#97517f", "#000000"],
         "captain": "ItBSmokiTTV",
-        "players": ["ItBSmokiTTV", "DavidERB", "MOLOMBO", "Ash Shacklebolt", "DeterminedDoug", "TheMabooHighShuffle", "Oof", "emoura", "leftcurveCEO"]
+        "players": ["ItBSmokiTTV",  "MOLOMBO", "Ash Shacklebolt", "DeterminedDoug", "TheMabooHighShuffle", "Oof", "emoura", "leftcurveCEO"]
       },
       {
         "name": "The Tenebrous Thestrals",
         "tag": "TTS",
         "colors": ["#9b9b9b", "#e8e3eb"],
         "captain": "XtremeBUTTER",
-        "players": ["XtremeBUTTER", "SiyrisBlack","LeafGreenV2", "DiskJockii", "Yannae", "fishplaytetris", "Fuu", "TheGutera",  "IshyVerse"]
+        "players": ["XtremeBUTTER", "SiyrisBlack","LeafGreenV2", "Yannae", "fishplaytetris", "Fuu", "TheGutera", "Oof"]
       },
       {
         "name": "The Knock Out Vampires",
@@ -159,7 +152,7 @@
         "tag": "RT",
         "colors": ["#E1C16E", "#483C32"],
         "captain": "Don Quixote",
-        "players": ["Don Quixote", "Tronak", "Paxlibertas", "tuonela", "Silberphoenix5", "Steve_Mayster", "Oerba", "Def Not a Bot"]
+        "players": ["Don Quixote", "Paxlibertas", "tuonela", "Silberphoenix5", "Steve_Mayster", "Oerba", "Def Not a Bot"]
       },
       {
         "name": "The Half-Giants",
