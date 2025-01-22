@@ -4,10 +4,8 @@
 * [Registration](registration.md "L7 | Registration")
 * [FAQ](faq.md "L7 | FAQ")
 * [Contact Us](contact-us.md "L7 | Contact Us")
-* [Past Events](/community-events/winford-invitational "L7 | Past Events")
-
-**COMMUNITY EVENTS**
-* [Holidays At L7](/community-events/mystery-draft "L7 | S01 General Information")
+* [Past Events](/community-events/past-events "L7 | Past Events")
+ 
 
 **DADA SEASON - S01**
 * [Information](/season/01/information.md "L7 | S01 General Information")

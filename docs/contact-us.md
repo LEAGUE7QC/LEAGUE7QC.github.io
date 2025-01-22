@@ -1,5 +1,5 @@
 ## How to Contact Us
-Please contact Melanore (Founder) directly for official league business, such as:
+Please contact **Melanore** directly for official league business, such as:
 - Sponsorships or partnership opportunities
 - Outreach and media inquiries
 - Legal matters
@@ -28,12 +28,17 @@ This ensures your inquiry is properly tracked and handled by our active staff te
 - **Staff Members**  - *North America*
     - Laggy (laggylestrange)
     - Shippo Tail (shippo_tail)
-    - Dark (urdarkerend)
-    - Zach (zachofalltrades)
 - **Staff Members** - *Europe*
-    - T.B.A.
+    - Skipper13 (skipper13)
+    - QuickSolstice (themindflayer)
 
 ## Previous Administration
+
+**Season 1 - DADA Season**
+- **Discontinued Staff Members**  - *North America*
+    - Zach (zachofalltrades) — *from 09/15/2024 to 12/13/2024*
+    - Dark (urdarkerend)— *from 09/15/2024 to 01/09/2025*
+
 **Season 0 - Tryout Season**
 - **Founder:**  Melanore (melanore) — *throughout*
 - **President:**  Virtual Witchcraft (sirfelix) — *throughout*
