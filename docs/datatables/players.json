@@ -4801,6 +4801,34 @@
       "twitch": "",
       "youtube": "",
       "tiktok": ""
+    },
+    {
+      "discord": "binkmx",
+      "name": "binkm",
+      "position": "Chaser",
+      "secondaryPosition": "Beater",
+      "region": "INT",
+      "platform": "Playstation",
+      "input": "Controller",
+      "hogwartsHouse": "",
+      "twitter": "",
+      "twitch": "binkmm ",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "Sh0kkey",
+      "name": "Sh0kkey™",
+      "position": "Chaser",
+      "secondaryPosition": "Keeper",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "Shokkey",
+      "youtube": "",
+      "tiktok": ""
     }
   ]
 }
