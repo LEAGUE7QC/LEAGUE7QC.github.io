@@ -2705,8 +2705,8 @@
     {
       "discord": "Lihsir",
       "name": "Lihsir",
-      "position": "Keeper",
-      "secondaryPosition": "Chaser",
+      "position": "Seeker",
+      "secondaryPosition": "",
       "region": "INT",
       "platform": "Playstation",
       "input": "Controller",
