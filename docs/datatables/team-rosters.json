@@ -123,8 +123,8 @@
         "name": "Crazy Comms",
         "tag": "CC",
         "colors": ["#EE0000", "#000000"],
-        "captain": "AlphaTux",
-        "players": ["AlphaTux", "UrBoiSkinnyHP", "makoonQC", "omekata", "F3N3X", "RealCyprisTTV", "ShonyQC", "Lihsir", "Prophecy"]
+        "captain": "UrBoiSkinnyHP",
+        "players": ["UrBoiSkinnyHP", "Lihsir","AlphaTux", "makoonQC", "Prophecy", "ShonyQC", "RealCyprisTTV", "omekata", "F3N3X"]
       },
       {
         "name": "The Tenebrous Thestrals",
