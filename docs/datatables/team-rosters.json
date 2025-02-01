@@ -5,7 +5,7 @@
         "tag": "PHX",
         "colors": ["#d63a2b", "#f5cd54"],
         "captain": "n e o",
-        "players": [ "n e o",	"NaTy53",	"Silvainius",		"Glas","Tediready",	"jaws",	"Denji", "Malikosis", "SlyHaddock7477"]
+        "players": [ "n e o",	"NaTy53",	"Silvainius", "jaws",	"Denji", "Malikosis", "SlyHaddock7477"]
       },
       {
         "name": "Winguardians",
@@ -47,7 +47,7 @@
         "tag": "MAD",
         "colors": ["#000000", "#910000"],
         "captain": "Smartbean",
-        "players": ["Smartbean", "Mukisan", "Beccarina", "Kinky Whiskey", "thebadgeruk", "JangoTheMerc_TTV","CrazyChiika", "Cyle95"]
+        "players": ["Smartbean", "Mukisan", "Beccarina", "Kinky Whiskey", "thebadgeruk","CrazyChiika", "Cyle95", "Avada", "scytale"]
       },
       {
         "name": "Dumbledork's Army",
@@ -68,7 +68,7 @@
         "tag": "UNO",
         "colors": ["#000000", "#ffffff"],
         "captain": "KarlssonQC",
-        "players": ["KarlssonQC", "SectionL", "ADHDecent", "JayGuard", "Wise_M0nkey", "Clairefetti", "LandonQC", "DavidERB"]
+        "players": ["KarlssonQC", "SectionL", "ADHDecent", "JayGuard", "Wise_M0nkey", "Clairefetti", "LandonQC", "DavidERB", "Chintasu"]
       },
       {
         "name": "The Knock Out Knights",
@@ -96,7 +96,7 @@
         "tag": "OOM",
         "colors": ["#5E9084", "#FFFFFF"],
         "captain": "SlytherinBludger",
-        "players": ["SlytherinBludger", "VikRe", "LukisusLT", "YesImShade", "Argonauts", "Safti0_0", "singularity", "Sdundul", "CraftyCat9"]
+        "players": ["SlytherinBludger", "VikRe", "LukisusLT", "YesImShade", "Argonauts", "singularity", "Sdundul", "CraftyCat9"]
       },
       {
         "name": "The Knock Out Squires",
