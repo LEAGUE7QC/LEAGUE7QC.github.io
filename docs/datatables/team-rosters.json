@@ -4,15 +4,15 @@
         "name": "Rising Phoenix International",
         "tag": "PHX",
         "colors": ["#d63a2b", "#f5cd54"],
-        "captain": "n e o",
-        "players": [ "n e o",	"NaTy53",	"Silvainius", "jaws",	"Denji", "Malikosis", "SlyHaddock7477"]
+        "captain": "NaTy53",
+        "players": [ "NaTy53", "n e o", "Silvainius", "jaws",	"Denji", "Malikosis", "SlyHaddock7477", "Tediready", "Glas"]
       },
       {
         "name": "Winguardians",
         "tag": "WIN",
         "colors": ["#45268a", "#e2ac16"],
         "captain": "Flyrish",
-        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "Amarict", "Aeriberry",	"Woonie", "ZachOfAllTrades"]
+        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "Aeriberry",	"Woonie", "ZachOfAllTrades"]
       },
       {
         "name": "Thin Ice",
@@ -40,7 +40,7 @@
         "tag": "HOG",
         "colors": ["#2A1157", "#38B6FF"],
         "captain": "Moonech",
-        "players": ["Moonech", "Bilbo T-Baggin", "PenTraDoXx", "Syndi", "JackD53",  "MilverTheMaid", "Tamaquashad", "pingu", "DiskJockii"]
+        "players": ["Moonech", "Bilbo T-Baggin", "Mome", "Syndi", "JackD53",  "MilverTheMaid", "Tamaquashad", "pingu", "DiskJockii"]
       },
       {
         "name": "Mad Mobsters",
@@ -109,8 +109,8 @@
         "name": "The Nexus",
         "tag": "NXS",
         "colors": ["#5F5F5F", "#D4AF37"],
-        "captain": "B34RM4N",
-        "players": ["B34RM4N", "Riley907", "ItsSayruh", "VanirLatune", "JolVuH", "KingKumaXIII", "Chemicool516", "CloverOfLuck", "Modestlogic"]
+        "captain": "Riley907",
+        "players": [ "Riley907", "B34RM4N", "ItsSayruh", "VanirLatune", "JolVuH", "KingKumaXIII", "Chemicool516", "Modestlogic", "WreckItRalph289"]
       },
       {
         "name": "The Knock Out Nifflers",
