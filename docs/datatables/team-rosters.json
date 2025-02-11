@@ -68,14 +68,14 @@
         "tag": "UNO",
         "colors": ["#000000", "#ffffff"],
         "captain": "KarlssonQC",
-        "players": ["KarlssonQC", "SectionL", "ADHDecent", "JayGuard", "Wise_M0nkey", "Clairefetti", "LandonQC", "DavidERB", "Chintasu"]
+        "players": ["KarlssonQC","ADHDecent", "JayGuard", "Wise_M0nkey", "Clairefetti", "LandonQC", "DavidERB", "Chintasu"]
       },
       {
         "name": "The Knock Out Knights",
         "tag": "KOK",
         "colors": ["#4169E1", "#FFD700"],
         "captain": "JeffreyStoner",
-        "players": ["JeffreyStoner", "Tegridy", "Faldoma", "Ludo_Down", "CptCarnage", "NEMESIS", "Nocki", "DeathCommrade", "Nylis"]
+        "players": ["JeffreyStoner",  "Faldoma", "Ludo_Down", "CptCarnage", "NEMESIS", "Nocki", "DeathCommrade", "Nylis"]
       },
       {
         "name": "The Knock Out Griffins",
