@@ -4825,7 +4825,7 @@
       "platform": "Steam",
       "input": "Controller",
       "hogwartsHouse": "Ravenclaw",
-      "twitter": "dont have one",
+      "twitter": "",
       "twitch": "Shokkey",
       "youtube": "",
       "tiktok": ""
@@ -4883,6 +4883,34 @@
       "hogwartsHouse": "Hufflepuff",
       "twitter": "",
       "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "Coffinflopper",
+      "name": "IslanBoi",
+      "position": "Beater",
+      "secondaryPosition": "Chaser",
+      "region": "NA",
+      "platform": "Playstation",
+      "input": "Controller",
+      "hogwartsHouse": "Gryffindor",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "tigreblanco_",
+      "name": "TigreWhite",
+      "position": "Seeker",
+      "secondaryPosition": "Chaser",
+      "region": "INT",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Ravenclaw",
+      "twitter": "",
+      "twitch": "tigrewhit3",
       "youtube": "",
       "tiktok": ""
     }

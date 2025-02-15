@@ -47,7 +47,7 @@
         "tag": "MAD",
         "colors": ["#000000", "#910000"],
         "captain": "Smartbean",
-        "players": ["Smartbean", "Mukisan", "Beccarina", "Kinky Whiskey", "thebadgeruk","CrazyChiika", "Cyle95", "Avada", "scytale"]
+        "players": ["Smartbean", "Mukisan", "Beccarina", "Kinky Whiskey", "thebadgeruk","CrazyChiika", "Avada", "scytale"]
       },
       {
         "name": "Dumbledork's Army",
@@ -61,7 +61,7 @@
         "tag": "HS",
         "colors": ["#bc1616", "#111010"],
         "captain": "AusGoss",
-        "players": ["AusGoss",  "Hawkin", "1Worden", "lukeminx", "DeterminedDoug", "WesternUniverse", "Endrewski", "Sh0kkey™", "shucks"]
+        "players": ["AusGoss",  "Hawkin", "1Worden", "lukeminx", "WesternUniverse", "Endrewski", "Sh0kkey™", "shucks"]
       },
       {
         "name": "Team Unown",
@@ -89,14 +89,14 @@
         "tag": "RQC",
         "colors": ["#9966cc", "#383B39"],
         "captain": "CodeDelyric",
-        "players": ["CodeDelyric", "RavenclawQuidditch", "shaunthebear", "TRobbo11", "Compugamer11", "BazookaQueen", "TheOTPHJ", "SaffronJolly", "binkm"]
+        "players": ["CodeDelyric", "RavenclawQuidditch", "shaunthebear", "TRobbo11", "Compugamer11", "TheOTPHJ", "SaffronJolly", "binkm", "IslanBoi"]
       },
       {
         "name": "Order of Merlin",
         "tag": "OOM",
         "colors": ["#5E9084", "#FFFFFF"],
         "captain": "SlytherinBludger",
-        "players": ["SlytherinBludger", "VikRe", "LukisusLT", "YesImShade", "Argonauts", "singularity", "Sdundul", "CraftyCat9"]
+        "players": ["SlytherinBludger", "VikRe", "LukisusLT", "YesImShade", "Argonauts", "singularity", "Sdundul", "CraftyCat9", "DeterminedDoug"]
       },
       {
         "name": "The Knock Out Squires",
@@ -109,8 +109,8 @@
         "name": "The Nexus",
         "tag": "NXS",
         "colors": ["#5F5F5F", "#D4AF37"],
-        "captain": "Riley907",
-        "players": [ "Riley907", "B34RM4N", "ItsSayruh", "VanirLatune", "JolVuH", "KingKumaXIII", "Chemicool516", "Modestlogic", "WreckItRalph289"]
+        "captain": "B34RM4N",
+        "players": ["B34RM4N", "ItsSayruh", "VanirLatune", "JolVuH", "KingKumaXIII", "Chemicool516", "Modestlogic", "WreckItRalph289"]
       },
       {
         "name": "The Knock Out Nifflers",
@@ -127,18 +127,11 @@
         "players": ["UrBoiSkinnyHP", "Lihsir","AlphaTux", "makoonQC", "Prophecy", "ShonyQC", "RealCyprisTTV", "omekata", "F3N3X"]
       },
       {
-        "name": "The Tenebrous Thestrals",
-        "tag": "TTS",
-        "colors": ["#9b9b9b", "#e8e3eb"],
-        "captain": "XtremeBUTTER",
-        "players": ["XtremeBUTTER", "SiyrisBlack","LeafGreenV2", "Yannae", "fishplaytetris", "Fuu", "TheGutera", "Oof"]
-      },
-      {
         "name": "The Knock Out Vampires",
         "tag": "KOV",
         "colors": ["#DC143C", "#FFD700"],
         "captain": "Ckightk",
-        "players": ["Ckightk", "Aaron Montalvo","BIGBOSS", "thesunsetdriver", "DeluWolf", "lilsaucinger80", "Osiris", "Imari"]
+        "players": ["Ckightk", "Aaron Montalvo", "DeluWolf",  "Osiris", "Imari", "Oof", "Starboy", "TigreWhite"]
       },
       {
         "name": "The Ragtag Trailblazers",
@@ -152,7 +145,7 @@
         "tag": "HG",
         "colors": ["#1f8b4c", "#f1c40f"],
         "captain": "WARBE4RD",
-        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "AxXjosieXxA", "Darkshadowfox91", "ShardianPreston"]
+        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "Darkshadowfox91", "ShardianPreston"]
       }
     ]
   }
