@@ -92,11 +92,11 @@
         "players": ["CodeDelyric", "RavenclawQuidditch", "shaunthebear", "TRobbo11", "Compugamer11", "TheOTPHJ", "SaffronJolly", "binkm", "IslanBoi"]
       },
       {
-        "name": "Order of Merlin",
-        "tag": "OOM",
-        "colors": ["#5E9084", "#FFFFFF"],
-        "captain": "SlytherinBludger",
-        "players": ["SlytherinBludger", "VikRe", "LukisusLT", "YesImShade", "Argonauts", "singularity", "Sdundul", "CraftyCat9", "DeterminedDoug"]
+        "name": "The Dragon Keepers",
+        "tag": "TDK",
+        "colors": ["#561b6a", "#ac1625"],
+        "captain": "YesImShade",
+        "players": ["YesImShade", "VikRe", "LukisusLT", "singularity", "CraftyCat9", "Argonauts", "swolekale"]
       },
       {
         "name": "The Knock Out Squires",
