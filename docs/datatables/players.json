@@ -3798,7 +3798,7 @@
       "discord": "xingsishenye",
       "name": "Modestlogic",
       "position": "Chaser",
-      "secondaryPosition": "",
+      "secondaryPosition": "Flex",
       "region": "INT",
       "platform": "Steam",
       "input": "Keyboard and Mouse",
@@ -4927,6 +4927,20 @@
       "twitch": "SadboyJady",
       "youtube": "SadboyJady",
       "tiktok": "dont have it"
+    },
+    {
+      "discord": "d3ad_m4chin3",
+      "name": "D3adM4chin3",
+      "position": "Chaser",
+      "secondaryPosition": "Seeker",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Slytherin",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
     }
   ]
 }
