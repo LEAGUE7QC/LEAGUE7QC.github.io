@@ -1920,7 +1920,7 @@
     },
     {
       "discord": "Dakeblubey",
-      "name": "jaws",
+      "name": "jaws (DakeBlubey)",
       "position": "Chaser",
       "secondaryPosition": "Beater",
       "region": "NA",
@@ -4923,10 +4923,10 @@
       "platform": "Steam",
       "input": "Keyboard and Mouse",
       "hogwartsHouse": "Slytherin",
-      "twitter": "dont have it",
+      "twitter": "",
       "twitch": "SadboyJady",
       "youtube": "SadboyJady",
-      "tiktok": "dont have it"
+      "tiktok": ""
     },
     {
       "discord": "d3ad_m4chin3",
@@ -4936,6 +4936,20 @@
       "region": "NA",
       "platform": "Steam",
       "input": "Keyboard and Mouse",
+      "hogwartsHouse": "Slytherin",
+      "twitter": "",
+      "twitch": "",
+      "youtube": "",
+      "tiktok": ""
+    },
+    {
+      "discord": "ah_hota",
+      "name": "Ah Hota",
+      "position": "Seeker",
+      "secondaryPosition": "Beater",
+      "region": "NA",
+      "platform": "Steam",
+      "input": "Controller",
       "hogwartsHouse": "Slytherin",
       "twitter": "",
       "twitch": "",
