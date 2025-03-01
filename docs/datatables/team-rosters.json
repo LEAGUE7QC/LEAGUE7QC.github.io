@@ -5,14 +5,14 @@
         "tag": "PHX",
         "colors": ["#d63a2b", "#f5cd54"],
         "captain": "NaTy53",
-        "players": [ "NaTy53", "n e o", "Silvainius", "jaws (DakeBlubey)",	"Denji", "Malikosis", "SlyHaddock7477", "Tediready", "Glas"]
+        "players": [ "NaTy53", "n e o", "Silvainius", "jaws (DakeBlubey)",	"Denji", "SlyHaddock7477", "Tediready", "Glas"]
       },
       {
         "name": "Winguardians",
         "tag": "WIN",
         "colors": ["#45268a", "#e2ac16"],
         "captain": "Flyrish",
-        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "Aeriberry",	"Woonie", "ZachOfAllTrades"]
+        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "Aeriberry",	"TheOnlyScourage", "ZachOfAllTrades", "DVSwain"]
       },
       {
         "name": "Thin Ice",
@@ -75,7 +75,7 @@
         "tag": "KOK",
         "colors": ["#4169E1", "#FFD700"],
         "captain": "JeffreyStoner",
-        "players": ["JeffreyStoner",  "Faldoma", "Ludo_Down", "CptCarnage", "NEMESIS", "Nocki", "DeathCommrade", "Nylis", "Ah Hota"]
+        "players": ["JeffreyStoner",  "Ludo_Down", "CptCarnage", "NEMESIS", "Nocki", "DeathCommrade", "Ah Hota", "countTails", "StaticKiwi"]
       },
       {
         "name": "The Knock Out Griffins",
@@ -138,7 +138,7 @@
         "tag": "HG",
         "colors": ["#1f8b4c", "#f1c40f"],
         "captain": "WARBE4RD",
-        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "Darkshadowfox91", "ShardianPreston"]
+        "players": ["WARBE4RD", "OutOfManaPotions", "Beesman93", "Parvish", "ShippoTail", "Darkshadowfox91", "ShardianPreston", "XtremeBUTTER"]
       }
     ]
   }
