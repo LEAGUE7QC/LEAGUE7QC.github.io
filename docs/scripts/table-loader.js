@@ -18,6 +18,22 @@ function createTeamCell(teamName) {
   const nameSpan = document.createElement('span');
   nameSpan.textContent = teamName;
 
+   // List of teams disbanded
+   const disbandedTeams = [
+    "The Tenebrous Thestrals",
+    "The Knock Out Nifflers",
+    "Hazi Dementorz",
+    "Quaffle House",
+    "Trailblazing Thunderbirds",
+    "Basilisk Brewers"
+  ];
+
+  if (disbandedTeams.includes(teamName)) {
+    nameSpan.textContent = `${teamName} (disbanded)`;
+    nameSpan.style.fontStyle = 'italic';
+    //nameSpan.style.textDecoration = 'line-through';
+    nameSpan.style.opacity = '20%';
+  }
   container.appendChild(logo);
   container.appendChild(nameSpan);
   

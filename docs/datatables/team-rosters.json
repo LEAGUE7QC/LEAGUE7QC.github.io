@@ -12,7 +12,7 @@
         "tag": "WIN",
         "colors": ["#45268a", "#e2ac16"],
         "captain": "Flyrish",
-        "players": ["Flyrish", "shinobiCoderr", "Unknown_KEY",	"KDtox",	"illmage", "Aeriberry",	"TheOnlyScourage", "ZachOfAllTrades", "DVSwain"]
+        "players": ["Flyrish", "Unknown_KEY",	"KDtox",	"illmage", "Aeriberry",	"TheOnlyScourage", "ZachOfAllTrades", "DVSwain", "PumkinSnatch"]
       },
       {
         "name": "Thin Ice",
@@ -40,14 +40,14 @@
         "tag": "HOG",
         "colors": ["#2A1157", "#38B6FF"],
         "captain": "Moonech",
-        "players": ["Moonech", "Bilbo T-Baggin", "Mome", "Syndi", "JackD53",  "MilverTheMaid", "Tamaquashad", "pingu", "DiskJockii"]
+        "players": ["Moonech", "Bilbo T-Baggin", "Mome", "Syndi", "JackD53",  "MilverTheMaid", "Tamaquashad", "pingu", "Nach"]
       },
       {
         "name": "Mad Mobsters",
         "tag": "MAD",
         "colors": ["#000000", "#910000"],
         "captain": "Smartbean",
-        "players": ["Smartbean", "Mukisan", "Beccarina", "Kinky Whiskey", "thebadgeruk","CrazyChiika", "Avada", "scytale"]
+        "players": ["Smartbean", "Mukisan", "Beccarina", "Kinky Whiskey", "thebadgeruk","CrazyChiika", "Avada", "scytale", "DiskJockii"]
       },
       {
         "name": "Dumbledork's Army",
@@ -68,14 +68,14 @@
         "tag": "UNO",
         "colors": ["#000000", "#ffffff"],
         "captain": "KarlssonQC",
-        "players": ["KarlssonQC","ADHDecent", "JayGuard", "Wise_M0nkey", "Clairefetti", "LandonQC", "DavidERB", "Chintasu"]
+        "players": ["KarlssonQC","ADHDecent", "JayGuard", "Wise_M0nkey", "Clairefetti", "LandonQC", "DavidERB", "Chintasu", "lommer"]
       },
       {
         "name": "The Knock Out Knights",
         "tag": "KOK",
         "colors": ["#4169E1", "#FFD700"],
         "captain": "JeffreyStoner",
-        "players": ["JeffreyStoner",  "Ludo_Down", "CptCarnage", "NEMESIS", "Nocki", "DeathCommrade", "Ah Hota", "countTails", "StaticKiwi"]
+        "players": ["JeffreyStoner",  "Ludo_Down", "CptCarnage", "NEMESIS", "Nocki", "DeathCommrade", "Ah Hota",  "StaticKiwi", "Faldoma"]
       },
       {
         "name": "The Knock Out Griffins",
@@ -117,7 +117,7 @@
         "tag": "CC",
         "colors": ["#EE0000", "#000000"],
         "captain": "UrBoiSkinnyHP",
-        "players": ["UrBoiSkinnyHP", "Lihsir","AlphaTux", "makoonQC", "Prophecy", "ShonyQC", "RealCyprisTTV", "omekata", "F3N3X"]
+        "players": ["UrBoiSkinnyHP", "Lihsir","AlphaTux", "makoonQC", "Prophecy", "ShonyQC", "RealCyprisTTV", "carddi", "countTails"]
       },
       {
         "name": "The Knock Out Vampires",
@@ -131,7 +131,7 @@
         "tag": "RT",
         "colors": ["#E1C16E", "#483C32"],
         "captain": "Don Quixote",
-        "players": ["Don Quixote", "Paxlibertas", "tuonela", "Silberphoenix5", "Steve_Mayster", "Oerba", "Def Not a Bot"]
+        "players": ["Don Quixote", "Paxlibertas", "tuonela", "Silberphoenix5", "Steve_Mayster", "Oerba", "Def Not a Bot", "NKatie22"]
       },
       {
         "name": "The Half-Giants",
