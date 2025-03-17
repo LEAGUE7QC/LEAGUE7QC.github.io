@@ -13,7 +13,7 @@ This tournament will not be for the faint-of-heart, made to test the mettle of e
 - **Team Size:** 5 players (2 Chasers, 1 Beater, 1 Keeper, 1 Seeker)
 - **Substitutes:** No substitutes allowed; team rosters are locked after registration
 - **Participants:** Maximum 20 teams (first come, first served)
-- **Prize Pool:** $500 ($100 per player on winning team) sponsored by Virtual Witchcraft (@sirfelix)
+- **Prize Pool:** $500 ($100 per player on winning team), sponsored by Virtual Witchcraft (@sirfelix)
 
 ## Standardized Loadouts
 
@@ -61,7 +61,7 @@ All players must use these exact builds throughout the tournament:
    - Maps may be decided by Captains' agreement
 
 ## Official Broadcasting
-LEAGUE7 will use this tournament to launch our official streaming platform! Details regarding our stream and social media channels will be announced on Discord.
+LEAGUE7 will use this tournament to launch our official streaming platform, <span style="color:#ab7efc">[**Twitch**](https://www.twitch.tv/league7qc)</span>! 
 
 ## Registration
 - Registration opens soon via a dedicated form on this page below
