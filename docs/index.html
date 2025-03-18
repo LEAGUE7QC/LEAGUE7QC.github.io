@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="light">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="dark">
   <link rel="stylesheet" href="styles/team-styles.css">
-  
+  <link rel="stylesheet" href="styles/match-styles.css">
+
   <style>
     #docsify-darklight-theme{ right: 10px;}
     .text-center { text-align: center;}
@@ -99,7 +100,7 @@
 </head>
 <body>
   <div id="app"></div>
-  
+
   <script>
     window.$docsify = {
     name: 'LEAGUE7',
@@ -111,10 +112,10 @@
     auto2top: true,
     coverpage: true,
     themeColor: '#ffbd00',
-    coverpageVideo: { 
+    coverpageVideo: {
       videoSrc: '../images/L7/landing-pitch.mp4',
       autoplay: true,
-      loop: true, 
+      loop: true,
       zIndex: 1,
     },
 
@@ -127,22 +128,22 @@
                       paging: false,
                       searching: false,
                       ordering: true,
-                    },false, null, 'stats-table'); 
-                    
+                    },false, null, 'stats-table');
+
                     loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTNSR5EOLa0z72ue8LTYkT6gWuzBAM8HuD91pd7CyDeLBpAgeORsrO2ZJYu1yH8SP612Srn8X_ruM3G/pub?gid=294770020&single=true&output=csv', 'east-season-stats-table', {
                       paging: false,
                       searching: false,
                       ordering: true,
-                    },false, null, 'stats-table'); 
+                    },false, null, 'stats-table');
                   }
-                  
+
                   if (vm.route.file === 'season/01/team-rosters.md') {
                     // Options for the tryout-participants
                     loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTrz5-y2iLwqVuUMo6n63A8N63UYiU2pvRfqUf6QdV3t7Sgl7cciPAISUDAb8LDgfmAgPuiPiB9BGJD/pub?gid=400794292&single=true&output=csv', 'roster-changes-table', {
                       paging: true,
                       searching: true,
                       ordering: true,
-                    }, false, null, 'roster-changes-table'); 
+                    }, false, null, 'roster-changes-table');
                   }
 
                   if (vm.route.file === 'season-standings.md') {
@@ -151,8 +152,8 @@
                       paging: true,
                       searching: true,
                       ordering: true,
-                    },true); 
-                    
+                    },true);
+
                     // Load role-specific graphs
                     loadChaserGraph();
                     loadSeekerGraph();
@@ -163,9 +164,18 @@
                     setTimeout(() => {
                       if (typeof window.runteamPlugin === 'function') {
                         window.runteamPlugin();
-                      } 
+                      }
                     }, 10);
                   }
+
+                  if (vm.route.file === 'season/01/matches.md') {
+                    setTimeout(() => {
+                      if (typeof window.runMatchPlugin === 'function') {
+                        window.runMatchPlugin();
+                      }
+                    }, 10);
+                  }
+
                   if (vm.route.file === 'quidditch-board.md') {
                     const pitchElement = document.querySelector('#quidditch-board');
                     if (pitchElement) {
@@ -175,7 +185,7 @@
                       );
                     }
                   }
-              }); 
+              });
     }
   ]
 }
@@ -184,17 +194,17 @@
 
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-  
+
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/main.min.js" type="text/javascript"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/index.min.js" type="text/javascript"> </script>
-  
+
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/gh/rizdaprasetya/docsify-fix-pageload-scroll@master/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
   <script src="scripts/table-loader.js"></script>
   <script src="scripts/graph-creator.js"></script>
@@ -204,9 +214,10 @@
   <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-  
+
   <script src="scripts/team-plugin.js"></script>
-  <script src="scripts/coverpage-video.js"></script> 
+  <script src="scripts/match-plugin.js"></script>
+  <script src="scripts/coverpage-video.js"></script>
   <script src="scripts/quidditch-board.js"></script>
 </body>
 </html>
