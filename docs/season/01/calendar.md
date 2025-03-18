@@ -18,7 +18,7 @@ Nastily Exhausting Wizarding Tests (N.E.W.T.s) are here! After an exciting O.W.L
 
 **Day 2** - *on Sunday, March 30th*
 - Losers Bracket Continuation: Games 9-13
-- Finals: Game 14 and beyond
+- Finals: Game 14 
 
 **Please Note:** The order of played matches is not definitive and may change depending on the ongoing stream situation. We may adjust the schedule to accommodate teams, viewers, and broadcast quality. Please check our Discord announcements for the most up-to-date match timing.
 
