@@ -64,9 +64,4 @@ All players must use these exact builds throughout the tournament:
 LEAGUE7 will use this tournament to launch our official streaming platform, <span style="color:#ab7efc">[**Twitch**](https://www.twitch.tv/league7qc)</span>! 
 
 ## Registration
-- Register through the form below
-- Teams must confirm availability for both tournament days
-- First come, first served (maximum 20 teams)
-- Registration confirmation and additional details will be provided on Discord (see #event-general channel)
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScSV_7sO7pBHiPEPq9M9isv5E9ec1KOqamcAGHE1J7vfUb0gg/viewform?usp=sharing"  target="_blank" style="display: inline-block; padding: 12px 22px; background-color: #ffbd00; color: black; text-decoration: none; font-weight: bold; border-radius: 4px; text-align: center;">5v5 Dream Event: REGISTER HERE!</a> 
+- Registration deadline has passed.
