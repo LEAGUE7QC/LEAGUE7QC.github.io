@@ -63,5 +63,6 @@ All players must use these exact builds throughout the tournament:
 ## Official Broadcasting
 LEAGUE7 will use this tournament to launch our official streaming platform, <span style="color:#ab7efc">[**Twitch**](https://www.twitch.tv/league7qc)</span>! 
 
-## Registration
-- Registration deadline has passed.
+## Brackets & Results
+
+<iframe src="https://challonge.com/zkjj1jz6/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>

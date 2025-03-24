@@ -6,13 +6,10 @@
 * [Contact Us](contact-us.md "L7 | Contact Us")
 * [Past Events](/community-events/past-events "L7 | Past Events")
 
-**COMMUNITY EVENTS**
-* [5v5 Dream Tourney <span style="color:#ffbd00">(NEW!)</span>](/community-events/5v5-dream "L7 | 5v5 Dream Tournament")
-
 **DADA SEASON - S01**
 * [Information](/season/01/information.md "L7 | S01 General Information")
 * [Team Rosters](/season/01/team-rosters.md "L7 | Team Rosters")
-* [Match Calendar](/season/01/calendar.md "L7 | Match Calendar") 
+* [Match Calendar <span style="color:#ffbd00">(NEW!)</span>](/season/01/calendar.md "L7 | Match Calendar") 
 * [Stats & Standings](/season/01/standings.md "L7 | Season Standings")
 * [Quidditch Board](/quidditch-board.md "L7 | Quidditch Board")
 
