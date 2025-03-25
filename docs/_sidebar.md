@@ -10,8 +10,8 @@
 * [Information](/season/01/information.md "L7 | S01 General Information")
 * [Team Rosters](/season/01/team-rosters.md "L7 | Team Rosters")
 * [Match Calendar <span style="color:#ffbd00">(NEW!)</span>](/season/01/calendar.md "L7 | Match Calendar") 
-* [Stats & Standings](/season/01/standings.md "L7 | Season Standings")
-* [Matches](/season/01/matches.md "L7 | Matches Details")
+* [O.W.L.s Standings](/season/01/standings.md "L7 | Season Standings")
+* [N.E.W.T.s Matches](/season/01/matches.md "L7 | Matches Details")
 * [Quidditch Board](/quidditch-board.md "L7 | Quidditch Board")
 
 **TRYOUT SEASON - S00**

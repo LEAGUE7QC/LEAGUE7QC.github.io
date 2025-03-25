@@ -2,7 +2,7 @@
 ## Information
 Welcome to the official LEAGUE7 standings page! Here you'll find up-to-date rankings and statistics for all teams participating in our inaugural season's O.W.L.s (Ordinary Wizarding Levels) phase. Teams are divided into East and West divisions, competing in best-of-3 matches to determine their rankings and eventual advancement to the N.E.W.T.s tournament.
 
-## O.W.L.s  Standings
+### O.W.L.s  Standings
 The following statistics are tracked for each team:
 - **MW** - *Matches Won* - Total number of best-of-3 series victories
 - **GW** - *Games Won* - Total individual games won across all matches
@@ -13,8 +13,8 @@ The following statistics are tracked for each team:
 - **#G** - *Games Played* - Total number of individual games played
 
 
-### West Division Teams:
+## West Division Teams:
 <div id="west-season-stats-table"></div>
 
-### East Division Teams:
+## East Division Teams:
 <div id="east-season-stats-table"></div>
