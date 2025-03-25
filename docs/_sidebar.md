@@ -10,9 +10,9 @@
 **DADA SEASON - S01**
 * [Information](/season/01/information.md "L7 | S01 General Information")
 * [Team Rosters](/season/01/team-rosters.md "L7 | Team Rosters")
-* [Match Calendar <span style="color:#ffbd00">(NEW!)</span>](/season/01/calendar.md "L7 | Match Calendar") 
+* [Match Calendar](/season/01/calendar.md "L7 | Match Calendar") 
 * [O.W.L.s Standings](/season/01/standings.md "L7 | Season Standings")
-* [N.E.W.T.s Matches](/season/01/matches.md "L7 | Matches Details")
+* [N.E.W.T.s Matches <span style="color:#ffbd00">(NEW!)</span>](/season/01/matches.md "L7 | Matches Details")
 
 **TRYOUT SEASON - S00**
 * [Season Standings](season-standings.md "L7 | Season Standings")
