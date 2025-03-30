@@ -287,6 +287,7 @@ function runMatchPlugin() {
                 // Get player position from players object
                 const playerObj = this.findPlayerByName(playerName);
                 const position = playerObj ? playerObj.position : 'Unknown';
+                const secondaryPosition = playerObj ? playerObj.secondaryPosition : 'Unknown';
                 const isCaptain = playerObj ? playerObj.captain === true : false;
                 
                 // Process medals - collect all non-zero medal values
@@ -349,6 +350,7 @@ function runMatchPlugin() {
                         player: playerName,
                         playerInfo: playerObj,
                         position: position,
+                        secondaryPosition: secondaryPosition,
                         captain: isCaptain,
                         points: totalScore,
                         medals: medals
@@ -731,6 +733,8 @@ function runMatchPlugin() {
             // Get position for icon
             const position = player.position || 'Unknown';
             const positionLower = position.toLowerCase();
+            const secondaryPosition = player.secondaryPosition || 'Unknown';
+            const secondaryPositionLower = secondaryPosition.toLowerCase();
             // Create medals HTML as a tooltip that appears on hover
             let medalsHtml = '';
             if (player.medals && player.medals.length > 0) {
@@ -748,7 +752,8 @@ function runMatchPlugin() {
                 <div class="player-stats">
                     <div class="score">${player.points || '0'}</div>
                     <div class="player">
-                        <img class="position" src="images/sprites/${positionLower}.png" onerror="this.src='images/sprites/unknown.png';">
+                        <img class="position" src="images/sprites/${positionLower}.png" onerror="this.src='images/sprites/flex.png';">
+                        <img class="position" src="images/sprites/${secondaryPosition}.png" onerror="this.src='images/sprites/flex.png';">
                         <div class="name ${player.captain ? "captain" : ""} ${player.medals && player.medals.length > 0 ? "has-medals" : ""}">
                             ${player.player}
                             ${medalsHtml}
