@@ -286,8 +286,9 @@ function runMatchPlugin() {
                 
                 // Get player position from players object
                 const playerObj = this.findPlayerByName(playerName);
-                const position = playerObj ? playerObj.position : 'flex';
-                const secondaryPosition = playerObj ? playerObj.secondaryPosition : 'flex';
+                const position = playerObj ? playerObj.position : 'Flex';
+                const secondaryPosition = playerObj ? playerObj.secondaryPosition : 'Flex';
+                console.log(secondaryPosition)
                 const isCaptain = playerObj ? playerObj.captain === true : false;
                 
                 // Process medals - collect all non-zero medal values
@@ -752,8 +753,8 @@ function runMatchPlugin() {
                 <div class="player-stats">
                     <div class="score">${player.points || '0'}</div>
                     <div class="player">
-                        <img class="position" src="images/sprites/${positionLower}.png" onerror="this.src='images/sprites/flex.png';">
-                        <img class="position" src="images/sprites/${secondaryPosition}.png" onerror="this.src='images/sprites/flex.png';">
+                        <img class="position" src="images/sprites/${positionLower}.png" onerror="this.src='images/sprites/Flex.png';">
+                        <img class="position" src="images/sprites/${secondaryPosition}.png" onerror="this.src='images/sprites/Flex.png';">
                         <div class="name ${player.captain ? "captain" : ""} ${player.medals && player.medals.length > 0 ? "has-medals" : ""}">
                             ${player.player}
                             ${medalsHtml}
