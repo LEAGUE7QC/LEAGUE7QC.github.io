@@ -286,8 +286,8 @@ function runMatchPlugin() {
                 
                 // Get player position from players object
                 const playerObj = this.findPlayerByName(playerName);
-                const position = playerObj ? playerObj.position : 'Unknown';
-                const secondaryPosition = playerObj ? playerObj.secondaryPosition : 'Unknown';
+                const position = playerObj ? playerObj.position : 'flex';
+                const secondaryPosition = playerObj ? playerObj.secondaryPosition : 'flex';
                 const isCaptain = playerObj ? playerObj.captain === true : false;
                 
                 // Process medals - collect all non-zero medal values
