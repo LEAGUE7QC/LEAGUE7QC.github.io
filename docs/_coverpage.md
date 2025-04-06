@@ -11,4 +11,3 @@
 
 [<span style="color:black">JOIN OUR DISCORD</span>](https://discord.gg/Ph8GUq3veh)
 [LEARN MORE](/?id=welcome-to-league7)
-[D.A.D.A. SEASON](/season/01/information)
