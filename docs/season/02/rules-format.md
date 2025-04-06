@@ -62,7 +62,7 @@ Season 2 will feature three divisions based on skill level. The league may opera
 
 #### 3.1.3 House Cup Division
 - Entry-pro level competitive play
-- Developmental focus welcoming to new players
+- Developmental focus, welcoming to new players
 - Most flexible roster regulations
 
 ### 3.2 Division Assignment
