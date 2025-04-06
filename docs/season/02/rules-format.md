@@ -157,9 +157,8 @@ Season 2 will feature three divisions based on skill level. The league may opera
 - Players cannot be on a team roster and in the Free Agent Pool simultaneously
 
 #### 4.1.6 N.E.W.T.s Eligibility
-- To participate in N.E.W.T.s matches, players must have competed in a minimum of 2 O.W.L.s games for their team
-- Free Agents are not eligible for N.E.W.T.s matches under any circumstances
 - N.E.W.T.s rosters must be a subset of the team's O.W.L.s roster
+- Free Agents are not eligible for N.E.W.T.s matches under any circumstances
 - N.E.W.T.s matches follow the same player count rules as O.W.L.s matches
  
 #### 4.1.7 Player Identity Verification
