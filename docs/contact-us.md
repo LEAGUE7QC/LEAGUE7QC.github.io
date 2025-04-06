@@ -30,6 +30,7 @@ This ensures your inquiry is properly tracked and handled by our active staff te
     - Laggy (laggylestrange)
     - Skipper (skipper13)
     - Riley (amessilyfe)
+    - Michy (michymoqc)
     - *T.B.D.*
 - **Moderators:**
     - Warbeard (.warbeard)
@@ -58,6 +59,7 @@ This ensures your inquiry is properly tracked and handled by our active staff te
     - Riley (amessilyfe)
     - Skipper (skipper13)
     - QuickSolstice (themindflayer)
+    - Michy (michymoqc)
 - **Discontinued Staff Members**  - *North America*
     - Zach (zachofalltrades) — *from 09/15/2024 to 12/13/2024*
     - Dark (urdarkerend)— *from 09/15/2024 to 01/09/2025*
