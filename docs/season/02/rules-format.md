@@ -363,7 +363,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 - If a team is not ready after 7 minutes, the same late penalty of pre-match applies again for the next game
    - If a previous game ended at :23 minute mark, captains are expected to meet at :30 to start the next game
 
-### 7.2.4 Post-Match Reporting
+#### 7.2.4 Post-Match Reporting
 - Both captains must submit scores within 45 minutes of match completion into their respective threads
 - Enforcement of reporting deadline:
   - 1-30 minutes late: -10 points from team's season point scored
@@ -378,7 +378,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
   - Disputed scores
   - Technical issues
 
-#### 7.2.1 Match Observation
+#### 7.2.5 Match Observation
 - Staff members will be available to observe matches (when possible)
   - Staff verifies rosters and game settings with captains
   - Staff remains available in voice channels or dedicated support channel
