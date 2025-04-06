@@ -1,4 +1,7 @@
 
+
+> This event has concluded.
+
 ![5v5 Dream](../images/events/5v5_Dream.png)
 # 5v5 Dream Tournament 🏆 
 

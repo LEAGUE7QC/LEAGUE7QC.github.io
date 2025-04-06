@@ -1,6 +1,12 @@
 
 > Below is the list of events that have concluded
 
-* [Winford Invitational](/community-events/winford-invitational)
-* [Holidays At L7: Mystery Draft](/community-events/mystery-draft)
-* [5v5 Dream Tournament](/community-events/5v5-dream) 
+[![5v5 Dream](../images/events/5v5_Dream.png)](/community-events/5v5-dream) 
+<hr>
+
+[![Holidays At L7: Mystery Draft](../images/events/Mystery_Draft.png)](/community-events/mystery-draft) 
+<hr>
+
+[![Winford Invitational](../images/events/Winford_Invitational.png)](/community-events/winford-invitational) 
+
+ 
