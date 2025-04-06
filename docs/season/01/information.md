@@ -1,4 +1,4 @@
-# Information - D.A.D.A. (S01)
+# D.A.D.A. Season (S01)
 
 We're excited to launch our first season: **<span style="color:#ca1619">Defence Against the Dark Arts</span>**!
 

@@ -22,29 +22,73 @@ This ensures your inquiry is properly tracked and handled by our active staff te
 
 ## Current Administration
 
-**Season 1 - Defense Against the Dark Arts**:
+### Season 2 - Transfiguration
+
 - **Founder:**  Melanore (melanore)
-- **President:**  Virtual Witchcraft (sirfelix)
-- **Staff Members**  - *North America*
+- **President:** *T.B.D.*
+- **Staff Members:**
     - Laggy (laggylestrange)
-    - Shippo Tail (shippo_tail)
-- **Staff Members** - *Europe*
-    - Skipper13 (skipper13)
-    - QuickSolstice (themindflayer)
+    - Skipper (skipper13)
+    - Riley (amessilyfe)
+    - *T.B.D.*
+- **Moderators:**
+    - Warbeard (.warbeard)
+    - Manon (witchling_aelin)
+    - Disk Jockii (diskjockii)
+- **Broadcasting:**
+    - Virtual Witchcraft (sirfelix)
+    - Aus (ausgoss) 
+    - Sh0kkey (sh0kkey) 
+    - Cleet (.cleet) 
+    - Moldy Cheeze (moldycheeze5618) 
+    - Madlove_Inspiration (rogercornbaggins2827) 
+- **Website & Database:**
+    - D3ad (d3ad_m4chin3) 
+    - bushbat (rushrat) 
 
 ## Previous Administration
+<span style="opacity:0.5;">
 
-**Season 1 - DADA Season**
+### Season 1 - D.A.D.A. Season
+- **Founder:**  Melanore (melanore)
+- **President:**  Virtual Witchcraft (sirfelix)
+- **Staff Members**
+    - Laggy (laggylestrange)
+    - Shippo (shippo_tail)
+    - Riley (amessilyfe)
+    - Skipper (skipper13)
+    - QuickSolstice (themindflayer)
 - **Discontinued Staff Members**  - *North America*
     - Zach (zachofalltrades) — *from 09/15/2024 to 12/13/2024*
     - Dark (urdarkerend)— *from 09/15/2024 to 01/09/2025*
+- **Moderators:**
+    - Warbeard (.warbeard)
+    - Manon (witchling_aelin)
+    - Disk Jockii (diskjockii)
+- **Special Sections** - *created by the President*
+    - **Awards Commitee:**
+        - Shadowfox (.shadowthefolf)
+        - Michy (michymoqc)
+        - Mooney (moonech)
+    - **Broadcasting Team:**
+        - Virtual Witchcraft (sirfelix)
+        - Aus (ausgoss) 
+        - Sh0kkey (sh0kkey) 
+        - Cleet (.cleet) 
+        - Moldy Cheeze (moldycheeze5618) 
+        - Madlove_Inspiration (rogercornbaggins2827) 
+    - **Website & Database:**
+        - D3ad (d3ad_m4chin3) 
+        - bushbat (rushrat) 
+        - timebomb0 (timebomb011) 
 
-**Season 0 - Tryout Season**
+### Season 0 - Tryout Season
 - **Founder:**  Melanore (melanore) — *throughout*
 - **President:**  Virtual Witchcraft (sirfelix) — *throughout*
-- **Staff Members**  - *North America*
+- **Staff Members** 
     - Laggy (laggylestrange) — *throughout*
     - Shippo Tail (shippo_tail) — *throughout*
     - Dark (urdarkerend) — *throughout*
     - Zach (zachofalltrades) — *throughout*
     - Zex (zexoii) — *from 09/15/2024 to 10/15/2024*
+</span>

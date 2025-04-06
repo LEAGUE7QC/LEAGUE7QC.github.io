@@ -2,6 +2,8 @@
 
 > This document outlines league format and new rules for Season 2 **suggested**  by Melanore. These rules build upon the foundation established in Season 1 and incorporate feedback from the community, Staff, and Captains' Council. The finalization of the ruleset will be announced after Presidential elections, by the new President.
 
+> This document is still a DRAFT.
+
 ## 1. Introduction
 
 ### 1.1 Purpose
