@@ -45,7 +45,6 @@ Each season spans approximately three months:
   - All previous matches involving that team will be voided and removed from standings calculations
   - All future scheduled matches will be canceled
   - This ensures fairness if some teams have played the departing team while others have not
-  - Teams will be notified of updated standings within 48 hours of the drop out
 
 ## 3. Division Structure
 
@@ -90,6 +89,10 @@ Season 2 will feature three divisions based on skill level. The league may opera
 ### 3.3 Team Leadership Structure
 - Each team must designate a Captain and may optionally appoint a Co-Captain
 - Team ownership and branding rights belong to the team collectively, not solely to the Captain
+  - Team branding from previous seasons have protected status and cannot be claimed by new teams without proper authorization
+  - The team with the majority (more than 50%) of players from the previous season's roster retains the right to the team branding
+  - If no team has a majority of players, priority goes to the team that includes the previous season's Captain
+  - In case of an exact split or continued dispute, Staff will make the final determination based on team history and contributions
 - Captain changes require:
   - A ticket submitted to Staff 
   - A team vote with majority approval (minimum 2/3 of roster)
