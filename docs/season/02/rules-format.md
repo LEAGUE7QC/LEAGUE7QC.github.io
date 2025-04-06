@@ -173,10 +173,10 @@ Season 2 will feature three divisions based on skill level. The league may opera
 ### 4.2 Team Communications
 
 #### 4.2.1 Match Communication Rules
-- Teams must use L7 Discord voice channels for all match communications
+- Teams must use LEAGUE7 Discord voice channels for all match communications
 - Teams cannot utilize other Discord servers for communication during official matches
-- Only players on the team roster may speak in their respective voice channels during matches
-- No outside coaching is allowed during matches
+- Only players on the team roster may speak in their respective voice channels
+   - No outside coaching is allowed during matches
 - Staff members may join team channels for observation but will remain muted unless needed
 - Recording of voice communications is prohibited without consent from all participants
 
@@ -212,48 +212,44 @@ Season 2 will feature three divisions based on skill level. The league may opera
 ### 5.2 Match Scheduling
 - Team captains are responsible for scheduling their matches within the 7-week timeframe
 - Both team captains must confirm schedule agreements in writing on LEAGUE7's official Discord
-- Staff will provide a suggested weekly schedule to help teams distribute their matches evenly
 - Teams are responsible for completing all their matches within the 7-week O.W.L.s period
 - No maximum limit on the number of matches teams can play per week
 - Teams must complete at least two matches by the end of week 3
 - Teams must complete at least four matches (cumulative total) by the end of week 5
-- Teams failing to meet these milestones will receive an official warning
-- Repeated failure may result in match forfeiture
+- Failure to meet these milestones will automatically trigger the default scheduling mechanism
 
-#### 5.2.1 Scheduling Enforcement
+### 5.2.1 Default Game Times
+- Each division has designated default game times each weekend:
+  - World Cup Division: Saturday at 12:00 PM PST
+  - Triwizard Cup Division: Saturday at 1:00 PM PST
+  - House Cup Division: Saturday at 2:00 PM PST
+  - These default times remain in place until captains successfully vote on division-specific time
+- These default times are automatically scheduled for any unscheduled matches approaching deadlines
+- Teams may reschedule from these default times if both captains agree in writing at least 48 hours before the default time
+- If a team cannot make their division's default time, they must proactively reach out to schedule an alternative
+
+### 5.2.2 Scheduling Enforcement Process
 - If captains fail to respond to scheduling requests for 48 hours (measured from the initial documented scheduling request), Staff will issue a formal scheduling notice
   - Any response indicating intent to schedule (even without specific details) is sufficient
   - This intervention only occurs when captains are completely non-communicative
 - If no response is received within 24 hours of the notice:
-  - Staff will assign a match time during the upcoming weekend
-  - Teams who fail to appear at the assigned time will forfeit
+   - Staff will assign a match time during the upcoming weekend at default game times
+   - Teams who fail to appear at the assigned time will forfeit
 
-#### 5.2.2 Scheduling Disputes
-- When captains cannot agree on a match time:
-  - Both captains must submit their available time slots for the next 7 days
-  - Each captain must provide at least three different time options
-  - If time slots overlap, Staff will select from the overlapping times
-  - If no time slots overlap:
-    - Staff will request additional time options from both captains
-    - If still no overlap, Staff will evaluate which team has provided more reasonable options based on typical league playing hours, variety of days, and accommodation of time zones
-    - The team providing less reasonable availability may face forfeit if they cannot offer more flexible options
-    - If both teams provide equally limited availability, Staff may assign a specific time that both teams must accommodate or face mutual forfeit
-  - Staff decisions on scheduling disputes are final
-  - Teams repeatedly involved in scheduling disputes may face additional scrutiny in future disputes
+### 5.2.3 Scheduling Ethics
+- If you suspect a team is deliberately offering only inconvenient time slots to gain an advantage:
+  - Submit all communication logs to the Captains' Council review panel
+  - The panel (excluding captains from involved teams) will review within 48 hours
+  - Teams found to be deliberately manipulating the scheduling process will face automatic penalties:
+    - First offense: Warning and mandatory default scheduling for next match
+    - Second offense: Point deduction equal to one match loss
+    - Third offense: Disqualification from current season
 
-#### 5.2.3 Broadcast Schedule
+### 5.2.5 Broadcast Schedule
 - If broadcasting team is available to stream matches during Season 2, a calendar system will be implemented
 - Each broadcast slot can accommodate only one match (first come, first served)
 - Teams wishing to be featured must reserve a slot through the official reservation system
-- Reserved broadcast slots take scheduling priority
-
-#### 5.2.4 Scheduling Ethics
-- If you suspect a team is deliberately offering only inconvenient time slots to gain an advantage, contact Staff immediately with your concerns
-- Staff will review the scheduling history and communication between teams
-- Teams found to be deliberately manipulating the scheduling process to force forfeits will face penalties including:
-  - Warning for first offense
-  - Point deductions for repeated offenses
-  - Potential disqualification from matches or the season for severe manipulation
+- Reserved broadcast slots take scheduling priority over default times
 
 ### 5.3 Scoring System
 - Teams are ranked by match series won
