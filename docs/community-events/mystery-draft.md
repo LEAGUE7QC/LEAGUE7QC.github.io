@@ -1,4 +1,6 @@
 
+> This event has concluded.
+
 ![Mystery Draft](../images/events/Mystery_Draft.png)
 # Holidays At L7: Mystery Draft Tournament 🎁
 Take a break from the usual competitive grind and join us for LEAGUE7's most laid-back tournament of the year! This casual, holiday-themed event puts the fun first with our unique mystery draft system where finding out who's on your team is half the entertainment! Like opening presents on Christmas morning, you never know what (or who!) you'll get when each mystery box is unwrapped.

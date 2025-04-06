@@ -1,6 +1,5 @@
 
-
-> Below is the list of events that have concluded
+> This event has concluded.
 
 
 ![Winford Invitational](../images/events/Winford_Invitational.png)

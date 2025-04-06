@@ -133,7 +133,7 @@ Season 2 will feature three divisions based on skill level. The league may opera
 - No additions permitted after lock
 - Players removed cannot rejoin any team in the same division for 1 week
 - If unable to field 6 players due to a last-minute emergency:
-  - Teams may access Free Agent Pool to recruit the first available agent (no pre-arrangements)
+  - Teams may access Free Agent Pool to recruit the first available volunteer agent (no pre-arrangements)
   - This exception is limited to a maximum of two instances during O.W.L.s
   - If teams still cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit
 
@@ -145,7 +145,7 @@ Season 2 will feature three divisions based on skill level. The league may opera
 #### 4.1.4 Cross-Division Player Movement
 - Once a player moves to a different division team, they cannot return to their previous division during the same season
 - Teams in lower divisions may not recruit from higher divisions after week 3 of O.W.L.s
-- Players moving between divisions must wait 72 hours before playing a match with their new team
+- Players moving between divisions must wait 3 days before playing a match with their new team
 
 #### 4.1.5 Free Agent Pool
 - Players may register as Free Agents if not on a team roster
@@ -157,19 +157,12 @@ Season 2 will feature three divisions based on skill level. The league may opera
 - Players cannot be on a team roster and in the Free Agent Pool simultaneously
 
 #### 4.1.6 N.E.W.T.s Eligibility
-- To participate in N.E.W.T.s matches, players must have competed in a minimum of 2 O.W.L.s matches for their team
+- To participate in N.E.W.T.s matches, players must have competed in a minimum of 2 O.W.L.s games for their team
 - Free Agents are not eligible for N.E.W.T.s matches under any circumstances
 - N.E.W.T.s rosters must be a subset of the team's O.W.L.s roster
 - N.E.W.T.s matches follow the same player count rules as O.W.L.s matches
-
-#### 4.1.7 Division Transfer Restrictions
-- Players who move from a higher division to a lower division team just before roster lock dates may be subject to additional scrutiny
-- If it is determined that a player transferred divisions to help a lower division team qualify for N.E.W.T.s after competing primarily for a higher division team, Staff has the right to:
-  - Disqualify that player from N.E.W.T.s participation
-  - Review the competitive integrity of all matches involved
-  - Apply appropriate penalties to the teams benefiting from such transfers
-
-#### 4.1.8 Player Identity Verification
+ 
+#### 4.1.7 Player Identity Verification
 - If a team suspects account sharing, smurfing, or identity misrepresentation, they should alert Staff immediately
 - Such suspicions must be voiced within 2 weeks of the suspected player joining a team
 - Staff may require voice verification from suspected players
