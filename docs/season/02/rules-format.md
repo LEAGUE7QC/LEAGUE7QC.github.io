@@ -348,36 +348,23 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 
 ### 7.2 Match Protocols
 
-#### 7.2.1 Staff-Observed Matches
-- Staff members will be available to observe matches (when possible)
-- Primary purposes:
-  - Monitoring fair play and team communication
-  - Recording gameplay footage
-  - Verifying scores and incidents
-  
-- Pre-Match:
-  - Staff verifies rosters and game settings with captains
+#### 7.2.1 Pre-Match Requirements 
+- Teams must create (or confirm) their results thread prior to their scheduled match
+- Teams must have all players in their team voice channel at least 10 minutes before the match start time
+  - Team players are responsible to fix their clients and they must be ready to begin at the start time
+- Team captains must be present in the game setup voice channel at least 5 minutes before the scheduled start time
+   - If another player will setup the games, team Captain must inform Staff prior to match start time
+   - If a team is not present in the setup room within 7 minutes of start time (e.g., by 1:07 for a 1:00 game), they must forfeit the game
+     - If still absent by 14 minutes past the start time, the team forfeits the full match
+     - The opposing captain must ping staff in real time to claim the forfeit with a proof of screenshot
 
-- During Match:
-  - Staff remains available in voice channels or dedicated support channel
-  - Records significant events and responds to captain requests
-  - Documents technical issues and scoring events
+#### 7.2.3 Between Games 
+- Teams are allowed up to 7 minutes of strategy discussion between games 
+- If a team is not ready after 7 minutes, the same late penalty of pre-match applies again for the next game
+   - If a previous game ended at :23 minute mark, captains are expected to meet at :30 to start the next game
 
-- Post-Match:
-  - Staff verifies final score with both captains
-  - Archives match documentation and footage
-  - Confirms match completion
-
-#### 7.2.2 Self-Arranged Matches
-- Teams should maintain their own match notes of significant events
-- Any disputes will be reviewed by Staff post-match using available recordings
-- Both teams must record their gameplay (when possible)
-- Both captains must confirm match results in writing
-- The same pre-match, during-match, and post-match protocols apply even without staff presence
-
-### 7.3 Match Reporting
-- Captains must create (or confirm) their results thread prior to their scheduled match
-- Both captains must submit scores within 45 minutes of match completion
+### 7.2.4 Post-Match Reporting
+- Both captains must submit scores within 45 minutes of match completion into their respective threads
 - Enforcement of reporting deadline:
   - 1-30 minutes late: -10 points from team's season point scored
   - 31-60 minutes late: -20 points from team's season point scored
@@ -390,6 +377,22 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 - Staff verification required for:
   - Disputed scores
   - Technical issues
+
+#### 7.2.1 Match Observation
+- Staff members will be available to observe matches (when possible)
+  - Staff verifies rosters and game settings with captains
+  - Staff remains available in voice channels or dedicated support channel
+  - Staff monitos fair play and team communication
+  - Staff may record gameplay footage with permission
+  - Staff verifies scores and record incidents
+- If there is no Staff to observe matches:
+  - Teams should maintain their own match notes of significant events (screenshots)
+  - Any disputes will be reviewed by Staff post-match using available recordings
+  - Both teams must record their gameplay (when possible)
+  - The same pre-match, during-match, and post-match protocols apply even without staff presence
+- Community members will be able to observe matches muted and deafened in the same voice channels
+  - Deafening condition must be provided by the team (this is a Discord perm limitation)
+
 
 ## 8. Technical Management
 
