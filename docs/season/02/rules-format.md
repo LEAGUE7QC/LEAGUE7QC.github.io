@@ -87,20 +87,18 @@ Season 2 will feature three divisions based on skill level. The league may opera
 - If fewer than 14 teams register, Staff will restructure to two divisions with World Cup maintaining 7 teams when possible 
 
 ### 3.3 Team Leadership Structure
-- Each team must designate a Captain and may optionally appoint a Co-Captain
-- Team ownership and branding rights belong to the team collectively, not solely to the Captain
-  - Team branding from previous seasons have protected status and cannot be claimed by new teams without proper authorization
-  - The team with the majority (more than 50%) of players from the previous season's roster retains the right to the team branding
-  - If no team has a majority of players, priority goes to the team that includes the previous season's Captain
-  - In case of an exact split or continued dispute, Staff will make the final determination based on team history and contributions
-- Captain changes require:
-  - A ticket submitted to Staff 
-  - A team vote with majority approval (minimum 2/3 of roster)
-- Player removals require:
-  - 48-hour notice to the affected player (proof may be requested)
-  - Staff notification
-  - Documentation of reason for removal
-  - Exception: Immediate removal permitted for Code of Conduct violations with strong evidence
+- Team ownership and branding rights belong exclusively to the team Captain
+  - Established team branding from previous seasons has protected status and cannot be used by new teams without explicit authorization from the original Captain
+  - A Captain may transfer branding rights to a new Captain at their discretion
+- Team members may request a Captain change through the following process:
+  - A minimum of 2/3 of the active roster must approve the change in writing
+  - A formal ticket must be submitted documenting the request with clear, specific reasoning
+  - The current Captain will be notified and given 48 hours to respond
+- Captain inactivity protocol:
+  - If a Captain is absent from all team activities for more than 7 consecutive days without prior notice, Staff may initiate a Captain change process
+- Player removal requirements:
+  - The Captain must provide the affected player with 48-hour advance notice before removal
+  - Staff must be notified through the appropriate channel with the removal reason
 
 ## 4. Team Management
 
@@ -160,12 +158,13 @@ Season 2 will feature three divisions based on skill level. The league may opera
 - N.E.W.T.s rosters must be a subset of the team's O.W.L.s roster
 - Free Agents are not eligible for N.E.W.T.s matches under any circumstances
 - N.E.W.T.s matches follow the same player count rules as O.W.L.s matches
- 
+
 #### 4.1.7 Player Identity Verification
-- If a team suspects account sharing, smurfing, or identity misrepresentation, they should alert Staff immediately
-- Such suspicions must be voiced within 2 weeks of the suspected player joining a team
+- If a team suspects account sharing, smurfing, or identity misrepresentation, they should alert Staff asap
+   - Such suspicions must be voiced within 2 weeks of the suspected player joining a team
+   - Suspicious party is expected to present proof ("They have the same playstyle" will not be enough)
 - Staff may require voice verification from suspected players
-- Players unable or unwilling to provide identity verification may be prohibited from competition
+   - Players unable or unwilling to provide identity verification may be prohibited from competition
 - Teams knowingly using substitute players under another player's identity will face immediate disqualification
 - LEAGUE7 reserves the right to request reasonable proof of identity for competitive integrity
 
