@@ -79,7 +79,7 @@ Season 2 will feature three divisions based on skill level. The league may opera
 #### 3.2.1 Division Size and Distribution
 - World Cup Division will always maintain exactly 7 teams when possible
 - Division distribution based on total team registrations:
-  - 14-15 teams: Two divisions of 7 and8 teams
+  - 14-15 teams: Two divisions of 7 and 8 teams
   - 16-20 teams: World Cup (7 teams), Triwizard Cup (remainder up to 9 teams), House Cup (remainder)
   - 21+ teams: Staff may create an additional division or move excess players to the Free Agent Pool
 - If more than 21 teams register, Free Agent Pool usage rules may be updated to accommodate new player entry during the season
@@ -208,9 +208,8 @@ Season 2 will feature three divisions based on skill level. The league may opera
 ### 5.1 Match Format
 - Teams play against all other teams in their division (round robin format)
 - Each match is best-of-3 games, winning two games secures victory
-- Teams have up to 7 weeks to complete all their division matches
+- Teams have up to 7 weeks to complete all their division matches (they can complete earlier)
 - Teams are responsible for scheduling and completing all matches within the timeframe
-- Teams are permitted to play matches with fewer than 6 players if they have to, but will face the natural competitive disadvantage without any special accommodations
 
 ### 5.2 Match Scheduling
 - Team captains are responsible for scheduling their matches within the 7-week timeframe
@@ -316,7 +315,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
   - Higher division teams seeded 1-2 (based on their standings within their division)
   - Lower division teams seeded 3-4 (based on their standings within their division)
 - All matches are best-of-3
-- Final match is best-of-5
+- Grand final match is best-of-5
 - Top 2 finishing teams earn promotion/remain in higher division
 - Bottom 2 finishing teams are relegated/remain in lower division
 
@@ -335,7 +334,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 - Team captains decide whether to use custom lobbies or queue sniping
 - Decision must be agreed upon in writing before match day
 - If captains cannot reach an agreement, custom lobbies will be the default method
-- If the current time shows :30, teams switch to queue sniping (to avoid :41 minute mark)
+  - If the current time shows :30, teams switch to queue sniping (to avoid :41 minute mark)
 
 #### 7.1.2 Custom Game Settings
 - Teams must use all default 6v6 official settings at Champion difficulty
@@ -352,10 +351,8 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 
 #### 7.1.4 Legal Gameplay Tactics
 - Any move or technique that is executable within the game's mechanics is considered a legal move
-- This includes, but is not limited to: hero farming, bludger dribbling, backwards shots, and any other technique possible within the game
-- Teams cannot request restrictions on legal gameplay techniques
+  - This includes, but is not limited to: hero farming, bludger dribbling, backwards shots, and any other technique possible within the game
 - Staff will not enforce limitations on how players utilize the game's built-in mechanics
-- If the game developers implement patches that modify or remove certain techniques, LEAGUE7 will follow the current state of the game
 
 ### 7.2 Match Protocols
 
