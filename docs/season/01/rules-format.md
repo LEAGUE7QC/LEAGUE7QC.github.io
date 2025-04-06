@@ -1,9 +1,4 @@
-# LEAGUE7 Season Rules & Format
-
-> ### Important Notice
-This document provides the initial framework for LEAGUE7 operations before the Captains' Council formation. Following team registrations and Council formation, amendments can be made through the rule change process detailed in the Organizational Guidelines.
-
-## 1. Introduction
+# Season 01 - Rules & Format
 
 ### 1.1 Purpose
 LEAGUE7 provides a structured competitive environment for Harry Potter: Quidditch Champions players of all skill levels. These guidelines establish the rules and framework to ensure fair competition while building a strong community.
