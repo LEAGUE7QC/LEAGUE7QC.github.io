@@ -175,8 +175,8 @@ Season 2 will feature three divisions based on skill level. The league may opera
 #### 4.2.1 Match Communication Rules
 - Teams must use L7 Discord voice channels for all match communications
 - Teams cannot utilize other Discord servers for communication during official matches
-- Only players on the active match roster who are currently playing may speak in their respective voice channels during matches
-- No coaching is allowed during matches - team members not actively playing in the current match may not communicate with or advise players during the match
+- Only players on the team roster may speak in their respective voice channels during matches
+- No outside coaching is allowed during matches
 - Staff members may join team channels for observation but will remain muted unless needed
 - Recording of voice communications is prohibited without consent from all participants
 
