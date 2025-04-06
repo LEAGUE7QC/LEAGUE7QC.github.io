@@ -382,7 +382,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
   - 1-30 minutes late: -10 points from team's season point scored
   - 31-60 minutes late: -20 points from team's season point scored
   - 61-90 minutes late: -30 points from team's season point scored
-  - 91+ minutes late: Match considered unreported and subject to Staff review
+  - 91+ minutes late: Match forfeiture penalty applied to the non-reporting team(s) with -100 point scored
 - Screenshots required for:
   - Final scoreboards
   - Any disputed plays
@@ -395,10 +395,11 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 
 ### 8.1 Technical Issues and Disconnections
 - Team captains' **mutual agreement** takes precedence in handling technical issues
-- If a player in a team is dealing with a technical issue, they must spam "*Bloody Hell!*" consecutively (minimum 3 times) in the in-game chat to inform the other team
-- Both teams must take screenshots immediately and captains must return to the queue setup room
+   - REMINDER: Staff is not responsible for following mutually agreed rules
+- If a player in a team is dealing with a technical issue, their team must spam "*Bloody Hell!*" consecutively (minimum 3 times) in the in-game chat to inform the other team
+- Both teams must take screenshots immediately and captains must return to the match setup room
    - Captains are given maximum 7 minutes of discussion time to decide how to proceed
-   - When captains cannot agree, the following resolution table is used:
+   - If captains cannot agree after the allowed discussion time, the following resolution table is used:
       | Time \ Points Diff | 0 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 |
       |:---------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
       | > 5:00      | R | R | R | R | R | R | R | C | C | C |
@@ -414,7 +415,6 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
       | < 0:30 (inc. overtime) | R | C | C | C | C | C | C | C | C | C |
       - R means: Restart - Current game is discarded, teams replay 
       - C means: Completed - Game ends with current scoreboard
-
 
 ### 8.1.1 Technical Issue Signaling
 - "Bloody Hell!" spam in chat is reserved exclusively for signaling technical issues
