@@ -318,6 +318,56 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 - All tournament matches must be completed within a 2-week window
 - N.E.W.T.s matches take priority over all other league activities
 
+### 6.3 World Cup Championship
+
+#### 6.3.1 Championship Qualification
+- The top 4 teams from the World Cup Division qualify for the Championship Playoffs
+- Teams are seeded based on their final O.W.L.s standings (1-4)
+- Championship Playoffs run concurrently with the promotion/relegation tournaments
+- Championship final will receive priority broadcasting treatment with enhanced production
+
+#### 6.3.2 Championship Format
+- Championship Playoffs begin after the completion of all O.W.L.s matches for the World Cup Division
+- Single-elimination bracket tournament
+  - Semifinal matches: 1st seed vs 4th seed, 2nd seed vs 3rd seed
+  - All matches are best-of-3 games
+  - Championship final is best-of-5 games
+  - The winning team is crowned LEAGUE7 Season 2 Champion
+- All regular World Cup Division roster restrictions apply
+
+### 6.4 Example N.E.W.T.s Scenario
+
+| O.W.L.s Standings <div style="width:150px"></div>| World Cup Div. <div style="width:150px"></div>| N.E.W.T.s Status |
+|--------:|:--------------------|:--------------------|
+| 1 | Team name A | <span style="color:var(--blockquote-border-color)">*Championship Qualifier*</span> &nbsp; &nbsp; |
+| 2 | Team name B | <span style="color:var(--blockquote-border-color)">*Championship Qualifier*</span> |
+| 3 | Team name C | <span style="color:var(--blockquote-border-color)">*Championship Qualifier*</span> |
+| 4 | Team name D | <span style="color:var(--blockquote-border-color)">*Championship Qualifier*</span> |
+| 5 | Team name E |  |
+| 6 | Team name F | <span style="color:tomato">*Relegation Risk*</span> |
+| 7 | Team name G | <span style="color:tomato">*Relegation Risk*</span> |
+
+| O.W.L.s Standings <div style="width:150px"></div>| Triwizard Cup Div. <div style="width:150px"></div>| N.E.W.T.s Status |
+|--------:|:--------|:--------------------|
+| 1 | Team name H | <span style="color:green">*Promotion Candidate*</span> &nbsp; &nbsp; &nbsp; &nbsp; |
+| 2 | Team name I | <span style="color:green">*Promotion Candidate*</span> |
+| 3 | Team name J |  |
+| 4 | Team name K |  |
+| 5 | Team name L |  |
+| 6 | Team name M | <span style="color:tomato">*Relegation Risk*</span> |
+| 7 | Team name N | <span style="color:tomato">*Relegation Risk*</span> |
+
+| O.W.L.s Standings <div style="width:150px"></div>| House Cup Div. <div style="width:150px"></div>| N.E.W.T.s Status |
+|--------:|:--------|:--------------------|
+| 1 | Team name O | <span style="color:green">*Promotion Candidate*</span> &nbsp; &nbsp; &nbsp; &nbsp; |
+| 2 | Team name P | <span style="color:green">*Promotion Candidate*</span> |
+| 3 | Team name R |  |
+| 4 | Team name S |  |
+| 5 | Team name T |  |
+| 6 | Team name Y |  |
+| 7 | Team name Z |  |
+
+
 ## 7. Match Operations
 
 ### 7.1 Game Settings
@@ -420,8 +470,8 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
       - C means: Completed - Game ends with current scoreboard
 
 ### 8.1.1 Technical Issue Signaling
-- "Bloody Hell!" spam in chat is reserved exclusively for signaling technical issues
-  - Using this signal for team communication or any other purpose is strictly prohibited
+- "*Bloody Hell!*" spam in chat is reserved exclusively for signaling technical issues
+  - Players are discouraged to use this signal for team communication or any other purpose
 - False technical issue claims using "*Bloody Hell!*" may result in:
   - Game forfeiture
   - Match forfeiture for repeated offenses
@@ -436,7 +486,8 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
     - Hardware problems
 - By mutual agreement before the match starts, captains may increase this limit to a higher specific number
   - This agreement must be documented in writing
-  - L7 recommends no more than 5 restarts per team per match series to maintain reasonable match durations
+  - More than 5 restarts per team is not recommended to maintain reasonable match durations
+  - Staff may force this number to stay as maximum 5 for broadcasting purposes
 - Server-wide technical issues do not count against a team's restart limit
   - A server-wide issue is defined as an event where all players are simultaneously disconnected 
   - These are considered official server problems outside of individual team control
