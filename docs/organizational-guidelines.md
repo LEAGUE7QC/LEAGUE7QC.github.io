@@ -19,7 +19,7 @@ This document outlines the organizational structure, election processes, and rul
 
 ### 2.2 President
 
-**Selection:** Elected by Captains' Council vote 1 month before league start (see Section 4.1 for details)
+**Selection:** Elected by community vote before season start (see Section 4.1 for details)
 
 **Responsibilities:**
 - Oversees staff integrity and league operations
@@ -43,7 +43,7 @@ This document outlines the organizational structure, election processes, and rul
 
 **Number:** Five staff members (number subject to change depending on participant numbers)
 
-**Selection:** Two appointed by the president (thereafter referred to as "appointed staff members"), three elected by the Captains' Council
+**Selection:** Two appointed by the president (thereafter referred to as "appointed staff members") each season start
 
 **Responsibilities:**
 - Create and enforce game rules
@@ -138,93 +138,88 @@ This document outlines the organizational structure, election processes, and rul
 
 ### 4.1 Presidential Election
 
-**Timing:** Held 1 month prior to the scheduled league start date
+**Timing:** Held after season conclusion
 
 **Eligibility:**
 - Candidates must have been active in the community for at least 3 months
 - Candidates must be in good standing with no rule violations in the past 3 months
 
 **Nomination Process:**
-1. Nominations open 2 weeks before the election
-2. Community members can nominate themselves or others in the #nominations channel
-3. Nominees must accept their nomination and provide a brief platform statement in the #statements channel
+1. Nominations open a week before the election
+2. Community members can nominate themselves or others in the #election-discussion channel
 
 **Voting Process:**
 - Voting will be conducted by the Founder to ensure security and fairness
 - The process will be as follows:
   1. A #presidential-election channel will be created
   2. Founder will post a message with the candidates as voting options
-  3. Captains will cast their votes by reacting to the message with the corresponding emojis, or buttons
+  3. Community members will cast their votes by reacting to the message with the corresponding emojis, or buttons
   4. Founder will announce the results when the voting period ends
-- The voting period will last 48 hours
-- Results will be publicly announced in the #election-results channel immediately after the voting period ends
+- The voting period will last minimum of 48 hours
+- Results will be publicly announced in the appropriate channels immediately after the voting period ends
 
-**Term Limits:** Presidents are limited to two 8-month terms but can be re-elected.
+**Term Limits:** Presidents are limited to serve for a season but can be re-elected for the next.
 
 ### 4.2 Staff Selection
 
 **Timing:** 
-- The process begins within 1 week of the presidential election results
+- The process begins immediately after presidential election results
 - The entire selection process must be completed within 2 weeks of its commencement
 
 **Process:**
-1. The elected president will announce the opening of staff applications
+1. The elected president (if they wish) will announce the opening of staff applications
 2. Interested members will submit applications detailing their qualifications and vision for the league
 3. The president will review applications and may conduct interviews if needed
 4. 2 staff members will be chosen by the president (see Section 4.5 for staff continuity) based on experience, fairness, and commitment to the league 
-5. 3 staff members will be elected by the Captains' Council following a similar process to the presidential election
-6. The entire selection process, including the Captains' Council election, must be concluded within the 2-week time limit
+5. The entire selection process must be concluded within the 3-week time limit
 
 **Announcement:**
-- Selected staff members will be announced in the #announcements channel
+- Selected staff members will be announced in the appropriate channels
 - Each staff member's role and responsibilities will be clearly outlined
 
-**Term Limits:** Staff members serve 12-month terms but can be re-assigned.
+**Term Limits:** Staff members serve two seasons but can be re-assigned.
 
 ### 4.3 Moderator Selection
 
 **Mixed System:**
-- Half of the moderators are appointed by the president, and the other half are elected by the staff
+- Moderators are appointed by the current president, staff, and founder as required
 - Numbers are subject to change depending on the league density
 
 ### 4.4 Unexpected Presidential Departure
 
-In the event that the president leaves before their term is complete:
+In the event that the president leaves before their season is complete:
 1. The Staff will immediately assume temporary leadership of the league.
 2. Within 48 hours, they will announce a special election to be held within two weeks.
-3. The election process will follow the standard presidential election procedures (see Section 4.1).
+3. The election process will follow the standard presidential election procedures (see Section 4.1) with candidates from current Staff (if they wish).
 4. The newly elected president will serve the remainder of the original term.
-5. If less than 2 months remain in the original term, the staff will manage the league until the next scheduled election.
+5. If less than 2 weeks remain in the season, the staff will manage the league until the next scheduled election.
 
 ### 4.5 Presidential Transition and Staff Continuity
 
 In the event of a new president being elected while appointed staff members are still serving their terms:
 
 1. **Continuity Period:**
-   - Appointed staff members will continue in their roles for a minimum of 1 month after the new president takes office.
+   - Appointed staff members will continue in their roles for a minimum of 2 weeks after the new president takes office.
    - This period allows for knowledge transfer and operational continuity.
 
 2. **Review and Confirmation:**
    - During the continuity period, the new president will review the performance and fit of the appointed staff members.
-   - By the end of the 1-month period, the new president must either:
-     - a) Confirm the continuation of the appointed staff for the remainder of their original 1-year term, or
+   - By the end of the two weeks period, the new president must either:
+     - a) Confirm the continuation of the appointed staff for the remainder of the season, or,
      - b) Nominate new staff members to replace them.
 
 3. **Replacement Process:**
    - If the new president chooses to nominate new staff members:
      - a) The nominations must be approved by a simple majority vote of the Captains' Council.
-     - b) If approved, the new staff members will serve for the remainder of the original 1-year term.
+     - b) If approved, the new staff members will serve for the remainder of the season.
      - c) If not approved, the original staff members will continue in their roles, and the president may not attempt to replace them again during that term.
 
-4. **Elected Staff Members:**
-   - The 3 staff members elected by the Captains' Council are not subject to this replacement process and will continue to serve their full terms regardless of presidential changes.
+4. **End of Staff Terms:**
+   - At the end of each season, the current president (whether new or continuing) will have the opportunity to appoint or reappoint staff members for the 2 appointed positions.
 
-5. **End of Staff Terms:**
-   - At the end of each staff member's 1-year term, the current president (whether new or continuing) will have the opportunity to appoint or reappoint staff members for the 2 appointed positions.
-   - The Captains' Council will elect or re-elect members for the 3 elected positions.
-
-6. **Exceptional Circumstances:**
+5. **Exceptional Circumstances:**
    - In cases of staff misconduct or inability to perform duties, the normal disciplinary and removal processes as outlined in the main guidelines will take precedence over this policy.
+   - Numbers may change depending on the requirement
 
 ## 5. Rule Voting Procedure
 
@@ -266,7 +261,7 @@ In the event of a new president being elected while appointed staff members are 
 
 **Transparency:**
 - The #rule-vote channel will be open for community observation
-- Captains' Council members can discuss the proposal in the channel before voting
+- Captains' Council members can discuss the proposal in their channel before voting
 
 ## 6. Code of Conduct
 
@@ -278,14 +273,14 @@ In the event of a new president being elected while appointed staff members are 
 
 **Prohibited Behavior:**
 - Zero tolerance for hate speech, discrimination, or harassment
-- Cheating or exploiting game mechanics is strictly forbidden
+- Cheating is strictly forbidden
 - Intentional disruption of league activities is not allowed
 - During league matches, using chat outside of quick-chat options is forbidden
 
 ### 6.2 Enforcement
 
 **Authority:** 
-- Moderators have the authority to enforce the code of conduct in community spaces (e.g., Discord, forums).
+- Moderators have the authority to enforce the code of conduct in community spaces (e.g., Discord, Twitch chat).
 - Staff members are responsible for enforcing rules related to gameplay and in-game behavior.
 
 **Actions:**
@@ -326,7 +321,7 @@ In the event of a new president being elected while appointed staff members are 
 
 In the unlikely event that Founder is unable or unwilling to continue in their role:
 1. The Staff will nominate three candidates from the community who have demonstrated long-term commitment to the league and have the technical skills to maintain system integrity.
-3. A Captains' Council vote will be held within one week to select the new founder from these candidates.
+3. A community vote will be held within one week to select the new founder from these candidates.
 4. The voting process will be overseen by the President, following the same procedures as other elections.
 5. The founder role remains focused on system integrity and final conflict resolution, not day-to-day league operations.
 6. This succession process can only be initiated if the Founder is genuinely unable to continue in the role, not due to community or leadership dissatisfaction.
@@ -339,7 +334,7 @@ Section 7 in its entirety, including all subsections, cannot be modified through
 ### 8.1 Minimum Team Requirement
 
 - The league will officially begin with a minimum of 7 registered teams
-- Details will be announced before every season
+- Details and season rules will be announced before every season
 
 ### 8.2 Staff Participation in Games
 
