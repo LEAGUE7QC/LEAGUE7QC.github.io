@@ -12,7 +12,7 @@
 
 
  **COMMUNITY EVENTS**
- * [The Gringotts Gauntlet <span style="color:#ffbd00">(NEW!)</span>](/community-events/gringotts-gauntlet "L7 | The Gringotts Gauntlet")
+ * [The Gringotts Gauntlet](/community-events/gringotts-gauntlet "L7 | The Gringotts Gauntlet")
 
 **TRANSFIGURATION - S02**
 * [Information (Draft)](/season/02/information.md "L7 | S02 General Information")
