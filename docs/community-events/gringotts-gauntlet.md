@@ -59,7 +59,7 @@ This two-day auction draft tournament tasks captains with bidding for their rost
 
 ## Prize Vault
 This event is sponsored by Skipper13, Beesman and JimTones with a total prize pool of $601!
-- 1st Place Team: $30 per player  
+- 1st Place Team: $60 per player  
 - 2nd Place Team: $25 per player  
 - 3rd Place Team: $15 per player  
 
