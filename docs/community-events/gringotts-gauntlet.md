@@ -58,10 +58,10 @@ This two-day auction draft tournament tasks captains with bidding for their rost
 - All matches are Best of 3, except for the Finals and 3rd Place Match, which are Best of 5.
 
 ## Prize Vault
-This event is sponsored by Skipper13 and Beesman with a total prize pool of $220 + $220 = $440!
-- 1st Place Team: $20 per player  
-- 2nd Place Team: $10 per player  
-- 3rd Place Team: $6 per player  
+This event is sponsored by Skipper13, Beesman and JimTones with a total prize pool of $601!
+- 1st Place Team: $30 per player  
+- 2nd Place Team: $25 per player  
+- 3rd Place Team: $15 per player  
 
 In the case of emergency subs or backups, prize adjustments will be handled at the discretion of Staff.
 
@@ -71,7 +71,7 @@ In the case of emergency subs or backups, prize adjustments will be handled at t
 - The drafting process may be recorded and posted for community viewing  
 
 ## Registration & Captain Applications
-Deadline has passed.
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdWjcRl5ZxN_5oxrb-vHkYmyEDFjySHzjmt-oRHFK7ynGGEwg/viewform?usp=sharing"  target="_blank" style="display: inline-block; padding: 12px 22px; background-color: #ffbd00; color: black; text-decoration: none; font-weight: bold; border-radius: 4px; text-align: center;">The Gringotts Gauntlet: REGISTER AS A SUBSTITUTE!</a> 
 
 Fortune favors the bold. Guard your gold. Gamble for glory.  
 *Welcome to the Gringotts Gauntlet.*
