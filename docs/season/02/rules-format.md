@@ -1,22 +1,20 @@
 # Season 2 - Rules & Format (Draft)
 
-> This document outlines league format and new rules for Season 2 **suggested**  by Melanore. These rules build upon the foundation established in Season 1 and incorporate feedback from the community, Staff, and Captains' Council. The finalization of the ruleset will be announced after Presidential elections, by the new President.
-
-> This document is still a DRAFT.
+> This document is still a DRAFT. 
 
 ## 1. Introduction
 
 ### 1.1 Purpose
 LEAGUE7 provides a structured competitive environment for Harry Potter: Quidditch Champions players of all skill levels. Building upon our Season 1, Season 2 introduces several key enhancements including,
-- A three-tiered division structure (World Cup, Triwizard Cup, and House Cup),  
-- Refined roster management with division-specific regulations, and,
+- A tiered division structure based on team historical performance and/or player skill level,  
+- A more relaxed roster management system that allows teams to bring on new players at any point in the season.
 - A promotion/relegation system to ensure teams compete at appropriate skill levels. 
 
 These guidelines establish the rules and framework to ensure fair competition while building a strong community that accommodates both highly competitive teams and those developing their skills.
 
 ### 1.2 Season Overview
 Season 2 introduces a division-based structure to enhance competitive balance and provide appropriate challenges for teams of varying skill levels. The season maintains its two-phase format:
-- O.W.L.s (Ordinary Wizarding Levels): Qualifying round using division-based round-robin format
+- O.W.L.s (Ordinary Wizarding Levels): Qualifying round using division-based round-robin or Swiss system format
 - N.E.W.T.s (Nastily Exhausting Wizarding Tests): Promotion/relegation tournaments between divisions
 
 ## 2. Season Timeline
@@ -24,10 +22,14 @@ Season 2 introduces a division-based structure to enhance competitive balance an
 ### 2.1 Season Duration
 Each season spans approximately three months:
 - 2 weeks for team registration and preparation
-- 7 weeks for O.W.L.s matches (round-robin format within divisions)
+- 7 weeks for O.W.L.s matches (round-robin/Swiss system format within divisions)
 - 2 weeks for N.E.W.T.s matches (promotion/relegation tournaments)
 
 ### 2.2 Registration Timeline
+- Divisions will be created based on the number of teams registered.
+  - If the number of team registrations is less than 14, there shall be one division.
+  - If the number of team registrations is between 14 to 20, there shall be two divisions.
+  - If the number of team registrations is 21 or more, there shall be three divisions.
 - Team registration ends one week before season start
   - This time cannot be shortened to allow time for Captains' Council discussions
 - Each team needs:
@@ -36,55 +38,61 @@ Each season spans approximately three months:
   - Additional requirements will be listed on registration forms
 
 ### 2.3 Minimum Requirements
-- Each division will host a maximum of 7 teams
-- The league will proceed if at least 5 teams register for each division
+- The league will proceed if at least 5 teams register.
 - If fewer than 5 teams register for any division by the deadline:
   - A pre-season exhibition period will be held to attract more teams from free agents (maximum 1 week)
   - Staff may adjust division structure or game settings based on registration numbers
 - If a team drops out mid-season:
-  - All previous matches involving that team will be voided and removed from standings calculations
-  - All future scheduled matches will be canceled
-  - This ensures fairness if some teams have played the departing team while others have not
+  - For divisions using round-robin season format:
+    - All previous matches involving that team will be voided and removed from standings calculations
+    - All future scheduled matches will be canceled
+    - This ensures fairness if some teams have played the departing team while others have not
+  - For divisions using Swiss system season format:
+    - All previous matches involving that team will stand.
+    - The disbanded team will be removed from future pairings.
+    - This ensures teams which have won a previous match against a disbanded team are not penalized.
+    - For teams paired with the disbanded team which have not completed their match yet, the team will be credited with a match win with a score of 0-0 as if they had played the team.
 
 ## 3. Division Structure
 
 ### 3.1 Division Types
-Season 2 will feature three divisions based on skill level. The league may operate with two (or four) divisions if registration numbers require it.
+Season 2 will feature 1-3 divisions based on skill level.
 
 #### 3.1.1 World Cup Division
 - Top-tier competitive play
 - Previous season's highest performers
-- Strictest roster regulations
 
 #### 3.1.2 Triwizard Cup Division
 - Semi-pro level competitive play
 - Balanced skill level
-- Moderate roster regulations
 
 #### 3.1.3 House Cup Division
 - Entry-pro level competitive play
 - Developmental focus, welcoming to new players
-- Most flexible roster regulations
 
 ### 3.2 Division Assignment
-- Teams from Season 1 will be assigned to divisions based on their previous standings
-- New teams will be evaluated and placed by Staff
-   - If a new team consists of players who participated in previous seasons, their past rankings and performance will be considered in division placement
-- Teams may request specific division placement with justification submitted during registration
+- Teams will be assigned to divisions based on a combination of previous performance and/or estimated roster skill level:
+- - Existing teams retaining most of their players from Season 1 will be assigned to divisions based on their previous standings. 
+- - Existing teams with at least half of the roster being new to the team will be assigned based on a combination of the team's previous standings and the estimated skill level (based on player/role MMR) of that team's roster.
+- - New teams will be assigned based on the estimated skill level (based on player/role MMR) of that team's roster.
+- Teams will rank their division assignment preference from most desired to least desired division during team registration.
 - If more teams request placement in a division than available slots:
-   - Priority given based on previous season's final standings
-   - Staff may organize a brief pre-season qualification tournament during the registration period
-   - Staff evaluation will consider point differentials, head-to-head records, and roster stability
-- Teams may decline to participate if not placed in their preferred division, but must notify Staff within 24 hours of placement notification to allow for adjustments
+   - Priority given based on previous season's final standings.
+   - Staff may organize a brief pre-season qualification tournament during the registration period.
+   - Staff evaluation will consider point differentials, head-to-head records, and roster stability.
+- Teams may decline to participate if not placed in their preferred division, but must notify Staff within 24 hours of placement notification to allow for adjustments.
 
 #### 3.2.1 Division Size and Distribution
 - World Cup Division will always maintain exactly 7 teams when possible
 - Division distribution based on total team registrations:
-  - 14-15 teams: Two divisions of 7 and 8 teams
-  - 16-20 teams: World Cup (7 teams), Triwizard Cup (remainder up to 9 teams), House Cup (remainder)
-  - 21+ teams: Staff may create an additional division or move excess players to the Free Agent Pool
+  - 5-13 teams: One division consisting of all registered teams.
+  - 14-20 teams: World Cup (7 teams), Triwizard Cup (remainder)
+  - 21+ teams: World Cup (7 teams), Triwizard Cup (7 teams), House Cup (remainder)
 - If more than 21 teams register, Free Agent Pool usage rules may be updated to accommodate new player entry during the season
-- If fewer than 14 teams register, Staff will restructure to two divisions with World Cup maintaining 7 teams when possible 
+
+#### 3.2.2 Division Season Format
+- By default, divisions which start the season with 7 teams will play the season under the round-robin format rules, with all teams in the division playing each other team once.
+- The lowest division will start the season under the Swiss system format rules, with teams in the division being paired each week based on current season standings. 
 
 ### 3.3 Team Leadership Structure
 - Team ownership and branding rights belong exclusively to the team Captain
@@ -100,6 +108,98 @@ Season 2 will feature three divisions based on skill level. The league may opera
   - The Captain must provide the affected player with 48-hour advance notice before removal
   - Staff must be notified through the appropriate channel with the removal reason
 
+### 3.4 Emergency Procedures for Handling Large Numbers of Disbanded Teams
+In order to address the possibility of a large number of teams disbanding within a given division, the following procedures shall act as a framework for a possible solution. These procedures are intended only for emergency situations where the number of disbanded teams in a division significantly reduces the number of possible matches to be played and compromises the competitive integrity of the division. The Captains' Council representatives for each division are not limited solely to the procedures listed below and may elect to devise and implement another method to handle such situations subject to the following:
+- Any significant mid-season changes to division structure or format must be approved by at least a 2/3 vote of the Captains' Council representatives for the affected division(s).
+
+#### 3.4.1 Shortened Season Option
+Should the Captains' Council representatives for a division wish to shorten their season, the following rules shall apply:
+
+##### 3.4.1.1 Proposal to Shorten Season
+- The season may not be shortened for a division after week 5 of O.W.L.s.
+- A captain of a team in the division which wishes to shorten the season shall propose to shorten the season in the division captains' chat, with details on how many weeks the division should be shortened by, deadlines to complete any remaining games, when N.E.W.T.s will be scheduled, and how N.E.W.T.s. qualifications should be handled for the remaining teams.
+- Each proposal shall require at least two seconds from other captains in the division.
+- - Should three teams or less still be competing in the division, a second from all remaining captains will be required, and the proposal will be considered automatically passed.
+- Once the required number of seconds has been reached, a poll shall be created in the division's captains' chat to vote on the proposal.
+- The poll shall stay open for 48 hours. At the conclusion of voting the proposal shall be considered passed if at least 2/3 of captains in that division have voted for the proposal.
+
+#### 3.4.1.2 Shortened Season Process
+- After the shortened season proposal has been passed, all of that division's team captains will be notified in the division's captains' chat of the shortened season and the expectations for scheduling deadlines. 
+- After the O.W.L.s season is completed, N.E.W.T.s for that division will begin as specified by the passed proposal.
+- For the weeks where there are no O.W.L.s matches being played by the division playing the shortened season AND there are no N.E.W.T.s matches being played by other divisions, the Staff will solicit feedback from the captains of the division with the shortened season and may set up special events (e.g. a draft tournament, an all-star match, etc.) dependent on captain feedback. This will ensure that players in the division with the shortened season can still play competitive games while waiting for the other divisions to finish the season.
+
+#### 3.4.2 Division Merge Option
+Should the Captains' Council representatives for two divisions wish to merge their divisions, the following rules shall apply:
+
+##### 3.4.2.1 Proposal to Merge Divisions
+- No divisions may be merged after week 5 of O.W.L.s.
+- A captain of a team in each division involved in the merge shall propose the merge in their division captains' chat.
+- Each proposal shall require at least two seconds from other captains in the division.
+- Once the required number of seconds has been reached, a poll shall be created in each division's captains' chat to vote on the proposal. 
+- The poll shall stay open for 48 hours. At the conclusion of voting the proposal shall be considered passed for that division if at least 2/3 of captains have voted for the proposal.
+- Both divisions proposals must pass in order for the merge to be initiated.
+
+#### 3.4.2.2 Division Merge Process
+- After the division merge proposals have passed, the merge shall be initiated after the completion of the current week of O.W.L.s.
+- The combined division will switch to a Swiss system format season.
+- Teams will keep their previous standings statistics, unless they have played a disbanded team under the round-robin format. In which case, the match against those disbanded teams will be factored into the standings.  
+- For the purpose of Swiss system pairings, teams from the higher division may, at Staff discretion, be assigned bonus pairing points as needed to preserve competitive balance. Those bonus pairing points will not be factored in O.W.L.s standings or for N.E.W.T.s eligibility.
+- - Generally bonus points will be awarded so that the team(s) lowest in the standings for the higher division(s) will be assigned bonus pairing points so that their number of pairing points is equal to the number of pairing points of the team(s) at the top of the standings in the immediately lower division.
+- Regardless of the division merge, as far as is possible, teams will be placed and play in N.E.W.T.s tournaments for their original divisions. Depending on the situation   
+
+#### 3.4.3 Division Switches to Swiss System Option
+Should the Captains' Council representatives for a division wish to switch their division to use Swiss-system format, the following rules shall apply:
+
+##### 3.4.3.1 Requirements to Switch Formats
+- The division must have a combination of at least 7 teams either actively playing or wishing to join the division.
+- No format switches will be permitted after week 5 of O.W.L.s has begun.
+
+##### 3.4.3.2 Proposal to Switch to Swiss System
+- A captain who wishes to switch the season format of the division to Swiss System may propose the merge in their division's captains' chat.
+- The proposal shall require at least two seconds from other captains in the division.
+- Once the number of seconds has been reached, a poll shall be created in the captains' chat to vote on the proposal.
+- The poll shall stay open for 48 hours. At the conclusion of voting the proposal shall be considered passed for that division if at least 2/3 of captains have voted for the proposal.
+
+##### 3.4.3.3 Switch to Swiss System Process
+- After the format switch proposal has been passed, the format switch will be initiated after the completion of the current week of O.W.L.s.
+- Teams will keep their previous standings statistics, unless they have played a disbanded team under the round-robin format. In which case, the match against those disbanded teams will be factored into the standings.
+
+### 3.5 Team Registrations After Season Start
+- Teams may register after season start and request placement in any division competing under Swiss system rules, or may request placement in a division currently competing under round-robin rules, subject to that division switching to Swiss system rules under [the emergency procedures listed above](#34-emergency-procedures-for-handling-large-numbers-of-disbanded-teams).
+- Staff will have the final say on allowing a team's placement within a particular division.
+- - Generally, Staff will avoid placing teams in divisions where the new team's estimated skill level (based on roster/role MMR) is well outside the range of the estimated skill levels of teams currently competing in the division. 
+- Staff may, at their discretion, assign bonus pairing points to a new team joining a division. Bonus pairing points will not be factored in O.W.L.s standings or N.E.W.T.s eligibility.
+- - For new teams with rosters which fall below the average estimated skill level for the division, the team will generally be given no bonus pairing points.
+- - For new teams with rosters which meet or exceed the average estimated skill level for the division, the team will generally be given bonus pairing points to match the closest team by estimated skill level.
+
+
+### 3.6 Season Formats
+The two possible season formats teams may compete in during Season 2 will be the round-robin and Swiss system formats.
+
+#### 3.6.1 Round-Robin Format
+- Round-robin will be the default format for teams competing in divisions which start with 7 teams.
+- Each team will play 6 matches during the season, 1 match against every other team in the division.
+- Each match will be scheduled for a particular week, but teams are not obligated to schedule their matches for that particular week.
+- Teams must complete all of their matches by the season's end. Matches not completed by the season's end will be considered a forfeit.
+- Teams must complete at least 3 matches by week 5 of O.W.L.s, and at least 4 matches by week 6.
+    - If a team is approaching a deadline for matches completed, the captain will be notified via support ticket and will be advised of the next steps according to [5.2.2 Scheduling Enforcement Process](#522-scheduling-enforcement-process).
+
+
+#### 3.6.2 Swiss System Format
+- Swiss system will be the default format for teams competing in the lowest division, provided the lowest division does not start with 7 teams.
+- At the beginning of each week, teams in divisions using the Swiss system will be paired with an opponent using the following rules:
+    - Teams may only play each other once during the season.
+    - Each match win will give the winning team one pairing point. 
+    - Each match loss will give the losing team no pairing points.
+    - Bonus pairing points may be assigned by Staff discretion in case of division merges or new teams joining the division.
+        - Pairing points are not the same as match wins for the purpose of standings.
+    - Teams will be paired with teams as close to their number of pairing points as possible.
+    - In case of an uneven number of teams to be paired, one team which has not already received a bye will be given a bye, which will credit the team with one pairing point and one match win.
+- Teams which have not completed their scheduled match during the week scheduled will be credited for 0 match wins and 0.5 pairing points. Teams may complete the match at a later time and their match wins and pairing points will be adjusted according to the result.
+- Teams must complete at least 3 matches by week 5 of O.W.L.s, and at least 5 matches by the end of week 6.
+    - If a team is approaching a deadline for matches completed, the captain will be notified via support ticket and will be advised of the next steps according to [5.2.2 Scheduling Enforcement Process](#522-scheduling-enforcement-process).
+
+
 ## 4. Team Management
 
 ### 4.1 Roster Rules
@@ -112,40 +212,41 @@ Season 2 will feature three divisions based on skill level. The league may opera
   - Players cannot be substitutes for other teams
   - Players must complete current season or be formally removed before joining another team
 - Teams must maintain minimum roster size throughout season
+  - Teams which fail to maintain minimum roster size will be notified via support ticket. Teams so notified will be given 7 days from the time of notification to fill their roster to at least 6 players.
+- - - Should a team fail to fill their roster to the minimum 6 players within 7 days, they will be given the option of taking on the first interested player(s) from the Free Agent Pool.
+- - - If a team is unable or unwilling to find an interested player from the Free Agent Pool and the team is playing under round-robin rules, the team will be considered disbanded.
+- - - If a team is unable or unwilling to find an interested player from the Free Agent Pool and the team is playing under Swiss system rules, the team will be excluded from pairing until they are able to fill their roster to at least 6 players.
+- - - Teams with fewer than 6 players at after the end of O.W.L.s shall be ineligible for participation in N.E.W.T.s and their spot in N.E.W.T.s will go to the next eligible team in the standings.
 - Each team player must be available in the official LEAGUE7 Discord server at all times
 - All players must use their exact in-game name as their Discord username in the LEAGUE7 server
   - The only permitted exception is the addition of a team tag in brackets (e.g., [L7] Player Name)
   - Persistent non-compliance result in potential disqualification after Staff and Moderation review
 
-#### 4.1.3 Division-Specific Roster Regulations
+#### 4.1.2 Division-Specific Roster Regulations
+- Regardless of division, players must have played at least one game in an L7 match for their team during O.W.L.s to be eligible to compete for their team in N.E.W.T.s.
+- Players shall only be permitted to participate in, at most, 7 matches during O.W.L.s if playing in a division using Swiss system or 6 matches if playing in a division using Round-Robin. For example, a player who plays 5 matches for one team and then switches teams may only play in 2 matches for their new team if playing in a division using Swiss system. 
+- Should a player leave one team to immediately join another team, the captain of the player's former team shall have the option of placing a "poaching hold" on that player which will prevent that player from playing for their new team for that team's next two matches. Poaching holds will only be allowed under the following conditions:
+  - The player has played at least once for their former team within the team's past two matches.
+  - The captain placing the hold opens a support ticket declaring their intention to place the hold within 3 days of being notified of the player's intent to leave their team.
+  - The player leaving is moving to a team within the same division or higher.
+- Players who have had a poaching hold placed on them have the right to appeal to Staff via support ticket if they believe the hold was invalid with their reasoning.
+- Rosters for all divisions will be locked at the beginning of week 7 of O.W.L.s.
 
 **World Cup Division**
-- Roster locks 3 weeks after O.W.L.s begin
-- No additions permitted after lock
-- Players removed cannot rejoin any team in the same division for 2 weeks
 - No emergency substitutions allowed
 - If unable to field 6 players at a scheduled match time, team must forfeit
 
 **Triwizard Cup Division**
-- Roster locks 5 weeks after O.W.L.s begin
-- No additions permitted after lock
-- Players removed cannot rejoin any team in the same division for 1 week
 - If unable to field 6 players due to a last-minute emergency:
   - Teams may access Free Agent Pool to recruit the first available volunteer agent (no pre-arrangements)
   - This exception is limited to a maximum of two instances during O.W.L.s
   - If teams still cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit
 
 **House Cup Division**
-- Roster remains flexible throughout O.W.L.s
 - Teams may access Free Agent Pool for any matchup
 - If teams cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit
 
-#### 4.1.4 Cross-Division Player Movement
-- Once a player moves to a different division team, they cannot return to their previous division during the same season
-- Teams in lower divisions may not recruit from higher divisions after week 3 of O.W.L.s
-- Players moving between divisions must wait 3 days before playing a match with their new team
-
-#### 4.1.5 Free Agent Pool
+#### 4.1.3 Free Agent Pool
 - Players may register as Free Agents if not on a team roster
 - Free Agents must complete registration form and be approved by staff
   - New Free Agents must wait 1 week after their registration before becoming eligible to play in a match
@@ -154,12 +255,13 @@ Season 2 will feature three divisions based on skill level. The league may opera
 - Free Agents may join a team permanently at any point
 - Players cannot be on a team roster and in the Free Agent Pool simultaneously
 
-#### 4.1.6 N.E.W.T.s Eligibility
+#### 4.1.4 N.E.W.T.s Eligibility
 - N.E.W.T.s rosters must be a subset of the team's O.W.L.s roster
+- Only players which have played in at least one game for a team during O.W.L.s will be considered eligible players for N.E.W.T.s.
 - Free Agents are not eligible for N.E.W.T.s matches under any circumstances
 - N.E.W.T.s matches follow the same player count rules as O.W.L.s matches
 
-#### 4.1.7 Player Identity Verification
+#### 4.1.5 Player Identity Verification
 - If a team suspects account sharing, smurfing, or identity misrepresentation, they should alert Staff asap
    - Such suspicions must be voiced within 2 weeks of the suspected player joining a team
    - Suspicious party is expected to present proof ("They have the same playstyle" will not be enough)
@@ -171,7 +273,7 @@ Season 2 will feature three divisions based on skill level. The league may opera
 ### 4.2 Team Communications
 
 #### 4.2.1 Match Communication Rules
-- Teams must use LEAGUE7 Discord voice channels for all match communications
+- Teams must use LEAGUE7 Discord voice channels, in-game voice chat, or in-game text chat for all match communications
 - Teams cannot utilize other Discord servers for communication during official matches
 - Only players on the team roster may speak in their respective voice channels
    - No outside coaching is allowed during matches
@@ -202,8 +304,7 @@ Season 2 will feature three divisions based on skill level. The league may opera
 ## 5. O.W.L.s Format
 
 ### 5.1 Match Format
-- Teams play against all other teams in their division (round robin format)
-- Each match is best-of-3 games, winning two games secures victory
+- Each match is best-of-3 games, winning two games secures victory for the match.
 - Teams have up to 7 weeks to complete all their division matches (they can complete earlier)
 - Teams are responsible for scheduling and completing all matches within the timeframe
 
@@ -212,9 +313,9 @@ Season 2 will feature three divisions based on skill level. The league may opera
 - Both team captains must confirm schedule agreements in writing on LEAGUE7's official Discord
 - Teams are responsible for completing all their matches within the 7-week O.W.L.s period
 - No maximum limit on the number of matches teams can play per week
-- Teams must complete at least two matches by the end of week 3
-- Teams must complete at least four matches (cumulative total) by the end of week 5
-- Failure to meet these milestones will automatically trigger the default scheduling mechanism
+- Teams must complete matches according to their division format's deadlines outlined in [3.6 Season Formats](#36-season-formats)
+- Failure to meet these milestones will automatically trigger the default scheduling mechanism.
+- - If a team has failed to meet their deadline for matches played within a certain timeframe, Staff will schedule a match at the default time against the first opponent on their schedule that has also failed to meet their scheduling deadlines. If no such opponent exists, Staff will schedule a match at the default time against the opponent which has played the fewest matches.
 
 ### 5.2.1 Default Game Times
 - Each division has designated default game times each weekend:
@@ -367,6 +468,15 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 | 6 | Team name Y |  |
 | 7 | Team name Z |  |
 
+### 6.5 N.E.W.T.s Format Change Due to Large Number of Teams Disbanding
+Should a division face a large number of teams disbanding which compromises their ability to play N.E.W.T.s as laid out in [6. N.E.W.T.s Format](#6-newts-format), Staff and the division's Captains' Council representatives will collaborate to implement a replacement N.E.W.T.s format. The captains for the division may propose and vote on a new format per normal rule voting procedure as laid out in section [5. Rule Voting Procedure in the Organizational Guidelines](https://league7.gg/#/organizational-guidelines?id=_5-rule-voting-procedure).
+
+### 6.6 Post-Season Tournament for Teams Not Otherwise In N.E.W.T.s
+- For teams which are not up for promotion/relegation and are not participating in the World Cup Championship, captains may opt to register their team for a post-season tournament.
+- If at least 8 teams register for the post-season tournament, the tournament will be run.  
+- Format of tournament will depend on the exact number of teams registered.
+- Tournament results will have no impact on future division placement or standings.
+
 
 ## 7. Match Operations
 
@@ -381,9 +491,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 #### 7.1.2 Custom Game Settings
 - Teams must use all default 6v6 official settings at Champion difficulty
 - Map Selection: 
-  - World Cup Division play on (any) World Cup maps exclusively 
-  - Triwizard Cup Division play on (any) School maps exclusively (including Forbidden Forest)
-  - House Cup Division play on (any) Weasley's Burrow maps exclusively
+  - Team captains may agree to ban certain maps by mutual agreement, may agree on a specific map rotation, or may use a random name picker to select maps each game.
 - Teams take turn generating the custom lobby
 - Failure to choose correct settings result in a forfeit for that game
 
@@ -394,6 +502,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 #### 7.1.4 Legal Gameplay Tactics
 - Any move or technique that is executable within the game's mechanics is considered a legal move
   - This includes, but is not limited to: hero farming, bludger dribbling, backwards shots, and any other technique possible within the game
+- Using any obvious bug or glitch (invisible player bug, two players on one character) to obtain an advantage is not considered a legal move. Players encountering this issue should take a screenshot of their game, then spam "Bloody Hell" and disconnect. Players who obtain an advantage gained by one of those bugs may face sanction. 
 - Staff will not enforce limitations on how players utilize the game's built-in mechanics
 
 ### 7.2 Match Protocols
@@ -407,6 +516,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
    - If a team is not present in the setup room within 7 minutes of start time (e.g., by 1:07 for a 1:00 game), they must forfeit the game
      - If still absent by 14 minutes past the start time, the team forfeits the full match
      - The opposing captain must ping staff in real time to claim the forfeit with a proof of screenshot
+     - A captain who would otherwise be able to claim a forfeit may, upon mutual agreement with the opposing captain, decide to go ahead with the match with the team which would have forfeited playing shorthanded. This agreement must be documented in the queue setup channel to be valid. No bot fill will be allowed for the shorthanded team. Regardless of outcome, the result of the match will stand. No forfeit may be claimed after a match has started under this rule.
 
 #### 7.2.3 Between Games 
 - Teams are allowed up to 7 minutes of strategy discussion between games 
@@ -432,7 +542,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 - Staff members will be available to observe matches (when possible)
   - Staff verifies rosters and game settings with captains
   - Staff remains available in voice channels or dedicated support channel
-  - Staff monitos fair play and team communication
+  - Staff monitors fair play and team communication
   - Staff may record gameplay footage with permission
   - Staff verifies scores and record incidents
 - If there is no Staff to observe matches:
@@ -489,7 +599,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
   - More than 5 restarts per team is not recommended to maintain reasonable match durations
   - Staff may force this number to stay as maximum 5 for broadcasting purposes
 - Server-wide technical issues do not count against a team's restart limit
-  - A server-wide issue is defined as an event where all players are simultaneously disconnected 
+  - A server-wide issue is defined as an event where all players are simultaneously disconnected or where significant desync/unprocessed frames issues cause the game to be competitively unplayable for more than 1 minute.
   - These are considered official server problems outside of individual team control
 - Important clarification: Map dodging (leaving a match because of an undesired map) is not recognized as a legitimate technical issue
 
@@ -507,7 +617,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 - Players with persistent connection issues may be required to provide network diagnostics
 
 ### 8.4 Patch Management
-- There is no expected patches to the game.
+- There are no expected patches to the game.
 
 ## 9. Broadcasting and Streaming
 
