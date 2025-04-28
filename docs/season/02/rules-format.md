@@ -128,39 +128,21 @@ Should the Captains' Council representatives for a division wish to shorten thei
 - After the O.W.L.s season is completed, N.E.W.T.s for that division will begin as specified by the passed proposal.
 - For the weeks where there are no O.W.L.s matches being played by the division playing the shortened season AND there are no N.E.W.T.s matches being played by other divisions, the Staff will solicit feedback from the captains of the division with the shortened season and may set up special events (e.g. a draft tournament, an all-star match, etc.) dependent on captain feedback. This will ensure that players in the division with the shortened season can still play competitive games while waiting for the other divisions to finish the season.
 
-#### 3.4.2 Division Merge Option
-Should the Captains' Council representatives for two divisions wish to merge their divisions, the following rules shall apply:
 
-##### 3.4.2.1 Proposal to Merge Divisions
-- No divisions may be merged after week 5 of O.W.L.s.
-- A captain of a team in each division involved in the merge shall propose the merge in their division captains' chat.
-- Each proposal shall require at least two seconds from other captains in the division.
-- Once the required number of seconds has been reached, a poll shall be created in each division's captains' chat to vote on the proposal. 
-- The poll shall stay open for 48 hours. At the conclusion of voting the proposal shall be considered passed for that division if at least 2/3 of captains have voted for the proposal.
-- Both divisions proposals must pass in order for the merge to be initiated.
-
-#### 3.4.2.2 Division Merge Process
-- After the division merge proposals have passed, the merge shall be initiated after the completion of the current week of O.W.L.s.
-- The combined division will switch to a Swiss system format season.
-- Teams will keep their previous standings statistics, unless they have played a disbanded team under the round-robin format. In which case, the match against those disbanded teams will be factored into the standings.  
-- For the purpose of Swiss system pairings, teams from the higher division may, at Staff discretion, be assigned bonus pairing points as needed to preserve competitive balance. Those bonus pairing points will not be factored in O.W.L.s standings or for N.E.W.T.s eligibility.
-- - Generally bonus points will be awarded so that the team(s) lowest in the standings for the higher division(s) will be assigned bonus pairing points so that their number of pairing points is equal to the number of pairing points of the team(s) at the top of the standings in the immediately lower division.
-- Regardless of the division merge, as far as is possible, teams will be placed and play in N.E.W.T.s tournaments for their original divisions. Depending on the situation   
-
-#### 3.4.3 Division Switches to Swiss System Option
+#### 3.4.2 Division Switches to Swiss System Option
 Should the Captains' Council representatives for a division wish to switch their division to use Swiss-system format, the following rules shall apply:
 
-##### 3.4.3.1 Requirements to Switch Formats
+##### 3.4.2.1 Requirements to Switch Formats
 - The division must have a combination of at least 7 teams either actively playing or wishing to join the division.
 - No format switches will be permitted after week 5 of O.W.L.s has begun.
 
-##### 3.4.3.2 Proposal to Switch to Swiss System
+##### 3.4.2.2 Proposal to Switch to Swiss System
 - A captain who wishes to switch the season format of the division to Swiss System may propose the merge in their division's captains' chat.
 - The proposal shall require at least two seconds from other captains in the division.
 - Once the number of seconds has been reached, a poll shall be created in the captains' chat to vote on the proposal.
 - The poll shall stay open for 48 hours. At the conclusion of voting the proposal shall be considered passed for that division if at least 2/3 of captains have voted for the proposal.
 
-##### 3.4.3.3 Switch to Swiss System Process
+##### 3.4.2.3 Switch to Swiss System Process
 - After the format switch proposal has been passed, the format switch will be initiated after the completion of the current week of O.W.L.s.
 - Teams will keep their previous standings statistics, unless they have played a disbanded team under the round-robin format. In which case, the match against those disbanded teams will be factored into the standings.
 
@@ -211,6 +193,10 @@ The two possible season formats teams may compete in during Season 2 will be the
 - Players can only be registered with one team at a time
   - Players cannot be substitutes for other teams
   - Players must complete current season or be formally removed before joining another team
+- Should a team disband, all players from the disbanded team will be placed in the Free Agent Pool by default, but may request that they be excluded from the Free Agent Pool.
+- Captains wishing to unilaterally remove a player from their team must open a support ticket and provide a reason for the removal (e.g. inactivity, bringing another player in to replace the player, etc.)
+- - In cases of removal for player inactivity, the player must be unresponsive to communications from their captain for a period of at least 1 week. If the player in question is in the L7 Discord server, they will be added to the ticket and given 24 hours to respond. If the player is not in the L7 Discord server or does not respond within 24 hours, the removal will be approved and processed. If the player does respond and objects to their removal, the removal will not be approved.
+- Players wishing to remove themselves from their team's roster may open a support ticket to request their removal. By default, the player will be placed in the Free Agent Pool, but they may request to be excluded from the Free Agent Pool. The team captain for the former player will be advised of the departure of their player via support ticket.
 - Teams must maintain minimum roster size throughout season
   - Teams which fail to maintain minimum roster size will be notified via support ticket. Teams so notified will be given 7 days from the time of notification to fill their roster to at least 6 players.
 - - - Should a team fail to fill their roster to the minimum 6 players within 7 days, they will be given the option of taking on the first interested player(s) from the Free Agent Pool.
@@ -223,28 +209,34 @@ The two possible season formats teams may compete in during Season 2 will be the
   - Persistent non-compliance result in potential disqualification after Staff and Moderation review
 
 #### 4.1.2 Division-Specific Roster Regulations
-- Regardless of division, players must have played at least one game in an L7 match for their team during O.W.L.s to be eligible to compete for their team in N.E.W.T.s.
+- Regardless of division, players must have played at least one complete game in a best-of-3 L7 match for their team during O.W.L.s to be eligible to compete for their team in N.E.W.T.s.
 - Players shall only be permitted to participate in, at most, 7 matches during O.W.L.s if playing in a division using Swiss system or 6 matches if playing in a division using Round-Robin. For example, a player who plays 5 matches for one team and then switches teams may only play in 2 matches for their new team if playing in a division using Swiss system. 
 - Should a player leave one team to immediately join another team, the captain of the player's former team shall have the option of placing a "poaching hold" on that player which will prevent that player from playing for their new team for that team's next two matches. Poaching holds will only be allowed under the following conditions:
   - The player has played at least once for their former team within the team's past two matches.
   - The captain placing the hold opens a support ticket declaring their intention to place the hold within 3 days of being notified of the player's intent to leave their team.
   - The player leaving is moving to a team within the same division or higher.
 - Players who have had a poaching hold placed on them have the right to appeal to Staff via support ticket if they believe the hold was invalid with their reasoning.
-- Rosters for all divisions will be locked at the beginning of week 7 of O.W.L.s.
+- Rosters for all divisions will be locked at the end of week 7 of O.W.L.s.
 
 **World Cup Division**
+- Rosters lock after week 3 of O.W.L.s. 
+- - Should a team fall below 8 active players on their roster due to a player leaving the team on their own initiative or due to player inactivity, they may add new players to their roster to bring them up to at most 8 active players regardless of the roster lock. Players recruited under this provision must come from the Free Agent Pool. If there are not enough players in the Free Agent Pool, the team may recruit any player not on an active team.
 - No emergency substitutions allowed
 - If unable to field 6 players at a scheduled match time, team must forfeit
+ 
 
 **Triwizard Cup Division**
+- Rosters lock after week 5 of O.W.L.s. 
+- - Should a team fall below 8 active players on their roster due to a player leaving the team on their own initiative or due to player inactivity, they may add new players to their roster to bring them up to at most 8 active players regardless of the roster lock. Players recruited under this provision must come from the Free Agent Pool. If there are not enough players in the Free Agent Pool, the team may recruit any player not on an active team. 
 - If unable to field 6 players due to a last-minute emergency:
   - Teams may access Free Agent Pool to recruit the first available volunteer agent (no pre-arrangements)
   - This exception is limited to a maximum of two instances during O.W.L.s
   - If teams still cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit
 
 **House Cup Division**
+- Roster remains flexible throughout O.W.L.s
 - Teams may access Free Agent Pool for any matchup
-- If teams cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit
+- If teams cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit.
 
 #### 4.1.3 Free Agent Pool
 - Players may register as Free Agents if not on a team roster
