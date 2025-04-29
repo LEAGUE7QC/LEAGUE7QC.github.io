@@ -115,7 +115,8 @@ Season 2 will feature 1-3 divisions based on skill level.
 ### 3.4 Procedures for Handling Large Numbers of Disbanded Teams
 In order to address the possibility of a large number of teams disbanding within a given division, the following procedures shall act as a framework for a possible solution. These procedures are intended only for emergency situations where the number of disbanded teams in a division significantly reduces the number of possible matches to be played and compromises the competitive integrity of the division. The Captains' Council representatives for each division are not limited solely to the procedures listed below and may elect to devise and implement another method to handle such situations subject to the following:
 - Any significant mid-season changes to division structure or format must be approved by at least a 2/3 vote of the Captains' Council representatives for the affected division(s).
-- If 1/3 of teams disband in a division, an emergency meeting will be triggered for Staff and the division's Captains' Council to determine what, if anything, should be done to handle O.W.L.s and N.E.W.T.s for the division moving forward.  
+- If more 1/3 of teams disband in a division, an emergency meeting will be scheduled within 72 hours for Staff and the division's Captains' Council to determine what, if anything, should be done to handle O.W.L.s and N.E.W.T.s for the division moving forward. If Captains cannot come to a consensus, Staff may elect to have the division continue as scheduled or may implement another solution.
+- In case of unforeseen situations arising which compromise the competitive integrity of a division, Staff may make decisions as necessary to ensure competitive integrity for all divisions.
 
 
 #### 3.4.2 Division Switches to Swiss System Option
