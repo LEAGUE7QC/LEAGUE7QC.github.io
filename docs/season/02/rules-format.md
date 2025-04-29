@@ -120,7 +120,7 @@ In order to address the possibility of a large number of teams disbanding within
 
 
 ### 3.5 Team Registrations After Season Start
-- Teams may register after season start and request placement in any division competing under Swiss system rules, or may request placement in a division currently competing under round-robin rules, subject to that division switching to Swiss system rules under [the emergency procedures listed above](#34-emergency-procedures-for-handling-large-numbers-of-disbanded-teams).
+- Teams may register after season start and may be placed in the lowest division, should that division be using Swiss system.
 - Staff will have the final say on allowing a team's placement within a particular division.
 - - Generally, Staff will avoid placing teams in divisions where the new team's estimated skill level (based on roster/role MMR) is well outside the range of the estimated skill levels of teams currently competing in the division. 
 - Staff may, at their discretion, assign bonus pairing points to a new team joining a division. Bonus pairing points will not be factored in O.W.L.s standings or N.E.W.T.s eligibility.
