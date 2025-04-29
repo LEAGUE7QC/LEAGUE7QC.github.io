@@ -72,7 +72,8 @@ Season 2 will feature 1-3 divisions based on skill level.
 - Most relaxed roster regulations.
 
 ### 3.2 Division Assignment
-- Teams will be assigned to divisions based on a combination of previous performance and/or estimated roster skill level:
+- Teams will be assigned to divisions based on previous performance and estimated roster skill level based on player/role MMR at the time of initial roster submission.
+Significant roster changes after registration close may trigger a Staff-led reassessment of division placement to preserve competitive balance.:
 - - Existing teams retaining most of their players from Season 1 will be assigned to divisions based on their previous standings. 
 - - Existing teams with at least half of the roster being new to the team will be assigned based on a combination of the team's previous standings and the estimated skill level (based on player/role MMR) of that team's roster.
 - - New teams will be assigned based on the estimated skill level (based on player/role MMR) of that team's roster.
@@ -120,10 +121,10 @@ In order to address the possibility of a large number of teams disbanding within
 ### 3.5 Team Registrations After Season Start
 - Teams may register after season start and may be placed in the lowest division, should that division be using Swiss system.
 - Staff will have the final say on allowing a team's placement within a particular division.
-- - Generally, Staff will avoid placing teams in divisions where the new team's estimated skill level (based on roster/role MMR) is well outside the range of the estimated skill levels of teams currently competing in the division. 
+  - Generally, Staff will avoid placing teams in divisions where the new team's estimated skill level (based on roster/role MMR) is well outside the range of the estimated skill levels of teams currently competing in the division. 
 - Staff may, at their discretion, assign bonus pairing points to a new team joining a division. Bonus pairing points will not be factored in O.W.L.s standings or N.E.W.T.s eligibility.
-- - For new teams with rosters which fall below the average estimated skill level for the division, the team will generally be given no bonus pairing points.
-- - For new teams with rosters which meet or exceed the average estimated skill level for the division, the team will generally be given bonus pairing points to match the closest team by estimated skill level.
+  - For new teams with rosters which fall below the average estimated skill level for the division, the team will generally be given no bonus pairing points.
+  - For new teams with rosters which meet or exceed the average estimated skill level for the division, the team will generally be given bonus pairing points to match the closest team by estimated skill level.
 
 
 ### 3.6 Season Formats
@@ -144,8 +145,9 @@ The two possible season formats teams may compete in during Season 2 will be the
     - Teams may only play each other once during the season.
     - Each match win will give the winning team one pairing point. 
     - Each match loss will give the losing team no pairing points.
-    - Bonus pairing points may be assigned by Staff discretion in case of division merges or new teams joining the division.
-        - Pairing points are not the same as match wins for the purpose of standings.
+    - Bonus pairing points may be assigned by Staff discretion in case of new teams joining the division.
+        - **Pairing points are not the same as match wins for the purpose of standings**
+        - Generally, no bonus pairing points will be assigned to a new team if their estimated skill level is at or below the division average. If a new team's estimated skill level is above the division average, generally staff will assign bonus pairing points so that the new team's pairing points are equal to the most comparable team competing in the division. 
     - Teams will be paired with teams as close to their number of pairing points as possible.
     - In case of an uneven number of teams to be paired, one team which has not already received a bye will be given a bye, which will credit the team with one pairing point and one match win.
 - Teams which have not completed their scheduled match during the week scheduled will be credited for 0 match wins and 0.5 pairing points. Teams may complete the match at a later time and their match wins and pairing points will be adjusted according to the result.
