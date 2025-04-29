@@ -464,7 +464,7 @@ Should a division face a change in division composition which compromises their 
 #### 7.1.4 Legal Gameplay Tactics
 - Any move or technique that is executable within the game's mechanics is considered a legal move
   - This includes, but is not limited to: hero farming, bludger dribbling, backwards shots, hoop sitting and any other technique possible within the game
-- Using any obvious bug or glitch (invisible player bug, two players on one character) to obtain an advantage is considered a technical issue. See the [Technical Issues section](#81-technical-isuess-and-disconnections). Players who obtain an advantage gained by one of those bugs may face sanction. 
+- Using any obvious bug or glitch (invisible player bug, two players on one character) to obtain an advantage is considered a technical issue. See the [Technical Issues section](#81-technical-issues-and-disconnections). Players who obtain an advantage gained by one of those bugs may face sanction. 
 - Staff will not enforce limitations on how players utilize the game's built-in mechanics
 
 ### 7.2 Match Protocols
