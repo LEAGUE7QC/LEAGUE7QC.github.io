@@ -166,7 +166,7 @@ The two possible season formats teams may compete in during Season 2 will be the
 - Players can only be registered with one team at a time
   - Players cannot be substitutes for other teams
   - Players must complete current season or be formally removed before joining another team
-- Should a team disband, all players from the disbanded team will be placed in the Free Agent Pool by default, but may request that they be excluded from the Free Agent Pool.
+- Should a team disband, players from the disbanding team will be advised that they can join the Free Agent Pool by submitting a registration form.
 - Captains wishing to unilaterally remove a player from their team must open a support ticket and provide a reason for the removal (e.g. inactivity, bringing another player in to replace the player, etc.)
 - - In cases of removal for player inactivity, the player must be unresponsive to communications from their captain for a period of at least 1 week. If the player in question is in the L7 Discord server, they will be added to the ticket and given 24 hours to respond. If the player is not in the L7 Discord server or does not respond within 24 hours, the removal will be approved and processed. If the player does respond and objects to their removal, the removal will not be approved.
 - Players wishing to remove themselves from their team's roster may open a support ticket to request their removal. By default, the player will be placed in the Free Agent Pool, but they may request to be excluded from the Free Agent Pool. The team captain for the former player will be advised of the departure of their player via support ticket.
