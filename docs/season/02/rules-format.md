@@ -1,6 +1,4 @@
-# Season 2 - Rules & Format (Draft)
-
-> This document is still a DRAFT. 
+# Season 2 - Rules & Format
 
 ## 1. Introduction
 
@@ -176,31 +174,30 @@ The two possible season formats teams may compete in during Season 2 will be the
 - - - If a team is unable or unwilling to find an interested player from the Free Agent Pool and the team is playing under round-robin rules, the team will be considered disbanded.
 - - - If a team is unable or unwilling to find an interested player from the Free Agent Pool and the team is playing under Swiss system rules, the team will be excluded from pairing until they are able to fill their roster to at least 6 players.
 - - - Teams with fewer than 6 players at after the end of O.W.L.s shall be ineligible for participation in N.E.W.T.s and their spot in N.E.W.T.s will go to the next eligible team in the standings.
-- Each team player must be available in the official LEAGUE7 Discord server at all times
+- Each team player must be present in the official LEAGUE7 Discord server at all times.
 - All players must use their exact in-game name as their Discord username in the LEAGUE7 server
   - The only permitted exception is the addition of a team tag in brackets (e.g., [L7] Player Name)
   - Persistent non-compliance result in potential disqualification after Staff and Moderation review
-
-#### 4.1.2 Division-Specific Roster Regulations
 - Regardless of division, players must have played at least one complete game in a best-of-3 L7 match for their team during O.W.L.s to be eligible to compete for their team in N.E.W.T.s.
 - Players shall only be permitted to participate in, at most, 7 matches during O.W.L.s if playing in a division using Swiss system or 6 matches if playing in a division using Round-Robin. For example, a player who plays 5 matches for one team and then switches teams may only play in 2 matches for their new team if playing in a division using Swiss system. 
-- Should a player leave one team to immediately join another team, the captain of the player's former team shall have the option of placing a "poaching hold" on that player which will prevent that player from playing for their new team for that team's next two matches. Poaching holds will only be allowed under the following conditions:
+- Should a player voluntarily leave one team to immediately join another team, the captain of the player's former team shall have the option of placing a "poaching hold" on that player which will prevent that player from playing for their new team for that team's next two matches. Poaching holds will only be allowed under the following conditions:
   - The player has played at least once for their former team within the team's past two matches.
-  - The captain placing the hold opens a support ticket declaring their intention to place the hold within 3 days of being notified of the player's intent to leave their team.
-  - The player leaving is moving to a team within the same division or higher.
-- Players who have had a poaching hold placed on them have the right to appeal to Staff via support ticket if they believe the hold was invalid with their reasoning.
+  - The captain possibly placing the hold will be added to the ticket where their former player is joining the new team and have the option of declaring their intention to place the hold within 3 days of being notified of the player's intent to leave their team.
+- Teams may only place a maximum of two poaching holds for the season.
 - Rosters for all divisions will be locked at the end of week 7 of O.W.L.s.
+- Should a team fall below 8 active players on their roster due to a player leaving the team on their own initiative or due to player inactivity, they may add new players to their roster to bring them up to at most 8 active players regardless of the roster lock. Players recruited under this provision must come from the Free Agent Pool. If there are not enough players in the Free Agent Pool, the team may recruit any player not on an active team.
+
+
+#### 4.1.2 Division-Specific Roster Regulations
 
 **World Cup Division**
 - Rosters lock after week 3 of O.W.L.s. 
-- - Should a team fall below 8 active players on their roster due to a player leaving the team on their own initiative or due to player inactivity, they may add new players to their roster to bring them up to at most 8 active players regardless of the roster lock. Players recruited under this provision must come from the Free Agent Pool. If there are not enough players in the Free Agent Pool, the team may recruit any player not on an active team.
-- No emergency substitutions allowed
 - If unable to field 6 players at a scheduled match time, team must forfeit
+- No emergency substitutions allowed
  
 
 **Triwizard Cup Division**
-- Rosters lock after week 5 of O.W.L.s. 
-- - Should a team fall below 8 active players on their roster due to a player leaving the team on their own initiative or due to player inactivity, they may add new players to their roster to bring them up to at most 8 active players regardless of the roster lock. Players recruited under this provision must come from the Free Agent Pool. If there are not enough players in the Free Agent Pool, the team may recruit any player not on an active team. 
+- Rosters lock after week 5 of O.W.L.s.  
 - If unable to field 6 players due to a last-minute emergency:
   - Teams may access Free Agent Pool to recruit the first available volunteer agent (no pre-arrangements)
   - This exception is limited to a maximum of two instances during O.W.L.s
@@ -208,6 +205,8 @@ The two possible season formats teams may compete in during Season 2 will be the
 
 **House Cup Division**
 - Roster remains flexible throughout O.W.L.s
+- If unable to field 6 players due to a last-minute emergency:
+  - Teams may access Free Agent Pool to recruit the first available volunteer agent (no pre-arrangements)
 - Teams may access Free Agent Pool for any matchup
 - If teams cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit.
 
@@ -215,7 +214,7 @@ The two possible season formats teams may compete in during Season 2 will be the
 - Players may register as Free Agents if not on a team roster
 - Free Agents must complete registration form and be approved by staff
   - New Free Agents must wait 1 week after their registration before becoming eligible to play in a match
-- A Free Agent can play a maximum of 3 total matches per season
+- A Free Agent can play a maximum of 4 total full games or 2 total full matches per season, whichever is greater.
 - A Free Agent can play a maximum of 1 match for any specific team
 - Free Agents may join a team permanently at any point
 - Players cannot be on a team roster and in the Free Agent Pool simultaneously
@@ -227,7 +226,7 @@ The two possible season formats teams may compete in during Season 2 will be the
 - N.E.W.T.s matches follow the same player count rules as O.W.L.s matches
 
 #### 4.1.5 Player Identity Verification
-- If a team suspects account sharing, smurfing, or identity misrepresentation, they should alert Staff asap
+- If a team suspects account sharing, smurfing, or identity misrepresentation, they should alert Staff ASAP
    - Such suspicions must be voiced within 2 weeks of the suspected player joining a team
    - Suspicious party is expected to present proof ("They have the same playstyle" will not be enough)
 - Staff may require voice verification from suspected players
@@ -275,7 +274,9 @@ The two possible season formats teams may compete in during Season 2 will be the
 
 ### 5.2 Match Scheduling
 - Team captains are responsible for scheduling their matches within the 7-week timeframe
-- Both team captains must confirm schedule agreements in writing on LEAGUE7's official Discord
+- All scheduling discussions must take place in the L7 Discord channel designated for such discussions.
+- Both team captains must confirm schedule agreements in writing on LEAGUE7's official Discord.
+- If team captains are unable to come to an agreement regarding scheduling and a deadline is approaching the match will be scheduled at the default time.
 - Teams are responsible for completing all their matches within the 7-week O.W.L.s period
 - No maximum limit on the number of matches teams can play per week
 - Teams must complete matches according to their division format's deadlines outlined in [3.6 Season Formats](#36-season-formats)
@@ -310,10 +311,7 @@ The two possible season formats teams may compete in during Season 2 will be the
     - Third offense: Disqualification from current season
 
 ### 5.2.5 Broadcast Schedule
-- If broadcasting team is available to stream matches during Season 2, a calendar system will be implemented
-- Each broadcast slot can accommodate only one match (first come, first served)
-- Teams wishing to be featured must reserve a slot through the official reservation system
-- Reserved broadcast slots take scheduling priority over default times
+TBD
 
 ### 5.3 Scoring System
 - Teams are ranked by match series won
@@ -360,7 +358,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
    - Bottom 2 finishers play in House Cup Division next season
 
 **For Two-Division Structure:**
-- Bottom 2 teams from World Cup Division and Top 2 teams from Triwizard Cup Division
+- Bottom 2 teams from World Cup Division and Top 4 teams from Triwizard Cup Division
 - Double-elimination tournament
 - Top 2 finishers play in World Cup Division next season
 - Bottom 2 finishers play in Triwizard Cup Division next season
@@ -433,8 +431,8 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
 | 6 | Team name Y |  |
 | 7 | Team name Z |  |
 
-### 6.5 N.E.W.T.s Format Change Due to Large Number of Teams Disbanding
-Should a division face a large number of teams disbanding which compromises their ability to play N.E.W.T.s as laid out in [6. N.E.W.T.s Format](#6-newts-format), Staff and the division's Captains' Council representatives will collaborate to implement a replacement N.E.W.T.s format. The captains for the division may propose and vote on a new format per normal rule voting procedure as laid out in section [5. Rule Voting Procedure in the Organizational Guidelines](https://league7.gg/#/organizational-guidelines?id=_5-rule-voting-procedure).
+### 6.5 N.E.W.T.s Format Change Due to Division Composition Changes
+Should a division face a change in division composition which compromises their ability to play N.E.W.T.s as laid out in [6. N.E.W.T.s Format](#6-newts-format), Staff and the division's Captains' Council representatives will collaborate to implement a replacement N.E.W.T.s format. The captains for the division may propose and vote on a new format per normal rule voting procedure as laid out in section [5. Rule Voting Procedure in the Organizational Guidelines](https://league7.gg/#/organizational-guidelines?id=_5-rule-voting-procedure). If the Captains' Council is unable to pass a proposal for a new implementation of the N.E.W.T.s format within one week of N.E.W.T.s start date, Staff will implement a replacement N.E.W.T.s format. 
 
 ### 6.6 Post-Season Tournament for Teams Not Otherwise In N.E.W.T.s
 - For teams which are not up for promotion/relegation and are not participating in the World Cup Championship, captains may opt to register their team for a post-season tournament.
@@ -455,10 +453,10 @@ Should a division face a large number of teams disbanding which compromises thei
 
 #### 7.1.2 Custom Game Settings
 - Teams must use all default 6v6 official settings at Champion difficulty
-- Map Selection: 
-  - Team captains may agree to ban certain maps by mutual agreement, may agree on a specific map rotation, or may use a random name picker to select maps each game.
+- Team captains may agree to ban certain maps by mutual agreement, may agree on a specific map rotation, or may use a random name picker to select maps each game.
 - Teams take turn generating the custom lobby
 - Failure to choose correct settings result in a forfeit for that game
+- If an incorrect setting is used or the incorrect team generates the custom lobby, if the game finishes it shall stand. Otherwise, if the game is not completed the team setting up the game will be assessed a forfeit for that game.
 
 #### 7.1.3 Queue Sniping Settings
 - Teams must play the map they load into (LEAGUE7 does not allow map dodges)
@@ -466,22 +464,22 @@ Should a division face a large number of teams disbanding which compromises thei
 
 #### 7.1.4 Legal Gameplay Tactics
 - Any move or technique that is executable within the game's mechanics is considered a legal move
-  - This includes, but is not limited to: hero farming, bludger dribbling, backwards shots, and any other technique possible within the game
-- Using any obvious bug or glitch (invisible player bug, two players on one character) to obtain an advantage is not considered a legal move. Players encountering this issue should take a screenshot of their game, then spam "Bloody Hell" and disconnect. Players who obtain an advantage gained by one of those bugs may face sanction. 
+  - This includes, but is not limited to: hero farming, bludger dribbling, backwards shots, hoop sitting and any other technique possible within the game
+- Using any obvious bug or glitch (invisible player bug, two players on one character) to obtain an advantage is considered a technical issue. See the [Technical Issues section](#81technicalisuessanddisconnection). Players who obtain an advantage gained by one of those bugs may face sanction. 
 - Staff will not enforce limitations on how players utilize the game's built-in mechanics
 
 ### 7.2 Match Protocols
 
 #### 7.2.1 Pre-Match Requirements 
 - Teams must create (or confirm) their results thread prior to their scheduled match
-- Teams must have all players in their team voice channel at least 10 minutes before the match start time
+- Teams must have all players in their team voice channel, but may remain muted if they do not wish to communicate via voice chat, at least 10 minutes before the match start time
   - Team players are responsible to fix their clients and they must be ready to begin at the start time
 - Team captains must be present in the game setup voice channel at least 5 minutes before the scheduled start time
    - If another player will setup the games, team Captain must inform Staff prior to match start time
    - If a team is not present in the setup room within 7 minutes of start time (e.g., by 1:07 for a 1:00 game), they must forfeit the game
      - If still absent by 14 minutes past the start time, the team forfeits the full match
      - The opposing captain must ping staff in real time to claim the forfeit with a proof of screenshot
-     - A captain who would otherwise be able to claim a forfeit may, upon mutual agreement with the opposing captain, decide to go ahead with the match with the team which would have forfeited playing shorthanded. This agreement must be documented in the queue setup channel to be valid. No bot fill will be allowed for the shorthanded team. Regardless of outcome, the result of the match will stand. No forfeit may be claimed after a match has started under this rule.
+     - A captain who would otherwise be able to claim a forfeit may, upon mutual agreement with the opposing captain, decide to go ahead with the match with the team which would have forfeited playing shorthanded in a custom match. This agreement must be documented in the queue setup channel to be valid. No bot fill will be allowed for the shorthanded team. Regardless of outcome, the result of the match will stand. No forfeit may be claimed after a match has started under this rule.
 
 #### 7.2.3 Between Games 
 - Teams are allowed up to 7 minutes of strategy discussion between games 
@@ -572,7 +570,8 @@ Should a division face a large number of teams disbanding which compromises thei
 - If persistent technical issues prevent match completion:
   - Both captains may agree to reschedule the remainder of the match
   - Staff must be informed and document the rescheduling
-  - The rescheduled portion must be completed within the same week
+  - The rescheduled portion must be completed within the same week.
+    - If unable to complete within the same week, the team should schedule the match to be their first match to be completed and advise Staff.
   - Completed games' results stand; only incomplete games are rescheduled
 
 ### 8.3 Issue Monitoring
@@ -587,7 +586,7 @@ Should a division face a large number of teams disbanding which compromises thei
 ## 9. Broadcasting and Streaming
 
 ### 9.1 Official Broadcasts
-- League integrity takes precedence over streaming concerns
+- **League integrity takes precedence over streaming concerns**
 - Community-requested matches receive priority for live broadcasting
 - Teams must allow match recording but may decline live streaming
   - Staff may record matches for post-production content
@@ -604,7 +603,7 @@ Should a division face a large number of teams disbanding which compromises thei
 - A non-team or unofficial broadcasters must:
   - Request and receive permission from teams before broadcasting gameplay
   - Comply with captain/team requests to stop unauthorized broadcasting
-  - Mark broadcasts as "Unofficial" in title, description, and verbal communication
+  - Mark broadcasts as "Unofficial" in stream title
 
 ## 10. Conclusion
 
