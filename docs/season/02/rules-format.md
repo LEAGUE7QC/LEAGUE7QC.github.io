@@ -284,7 +284,7 @@ The two possible season formats teams may compete in during Season 2 will be the
 - No maximum limit on the number of matches teams can play per week
 - Teams must complete matches according to their division format's deadlines outlined in [3.6 Season Formats](#36-season-formats)
 - Failure to meet these milestones will automatically trigger the default scheduling mechanism.
-- - If a team has failed to meet their deadline for matches played within a certain timeframe, Staff will schedule a match at the default time against the first opponent on their schedule that has also failed to meet their scheduling deadlines. If no such opponent exists, Staff will schedule a match at the default time against the opponent which has played the fewest matches.
+  - If a team has failed to meet their deadline for matches played within a certain timeframe, Staff will schedule a match at the default time against the first opponent on their schedule that has also failed to meet their scheduling deadlines. If no such opponent exists, Staff will schedule a match at the default time against the opponent which has played the fewest matches.
 
 ### 5.2.1 Default Game Times
 - Each division has designated default game times each weekend:
