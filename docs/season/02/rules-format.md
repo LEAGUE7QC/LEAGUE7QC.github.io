@@ -112,25 +112,10 @@ Season 2 will feature 1-3 divisions based on skill level.
   - The Captain must provide the affected player with 48-hour advance notice before removal
   - Staff must be notified through the appropriate channel with the removal reason
 
-### 3.4 Emergency Procedures for Handling Large Numbers of Disbanded Teams
+### 3.4 Procedures for Handling Large Numbers of Disbanded Teams
 In order to address the possibility of a large number of teams disbanding within a given division, the following procedures shall act as a framework for a possible solution. These procedures are intended only for emergency situations where the number of disbanded teams in a division significantly reduces the number of possible matches to be played and compromises the competitive integrity of the division. The Captains' Council representatives for each division are not limited solely to the procedures listed below and may elect to devise and implement another method to handle such situations subject to the following:
 - Any significant mid-season changes to division structure or format must be approved by at least a 2/3 vote of the Captains' Council representatives for the affected division(s).
-
-#### 3.4.1 Shortened Season Option
-Should the Captains' Council representatives for a division wish to shorten their season, the following rules shall apply:
-
-##### 3.4.1.1 Proposal to Shorten Season
-- The season may not be shortened for a division after week 5 of O.W.L.s.
-- A captain of a team in the division which wishes to shorten the season shall propose to shorten the season in the division captains' chat, with details on how many weeks the division should be shortened by, deadlines to complete any remaining games, when N.E.W.T.s will be scheduled, and how N.E.W.T.s. qualifications should be handled for the remaining teams.
-- Each proposal shall require at least two seconds from other captains in the division.
-- - Should three teams or less still be competing in the division, a second from all remaining captains will be required, and the proposal will be considered automatically passed.
-- Once the required number of seconds has been reached, a poll shall be created in the division's captains' chat to vote on the proposal.
-- The poll shall stay open for 48 hours. At the conclusion of voting the proposal shall be considered passed if at least 2/3 of captains in that division have voted for the proposal.
-
-#### 3.4.1.2 Shortened Season Process
-- After the shortened season proposal has been passed, all of that division's team captains will be notified in the division's captains' chat of the shortened season and the expectations for scheduling deadlines. 
-- After the O.W.L.s season is completed, N.E.W.T.s for that division will begin as specified by the passed proposal.
-- For the weeks where there are no O.W.L.s matches being played by the division playing the shortened season AND there are no N.E.W.T.s matches being played by other divisions, the Staff will solicit feedback from the captains of the division with the shortened season and may set up special events (e.g. a draft tournament, an all-star match, etc.) dependent on captain feedback. This will ensure that players in the division with the shortened season can still play competitive games while waiting for the other divisions to finish the season.
+- If 1/3 of teams disband in a division, an emergency meeting will be triggered for Staff and the division's Captains' Council to determine what, if anything, should be done to handle O.W.L.s and N.E.W.T.s for the division moving forward.  
 
 
 #### 3.4.2 Division Switches to Swiss System Option
