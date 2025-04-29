@@ -119,23 +119,6 @@ In order to address the possibility of a large number of teams disbanding within
 - In case of unforeseen situations arising which compromise the competitive integrity of a division, Staff may make decisions as necessary to ensure competitive integrity for all divisions.
 
 
-#### 3.4.2 Division Switches to Swiss System Option
-Should the Captains' Council representatives for a division wish to switch their division to use Swiss-system format, the following rules shall apply:
-
-##### 3.4.2.1 Requirements to Switch Formats
-- The division must have a combination of at least 7 teams either actively playing or wishing to join the division.
-- No format switches will be permitted after week 5 of O.W.L.s has begun.
-
-##### 3.4.2.2 Proposal to Switch to Swiss System
-- A captain who wishes to switch the season format of the division to Swiss System may propose the merge in their division's captains' chat.
-- The proposal shall require at least two seconds from other captains in the division.
-- Once the number of seconds has been reached, a poll shall be created in the captains' chat to vote on the proposal.
-- The poll shall stay open for 48 hours. At the conclusion of voting the proposal shall be considered passed for that division if at least 2/3 of captains have voted for the proposal.
-
-##### 3.4.2.3 Switch to Swiss System Process
-- After the format switch proposal has been passed, the format switch will be initiated after the completion of the current week of O.W.L.s.
-- Teams will keep their previous standings statistics, unless they have played a disbanded team under the round-robin format. In which case, the match against those disbanded teams will be factored into the standings.
-
 ### 3.5 Team Registrations After Season Start
 - Teams may register after season start and request placement in any division competing under Swiss system rules, or may request placement in a division currently competing under round-robin rules, subject to that division switching to Swiss system rules under [the emergency procedures listed above](#34-emergency-procedures-for-handling-large-numbers-of-disbanded-teams).
 - Staff will have the final say on allowing a team's placement within a particular division.
