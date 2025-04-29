@@ -168,20 +168,20 @@ The two possible season formats teams may compete in during Season 2 will be the
   - Players must complete current season or be formally removed before joining another team
 - Should a team disband, players from the disbanding team will be advised that they can join the Free Agent Pool by submitting a registration form.
 - Captains wishing to unilaterally remove a player from their team must open a support ticket and provide a reason for the removal (e.g. inactivity, bringing another player in to replace the player, etc.)
-- - In cases of removal for player inactivity, the player must be unresponsive to communications from their captain for a period of at least 1 week. If the player in question is in the L7 Discord server, they will be added to the ticket and given 24 hours to respond. If the player is not in the L7 Discord server or does not respond within 24 hours, the removal will be approved and processed. If the player does respond and objects to their removal, the removal will not be approved.
+  - In cases of removal for player inactivity, the player must be unresponsive to communications from their captain for a period of at least 1 week. If the player in question is in the L7 Discord server, they will be added to the ticket and given 24 hours to respond. If the player is not in the L7 Discord server or does not respond within 24 hours, the removal will be approved and processed. If the player does respond and objects to their removal, the removal will not be approved.
 - Players wishing to remove themselves from their team's roster may open a support ticket to request their removal. The team captain for the former player will be advised of the departure of their player via support ticket.
 - Teams must maintain minimum roster size throughout season
   - Teams which fail to maintain minimum roster size will be notified via support ticket. Teams so notified will be given 7 days from the time of notification to fill their roster to at least 6 players.
-- - - Should a team fail to fill their roster to the minimum 6 players within 7 days, they will be given the option of taking on the first interested player(s) from the Free Agent Pool.
-- - - If a team is unable or unwilling to find an interested player from the Free Agent Pool and the team is playing under round-robin rules, the team will be considered disbanded.
-- - - If a team is unable or unwilling to find an interested player from the Free Agent Pool and the team is playing under Swiss system rules, the team will be excluded from pairing until they are able to fill their roster to at least 6 players.
-- - - Teams with fewer than 6 players at after the end of O.W.L.s shall be ineligible for participation in N.E.W.T.s and their spot in N.E.W.T.s will go to the next eligible team in the standings.
+    - Should a team fail to fill their roster to the minimum 6 players within 7 days, they will be given the option of taking on the first interested player(s) from the Free Agent Pool.
+    - If a team is unable or unwilling to find an interested player from the Free Agent Pool and the team is playing under round-robin rules, the team will be considered disbanded.
+    - If a team is unable or unwilling to find an interested player from the Free Agent Pool and the team is playing under Swiss system rules, the team will be excluded from pairing until they are able to fill their roster to at least 6 players.
+    - Teams with fewer than 6 players at after the end of O.W.L.s shall be ineligible for participation in N.E.W.T.s and their spot in N.E.W.T.s will go to the next eligible team in the standings.
 - Each team player must be present in the official LEAGUE7 Discord server at all times.
 - All players must use their exact in-game name as their Discord username in the LEAGUE7 server
   - The only permitted exception is the addition of a team tag in brackets (e.g., [L7] Player Name)
   - Persistent non-compliance result in potential disqualification after Staff and Moderation review
 - Regardless of division, players must have played at least one complete game in a best-of-3 L7 match for their team during O.W.L.s to be eligible to compete for their team in N.E.W.T.s.
-- Players shall only be permitted to participate in, at most, 7 matches during O.W.L.s if playing in a division using Swiss system or 6 matches if playing in a division using Round-Robin. For example, a player who plays 5 matches for one team and then switches teams may only play in 2 matches for their new team if playing in a division using Swiss system. 
+- Players shall only be permitted to participate in, at most, 7 matches during O.W.L.s (Swiss) or 6 matches (Round-Robin). For example, a player who plays 5 matches for one team and then switches teams may only play in 2 matches for their new team if playing in a division using Swiss system. Match participation must be logged via official match threads monitored by Staff. A participation audit may be conducted prior to N.E.W.T.s to confirm player eligibility. 
 - Should a player voluntarily leave one team to immediately join another team, the captain of the player's former team shall have the option of placing a "poaching hold" on that player which will prevent that player from playing for their new team for that team's next two matches. Poaching holds will only be allowed under the following conditions:
   - The player has played at least once for their former team within the team's past two matches.
   - The captain possibly placing the hold will be added to the ticket where their former player is joining the new team and have the option of declaring their intention to place the hold within 3 days of being notified of the player's intent to leave their team.
@@ -206,7 +206,8 @@ The two possible season formats teams may compete in during Season 2 will be the
   - If teams still cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit
 
 **House Cup Division**
-- Roster remains flexible throughout O.W.L.s
+- Roster remains flexible throughout O.W.L.s. However, no team may field more than 16 unique roster players in official matches during O.W.L.s unless authorized by Staff for emergency circumstances.
+  - Free Agent Pool players do not count against the 16 unique roster players cap.
 - If unable to field 6 players due to a last-minute emergency:
   - Teams may access Free Agent Pool to recruit the first available volunteer agent (no pre-arrangements)
 - Teams may access Free Agent Pool for any matchup
