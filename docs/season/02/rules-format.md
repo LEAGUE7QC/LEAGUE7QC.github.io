@@ -61,14 +61,17 @@ Season 2 will feature 1-3 divisions based on skill level.
 #### 3.1.1 World Cup Division
 - Top-tier competitive play
 - Previous season's highest performers
+- Strictest roster regulations.
 
 #### 3.1.2 Triwizard Cup Division
 - Semi-pro level competitive play
 - Balanced skill level
+- Moderate roster regulations.
 
 #### 3.1.3 House Cup Division
 - Entry-pro level competitive play
 - Developmental focus, welcoming to new players
+- Most relaxed roster regulations.
 
 ### 3.2 Division Assignment
 - Teams will be assigned to divisions based on a combination of previous performance and/or estimated roster skill level:
@@ -91,11 +94,12 @@ Season 2 will feature 1-3 divisions based on skill level.
 - If more than 21 teams register, Free Agent Pool usage rules may be updated to accommodate new player entry during the season
 
 #### 3.2.2 Division Season Format
-- By default, divisions which start the season with 7 teams will play the season under the round-robin format rules, with all teams in the division playing each other team once.
+- By default, divisions which start the season with 7 teams or fewer will play the season under the round-robin format rules, with all teams in the division playing each other team once.
 - The lowest division will start the season under the Swiss system format rules, with teams in the division being paired each week based on current season standings. 
 
 ### 3.3 Team Leadership Structure
 - Team ownership and branding rights belong exclusively to the team Captain
+  - Team branding rights for S1 teams are understood to belong to the listed captain of the team at the end of S1.
   - Established team branding from previous seasons has protected status and cannot be used by new teams without explicit authorization from the original Captain
   - A Captain may transfer branding rights to a new Captain at their discretion
 - Team members may request a Captain change through the following process:
