@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 **WELCOME TO LEAGUE7**
 * [Preface](/ "LEAGUE7 | Preface")
-* [Registration](registration.md "L7 | Registration")
 * [FAQ](faq.md "L7 | FAQ")
 * [Contact Us](contact-us.md "L7 | Contact Us")
 * [Past Events](/community-events/past-events "L7 | Past Events")
@@ -11,12 +10,10 @@
 * [Code of Ethics](codeofethics.md "L7 | Code of Ethics")
 
 
- **COMMUNITY EVENTS**
- * [The Gringotts Gauntlet](/community-events/gringotts-gauntlet "L7 | The Gringotts Gauntlet")
-
 **TRANSFIGURATION - S02**
-* [Information (Draft)](/season/02/information.md "L7 | S02 General Information")
-* [Rules & Format (Draft)](/season/02/rules-format.md "L7 | Season Rules & Format") 
+* [Information](/season/02/information.md "L7 | S02 General Information")
+* [Rules & Format](/season/02/rules-format.md "L7 | Season Rules & Format") 
+* [Registration](registration.md "L7 | Registration")
 
 **D.A.D.A. - S01**
 * [Information](/season/01/information.md "L7 | S01 General Information")

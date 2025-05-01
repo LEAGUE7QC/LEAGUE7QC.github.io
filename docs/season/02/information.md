@@ -1,13 +1,11 @@
 # Transfiguration Season (S02)
 
-We're excited to announce our **second** season name: **<span style="color:#ca1619">Transfiguration</span>**!
-
-> This document is still a DRAFT. 
+We're excited to announce our **second** season: **<span style="color:#ca1619">Transfiguration</span>**!
 
 Transfiguration Season introduces a division-based competitive structure for Harry Potter: Quidditch Champions, designed to provide appropriate challenges for teams of all skill levels. The season maintains its two-phase format of O.W.L.s (qualifying round) and N.E.W.T.s (promotion/relegation tournaments), while introducing a World Cup tournament at the very end to crown the best of the best team.
 
 ## Expected Timeline
-- **Registration Period**: 2 weeks (expected to be announced mid-April)
+- **Registration Period**: 2 weeks
 - **O.W.L.s (Round-Robin)**: 7 weeks
 - **N.E.W.T.s (Promotion/Relegation)**: 2 weeks
 
@@ -20,7 +18,7 @@ Transfiguration Season introduces a division-based competitive structure for Har
 Please read full [<span style="color:#ffbd00">Season Rules & Format</span>](/season/02/rules-format) regarding details. Although this page provides brief, T.L.D.R. information; all players are required to read and agree to the ruleset upon registration with a team.
 
 ### Division Structure
-Season 2 introduces three skill-based divisions:
+Season 2 introduces skill-based divisions, at most three divisions:
 
 **World Cup Division**:
 - Top-tier competitive play
@@ -57,7 +55,7 @@ Season 2 introduces three skill-based divisions:
 - Cannot participate in N.E.W.T.s matches
 
 ### O.W.L.s Format
-- Round-robin format within divisions (same as Season 1)
+- Round-robin or Swiss format within divisions
 - Teams responsible for scheduling matches within 7-week period (more flexibile than Season 1)
     - Must complete 2 matches by end of week 3, and 4 matches by end of week 5
 - Default game times established for each division (awaiting captains discussion, expected on Saturdays)
@@ -76,6 +74,5 @@ Season 2 introduces three skill-based divisions:
 - **Roster Management**: Increased from 9 players per team with limited number of roster changes to maximum 10 players per team with division-specific roster regulations (more pro, more strict)
 - **Match Scheduling**: Changed from 1 or 2 matches per week requirement to more flexible scheduling with milestone requirements. You can finish all your matches in one sitting if you can arrange them!
 - **Technical Issues**: Changed from focus on substitution vs. restart to standardized "*Bloody Hell!*" signaling system with 3-restart maximum per team. Resolution table is still there with some updates.
-- **Map Selection**: Changed from no map restrictions to division-specific map pools utilizing custom lobbies
 - **Free Agent System**: Season 2 introduces a Free Agent Pool with clear eligibility and usage limits for those who cannot commit to a team, or just started playing Harry Potter: Quidditch Champions!
  

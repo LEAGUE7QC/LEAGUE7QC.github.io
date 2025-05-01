@@ -20,8 +20,8 @@ Season 2 introduces a division-based structure to enhance competitive balance an
 ### 2.1 Season Duration
 Each season spans approximately three months:
 - 2 weeks for team registration and preparation
-- 7 weeks for O.W.L.s matches (round-robin/Swiss system format within divisions)
-- 2 weeks for N.E.W.T.s matches (promotion/relegation tournaments)
+- 7 weeks for O.W.L.s matches (within divisions)
+- 2 weeks for N.E.W.T.s matches (promotion/relegation between divisions)
 
 ### 2.2 Registration Timeline
 - Divisions will be created based on the number of teams registered.
@@ -141,11 +141,11 @@ The two possible season formats teams may compete in during Season 2 will be the
 
 #### 3.6.2 Swiss System Format
 - Swiss system will be the default format for teams competing in the lowest division, provided the lowest division does not start with 7 teams.
-- At the beginning of each week, teams in divisions using the Swiss system will be paired with an opponent using the following rules:
+- At the beginning of each week (every Monday morning), teams in divisions using the Swiss system will be paired with an opponent using the following rules:
     - Teams may only play each other once during the season.
     - Each match win will give the winning team one pairing point. 
     - Each match loss will give the losing team no pairing points.
-    - Bonus pairing points may be assigned by Staff discretion in case of new teams joining the division.
+    - Staff may assign bonus points to new teams joining mid-season.
         - **Pairing points are not the same as match wins for the purpose of standings**
         - Generally, no bonus pairing points will be assigned to a new team if their estimated skill level is at or below the division average. If a new team's estimated skill level is above the division average, generally staff will assign bonus pairing points so that the new team's pairing points are equal to the most comparable team competing in the division. 
     - Teams will be paired with teams as close to their number of pairing points as possible.
@@ -180,13 +180,12 @@ The two possible season formats teams may compete in during Season 2 will be the
 - All players must use their exact in-game name as their Discord username in the LEAGUE7 server
   - The only permitted exception is the addition of a team tag in brackets (e.g., [L7] Player Name)
   - Persistent non-compliance result in potential disqualification after Staff and Moderation review
-- Regardless of division, players must have played at least one complete game in a best-of-3 L7 match for their team during O.W.L.s to be eligible to compete for their team in N.E.W.T.s.
+- To play in N.E.W.T.s, regardless of division, all players must complete at least one game during O.W.L.s.
 - Players shall only be permitted to participate in, at most, 7 matches during O.W.L.s (Swiss) or 6 matches (Round-Robin). For example, a player who plays 5 matches for one team and then switches teams may only play in 2 matches for their new team if playing in a division using Swiss system. Match participation must be logged via official match threads monitored by Staff. A participation audit may be conducted prior to N.E.W.T.s to confirm player eligibility. 
 - Should a player voluntarily leave one team to immediately join another team, the captain of the player's former team shall have the option of placing a "poaching hold" on that player which will prevent that player from playing for their new team for that team's next two matches. Poaching holds will only be allowed under the following conditions:
   - The player has played at least once for their former team within the team's past two matches.
   - The captain possibly placing the hold will be added to the ticket where their former player is joining the new team and have the option of declaring their intention to place the hold within 3 days of being notified of the player's intent to leave their team.
 - Teams may only place a maximum of two poaching holds for the season.
-- Rosters for all divisions will be locked at the end of week 7 of O.W.L.s.
 - Should a team fall below 8 active players on their roster due to a player leaving the team on their own initiative or due to player inactivity, they may add new players to their roster to bring them up to at most 8 active players regardless of the roster lock. Players recruited under this provision must come from the Free Agent Pool. If there are not enough players in the Free Agent Pool, the team may recruit any player not on an active team.
 
 
@@ -279,7 +278,7 @@ The two possible season formats teams may compete in during Season 2 will be the
 - Team captains are responsible for scheduling their matches within the 7-week timeframe
 - All scheduling discussions must take place in the L7 Discord channel designated for such discussions.
 - Both team captains must confirm schedule agreements in writing on LEAGUE7's official Discord.
-- If team captains are unable to come to an agreement regarding scheduling and a deadline is approaching the match will be scheduled at the default time.
+- If captains can't agree on scheduling before a deadline, the match defaults to the default time.
 - Teams are responsible for completing all their matches within the 7-week O.W.L.s period
 - No maximum limit on the number of matches teams can play per week
 - Teams must complete matches according to their division format's deadlines outlined in [3.6 Season Formats](#36-season-formats)
@@ -383,7 +382,7 @@ At the end of O.W.L.s, teams will participate in promotion/relegation tournament
    - Bottom 2 finishers play in House Cup Division next season
 
 **For Two-Division Structure:**
-- Bottom 2 teams from World Cup Division and Top 4 teams from Triwizard Cup Division
+- Bottom 2 teams from World Cup Division and Top 2 teams from Triwizard Cup Division
 - Double-elimination tournament
 - Top 2 finishers play in World Cup Division next season
 - Bottom 2 finishers play in Triwizard Cup Division next season
