@@ -314,7 +314,29 @@ The two possible season formats teams may compete in during Season 2 will be the
     - Third offense: Disqualification from current season
 
 ### 5.2.5 Broadcast Schedule
-TBD
+The League 7 Broadcast Schedule outlines which matches and content segments are selected for official coverage each week, including live streams, delayed broadcasts, and Studio Team content.
+
+#### 5.2.5.1 Live Match Broadcasts
+- Only teams that have completed the Broadcast Opt-In Form (see Section 9) are eligible.
+- Match selections are based on: opt-in status, scheduled time, staff availability, and bracket/division priority (e.g. N.E.W.T.s).
+- Once opted in and scheduled, no additional confirmation is required.
+- Teams can request to opt out of a specific match broadcast with 24 hours’ notice.
+- Emergency situations (power outages, illness, acts of nature) follow League 7’s rescheduling and moderation policies.
+- Teams scheduled for live broadcast must:
+  - Be in their team VC 15 minutes before match start
+  - Have their designated screen-sharer ready
+- Broadcasts will use Discord screensharing or another approved platform announced in advance.
+
+#### 5.2.5.2 Recorded Matches
+- If live streaming isn’t possible, matches may be recorded for delayed broadcast or Studio content.
+- Footage may be used if it only includes POVs, screenshares, or voice from teams who have opted in.
+- Teams who have not opted in will not appear visually or audibly.
+- All teams may still be mentioned in text-based recaps or score updates.
+
+#### 5.2.5.3 Studio Content Schedule
+- Recaps, MVP highlights, stat breakdowns, and interviews are scheduled by the Studio Team.
+- Community members may be contacted for interviews or guest features.
+- Content is released on a rolling basis via League 7 Twitch, Discord, or social media.
 
 ### 5.3 Scoring System
 - Teams are ranked by match series won
