@@ -16,6 +16,7 @@
 * [Registration](registration.md "L7 | Registration")
 
 **D.A.D.A. - S01**
+* [President's Letter](/season/01/president-letter.md "L7 | S01 President's Letter")
 * [Information](/season/01/information.md "L7 | S01 General Information")
 * [Rules & Format](/season/01/rules-format.md "L7 | Season Rules & Format") 
 * [Team Rosters](/season/01/team-rosters.md "L7 | Team Rosters")
