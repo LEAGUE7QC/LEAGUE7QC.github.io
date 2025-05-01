@@ -609,25 +609,77 @@ Should a division face a change in division composition which compromises their 
 
 ## 9. Broadcasting and Streaming
 
-### 9.1 Official Broadcasts
-- **League integrity takes precedence over streaming concerns**
-- Community-requested matches receive priority for live broadcasting
-- Teams must allow match recording but may decline live streaming
-  - Staff may record matches for post-production content
-- N.E.W.T.s matches or higher division matches prioritized for the weekends for live broadcasting purposes
-  - If teams cannot participate in live broadcast times, matches will be scheduled at their convenience
-  - Staff may record these matches for delayed broadcast during weekend streaming hours
+### 9.1 Official Broadcast Participation
 
-### 9.2 Player Streams
-- At least one stream must be available in Discord for verification purposes
-- Teams may broadcast their own gameplay freely
-- Players are advised to maintain professional conduct while streaming to avoid interpersonal conflicts:
-  - Avoid negative commentary about opposing teams or players
-  - Consider disabling personal streams if heated or tilted
-- A non-team or unofficial broadcasters must:
-  - Request and receive permission from teams before broadcasting gameplay
-  - Comply with captain/team requests to stop unauthorized broadcasting
-  - Mark broadcasts as "Unofficial" in stream title
+League 7 aims to stream or record all official matches during Season 2, depending on Broadcast Division availability and team participation.
+(For scheduling, see [Section 5.2.5](#525-broadcast-schedule))
+
+Only teams that complete the Broadcast Opt-In Form are eligible for official coverage, including:
+- Live streams
+- Recorded broadcasts
+- Studio content
+- Highlight and recap features
+
+Once opted in, teams agree to:
+- Be in team VC 15 minutes before match time
+- Have a screen-sharer ready and available
+- Follow all Broadcast Team setup instructions
+- Use Discord screenshare or another platform announced by staff
+
+Failure to meet requirements may result in the match being replaced, delayed, or skipped for live coverage. Repeated issues may affect future broadcast priority.
+
+### 9.2 Player and Community Streaming
+
+#### 9.2.1 Team & Player Streams
+• Players and teams may stream their own matches, even if the League 7 Live Team is also covering the game
+• Personal streams must not interfere with official broadcasts or misrepresent the league
+• At least one POV must be streamed or recorded and shared in Discord for review purposes
+
+#### 9.2.2 Unofficial & Non-Team Broadcasts
+Non-participating casters must:
+- Get **written permission** from both teams (DM, VC message, email, etc.)
+  - Verbal permission is **not** enough.
+- Mark their stream as "**Unofficial**" in the stream title, at minimum.
+- End the stream immediately if asked by a captain or League 7 staff
+
+#### 9.2.3 Conduct Expectations
+- Players must act professionally on-stream
+- If tilted or disrespectful, players are encouraged to mute or stop their stream
+- Streams with harassment or toxic behavior may trigger disciplinary review
+
+## 9.3 Studio Team Content Policy
+
+The League 7 Studio Team produces:
+- Match recaps
+- MVP highlights
+- Stat graphics
+- Player interviews and quote features
+
+Studio content **will only feature** gameplay, audio, or names from teams or players who opted into broadcasts.
+
+Non-opt-in teams:
+- **Will not be shown visually or audibly**
+- **May still be referenced** in text-based recaps or score updates
+
+All featured content will credit the appropriate team or player whenever possible.
+
+## 9.4 Broadcast Compliance & Penalties
+
+Teams that opt into broadcasts are expected to follow through on scheduled participation. The League7 Broadcast & Studio Teams are all-volunteer groups and their time & efforts are a limited resource which should not be taken for granted.
+
+Matches which are rescheduled as a result of emergency circumstance or technical issues should be promptly communicated to Staff. Failure to communicate scheduling changes for a match that is expected to be broadcast or failure to appear for a scheduled match may result in a team being deprioritized or suspended from future broadcast content:
+- First Offense
+  - Formal warning issued
+  - Incident documented
+- Second Offense
+  -Team is deprioritized for the rest of the season
+- Third Offense
+  - Team is suspended from all League 7 broadcast content (live & studio) for the remainder of the season
+- No-Call/No-Shows
+  - If a team fails to appear with no notice, regardless of the number of offenses incurred by a team, teams may be deprioritized or suspended from future broadcast content.
+- Appeals
+  - Teams may appeal any penalty within 48 hours
+  - Appeals will be reviewed by League 7 staff
 
 ## 10. Conclusion
 
