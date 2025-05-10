@@ -1,6 +1,9 @@
 
 > Below is the list of events that have concluded
 
+[![The Gringotts Gauntlet](../images/events/Gringotts_Gauntlet.png)](/community-events/gringotts-gauntlet) 
+<hr>
+
 [![5v5 Dream](../images/events/5v5_Dream.png)](/community-events/5v5-dream) 
 <hr>
 

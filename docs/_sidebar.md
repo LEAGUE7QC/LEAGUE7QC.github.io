@@ -13,7 +13,10 @@
 **TRANSFIGURATION - S02**
 * [Information](/season/02/information.md "L7 | S02 General Information")
 * [Rules & Format](/season/02/rules-format.md "L7 | Season Rules & Format") 
-* [Registration](registration.md "L7 | Registration")
+* [Registration  <span style="color:#ffbd00">(ON!)</span>](registration.md "L7 | Registration")
+
+**COMMUNITY EVENTS**
+* [NBJB: All-Girl Beat-Off <span style="color:#ffbd00">(NEW!)</span>](/community-events/nbjb-beatoff "L7 | NBJB: All-Girl Beat-Off")
 
 **D.A.D.A. - S01**
 * [President's Letter](/season/01/president-letter.md "L7 | S01 President's Letter")
