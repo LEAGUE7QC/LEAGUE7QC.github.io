@@ -21,7 +21,7 @@ This competitive solo event features a round-robin format where players compete 
 
 **Deviating from the standard loadout will result in the following penalties:**
 1. First violation: Verbal warning and required respec
-2. Second violation: -1 Tournament Point
+2. Second violation: -10 points
 3. Third violation: Disqualification
 
 ## General Offense System
