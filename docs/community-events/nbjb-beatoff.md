@@ -6,7 +6,7 @@
 This competitive solo event features a round-robin format where players compete individually as Beaters, tracking eliminations for points.
 
 ## Tournament Structure
-- **Date:** Sunday, May 18, 2025 4:20 PM PST
+- **Date:** Sunday, May 18, 2025 2:00 PM PST
 - **Player Limit:** 10 participants maximum
 - **Format:** 1v1 Round Robin
 - **Match Settings:** Custom matches (half-field only)
