@@ -40,7 +40,7 @@ function runMatchPlugin() {
             try {
                 // First load the team rosters and player data from JSON
                 const [teamsResponse, playersResponse] = await Promise.all([
-                    fetch('datatables/team-rosters.json').catch(() => ({ json: () => ({ teams: [] }) })),
+                    fetch('datatables/s01-team-rosters.json').catch(() => ({ json: () => ({ teams: [] }) })),
                     fetch('datatables/players.json').catch(() => ({ json: () => ({ players: [] }) }))
                 ]);
 

@@ -120,74 +120,89 @@
     },
 
     plugins: [
-              function(hook, vm) {
-                hook.doneEach(function() {
-                  if (vm.route.file === 'season/01/standings.md') {
-                    // Options for the season-stats
-                    loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTNSR5EOLa0z72ue8LTYkT6gWuzBAM8HuD91pd7CyDeLBpAgeORsrO2ZJYu1yH8SP612Srn8X_ruM3G/pub?gid=1017454485&single=true&output=csv', 'west-season-stats-table', {
-                      paging: false,
-                      searching: false,
-                      ordering: true,
-                    },false, null, 'stats-table');
+  function(hook, vm) {
+    hook.doneEach(function() {
+      // Season 1 standings
+      if (vm.route.file === 'season/01/standings.md') {
+        // Options for the season-stats
+        loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTNSR5EOLa0z72ue8LTYkT6gWuzBAM8HuD91pd7CyDeLBpAgeORsrO2ZJYu1yH8SP612Srn8X_ruM3G/pub?gid=1017454485&single=true&output=csv', 'west-season-stats-table', {
+          paging: false,
+          searching: false,
+          ordering: true,
+        }, false, null, 'stats-table');
 
-                    loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTNSR5EOLa0z72ue8LTYkT6gWuzBAM8HuD91pd7CyDeLBpAgeORsrO2ZJYu1yH8SP612Srn8X_ruM3G/pub?gid=294770020&single=true&output=csv', 'east-season-stats-table', {
-                      paging: false,
-                      searching: false,
-                      ordering: true,
-                    },false, null, 'stats-table');
-                  }
+        loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTNSR5EOLa0z72ue8LTYkT6gWuzBAM8HuD91pd7CyDeLBpAgeORsrO2ZJYu1yH8SP612Srn8X_ruM3G/pub?gid=294770020&single=true&output=csv', 'east-season-stats-table', {
+          paging: false,
+          searching: false,
+          ordering: true,
+        }, false, null, 'stats-table');
+      }
 
-                  if (vm.route.file === 'season/01/team-rosters.md') {
-                    // Options for the tryout-participants
-                    loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTrz5-y2iLwqVuUMo6n63A8N63UYiU2pvRfqUf6QdV3t7Sgl7cciPAISUDAb8LDgfmAgPuiPiB9BGJD/pub?gid=400794292&single=true&output=csv', 'roster-changes-table', {
-                      paging: true,
-                      searching: true,
-                      ordering: true,
-                    }, false, null, 'roster-changes-table');
-                  }
+      // Season 1 roster changes
+      if (vm.route.file === 'season/01/team-rosters.md') {
+        // Load roster changes table
+        loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTrz5-y2iLwqVuUMo6n63A8N63UYiU2pvRfqUf6QdV3t7Sgl7cciPAISUDAb8LDgfmAgPuiPiB9BGJD/pub?gid=400794292&single=true&output=csv', 'roster-changes-table', {
+          paging: true,
+          searching: true,
+          ordering: true,
+        }, false, null, 'roster-changes-table');
+        
+        // Initialize Season 1 team rosters
+        setTimeout(() => {
+          if (typeof window.initializeTeamRoster === 'function') {
+            window.s1TeamPlugin = window.initializeTeamRoster(1);
+          } else if (typeof window.runteamPlugin === 'function') {
+            // Fallback to the original method if needed
+            window.runteamPlugin();
+          }
+        }, 10);
+      }
+      
+      // Season 2 team rosters
+      if (vm.route.file === 'season/02/team-rosters.md') {
+        // Initialize Season 2 team rosters
+        setTimeout(() => {
+          if (typeof window.initializeTeamRoster === 'function') {
+            window.s2TeamPlugin = window.initializeTeamRoster(2);
+          }
+        }, 10);
+      }
 
-                  if (vm.route.file === 'season-standings.md') {
-                    // Options for the tryout-participants
-                    loadCSVData(' https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants', {
-                      paging: true,
-                      searching: true,
-                      ordering: true,
-                    },true);
+      if (vm.route.file === 'season-standings.md') {
+        // Options for the tryout-participants
+        loadCSVData(' https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants', {
+          paging: true,
+          searching: true,
+          ordering: true,
+        }, true);
 
-                    // Load role-specific graphs
-                    loadChaserGraph();
-                    loadSeekerGraph();
-                    loadBeaterGraph();
-                    loadKeeperGraph();
-                  }
-                  if (vm.route.file === 'season/01/team-rosters.md') {
-                    setTimeout(() => {
-                      if (typeof window.runteamPlugin === 'function') {
-                        window.runteamPlugin();
-                      }
-                    }, 10);
-                  }
+        // Load role-specific graphs
+        loadChaserGraph();
+        loadSeekerGraph();
+        loadBeaterGraph();
+        loadKeeperGraph();
+      }
 
-                  if (vm.route.file === 'season/01/matches.md') {
-                    setTimeout(() => {
-                      if (typeof window.runMatchPlugin === 'function') {
-                        window.runMatchPlugin();
-                      }
-                    }, 10);
-                  }
+      if (vm.route.file === 'season/01/matches.md') {
+        setTimeout(() => {
+          if (typeof window.runMatchPlugin === 'function') {
+            window.runMatchPlugin();
+          }
+        }, 10);
+      }
 
-                  if (vm.route.file === 'quidditch-board.md') {
-                    const pitchElement = document.querySelector('#quidditch-board');
-                    if (pitchElement) {
-                      ReactDOM.render(
-                        React.createElement(window.QuiddichBoard),
-                        pitchElement
-                      );
-                    }
-                  }
-              });
-    }
-  ]
+      if (vm.route.file === 'quidditch-board.md') {
+        const pitchElement = document.querySelector('#quidditch-board');
+        if (pitchElement) {
+          ReactDOM.render(
+            React.createElement(window.QuiddichBoard),
+            pitchElement
+          );
+        }
+      }
+    });
+  }
+]
 }
 
   </script>

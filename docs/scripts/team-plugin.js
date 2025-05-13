@@ -1,23 +1,41 @@
-function runteamPlugin() {
+function runteamPlugin(season = 1) {
+  // Common player source for both seasons
+  const PLAYER_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRXtOx3h3Q0fMBHo86O0OAdS8QFcPdM1zGh4nBcGvLav4AeKHYGW7y6nczN4ZjMzxbtZrMaPgrc5thr/pub?gid=1071930535&single=true&output=csv';
+  // Season Roster Sources
+  const SEASON1_ROSTER_JSON = 'datatables/s01-team-rosters.json'
+  const SEASON2_ROSTER_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQOmRiv9Z_hNUYX8EG0nHtYTTCtDjBKt3q4lywJO1lC_8M-KbpmMOpf--naPkRwoBI4BZCU_ri2XTTR/pub?gid=1700745241&single=true&output=csv';
+  
   const teamPlugin = {
     name: 'team-plugin',
-    data: {
-      rosters: null,
-      players: null
-    },
-    mounted() { 
-      this.fetchAllData(); 
-    },
+    data: { rosters: null, players: null, season: season },
+
+    mounted() { this.fetchAllData();  },
     
     async fetchAllData() {
       try {
-        const [rostersResponse, playersResponse] = await Promise.all([
-          fetch('datatables/team-rosters.json').catch(() => ({ json: () => ({ teams: [] }) })),
-          fetch('datatables/players.json').catch(() => ({ json: () => ({ players: [] }) }))
-        ]);
-    
-        this.data.rosters = await rostersResponse.json();
-        this.data.players = await playersResponse.json();
+        // Common player source for both seasons
+        const playersSource = PLAYER_CSV_URL;
+        
+        // Season-specific roster source
+        let rostersSource;
+        
+        if (this.data.season === 1) {
+          // Season 1: local JSON file
+          const rostersResponse = await fetch(SEASON1_ROSTER_JSON);
+          this.data.rosters = await rostersResponse.json();
+          
+        } else {
+          // Season 2: Use Google Sheets CSV
+          rostersSource = SEASON2_ROSTER_CSV_URL;
+          const rostersResponse = await fetch(rostersSource);
+          const rostersText = await rostersResponse.text();
+          this.data.rosters = this.parseRostersCSV(rostersText);
+        }
+        
+        // Fetch players data from CSV
+        const playersResponse = await fetch(playersSource);
+        const playersText = await playersResponse.text();
+        this.data.players = this.parsePlayersCSV(playersText);
     
         // Ensure all expected properties exist
         this.data.rosters.teams = this.data.rosters.teams || [];
@@ -28,6 +46,117 @@ function runteamPlugin() {
         console.warn('Error fetching data:', error);
         this.renderTeams();
       }
+    },
+    
+    parseRostersCSV(csvText) {
+      if (!csvText) return { teams: [] };
+      
+      const lines = csvText.split('\n');
+      const headers = lines[0].split(',').map(h => h.trim());
+      
+      // Headers: TeamName,TeamTag,PrimaryColor,SecondaryColor,PlayerCaptain,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Player9,Player10
+      
+      const teams = [];
+      
+      // Starting from line 1 (after headers)
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+        
+        const values = this.parseCSVLine(line);
+        
+        // Create a new team
+        const team = {
+          name: values[0] ? values[0].trim() : '',
+          tag: values[1] ? values[1].trim() : '',
+          colors: [
+            values[2] ? values[2].trim() : '#CCCCCC',  // Primary color
+            values[3] ? values[3].trim() : '#FFFFFF'   // Secondary color
+          ],
+          captain: values[4] ? values[4].trim() : '',
+          players: []
+        };
+        
+        // Add captain as first player
+        if (team.captain) {
+          team.players.push(team.captain);
+        }
+        
+        // Add remaining players (Player2 through Player10)
+        for (let j = 5; j < 14; j++) {
+          if (values[j] && values[j].trim()) {
+            team.players.push(values[j].trim());
+          }
+        }
+        
+        teams.push(team);
+      }
+      
+      return { teams };
+    },
+    
+    parsePlayersCSV(csvText) {
+      if (!csvText) return { players: [] };
+      
+      const lines = csvText.split('\n');
+      const headers = lines[0].split(',').map(h => h.trim());
+      
+      // Expected headers: Discord,IGN,PrimaryRole,SecondaryRole,Region,Platform,Input,House,X,Twitch,YouTube,Tiktok
+      
+      const players = [];
+      
+      // Starting from line 1 (after headers)
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+        
+        const values = this.parseCSVLine(line);
+        
+        // Map to the expected structure
+        const player = {
+          name: values[1] ? values[1].trim() : '',         // IGN
+          position: values[2] ? values[2].trim() : '',     // PrimaryRole
+          secondaryPosition: values[3] ? values[3].trim() : '', // SecondaryRole
+          region: values[4] ? values[4].trim() : '',       // Region
+          platform: values[5] ? values[5].trim() : '',     // Platform
+          input: values[6] ? values[6].trim() : '',        // Input
+          hogwartsHouse: values[7] ? values[7].trim() : '', // House
+          discord: values[0] ? values[0].trim() : '',      // Discord
+          twitter: values[8] ? values[8].trim() : '',      // X
+          twitch: values[9] ? values[9].trim() : '',       // Twitch
+          youtube: values[10] ? values[10].trim() : '',    // YouTube
+          tiktok: values[11] ? values[11].trim() : ''      // Tiktok
+        };
+        
+        // Only add if player has a name
+        if (player.name) {
+          players.push(player);
+        }
+      }
+      
+      return { players };
+    },
+    
+    parseCSVLine(line) {
+      const values = [];
+      let inQuotes = false;
+      let currentValue = '';
+      
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        
+        if (char === '"') {
+          inQuotes = !inQuotes;
+        } else if (char === ',' && !inQuotes) {
+          values.push(currentValue);
+          currentValue = '';
+        } else {
+          currentValue += char;
+        }
+      }
+      
+      values.push(currentValue); // Add the last value
+      return values;
     },
 
     getInitialRoster(players) {
@@ -95,9 +224,11 @@ function runteamPlugin() {
     },
 
     renderTeams() {
-      const content = document.querySelector('#team-display');
+      const seasonId = this.data.season;
+      const displayId = `s0${seasonId}-team-rosters`;
+      const content = document.querySelector(`#${displayId}`);
       if (!content) {
-        console.error('Could not find #team-display element');
+        console.error(`Could not find #${displayId} element`);
         return;
       }
       content.innerHTML = '';
@@ -108,9 +239,9 @@ function runteamPlugin() {
       buttonContainer.style.marginBottom = '20px';
     
       const expandAllButton = document.createElement('button');
-      expandAllButton.id = 'expand-all-button';
+      expandAllButton.id = `expand-all-button-s${seasonId}`;
       expandAllButton.textContent = 'EXPAND ALL ROSTERS';
-      expandAllButton.addEventListener('click', () => this.toggleAllRosters());
+      expandAllButton.addEventListener('click', () => this.toggleAllRosters(seasonId));
       
       buttonContainer.appendChild(expandAllButton);
       content.appendChild(buttonContainer);
@@ -124,7 +255,7 @@ function runteamPlugin() {
       sortedTeams.forEach(team => {
         const teamElement = document.createElement('div');
         teamElement.className = 'team';
-        teamElement.id = `team-${team.name.toLowerCase().replace(/ /g, '-')}`;
+        teamElement.id = `team-s${seasonId}-${team.name.toLowerCase().replace(/ /g, '-')}`;
     
         const gradientColors = team.colors.join(', ');
     
@@ -200,8 +331,6 @@ function runteamPlugin() {
       const captainClass = isCaptain ? 'captain' : '';
       const socialIcons = this.renderSocialIcons(playerData);
 
-      const backgroundStyle = `background-image: url('images/players/placeholder_portrait.png'); background-size: cover; background-position: center;`;
-
       return `
         <li class="player ${captainClass}">
           <div class="player-info">
@@ -210,27 +339,6 @@ function runteamPlugin() {
             <span class="player-name ${isCaptain ? 'captain-name' : ''}">${playerData.name}${isCaptain ? ' (C)' : ''}</span>
               <img src="images/sprites/${playerData.region.toLowerCase()}.png" class="region-sprite">
             <div class="social-icons">${socialIcons}</div>
-          </div>
-          <div class="disabled-player-profile" style="${backgroundStyle}">
-            <div class="profile-overlay"></div>
-            <div class="profile-content">
-              <div class="player-attributes">
-                <div class="attribute">
-                  <img src="images/sprites/${playerData.position.toLowerCase()}.png" class="attribute-icon" title="Position: ${playerData.position}">
-                  ${playerData.secondaryPosition ? 
-                    `<img src="images/sprites/${playerData.secondaryPosition.toLowerCase()}.png" class="attribute-icon" title="Secondary Position: ${playerData.secondaryPosition}">` 
-                    : ''}
-                </div>
-                <div class="attribute">
-                  <img src="images/sprites/region_${playerData.region.toLowerCase()}.png" class="attribute-icon" title="Region: ${playerData.region}">
-                  <img src="images/sprites/${playerData.platform.toLowerCase()}.png" class="attribute-icon" title="Platform: ${playerData.platform}">
-                </div>
-                <div class="attribute">
-                  <img src="images/sprites/${playerData.input.toLowerCase().replace(/ /g, '_')}.png" class="attribute-icon" title="Input: ${playerData.input}">
-                  <img src="images/sprites/${playerData.hogwartsHouse.toLowerCase()}.png" class="attribute-icon" title="House: ${playerData.hogwartsHouse}">
-                </div>
-              </div>
-            </div>
           </div>
         </li>
       `;
@@ -275,7 +383,7 @@ function runteamPlugin() {
       const players = document.querySelectorAll('.player:not(.unavailable)');
       players.forEach(player => {
         const playerInfo = player.querySelector('.player-name');
-        const profile = player.querySelector('.player-profile');
+        const profile = player.querySelector('.disabled-player-profile');
         
         playerInfo.addEventListener('mousemove', (event) => {
           profile.style.display = 'flex';
@@ -311,8 +419,8 @@ function runteamPlugin() {
       }
     },
 
-    toggleAllRosters() {
-      const expandAllButton = document.getElementById('expand-all-button');
+    toggleAllRosters(seasonId) {
+      const expandAllButton = document.getElementById(`expand-all-button-s${seasonId}`);
       const fullRosterButtons = document.querySelectorAll('.see-full-roster');
       const fullRosterLists = document.querySelectorAll('.full-roster');
       
@@ -327,6 +435,27 @@ function runteamPlugin() {
   };
 
   teamPlugin.mounted();
+  return teamPlugin;
 }
 
+// Helper function to run for selected season
+function initializeTeamRoster(seasonNumber) {
+  return runteamPlugin(seasonNumber);
+}
+
+// Export functions
 window.runteamPlugin = runteamPlugin;
+window.initializeTeamRoster = initializeTeamRoster;
+
+// Automatically initialize if the elements exist
+document.addEventListener('DOMContentLoaded', function() {
+  // Check and initialize Season 1 roster
+  if (document.getElementById('s01-team-rosters')) {
+    window.s1TeamPlugin = initializeTeamRoster(1);
+  }
+  
+  // Check and initialize Season 2 roster
+  if (document.getElementById('s02-team-rosters')) {
+    window.s2TeamPlugin = initializeTeamRoster(2);
+  }
+});

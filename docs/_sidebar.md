@@ -9,14 +9,14 @@
 * [Moderation Guidelines](moderation-guidelines.md "L7 | Moderation Guidelines") 
 * [Code of Ethics](codeofethics.md "L7 | Code of Ethics")
 
-
 **TRANSFIGURATION - S02**
 * [Information](/season/02/information.md "L7 | S02 General Information")
 * [Rules & Format](/season/02/rules-format.md "L7 | Season Rules & Format") 
 * [Registration  <span style="color:#ffbd00">(ON!)</span>](registration.md "L7 | Registration")
+* [Team Rosters](/season/02/team-rosters.md "L7 | Team Rosters")
 
 **COMMUNITY EVENTS**
-* [NBJB: All-Girl Beat-Off <span style="color:#ffbd00">(NEW!)</span>](/community-events/nbjb-beatoff "L7 | NBJB: All-Girl Beat-Off")
+* [NBJB: All-Girl Beat-Off](/community-events/nbjb-beatoff "L7 | NBJB: All-Girl Beat-Off")
 
 **D.A.D.A. - S01**
 * [President's Letter](/season/01/president-letter.md "L7 | S01 President's Letter")
@@ -28,7 +28,7 @@
 * [N.E.W.T.s Matches](/season/01/matches.md "L7 | Matches Details")
 
 **TRYOUTS - S00**
-* [Season Standings](/season/00/standings.md "L7 | Season Standings")
+* [Tryouts Standings](/season/00/standings.md "L7 | Tryouts Standings")
 * [Rules & Format](/season/00/rules-format.md "L7 | Tryout Season")
 
 
