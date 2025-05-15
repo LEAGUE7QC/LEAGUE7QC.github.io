@@ -8,13 +8,12 @@ We offer an exciting, fair, and community-driven environment for players of all 
 LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a vibrant, passionate community.
 
 ### Quick Links:
-- [Season Summary](/season/01/information) – Quick information about our 6v6 league
-- [Code of Ethics](/code-of-ethics) – Our community standards that all members must uphold
-- [FAQ](/faq) – Find answers to the most common questions
+- [Season Summary](/season/02/information) – Quick information about our 6v6 league
+- [Code of Ethics](/codeofethics) – Our community standards that all members must uphold
 - [Contact Us](/contact-us) – Learn about how to contact us
 
 ### Our Guidelines:
-* [Season Rules & Format](season-rules.md) - Learn about our regular 6v6 season structures
+* [Season Rules & Format](/season/02/rules-format.md) - Learn about our regular 6v6 season structures
 * [Organizational Guidelines](organizational-guidelines.md) - Understand how LEAGUE7 operates
 * [Moderation Guidelines](moderation-guidelines.md) - Our approach to maintaining a positive community 
 
@@ -25,12 +24,6 @@ LEAGUE7 is more than just playing Quidditch &mdash; it's about being part of a v
 
 ### More to come!
 
-We're finalizing our backend to provide a smooth experience for everyone. In the meantime, polish your brooms, unite with your friends, and be ready to be called into action! Upcoming:
-- Broadcasting system
-- Quidditch Board
-- Player statistics and leaderboards
-- And much more!
-
-Stay tuned for more exciting announcements. The future of competitive Quidditch Champions is here, and it's called LEAGUE7!  
+Stay tuned for more exciting announcements. The competitive Quidditch Champions is here, and it's called LEAGUE7!  
 
  &mdash; *L7 League Administration*
