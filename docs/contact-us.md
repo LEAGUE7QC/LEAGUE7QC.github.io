@@ -25,24 +25,26 @@ This ensures your inquiry is properly tracked and handled by our active staff te
 ### Season 2 - Transfiguration
 
 - **Founder:**  Melanore (melanore)
-- **President:** *T.B.D.*
+- **President:** Eddy (fastereddy135)
 - **Staff Members:**
     - Laggy (laggylestrange)
     - Skipper (skipper13)
     - Riley (amessilyfe)
     - Michy (michymoqc)
-    - *T.B.D.*
+    - Bim (jim_tones)
+    - Moldy Cheeze (moldycheeze5618)
 - **Moderators:**
     - Warbeard (.warbeard)
-    - Manon (witchling_aelin)
+    - Woonie (witchling_aelin)
     - Disk Jockii (diskjockii)
+    - Cowboy Jackman (mr.jackman)
 - **Broadcasting:**
     - Virtual Witchcraft (sirfelix)
     - Aus (ausgoss) 
     - Sh0kkey (sh0kkey) 
     - Cleet (.cleet) 
     - Moldy Cheeze (moldycheeze5618) 
-    - Madlove_Inspiration (rogercornbaggins2827) 
+    - Madlove Inspiration (rogercornbaggins2827) 
 - **Website & Database:**
     - D3ad (d3ad_m4chin3) 
     - bushbat (rushrat) 
