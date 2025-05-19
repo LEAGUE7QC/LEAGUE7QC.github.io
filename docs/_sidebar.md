@@ -1,16 +1,16 @@
 <!-- docs/_sidebar.md -->
 **WELCOME TO LEAGUE7**
 * [Preface](/ "LEAGUE7 | Preface")
-* [Contact Us](contact-us.md "L7 | Contact Us")
-* [<span style="color:#ffbd00">Registration</span>](registration.md "L7 | Registration")
+* [Registration](registration.md "L7 | Registration")
+* [Hall of Fame <span style="color:#ffbd00">(NEW)</span>](/hall-of-fame.md "L7 | Hall of Fame")
 * [Past Events](/community-events/past-events "L7 | Past Events")
 * [Quidditch Board](/quidditch-board.md "L7 | Quidditch Board")
+* [Contact Us](contact-us.md "L7 | Contact Us")
+
+**LEAGUE7 GUIDELINES**
+* [Code of Ethics](codeofethics.md "L7 | Code of Ethics")
 * [Organizational Guidelines](organizational-guidelines.md "L7 | Organizational Guidelines")
 * [Moderation Guidelines](moderation-guidelines.md "L7 | Moderation Guidelines") 
-* [Code of Ethics](codeofethics.md "L7 | Code of Ethics")
-
-**COMMUNITY EVENTS**
-* [NBJB: All-Girl Beat-Off](/community-events/nbjb-beatoff "L7 | NBJB: All-Girl Beat-Off")
 
 **S02 -TRANSFIGURATION**
 * [Information](/season/02/information.md "L7 | S02 General Information")
@@ -31,7 +31,5 @@
 **S00 - TRYOUTS**
 * [Tryouts Standings](/season/00/standings.md "L7 | Tryouts Standings")
 * [Rules & Format](/season/00/rules-format.md "L7 | Tryout Season")
-
-
 
 

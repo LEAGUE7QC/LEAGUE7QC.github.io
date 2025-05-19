@@ -1,6 +1,9 @@
 
 > Below is the list of events that have concluded
 
+[![NBJB: All-Girl Beat-Off](../images/events/nbjb_beatoff.png)](/community-events/nbjb-beatoff)
+<hr>
+
 [![The Gringotts Gauntlet](../images/events/Gringotts_Gauntlet.png)](/community-events/gringotts-gauntlet) 
 <hr>
 
