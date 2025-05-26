@@ -87,8 +87,8 @@ Significant roster changes after registration close may trigger a Staff-led reas
 #### 3.2.1 Division Size and Distribution
 - World Cup Division will always maintain exactly 7 teams when possible
 - Division distribution based on total team registrations:
-  - 5-13 teams: One division consisting of all registered teams.
-  - 14-20 teams: World Cup (7 teams), Triwizard Cup (remainder)
+  - 5-12 teams: One division consisting of all registered teams.
+  - 13-20 teams: World Cup (7 teams), Triwizard Cup (remainder)
   - 21+ teams: World Cup (7 teams), Triwizard Cup (7 teams), House Cup (remainder)
 - If more than 21 teams register, Free Agent Pool usage rules may be updated to accommodate new player entry during the season
 
@@ -131,16 +131,14 @@ In order to address the possibility of a large number of teams disbanding within
 The two possible season formats teams may compete in during Season 2 will be the round-robin and Swiss system formats.
 
 #### 3.6.1 Round-Robin Format
-- Round-robin will be the default format for teams competing in divisions which start with 7 teams.
-- Each team will play 6 matches during the season, 1 match against every other team in the division.
-- Each match will be scheduled for a particular week, but teams are not obligated to schedule their matches for that particular week.
+- Round-robin will be the default format for all divisions.
+- Each team will play a set number of matches during the season, 1 match against every other team in the division.
 - Teams must complete all of their matches by the season's end. Matches not completed by the season's end will be considered a forfeit.
 - Teams must complete at least 3 matches by week 5 of O.W.L.s, and at least 4 matches by week 6.
     - If a team is approaching a deadline for matches completed, the captain will be notified via support ticket and will be advised of the next steps according to [5.2.2 Scheduling Enforcement Process](#522-scheduling-enforcement-process).
 
 
 #### 3.6.2 Swiss System Format
-- Swiss system will be the default format for teams competing in the lowest division, provided the lowest division does not start with 7 teams.
 - At the beginning of each week (every Monday morning), teams in divisions using the Swiss system will be paired with an opponent using the following rules:
     - Teams may only play each other once during the season.
     - Each match win will give the winning team one pairing point. 
@@ -287,8 +285,8 @@ The two possible season formats teams may compete in during Season 2 will be the
 
 ### 5.2.1 Default Game Times
 - Each division has designated default game times each weekend:
-  - World Cup Division: Saturday at 12:00 PM PST
-  - Triwizard Cup Division: Saturday at 1:00 PM PST
+  - World Cup Division: Sunday at 6:00 PM UTC
+  - Triwizard Cup Division: Sunday at 7:00 PM UTC
   - House Cup Division: Saturday at 2:00 PM PST
   - These default times remain in place until captains successfully vote on division-specific time
 - These default times are automatically scheduled for any unscheduled matches approaching deadlines
