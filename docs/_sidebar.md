@@ -2,7 +2,7 @@
 **WELCOME TO LEAGUE7**
 * [Preface](/ "LEAGUE7 | Preface")
 * [Registration](registration.md "L7 | Registration")
-* [Hall of Fame <span style="color:#ffbd00">(NEW)</span>](/hall-of-fame.md "L7 | Hall of Fame")
+* [Hall of Fame</span>](/hall-of-fame.md "L7 | Hall of Fame")
 * [Past Events](/community-events/past-events "L7 | Past Events")
 * [Quidditch Board](/quidditch-board.md "L7 | Quidditch Board")
 * [Contact Us](contact-us.md "L7 | Contact Us")
@@ -16,7 +16,7 @@
 * [Information](/season/02/information.md "L7 | S02 General Information")
 * [Rules & Format](/season/02/rules-format.md "L7 | Season Rules & Format") 
 * [Team Rosters](/season/02/team-rosters.md "L7 | Team Rosters")
-* [<span style="opacity:40%">Match Calendar (TBA)</span>](/season/02/calendar.md "L7 | Match Calendar") 
+* [Match Calendar](/season/02/calendar.md "L7 | Match Calendar") 
 * [<span style="opacity:40%">O.W.L.s Standings (TBA)</span>](/season/02/owls-standings.md "L7 | Season Standings")
 
 **S01 - D.A.D.A.**

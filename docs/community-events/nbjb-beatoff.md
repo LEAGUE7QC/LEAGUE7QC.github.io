@@ -1,4 +1,6 @@
 
+> This event has concluded.
+
 ![No Boys, Just Babes](../images/events/nbjb_beatoff.png)
 # No Boys, Just Babes: All-Girl Beat-Off🏏
 "No Boys, Just Babes" is a 1v1 beater tournament for all female-identifying players in Harry Potter: Quidditch Champions. Bludgers will fly. Heads will roll. One badass will walk away with unmatched reflexes, unrivaled aim, and full Discord GIF privileges.
@@ -60,6 +62,4 @@ This event is sponsored by ManonAelin13 with a total of $150!
 - Players must be available for the full duration of the event and must attend all scheduled matches on time
 
 ## Registration 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScZvDXT9AIc-7V7SKdRyosXePDt6yYffUCMwprpZlbLQ0WUIg/viewform?usp=sharing"  target="_blank" style="display: inline-block; padding: 12px 22px; background-color: #ffbd00; color: black; text-decoration: none; font-weight: bold; border-radius: 4px; text-align: center;">REGISTER AS A BEATER</a> 
-
-For any questions or concerns about the tournament, please use #event-general channel in Discord.
+Deadline has passed.

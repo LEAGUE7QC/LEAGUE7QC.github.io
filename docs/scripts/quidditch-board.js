@@ -39,8 +39,6 @@ const QuiddichBoard = () => {
   };
 
   // State Management
-  const [teams, setTeams] = React.useState([]);
-  const [playerData, setPlayerData] = React.useState({});
   const [players, setPlayers] = React.useState({ home: [], away: [] });
   const [selectedTeams, setSelectedTeams] = React.useState({ home: 'default', away: 'default' });
   const [activeRoster, setActiveRoster] = React.useState({ home: [], away: [] });
@@ -148,35 +146,6 @@ const QuiddichBoard = () => {
     players: ["Keeper", "Beater", "Seeker", "Chaser 1", "Chaser 2", "Chaser 3"]
   };
 
-   // Data Fetching
-  React.useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [rostersResponse, playersResponse] = await Promise.all([
-          fetch('datatables/team-rosters.json'),
-          fetch('datatables/players.json')
-        ]);
-
-        const rostersData = await rostersResponse.json();
-        const playersData = await playersResponse.json();
-
-        const playerLookup = {};
-        playersData.players.forEach(player => {
-          playerLookup[player.name] = player;
-        });
-
-        rostersData.teams.sort((a, b) => a.name.localeCompare(b.name));
-
-        setTeams(rostersData.teams);
-        setPlayerData(playerLookup);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-
-    fetchData(); // <-- Add this line to call the function
-  }, []);
-
   React.useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -201,35 +170,7 @@ const QuiddichBoard = () => {
       ctx.stroke();
     });
   }, [drawings, isDrawingMode, players]);
-
-  // Role Assignment
-  const assignRoles = (teamPlayers) => {
-    const assigned = [];
-    let chaserCount = 1;
-    let benchCount = 1;
-
-    // First, assign primary positions
-    teamPlayers.forEach(playerName => {
-      const player = playerData[playerName];
-      if (!player) return;
-
-      if (player.position === 'Chaser' && chaserCount <= 3) {
-        assigned.push({ name: playerName, role: `Chaser ${chaserCount++}`, primary: true });
-      } else if (['Keeper', 'Beater', 'Seeker'].includes(player.position) && 
-                 !assigned.find(p => p.role === player.position)) {
-        assigned.push({ name: playerName, role: player.position, primary: true });
-      }
-    });
-
-    // Then, assign remaining players to bench
-    teamPlayers.forEach(playerName => {
-      if (!assigned.find(p => p.name === playerName) && benchCount <= 3) {
-        assigned.push({ name: playerName, role: `Bench ${benchCount++}`, primary: false });
-      }
-    });
-
-    return assigned;
-  };
+;
 
   // Updated Icon Management
   const getRoleIcon = (role, team, playerName) => {
@@ -778,34 +719,7 @@ const QuiddichBoard = () => {
           fontWeight: 'bold'
         }
       }, 'BOARD OPTIONS'),
-      React.createElement(RadiusControls),
-      React.createElement('span', {
-        style: {
-          width: FIELD_WIDTH,
-          display: 'flex',
-          paddingTop: '20px',
-          fontSize: '15px',
-          justifyContent: 'center',
-          margin: 'auto',
-          color: 'var(--text-normal)',
-          fontWeight: 'bold'
-        }
-      }, 'PLAYER INFORMATION'),
-      React.createElement('div', null,
-        React.createElement('div', { 
-          style: {
-            display: 'grid',
-            width: FIELD_WIDTH,
-            gridTemplateColumns: 'repeat(2, 300px)',
-            gap: '0.5rem',
-            justifyContent: 'center',
-            marginBottom: '0.5rem',
-          },
-        },
-          React.createElement(TeamSelect, { team: 'home', title: 'Team 1 (White)' }),
-          React.createElement(TeamSelect, { team: 'away', title: 'Team 2 (Gold)' })
-        )
-      )
+      React.createElement(RadiusControls)
     )
   );
 };
