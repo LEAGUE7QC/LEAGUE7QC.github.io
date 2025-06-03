@@ -97,19 +97,27 @@ Significant roster changes after registration close may trigger a Staff-led reas
 - The lowest division will start the season under the Swiss system format rules, with teams in the division being paired each week based on current season standings. 
 
 ### 3.3 Team Leadership Structure
-- Team ownership and branding rights belong exclusively to the team Captain
-  - Team branding rights for S1 teams are understood to belong to the listed captain of the team at the end of S1.
-  - Established team branding from previous seasons has protected status and cannot be used by new teams without explicit authorization from the original Captain
-  - A Captain may transfer branding rights to a new Captain at their discretion
-- Team members may request a Captain change through the following process:
-  - A minimum of 2/3 of the active roster must approve the change in writing
-  - A formal ticket must be submitted documenting the request with clear, specific reasoning
-  - The current Captain will be notified and given 48 hours to respond
-- Captain inactivity protocol:
-  - If a Captain is absent from all team activities for more than 7 consecutive days without prior notice, Staff may initiate a Captain change process
-- Player removal requirements:
-  - The Captain must provide the affected player with 48-hour advance notice before removal
-  - Staff must be notified through the appropriate channel with the removal reason
+- Team Ownership & Branding Rights
+  - Team ownership and branding rights belong solely to the team Captain.
+  - For Season 1 teams, branding rights are understood to belong to the Captain listed at the end of Season 1.
+  - Team branding established in a prior season has protected status and may not be used by a new team without explicit permission from the original Captain.
+  - A Captain may transfer branding rights to a new Captain at their discretion.
+- Captain Transfer Process
+  - A Captain may transfer their captaincy and branding rights to another player on their current roster.
+  - The proposed new Captain must be informed and must accept the transfer. Once accepted, they officially assume the role of Captain.
+  - If the player declines, the captaincy is considered vacant. In that case:
+  - A new Captain may be appointed with approval from at least two-thirds (2/3) of the active roster.
+  - The resigning Captain may choose whether to retain or transfer the team’s branding rights.
+- Captain Replacement by Team Vote
+  - Team members may initiate a Captain change by meeting all of the following criteria:
+  - At least two-thirds (2/3) of the active roster agrees in writing.
+  - A formal support ticket is submitted, clearly stating the reasons for the requested change.
+  - The current Captain is notified and has 48 hours to respond.
+- Inactivity Protocol
+  - If a Captain is absent from all team activities for more than 7 consecutive days without prior notice, Staff may initiate a Captain change process.
+- Player Removal Protocol
+  - A Captain must provide 48 hours’ written notice to any player they intend to remove from the team.
+  - Staff must be informed via the appropriate ticketing channel, including the reason for removal.
 
 ### 3.4 Procedures for Handling Large Numbers of Disbanded Teams
 In order to address the possibility of a large number of teams disbanding within a given division, the following procedures shall act as a framework for a possible solution. These procedures are intended only for emergency situations where the number of disbanded teams in a division significantly reduces the number of possible matches to be played and compromises the competitive integrity of the division. The Captains' Council representatives for each division are not limited solely to the procedures listed below and may elect to devise and implement another method to handle such situations subject to the following:
