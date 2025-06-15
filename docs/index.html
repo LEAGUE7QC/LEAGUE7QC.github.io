@@ -123,9 +123,23 @@
     plugins: [
   function(hook, vm) {
     hook.doneEach(function() {
-      // Season 1 standings
+
+      // Season 0 - Standings
+      if (vm.route.file === 'season/00/standings.md') {
+        // Options for the tryout-participants
+        loadCSVData(' https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants', {
+          paging: true,
+          searching: true,
+          ordering: true,
+        }, true);
+        loadChaserGraph();
+        loadSeekerGraph();
+        loadBeaterGraph();
+        loadKeeperGraph();
+      }
+
+      // Season 1 - Standings
       if (vm.route.file === 'season/01/standings.md') {
-        // Options for the season-stats
         loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTNSR5EOLa0z72ue8LTYkT6gWuzBAM8HuD91pd7CyDeLBpAgeORsrO2ZJYu1yH8SP612Srn8X_ruM3G/pub?gid=1017454485&single=true&output=csv', 'west-season-stats-table', {
           paging: false,
           searching: false,
@@ -139,7 +153,7 @@
         }, false, null, 'stats-table');
       }
 
-      // Season 1 roster changes
+      // Season 1 - Roster Changes
       if (vm.route.file === 'season/01/team-rosters.md') {
         // Load roster changes table
         loadCSVData('https://docs.google.com/spreadsheets/d/e/2PACX-1vTrz5-y2iLwqVuUMo6n63A8N63UYiU2pvRfqUf6QdV3t7Sgl7cciPAISUDAb8LDgfmAgPuiPiB9BGJD/pub?gid=400794292&single=true&output=csv', 'roster-changes-table', {
@@ -147,8 +161,7 @@
           searching: true,
           ordering: true,
         }, false, null, 'roster-changes-table');
-        
-        // Initialize Season 1 team rosters
+
         setTimeout(() => {
           if (typeof window.initializeTeamRoster === 'function') {
             window.s1TeamPlugin = window.initializeTeamRoster(1);
@@ -156,33 +169,34 @@
             // Fallback to the original method if needed
             window.runteamPlugin();
           }
-        }, 10);
+        }, 5);
       }
       
-      // Season 2 team rosters
+      // Season 2 - Team rosters
       if (vm.route.file === 'season/02/team-rosters.md') {
         // Initialize Season 2 team rosters
         setTimeout(() => {
           if (typeof window.initializeTeamRoster === 'function') {
             window.s2TeamPlugin = window.initializeTeamRoster(2);
           }
-        }, 10);
+        }, 5);
+      }
+      // Season 2 - Standings
+      if (vm.route.file === 'season/02/owls-standings.md') {
+          // Load WorldCup standings
+          loadOWLSStandings(
+              'https://docs.google.com/spreadsheets/d/e/2PACX-1vS00SbAZBCRRS72CJ9t9u5hfwP4AFGPdxuo-bQwBvxgN5nvwjCOTs4G6vFPsW7UEBv_rArkT21To5Xh/pub?gid=834810832&single=true&output=csv',
+              'worldcup-stats-table',
+              'WorldCup'
+          );
+          loadOWLSStandings(
+              'https://docs.google.com/spreadsheets/d/e/2PACX-1vS00SbAZBCRRS72CJ9t9u5hfwP4AFGPdxuo-bQwBvxgN5nvwjCOTs4G6vFPsW7UEBv_rArkT21To5Xh/pub?gid=834810832&single=true&output=csv',
+              'triwizardcup-stats-table',
+              'TriwizardCup'
+          );
       }
 
-      if (vm.route.file === 'season-standings.md') {
-        // Options for the tryout-participants
-        loadCSVData(' https://docs.google.com/spreadsheets/d/1t9489t0H458EkTJo-kKqgb_cvEhjYw7z4Km6phmK-eM/pub?gid=1551562604&single=true&output=csv', 'tryout-participants', {
-          paging: true,
-          searching: true,
-          ordering: true,
-        }, true);
 
-        // Load role-specific graphs
-        loadChaserGraph();
-        loadSeekerGraph();
-        loadBeaterGraph();
-        loadKeeperGraph();
-      }
 
       if (vm.route.file === 'season/01/matches.md') {
         setTimeout(() => {
@@ -233,6 +247,7 @@
 
   <script src="scripts/team-plugin.js"></script>
   <script src="scripts/match-plugin.js"></script>
+  <script src="scripts/owls-standings.js"></script>
   <script src="scripts/coverpage-video.js"></script>
   <script src="scripts/quidditch-board.js"></script>
 </body>

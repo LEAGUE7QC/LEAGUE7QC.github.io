@@ -17,7 +17,7 @@
 * [Rules & Format](/season/02/rules-format.md "L7 | Season Rules & Format") 
 * [Team Rosters](/season/02/team-rosters.md "L7 | Team Rosters")
 * [Match Calendar](/season/02/calendar.md "L7 | Match Calendar") 
-* [<span style="opacity:40%">O.W.L.s Standings (TBA)</span>](/season/02/owls-standings.md "L7 | Season Standings")
+* [O.W.L.s Standings>](/season/02/owls-standings.md "L7 | Season Standings")
 
 **S01 - D.A.D.A.**
 * [President's Letter](/season/01/president-letter.md "L7 | S01 President's Letter")
