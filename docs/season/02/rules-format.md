@@ -354,11 +354,12 @@ The League 7 Broadcast Schedule outlines which matches and content segments are 
   3. Point Differential: Sum of all score differences across all games
       - *Example:* Winning games by (+30, +20, -10) = +40 total
 - If there is still a tie, Staff will offer resolution options (in order):
-  1. Teams available: Play tiebreaker match within 48 hours
+  1. Teams available: Play tiebreaker match within 48 hours. If teams unable to schedule a match, a match is set at the default time for the division. If neither team is able to attend the match at that time, proceed to option 2.
   2. Teams agree: Follow captains' mutual decision
   3. No agreement/availability: Staff conducts coin flip
 
 ### 5.4 Forfeit Limitations and Tournament Integrity
+- Forfeited games will be scored as a 120-0 win for the team which did not forfeit. In situations where both teams forfeit, the game shall be scored as a 0-0 loss for both teams.
 - Teams found to be strategically forfeiting matches to manipulate tournament seeding will face serious penalties
 - Staff will monitor forfeit patterns and may investigate suspicious behavior
 - Teams with multiple forfeits may be required to provide valid justification for each forfeit
