@@ -314,17 +314,20 @@
             // Primary: Matches Won (descending)
             if (b.matchesWon !== a.matchesWon) return b.matchesWon - a.matchesWon;
             
-            // Secondary: Game Win Ratio (descending)
+            // Secondary: Games Won (descending) - FIXED
+            if (b.gamesWon !== a.gamesWon) return b.gamesWon - a.gamesWon;
+            
+            // Tertiary: Game Win Ratio (descending)
             const aGWR = a.gamesPlayed > 0 ? a.gamesWon / a.gamesPlayed : 0;
             const bGWR = b.gamesPlayed > 0 ? b.gamesWon / b.gamesPlayed : 0;
             if (Math.abs(bGWR - aGWR) > 0.001) return bGWR - aGWR;
             
-            // Tertiary: Points difference (descending)
+            // Quaternary: Points difference (descending)
             const aPointsDiff = a.pointsScored - a.pointsConceded;
             const bPointsDiff = b.pointsScored - b.pointsConceded;
             if (bPointsDiff !== aPointsDiff) return bPointsDiff - aPointsDiff;
             
-            // Quaternary: Total points scored (descending)
+            // Quinary: Total points scored (descending)
             return b.pointsScored - a.pointsScored;
         });
 
