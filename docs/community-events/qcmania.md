@@ -1,8 +1,13 @@
-# Quidditch Mania
+![QCMania](../images/events/QCMania.png)
 
-## Event Overview
+## QCMania
 
-Welcome to **Quidditch Mania** - the ultimate competitive Quidditch Champions tournament where Nations clash across four elemental trials! Each trial tests different aspects of magical gameplay, from lightning-fast Seeker duels to coordinated team strategies. Compete for glory, prizes, and Core Shards while representing your Nation in this epic championship.
+Welcome to **QCMania** - the ultimate competitive Quidditch Champions tournament where Nations clash across four elemental trials! Each trial tests different aspects of magical gameplay, from lightning-fast Seeker duels to coordinated team strategies. Compete for glory, prizes, and Core Shards while representing your Nation in this epic championship.
+
+## Event Schedule
+
+- Saturday, July 20 – Trial of Air (Seeker 1v1) & Trial of Fire (Beater Brawl KO duels)  
+- Sunday, July 21 – Trial of Earth (Quaffle Royale team showdown) + Closing Awards
 
 ## General Tournament Rules
 
@@ -161,8 +166,11 @@ Welcome to **Quidditch Mania** - the ultimate competitive Quidditch Champions to
 
 ---
 
-# Get Ready for Battle!
+# Register as a Volunteer
 
 Each trial demands different skills - speed, strategy, teamwork, and community spirit. Whether you're catching Snitches, landing Bludger hits, coordinating Quaffle plays, or hyping from the sidelines, every contribution matters.
 
-**Good luck, represent your Nation with pride, and may the best witches and wizards win!**
+<a href="https://forms.gle/Xw1pPfFKG4egkM5a9"  target="_blank" style="display: inline-block; padding: 12px 44px; background-color: #ffbd00; color: black; text-decoration: none; font-weight: bold; border-radius: 4px; text-align: center;">REGISTER TO QCMANIA</a> 
+
+Good luck, represent your Nation with pride, and may the best witches and wizards win!
+

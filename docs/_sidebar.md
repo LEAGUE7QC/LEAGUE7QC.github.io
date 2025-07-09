@@ -3,9 +3,12 @@
 * [Preface](/ "LEAGUE7 | Preface")
 * [Registration](registration.md "L7 | Registration")
 * [Hall of Fame</span>](/hall-of-fame.md "L7 | Hall of Fame")
-* [Past Events](/community-events/past-events "L7 | Past Events")
 * [Quidditch Board](/quidditch-board.md "L7 | Quidditch Board")
 * [Contact Us](contact-us.md "L7 | Contact Us")
+
+**COMMUNITY EVENTS**
+* [QCMania <span style="color:#ffbd00">(NEW!)</span>](/community-events/qcmania "L7 | QCMania")
+* [Past Events](/community-events/past-events "L7 | Past Events")
 
 **LEAGUE7 GUIDELINES**
 * [Code of Ethics](codeofethics.md "L7 | Code of Ethics")
