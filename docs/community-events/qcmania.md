@@ -6,8 +6,8 @@ Welcome to **QCMania** - the ultimate competitive Quidditch Champions tournament
 
 ## Event Schedule
 
-- Saturday, July 20 – Trial of Air (Seeker 1v1) & Trial of Fire (Beater Brawl KO duels)  
-- Sunday, July 21 – Trial of Earth (Quaffle Royale team showdown) + Closing Awards
+- Saturday, July 19 – Trial of Air (Seeker 1v1) & Trial of Fire (Beater Brawl KO duels)  
+- Sunday, July 20 – Trial of Earth (Quaffle Royale team showdown) + Closing Awards
 
 ## General Tournament Rules
 
