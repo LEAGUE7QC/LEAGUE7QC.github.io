@@ -38,6 +38,30 @@ Welcome to **QCMania** - the ultimate competitive Quidditch Champions tournament
 
 # The Four Trials
 
+> ## <span style="color:#ffbd00">07/19 Updates (NEW!)</span>
+>
+> To keep QCMania consistent, competitive, and clear across all gameplay-based Trials, we are updating the format for Fire and Earth to match the structure used in Air. This ensures equal match opportunities, cleaner progression, and easier understanding across the board.
+>
+> New Standardized Format (Trials of Air, Fire, and Earth)
+>- 2 Cohorts (Group A & Group B)
+>- Each cohort has 1 representative per Nation (4 total)
+>- Each player or team plays 3 round robin matches in their group
+>- Best-performing player or team from each Nation advances to the Final 4
+>- Final 4 is a single elimination bracket
+>
+> New Trial of Fire Format:
+>- Two Round Robin Groups: Group A (Player A from each Nation), Group B (Player B from each Nation)
+>- Each player plays 3 matches in their group (7 minutes each, 10 minutes including setup)
+>- Best performer from each Nation advances to Final 4 single-elimination bracket
+>- No spawn camping allowed - violation = disqualification
+>- Any legal skill tree/loadout permitted
+>- Most Eliminations Wins
+>
+> New Trial of Earth Format:
+>- Two Round Robin Groups: Group A (Player A from each Nation), Group B (Player B from each Nation)
+>- Each player plays 3 matches in their group (7 minutes each, 10 minutes including setup)
+>- Best team from each Nation advances to Final 4 single-elimination bracket
+
 ## Trial of Air
 *Sponsored by: xXLghtFuryXx*
 
@@ -71,7 +95,7 @@ Welcome to **QCMania** - the ultimate competitive Quidditch Champions tournament
 
 **The Challenge:** Explosive Beater elimination duels showcasing combat mastery.
 
-**Format:**
+**Format:** <span style="color:#ffbd00">(See updates above)</span>
 - Single elimination bracket, random seeding
 - 1v1 Beater duels scored by total eliminations
 - Final 4 matches are best of 3, all others best of 1
@@ -94,12 +118,12 @@ Welcome to **QCMania** - the ultimate competitive Quidditch Champions tournament
 
 ---
 
-## Trial of Earth
+## Trial of Earth 
 *Sponsored by: TBA*
 
 **The Challenge:** Pure teamwork and coordination - Keeper and Chaser gameplay only.
 
-**Format:**
+**Format:** <span style="color:#ffbd00">(See updates above)</span>
 - Double elimination bracket
 - Teams of 4 (1 Keeper + 3 Chasers per team)
 - Best of 1 matches (Grand Final may be best of 3)
@@ -173,4 +197,3 @@ Each trial demands different skills - speed, strategy, teamwork, and community s
 <a href="https://forms.gle/Xw1pPfFKG4egkM5a9"  target="_blank" style="display: inline-block; padding: 12px 44px; background-color: #ffbd00; color: black; text-decoration: none; font-weight: bold; border-radius: 4px; text-align: center;">REGISTER TO QCMANIA</a> 
 
 Good luck, represent your Nation with pride, and may the best witches and wizards win!
-
