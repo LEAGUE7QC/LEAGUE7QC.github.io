@@ -1,6 +1,9 @@
 
 > Below is the list of events that have concluded
 
+[![QCMania](../images/events/QCMania.png)](/community-events/qcmania)
+<hr>
+
 [![NBJB: All-Girl Beat-Off](../images/events/nbjb_beatoff.png)](/community-events/nbjb-beatoff)
 <hr>
 
