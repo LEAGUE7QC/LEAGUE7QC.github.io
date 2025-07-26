@@ -13,7 +13,7 @@ This is the **first step for all joining players** who wish to participate in an
 
 ## Team Registrations <span style="color:#ffbd00">(ON - Captains Only)</span>
 
-Team registrations for <span style="color:#ffbd00">Season 03: Charms</span> are now open! Team captains can register their teams after ensuring all players have completed their individual registrations. Please review the [Season Rules & Format](/season/02/rules-format.md) before submitting your team registration.
+Team registrations for <span style="color:#ffbd00">Season 03: Charms</span> are now open! Team captains can register their teams after ensuring all players have completed their individual registrations. Please review the [Season Rules & Format](/season/03/rules-format.md) before submitting your team registration.
  
  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJAHiUnAooqm-Gt0sPeJTVhp9EyiThWmQCHDewsOn_8Lipxg/viewform?usp=sf_link"  target="_blank" style="display: inline-block; padding: 12px 44px; background-color: #ffbd00; color: black; text-decoration: none; font-weight: bold; border-radius: 4px; text-align: center;">REGISTER YOUR TEAM</a> 
 
