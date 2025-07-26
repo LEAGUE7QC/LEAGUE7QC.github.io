@@ -43,11 +43,14 @@ function runMatchPlugin() {
                 // Load teams from all seasons
                 await this.loadAllTeams();
 
-                // Load matches from all seasons
-                await this.loadAllMatches();
+                // Load matches and player results from all seasons
+                await this.loadAllData();
 
                 // Process the matches
                 this.parseMatches();
+
+                // Process player results
+                this.processPlayerResults();
 
                 // Render the matches
                 this.renderMatches();
@@ -85,18 +88,22 @@ function runMatchPlugin() {
             }
         },
 
-        async loadAllMatches() {
-            const matchPromises = [];
+        async loadAllData() {
+            const dataPromises = [];
             
-            // Load matches from each season
+            // Load matches and player results from each season
             for (const [season, config] of Object.entries(this.seasonConfig)) {
                 if (config.sources.matches) {
-                    const dataKey = `matches_s${season.padStart(2, '0')}`;
-                    matchPromises.push(this.loadCSV(config.sources.matches.url, dataKey));
+                    const matchesDataKey = `matches_s${season.padStart(2, '0')}`;
+                    dataPromises.push(this.loadCSV(config.sources.matches.url, matchesDataKey));
+                }
+                if (config.sources.playerResults) {
+                    const playerResultsDataKey = `playerResults_s${season.padStart(2, '0')}`;
+                    dataPromises.push(this.loadCSV(config.sources.playerResults.url, playerResultsDataKey));
                 }
             }
             
-            await Promise.all(matchPromises);
+            await Promise.all(dataPromises);
         },
 
         loadCSV(url, dataName) {
@@ -306,6 +313,129 @@ function runMatchPlugin() {
             }
         },
 
+        // Process player data from all seasons
+        processPlayerResults() {
+            // Process player results from each season separately
+            for (const [season, config] of Object.entries(this.seasonConfig)) {
+                const playerResultsDataKey = `playerResults_s${season.padStart(2, '0')}`;
+                
+                if (this.raw[playerResultsDataKey]) {
+                    // Only pass matches from this specific season
+                    const seasonMatches = {};
+                    for (const division of config.divisions) {
+                        if (this.matches[division]) {
+                            seasonMatches[division] = this.matches[division];
+                        }
+                    }
+                    
+                    this.processSeasonPlayerResults(this.raw[playerResultsDataKey], seasonMatches, season);
+                }
+            }
+        },
+
+        processSeasonPlayerResults(playerResultsData, seasonMatches, season) {
+            // If no player results data, return
+            if (!playerResultsData || playerResultsData.length < 2) {
+                return;
+            }
+            
+            let playersAdded = 0;
+            
+            // Process data rows starting from index 1 (skipping header)
+            for (let i = 1; i < playerResultsData.length; i++) {
+                const row = playerResultsData[i];
+                
+                // Skip empty rows
+                if (!row || row.length < 4) continue;
+                
+                // Extract player information
+                const matchId = row[0] || '';
+                const gameId = row[1] || '';
+                const teamName = row[2] || '';
+                const playerName = row[3] || '';
+                
+                // Handle TotalScore - use -1 if empty or not a valid number
+                let totalScore = -1;
+                if (row[4] && row[4].trim() !== '') {
+                    const parsedScore = parseInt(row[4]);
+                    if (!isNaN(parsedScore)) {
+                        totalScore = parsedScore;
+                    }
+                }
+                
+                // Handle Role - use 'flex' if empty
+                const role = (row[5] && row[5].trim() !== '') ? row[5].trim() : 'flex';
+                
+                // Skip if essential fields are missing
+                if (!matchId || !gameId || !playerName || !teamName) {
+                    continue;
+                }
+                
+                // Debug for the first few Season 2 rows
+                if (season === '2' && i <= 5) {
+                    console.log(`S2 Row ${i}: Looking for Match "${matchId}" Game "${gameId}"`);
+                }
+                
+                // Step 1: Find the match by MatchID - ONLY in this season's matches
+                let matchObj = null;
+                for (const division of Object.keys(seasonMatches)) {
+                    if (seasonMatches[division]) {
+                        for (const week in seasonMatches[division]) {
+                            if (seasonMatches[division][week][matchId]) {
+                                matchObj = seasonMatches[division][week][matchId];
+                                if (season === '2' && i <= 5) {
+                                    console.log(`S2: Found match ${matchId}, available games:`, Object.keys(matchObj.rounds || {}));
+                                }
+                                break;
+                            }
+                        }
+                    }
+                    if (matchObj) break;
+                }
+                
+                // If match not found in this season, skip
+                if (!matchObj) {
+                    if (season === '2' && i <= 5) console.log(`S2: Match ${matchId} not found`);
+                    continue;
+                }
+                
+                if (!matchObj.rounds[gameId]) {
+                    if (season === '2' && i <= 5) console.log(`S2: Game ${gameId} not found in match ${matchId}`);
+                    continue;
+                }
+                
+                // Step 2: For this match, determine which team goes to which side
+                if (!matchObj.teamMapping) {
+                    matchObj.teamMapping = {};
+                }
+                
+                if (!matchObj.teamMapping[teamName]) {
+                    const mappedTeams = Object.keys(matchObj.teamMapping).length;
+                    matchObj.teamMapping[teamName] = mappedTeams === 0 ? 'team1Players' : 'team2Players';
+                }
+                
+                // Step 3: Add player to the correct side based on their team
+                const teamKey = matchObj.teamMapping[teamName];
+                
+                matchObj.rounds[gameId][teamKey].push({
+                    player: playerName,
+                    position: role,
+                    points: totalScore,
+                    teamName: teamName
+                });
+                
+                if (season === '2' && i <= 5) {
+                    console.log(`S2: Added ${playerName} to ${teamKey} for game ${gameId}`);
+                }
+                
+                playersAdded++;
+            }
+            
+            if (season === '2') {
+                console.log(`Season 2: Added ${playersAdded} players total`);
+            }
+        },
+
         findTeamByName(teamName) {
             if (!teamName) return null;
             
@@ -378,6 +508,23 @@ function runMatchPlugin() {
                     event.target.classList.toggle('active');
                 }
             }))
+
+            document.querySelectorAll(`.player-toggle`).forEach(el => el.addEventListener(
+            'click',
+            (event) => {
+                let toggle = event.target;
+                let matchId = toggle.getAttribute('data-match-id');
+                let round = toggle.getAttribute('data-round');
+                this.togglePlayerDetails(matchId, round);
+
+                if (event.target.classList.contains('active')) {
+                    event.target.innerHTML = "Show player details"
+                    event.target.classList.toggle('active');
+                } else {
+                    event.target.innerHTML = "Hide player details"
+                    event.target.classList.toggle('active');
+                }
+            }))
         },
         
         toggleRounds(matchId) {
@@ -386,7 +533,13 @@ function runMatchPlugin() {
                 element.classList.toggle('active');
             }
         },
-
+        
+        togglePlayerDetails(matchId, round) {
+            const element = document.querySelector(`#match-${matchId}-round-${round}`);
+            if (element) {
+                element.classList.toggle('active');
+            }
+        },
         getroundHtml(round, matches) {
             let matchesHtml = '';
 
@@ -502,7 +655,16 @@ function runMatchPlugin() {
 
             for (const roundId of roundIds) {
                 const round = match.rounds[roundId];
+                const hasTeam1Players = round.team1Players && round.team1Players.length > 0;
+                const hasTeam2Players = round.team2Players && round.team2Players.length > 0;
+                
+                // Always show round score
                 roundsHtml += this.getRoundHtml(match.id, round);
+                
+                // Only show player details toggle and section if either team has players
+                if (hasTeam1Players || hasTeam2Players) {
+                    roundsHtml += this.getRoundDetailsHtml(match.id, round);
+                }
             }
 
             return `
@@ -525,6 +687,10 @@ function runMatchPlugin() {
                 winnerTeam = team1Score > team2Score ? 1 : 2;
             }
 
+            const hasTeam1Players = round.team1Players && round.team1Players.length > 0;
+            const hasTeam2Players = round.team2Players && round.team2Players.length > 0;
+            const hasPlayers = hasTeam1Players || hasTeam2Players;
+
             return `
                 <div class="round">
                     <div class="round-number">Game #${round.round}</div>
@@ -533,7 +699,84 @@ function runMatchPlugin() {
                         <span class="divider">${this.defaultDivider}</span>
                         <span class="score-team score-team-2 ${winnerTeam === 2 ? "winner" : ""}">${round.team2Score || '0'}</span>
                     </div>
+                    ${hasPlayers ? `<div class="player-toggle" data-match-id="${matchId}" data-round="${round.round}">Show player details</div>` : `<div class="player-toggle" data-match-id="${matchId}" data-round="${round.round}"> </div>`}
                 </div>
+            `;
+        },
+        
+        getRoundDetailsHtml(matchId, round) {
+            if (!round || !round.round) {
+                return '';
+            }
+            
+            const hasTeam1Players = round.team1Players && round.team1Players.length > 0;
+            const hasTeam2Players = round.team2Players && round.team2Players.length > 0;
+            
+            // If neither team has players, don't render the details section
+            if (!hasTeam1Players && !hasTeam2Players) {
+                return '';
+            }
+            
+            let team1PlayersDetailsHtml = hasTeam1Players ? this.getPlayersDetailsHtml(round.team1Players) : '';
+            let team2PlayersDetailsHtml = hasTeam2Players ? this.getPlayersDetailsHtml(round.team2Players) : '';
+
+            return `
+                <div class="round-details" id="match-${matchId}-round-${round.round}">
+                    <div class="team-match team1">
+                        ${team1PlayersDetailsHtml}
+                    </div>
+                    <div class="rounds-details-middle"></div>
+                    <div class="team-match team2">
+                        ${team2PlayersDetailsHtml}
+                    </div>
+                </div>
+            `;
+        },
+        
+        getPlayersDetailsHtml(players) {
+            if (!Array.isArray(players) || players.length === 0) {
+                return '';
+            }
+            
+            let playerDetailHtml = '';
+        
+            // Sort players by points (highest to lowest)
+            const sortedPlayers = [...players].sort((a, b) => {
+                return (b.points || 0) - (a.points || 0);
+            });
+        
+            for (const player of sortedPlayers) {
+                const playerDetail = this.getPlayerDetailHtml(player);
+                if (playerDetail) {
+                    playerDetailHtml += playerDetail;
+                }
+            }
+        
+            return playerDetailHtml;
+        },
+        
+        getPlayerDetailHtml(player) {
+            if (!player || !player.player) {
+                return '';
+            }
+            
+            // Get position for icon - default to 'flex' if empty or invalid
+            const position = (player.position && player.position.trim() !== '') ? player.position.trim() : 'flex';
+            const positionLower = position.toLowerCase();
+            
+            // Format score - show -1 if no score, otherwise show the actual score
+            const scoreDisplay = (player.points === -1) ? '-' : (player.points || '0');
+            
+            return `
+                <div class="player-stats">
+                    <div class="score">${scoreDisplay}</div>
+                    <div class="player">
+                        <img class="position" src="images/sprites/${positionLower}.png" onerror="this.src='images/sprites/flex.png';">
+                        <div class="name">
+                            ${player.player}
+                        </div>
+                    </div>
+                </div>            
             `;
         }
     };
