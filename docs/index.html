@@ -198,7 +198,7 @@
 
 
 
-      if (vm.route.file === 'season/01/matches.md') {
+      if (vm.route.file.match(/^season\/\d{2}\/matches\.md$/)) {
         setTimeout(() => {
           if (typeof window.runMatchPlugin === 'function') {
             window.runMatchPlugin();
