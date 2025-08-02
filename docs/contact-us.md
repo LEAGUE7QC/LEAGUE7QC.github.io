@@ -27,15 +27,13 @@ This ensures your inquiry is properly tracked and handled by our active staff te
 - **Founder:**  Melanore (melanore)
 - **President:** Eddy (fastereddy135)
 - **Staff Members:**
-    - Laggy (laggylestrange)
     - Skipper (skipper13)
     - Riley (amessilyfe)
     - Michy (michymoqc)
-    - Bim (jim_tones)
-    - Moldy Cheeze (moldycheeze5618)
+    - Jim (jim_tones)
+    - Cheeze (moldycheeze5618)
 - **Moderators:**
     - Warbeard (.warbeard)
-    - Woonie (witchling_aelin)
     - Disk Jockii (diskjockii)
     - Cowboy Jackman (mr.jackman)
 - **Broadcasting:**

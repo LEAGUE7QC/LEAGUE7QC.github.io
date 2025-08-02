@@ -21,7 +21,7 @@
 * [Team Rosters](/season/02/team-rosters.md "L7 | Team Rosters")
 * [Match Calendar](/season/02/calendar.md "L7 | Match Calendar") 
 * [O.W.L.s Standings](/season/02/owls-standings.md "L7 | Season Standings")
-* [N.E.W.T.s Matches <span style="color:#ffbd00">(ON!)</span>](/season/02/matches.md "L7 | Matches Details")
+* [N.E.W.T.s Matches](/season/02/matches.md "L7 | Matches Details")
 
 <span style="opacity:40%;">
 
