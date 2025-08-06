@@ -4,10 +4,10 @@ This prestigious archive celebrates the champions, innovators, and standout perf
 
 ## League Champions
 
-### Season 1: &nbsp; [<span style="color:#ffbd00">Crazy Comms</span>](/team-pages/crazy-comms)
-When the dust settled on LEAGUE7's inaugural season after 13 weeks, one team stood above all others, defining excellence in Quidditch Champions. **Crazy Comms** didn't just win Season 1 — they dominated it, establishing themselves as the most formidable collection of talent the game has ever seen...  [<span style="color:#ffbd00">read more!</span>](/team-pages/crazy-comms)
+### Seasons 1 & 2 : &nbsp; [<span style="color:#ffbd00">Crazy Comms</span>](/team-pages/crazy-comms)
+  When the dust settled on LEAGUE7's inaugural seasons, one team stood above all others, redefining excellence in competitive Quidditch Champions. Crazy Comms didn't just win LEAGUE7 Seasons — they dominated it, establishing themselves as the most formidable collection of talent the game has ever seen... [<span style="color:#ffbd00">read more!</span>](/team-pages/crazy-comms)
 
-### Season 2 
+### Season 3 
 *Coming Soon...*
 
 

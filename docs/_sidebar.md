@@ -17,6 +17,7 @@
 * [Registration <span style="color:#ffbd00">(NEW!)</span>](registration.md "L7 | Registration")
 
 **S02 - TRANSFIGURATION**
+* [President's Letter](/season/02/president-letter.md "L7 | S02 President's Letter")
 * [Information](/season/02/information.md "L7 | S02 General Information")
 * [Rules & Format](/season/02/rules-format.md "L7 | Season Rules & Format") 
 * [Team Rosters](/season/02/team-rosters.md "L7 | Team Rosters")

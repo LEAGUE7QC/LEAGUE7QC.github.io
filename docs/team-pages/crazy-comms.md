@@ -4,16 +4,16 @@
   <td width="50%" rowspan="4"  style="padding:20;"> 
 
   <img alt="Crazy Comms" src="images\teams\crazy_comms.png" /></td></tr> <tr> <td>
-  When the dust settled on LEAGUE7's inaugural season, one team stood above all others, redefining excellence in competitive Quidditch Champions. 
+  When the dust settled on LEAGUE7's inaugural seasons, one team stood above all others, redefining excellence in competitive Quidditch Champions. 
   
-  Crazy Comms didn't just win Season 1 — they dominated it, establishing themselves as the most formidable collection of talent the game has ever seen so far.
+  Crazy Comms didn't just win LEAGUE7 Seasons — they dominated it, establishing themselves as the most formidable collection of talent the game has ever seen so far.
   
   </td></tr><tr><td><b>Showcase</b></td></tr><tr>
   <td width="50%">
 
-  <li>LEAGUE7 Champion (1 times, S01)</li>
+  <li>LEAGUE7 Champion (2 times, S01 & S02)</li>
   <li>Highest Scoring Team (2,170 points, S01)</li>
-  <li>Most Wins in a Season (12 matches, S01)</li>
+  <li>Most Wins in a Season (2 times, S01 & S02)</li>
   
 </td></tr></tbody></table>
  
