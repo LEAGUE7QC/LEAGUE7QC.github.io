@@ -4,7 +4,7 @@ function runteamPlugin(season = 1) {
   // Season Roster Sources
   const SEASON1_ROSTER_JSON = 'datatables/s01-team-rosters.json'
   const SEASON2_ROSTER_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQOmRiv9Z_hNUYX8EG0nHtYTTCtDjBKt3q4lywJO1lC_8M-KbpmMOpf--naPkRwoBI4BZCU_ri2XTTR/pub?gid=1700745241&single=true&output=csv';
-  
+  const SEASON3_ROSTER_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSE9zzuZk-G-NTbxyXn9EkrMyUVoDexXP2Hu3vpuMsQPrLhxF_MxqSw-oNhC2BMs__dINFP3RR6f4sF/pub?gid=495267531&single=true&output=csv'
   const teamPlugin = {
     name: 'team-plugin',
     data: { rosters: null, players: null, season: season },
@@ -24,9 +24,15 @@ function runteamPlugin(season = 1) {
           const rostersResponse = await fetch(SEASON1_ROSTER_JSON);
           this.data.rosters = await rostersResponse.json();
           
-        } else {
+        } else if (this.data.season === 2) {
           // Season 2: Use Google Sheets CSV
           rostersSource = SEASON2_ROSTER_CSV_URL;
+          const rostersResponse = await fetch(rostersSource);
+          const rostersText = await rostersResponse.text();
+          this.data.rosters = this.parseRostersCSV(rostersText);
+        } else {
+          // Season 2: Use Google Sheets CSV
+          rostersSource = SEASON3_ROSTER_CSV_URL;
           const rostersResponse = await fetch(rostersSource);
           const rostersText = await rostersResponse.text();
           this.data.rosters = this.parseRostersCSV(rostersText);
@@ -159,6 +165,38 @@ function runteamPlugin(season = 1) {
       return values;
     },
 
+    sortPlayersByRole(players) {
+      // Define role priority order
+      const rolePriority = {
+        'Seeker': 1,
+        'Keeper': 2,
+        'Beater': 3,
+        'Chaser': 4
+      };
+
+      // Sort players by their primary role
+      return players.sort((a, b) => {
+        const playerDataA = this.data.players.players.find(p => p.name === a);
+        const playerDataB = this.data.players.players.find(p => p.name === b);
+        
+        // Handle cases where player data is not found
+        const roleA = playerDataA ? playerDataA.position : 'Other';
+        const roleB = playerDataB ? playerDataB.position : 'Other';
+        
+        // Get priority for each role (default to 5 for unknown roles)
+        const priorityA = rolePriority[roleA] || 5;
+        const priorityB = rolePriority[roleB] || 5;
+        
+        // Sort by priority (lower number = higher priority)
+        if (priorityA !== priorityB) {
+          return priorityA - priorityB;
+        }
+        
+        // If same role, sort alphabetically by name
+        return a.localeCompare(b);
+      });
+    },
+
     getInitialRoster(players) {
       // Group players by their positions
       const playersByPosition = {
@@ -232,20 +270,11 @@ function runteamPlugin(season = 1) {
         return;
       }
       content.innerHTML = '';
-    
-      const buttonContainer = document.createElement('div');
-      buttonContainer.style.display = 'flex';
-      buttonContainer.style.justifyContent = 'center';
-      buttonContainer.style.marginBottom = '20px';
-    
-      const expandAllButton = document.createElement('button');
-      expandAllButton.id = `expand-all-button-s${seasonId}`;
-      expandAllButton.textContent = 'EXPAND ALL ROSTERS';
-      expandAllButton.addEventListener('click', () => this.toggleAllRosters(seasonId));
-      
-      buttonContainer.appendChild(expandAllButton);
-      content.appendChild(buttonContainer);
-    
+
+      // Remove the expand/collapse button container entirely
+      // const buttonContainer = document.createElement('div');
+      // ... button code removed
+
       const teamsContainer = document.createElement('div');
       teamsContainer.className = 'teams-container';
       content.appendChild(teamsContainer);
@@ -256,9 +285,9 @@ function runteamPlugin(season = 1) {
         const teamElement = document.createElement('div');
         teamElement.className = 'team';
         teamElement.id = `team-s${seasonId}-${team.name.toLowerCase().replace(/ /g, '-')}`;
-    
+
         const gradientColors = team.colors.join(', ');
-    
+
         teamElement.innerHTML = `
           <div class="team-border" style="background: repeating-linear-gradient(45deg,${team.colors[0]}, 
                                                                                     ${team.colors[0]} 20px, 
@@ -275,35 +304,24 @@ function runteamPlugin(season = 1) {
           </div>
           <div class="team-border">${team.tag} - ${team.name}</div>
         `;
-    
-        const roster = this.getInitialRoster(team.players);
 
-        const initialPlayerList = document.createElement('ul');
-        initialPlayerList.className = 'player-list';
-        roster.initial.forEach(playerName => {
-          const playerElement = this.renderPlayer(playerName, team.captain);
-          initialPlayerList.innerHTML += playerElement;
-        });
-        teamElement.appendChild(initialPlayerList);
+        // Show ALL players in a single list, ordered by role
+        const allPlayerList = document.createElement('ul');
+        allPlayerList.className = 'player-list';
         
-        if (roster.remaining.length > 0) {
-          const fullRosterButton = document.createElement('button');
-          fullRosterButton.className = 'see-full-roster';
-          fullRosterButton.textContent = 'see full roster';
-          teamElement.appendChild(fullRosterButton);
-          
-          const fullRosterList = document.createElement('ul');
-          fullRosterList.className = 'full-roster hidden';
-          roster.remaining.forEach(playerName => {
-            const playerElement = this.renderPlayer(playerName, team.captain);
-            fullRosterList.innerHTML += playerElement;
-          });
-          teamElement.appendChild(fullRosterList);
-          
-          fullRosterButton.addEventListener('click', () => {
-            this.toggleRoster(fullRosterList, fullRosterButton);
-          });
-        }
+        // Sort players by role priority
+        const sortedPlayers = this.sortPlayersByRole(team.players);
+        
+        // Display all players from the team in sorted order
+        sortedPlayers.forEach(playerName => {
+          const playerElement = this.renderPlayer(playerName, team.captain);
+          allPlayerList.innerHTML += playerElement;
+        });
+        
+        teamElement.appendChild(allPlayerList);
+        
+        // Remove all the toggle button and hidden roster logic
+        // No more "see full roster" button or hidden lists
         
         teamsContainer.appendChild(teamElement);
       });
@@ -453,9 +471,12 @@ document.addEventListener('DOMContentLoaded', function() {
   if (document.getElementById('s01-team-rosters')) {
     window.s1TeamPlugin = initializeTeamRoster(1);
   }
-  
   // Check and initialize Season 2 roster
   if (document.getElementById('s02-team-rosters')) {
     window.s2TeamPlugin = initializeTeamRoster(2);
+  }
+  // Check and initialize Season 2 roster
+  if (document.getElementById('s03-team-rosters')) {
+    window.s2TeamPlugin = initializeTeamRoster(3);
   }
 });

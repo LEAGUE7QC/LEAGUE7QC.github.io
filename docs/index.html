@@ -196,7 +196,15 @@
           );
       }
 
-
+      // Season 3 - Team rosters
+      if (vm.route.file === 'season/03/team-rosters.md') {
+        // Initialize Season 3 team rosters
+        setTimeout(() => {
+          if (typeof window.initializeTeamRoster === 'function') {
+            window.s2TeamPlugin = window.initializeTeamRoster(3);
+          }
+        }, 5);
+      }
 
       if (vm.route.file.match(/^season\/\d{2}\/matches\.md$/)) {
         setTimeout(() => {

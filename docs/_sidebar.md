@@ -13,6 +13,7 @@
 
 **S03 - CHARMS**
 * [Rules & Format](/season/03/rules-format.md "L7 | Season Rules & Format") 
+* [Team Rosters](/season/03/team-rosters.md "L7 | Team Rosters")
 * [Registration <span style="color:#ffbd00">(NEW!)</span>](registration.md "L7 | Registration")
 
 **S02 - TRANSFIGURATION**
