@@ -169,7 +169,7 @@
             // Fallback to the original method if needed
             window.runteamPlugin();
           }
-        }, 5);
+        }, 3);
       }
       
       // Season 2 - Team rosters
@@ -179,7 +179,7 @@
           if (typeof window.initializeTeamRoster === 'function') {
             window.s2TeamPlugin = window.initializeTeamRoster(2);
           }
-        }, 5);
+        }, 3);
       }
       // Season 2 - Standings
       if (vm.route.file === 'season/02/owls-standings.md') {
@@ -203,7 +203,7 @@
           if (typeof window.initializeTeamRoster === 'function') {
             window.s2TeamPlugin = window.initializeTeamRoster(3);
           }
-        }, 5);
+        }, 3);
       }
 
       if (vm.route.file.match(/^season\/\d{2}\/matches\.md$/)) {
@@ -211,7 +211,7 @@
           if (typeof window.runMatchPlugin === 'function') {
             window.runMatchPlugin();
           }
-        }, 10);
+        }, 3);
       }
 
       if (vm.route.file === 'quidditch-board.md') {

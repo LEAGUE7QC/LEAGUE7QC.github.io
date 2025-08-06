@@ -475,8 +475,8 @@ document.addEventListener('DOMContentLoaded', function() {
   if (document.getElementById('s02-team-rosters')) {
     window.s2TeamPlugin = initializeTeamRoster(2);
   }
-  // Check and initialize Season 2 roster
+  // Check and initialize Season 3 roster
   if (document.getElementById('s03-team-rosters')) {
-    window.s2TeamPlugin = initializeTeamRoster(3);
+    window.s3TeamPlugin = initializeTeamRoster(3);
   }
 });
