@@ -12,7 +12,7 @@ LEAGUE7 provides a structured competitive environment for Harry Potter: Quidditc
 ### 2.1 Season Duration
 Each season spans approximately three months:
 - 2 weeks for team registration and preparation
-- 7 weeks for O.W.L.s matches (within divisions)
+- 11 weeks for O.W.L.s matches (within divisions), including Mid-Season Tournament
 - 2 weeks for N.E.W.T.s matches (promotion/relegation between divisions)
 
 ### 2.2 Registration Timeline
@@ -78,10 +78,10 @@ Each season spans approximately three months:
 - Adjustments to division size will only occur if necessary due to significant registration changes (more than 3 team departures from any single division)
 
 #### 3.2.4 Division Season Format Continuity
-- Each division will maintain its Season 2 format:
-    - World Cup Division: Round-robin format
-    - Triwizard Cup Division: Round-robin format  
-    - House Cup Division: Swiss system format
+- Season 3 format changes:
+    - World Cup Division: Double round-robin format
+    - Triwizard Cup Division: Double round-robin format
+    - House Cup Division: Swiss system format (unchanged)
 - Format changes will only occur if division composition changes significantly require format adjustment, subject to Captains' Council approval
 
 ### 3.3 Team Leadership Structure
@@ -139,6 +139,12 @@ Each season spans approximately three months:
 - Teams must complete at least 3 matches by week 5 of O.W.L.s, and at least 5 matches by the end of week 6
     - If a team is approaching a deadline for matches completed, the captain will be notified via support ticket and will be advised of the next steps according to [5.2.2 Scheduling Enforcement Process](#522-scheduling-enforcement-process).
 
+#### 3.6.3 Double Round-Robin Format
+- Each team will play 12 matches during the season, 2 matches against every other team in the division.
+- Each match will be scheduled across the 11-week period, with one week reserved for the Mid-Season Tournament.
+- Teams must complete all of their matches by the season's end. Matches not completed by the season's end will be considered a forfeit.
+- Teams must complete at least 6 matches by week 6 of O.W.L.s, and at least 9 matches by week 9.
+- If a team is approaching a deadline for matches completed, the captain will be notified via support ticket and will be advised of the next steps according to 5.2.2 Scheduling Enforcement Process.
 
 ## 4. Team Management
 
@@ -166,7 +172,7 @@ Each season spans approximately three months:
     - The only permitted exception is the addition of a team tag in brackets (e.g., [L7] Player Name)
     - Persistent non-compliance result in potential disqualification after Staff and Moderation review
 - To play in N.E.W.T.s, regardless of division, all players must complete at least one game during O.W.L.s.
-- Players shall only be permitted to participate in, at most, 7 matches during O.W.L.s (Swiss) or 6 matches (Round-Robin). For example, a player who plays 5 matches for one team and then switches teams may only play in 2 matches for their new team if playing in a division using Swiss system. Match participation must be logged via official match threads monitored by Staff. A participation audit may be conducted prior to N.E.W.T.s to confirm player eligibility. 
+- Players shall only be permitted to participate in, at most, 7 matches during O.W.L.s (Swiss), 6 matches (Single Round-Robin), or 12 matches (Double Round-Robin). For example, a player who plays 8 matches for one team and then switches teams may only play in 4 matches for their new team if playing in a division using Double Round-Robin format. Match participation must be logged via official match threads monitored by Staff. A participation audit may be conducted prior to N.E.W.T.s to confirm player eligibility.
 - Should a player voluntarily leave one team to immediately join another team, the captain of the player's former team shall have the option of placing a "poaching hold" on that player which will prevent that player from playing for their new team for that team's next two matches. Poaching holds will only be allowed under the following conditions:
     - The player has played at least once for their former team within the team's past two matches.
     - The captain possibly placing the hold will be added to the ticket where their former player is joining the new team and have the option of declaring their intention to place the hold within 3 days of being notified of the player's intent to leave their team.
@@ -181,7 +187,6 @@ Each season spans approximately three months:
 - If unable to field 6 players at a scheduled match time, team must forfeit
 - No emergency substitutions allowed
  
-
 **Triwizard Cup Division**
 - Rosters lock after week 5 of O.W.L.s.  
 - If unable to field 6 players due to a last-minute emergency:
@@ -256,15 +261,15 @@ Each season spans approximately three months:
 
 ### 5.1 Match Format
 - Each match is best-of-3 games, winning two games secures victory for the match.
-- Teams have up to 7 weeks to complete all their division matches (they can complete earlier)
+- Teams have up to 11 weeks to complete all their division matches, including a Mid-Season Tournament week (they can complete earlier)
 - Teams are responsible for scheduling and completing all matches within the timeframe
 
 ### 5.2 Match Scheduling
-- Team captains are responsible for scheduling their matches within the 7-week timeframe
+- Team captains are responsible for scheduling their matches within the timeframe
 - All scheduling discussions must take place in the L7 Discord channel designated for such discussions.
 - Both team captains must confirm schedule agreements in writing on LEAGUE7's official Discord.
 - If captains can't agree on scheduling before a deadline, the match defaults to the default time.
-- Teams are responsible for completing all their matches within the 7-week O.W.L.s period
+- Teams are responsible for completing all their matches within the 11-week O.W.L.s period
 - No maximum limit on the number of matches teams can play per week
 - Teams must complete matches according to their division format's deadlines outlined in [3.6 Season Formats](#36-season-formats)
 - Failure to meet these milestones will automatically trigger the default scheduling mechanism.
@@ -453,10 +458,14 @@ Should a division face a change in division composition which compromises their 
 - If queue sniping fails 5 times consecutively, teams switch to custom lobby creation
 
 #### 7.1.4 Legal Gameplay Tactics
-- Any move or technique that is executable within the game's mechanics is considered a legal move
-    - This includes, but is not limited to: hero farming, bludger dribbling, backwards shots, hoop sitting and any other technique possible within the game
+- Any move or technique that is executable within the game's mechanics is considered a legal move, **except as defined in 7.1.5**
+    - This includes, but is not limited to: bludger dribbling, backwards shots, hoop sitting and any other technique possible within the game
 - Using any obvious bug or glitch (invisible player bug, two players on one character) to obtain an advantage is considered a technical issue. See the [Technical Issues section](#81-technical-issues-and-disconnections). Players who obtain an advantage gained by one of those bugs may face sanction. 
-- Staff will not enforce limitations on how players utilize the game's built-in mechanics
+- Staff will not enforce limitations on how players utilize the game's built-in mechanics, **except as defined in 7.1.5**
+
+#### 7.1.5 Illegal Gameplay Tactics
+- "Hero Farming" set up by one's own team will be penalized. Keepers may only use the hero kick for the given hero after being scored on or when an opponent touches the quaffle. Reserving is still allowed, and the reserved kick can be used anytime, including after a pass from a teammate.
+- Violating this rule results in a progressive penalty beginning with 20 points with a 20-point increase per violation (i.e. 1st violation = 20 points, 2nd violation = 40 additional points for a total of 60 points deducted).
 
 ### 7.2 Match Protocols
 
@@ -490,6 +499,11 @@ Should a division face a change in division composition which compromises their 
 - Staff verification required for:
     - Disputed scores
     - Technical issues
+
+#### 7.2.3.1 Match Results Changed by Penalty
+- If penalties occur in a game, the final recorded score shall be adjusted accordingly
+- The team with more points after any adjustments will be declared the winner
+- If a tie occurs after adjustments, the team with the fewest penalty points will be declared the winner
 
 #### 7.2.4 Match Observation
 - Staff members will be available to observe matches (when possible)
@@ -574,85 +588,11 @@ Should a division face a change in division composition which compromises their 
 - There are no expected patches to the game.
 
 ## 9. Broadcasting and Streaming
+All broadcasting and streaming policies, including official broadcast coverage, community event broadcasts, player streaming guidelines, and conduct standards, are covered in detail in the LEAGUE7 Broadcasting Guidelines document. For complete information on:
+- Broadcast requirements and procedures → See Broadcasting Guidelines Section 2
+- Conduct standards and penalties → See Broadcasting Guidelines Section 3
+- Content removal requests → See Broadcasting Guidelines Section 4
 
-### 9.1 Official Broadcast Coverage
-
-#### 9.1.1 Broadcast Eligibility
-- Teams must complete the Broadcast Opt-In Form to be eligible for official coverage
-- Coverage includes live streams, recorded broadcasts, and Studio Team content
-- Match selection priority based on:
-   - Opt-in status
-   - Scheduled time and staff availability
-   - Division and tournament priority (N.E.W.T.s matches prioritized)
-
-#### 9.1.2 Broadcast Requirements
-Teams scheduled for broadcast must:
-- Be in team voice channel 15 minutes before match start
-- Have designated screen-sharer ready
-- Follow all Broadcast Team setup instructions
-- Use Discord screenshare or other announced platform
-
-#### 9.1.3 Broadcast Types
-**Live Broadcasts:**
-- Real-time streaming of matches
-- Requires full team compliance with pre-match requirements
-- Teams may opt out with 24 hours notice
-
-**Recorded Matches:**
-- Used when live streaming unavailable
-- May be featured in delayed broadcasts or Studio content
-- Subject to same opt-in requirements as live broadcasts
-
-### 9.2 Player and Community Streaming
-
-#### 9.2.1 Team & Player Streams
-- Players may stream their own matches independently
-- Personal streams must not interfere with official broadcasts
-- At least one POV must be recorded and shared for review purposes
-
-#### 9.2.2 Unofficial Broadcasts
-Non-participating casters must:
-- Obtain written permission from both teams
-- Mark stream as "Unofficial" in title
-- End stream immediately if requested by captain or staff
-
-#### 9.2.3 Streaming Conduct
-- All streamers must maintain professional behavior
-- Toxic or harassing behavior may trigger disciplinary review
-- Players should mute or end stream if unable to remain professional
-
-### 9.3 Studio Team Content
-
-#### 9.3.1 Content Types
-- Match recaps and highlights
-- MVP features and player spotlights
-- Statistical analysis and graphics
-- Player interviews and quotes
-
-#### 9.3.2 Content Policy
-- Only features teams/players who opted into broadcasts
-- Non-opt-in teams excluded from visual/audio content
-- All teams may be referenced in text-based updates
-- Content released via League 7 platforms on rolling basis
-
-### 9.4 Broadcast Compliance
-
-#### 9.4.1 Penalties for Non-Compliance
-Failure to appear for scheduled broadcasts or communicate scheduling changes:
-- First Offense: Formal warning
-- Second Offense: Deprioritized for remainder of season
-- Third Offense: Suspended from all broadcast content
-- No-Show (no notice): Immediate deprioritization or suspension
-
-#### 9.4.2 Emergency Situations
-- Power outages, illness, and acts of nature follow standard rescheduling policies
-- Teams must communicate emergencies to Staff immediately
-- Rescheduled broadcasts subject to staff and resource availability
-
-#### 9.4.3 Appeals
-- Teams may appeal penalties within 48 hours
-- Appeals reviewed by League 7 staff
-- Decision communicated within 72 hours
 
 ## 10. Conclusion
 

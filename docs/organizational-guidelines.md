@@ -93,6 +93,44 @@ This document outlines the organizational structure, election processes, and rul
 - All Captains' Council channels will be open for community observation
 - Meeting summaries and voting records will be made publicly available
 
+### 2.6 Broadcasting Team
+
+**Composition:** Head of Broadcasting Team and Broadcasting Team Members
+
+**Selection:** 
+- Head of Broadcasting Team is appointed by the President
+- Broadcasting Team Members are selected by the Head of Broadcasting Team in consultation with Staff
+- Team size varies based on league needs and volunteer availability
+
+**Head of Broadcasting Team Responsibilities:**
+- Oversee all official LEAGUE7 broadcast operations and content creation
+- Manage Broadcasting Team members and assign broadcast coverage
+- Make final decisions on broadcast scheduling and match selection priorities
+- Handle broadcast-related appeals and content removal requests
+- Coordinate with Staff on broadcasting policies and technical requirements
+- Ensure compliance with Broadcasting Guidelines across all team activities
+
+**Broadcasting Team Member Responsibilities:**
+- Provide live commentary and analysis for assigned matches
+- Operate streaming equipment and manage technical broadcast setup
+- Create post-match content including highlights, recaps, and statistical analysis
+- Conduct player interviews and produce studio content
+- Support community event broadcasting when available
+- Maintain professional conduct standards during all broadcast activities
+
+**Limitations and Oversight:**
+- Broadcasting Team decisions regarding match coverage are operational and do not require Captains' Council approval
+- Content removal requests and conduct violations follow the appeal process outlined in Section 6.3
+- Broadcasting Team members may participate in league games under the same conditions as other Staff (see Section 8.2)
+- The Head of Broadcasting Team reports to Staff and President on broadcasting operations
+- Major changes to broadcasting policies require Staff approval and follow standard rule change procedures
+
+**Transparency:**
+- Broadcasting Team meeting notes and coverage decisions will be documented in designated channels
+- Community feedback on broadcast quality and coverage is welcomed through established channels
+- Broadcasting schedules and coverage announcements will be made publicly available
+
+
 ## 3. League Operations
 
 ### 3.1 League Commencement
