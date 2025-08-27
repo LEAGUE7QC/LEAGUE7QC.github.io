@@ -19,6 +19,8 @@
 * [Match Calendar](/season/03/calendar.md "L7 | Match Calendar") 
 * [O.W.L.s Standings](/season/03/owls-standings.md "L7 | Season Standings")
 
+<span style="opacity:40%;">
+
 **S02 - TRANSFIGURATION**
 * [President's Letter](/season/02/president-letter.md "L7 | S02 President's Letter")
 * [Rules & Format](/season/02/rules-format.md "L7 | Season Rules & Format") 
@@ -26,8 +28,6 @@
 * [Match Calendar](/season/02/calendar.md "L7 | Match Calendar") 
 * [O.W.L.s Standings](/season/02/owls-standings.md "L7 | Season Standings")
 * [N.E.W.T.s Matches](/season/02/matches.md "L7 | Matches Details")
-
-<span style="opacity:40%;">
 
 **S01 - D.A.D.A.**
 * [President's Letter](/season/01/president-letter.md "L7 | S01 President's Letter")
