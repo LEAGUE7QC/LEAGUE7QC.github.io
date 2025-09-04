@@ -307,6 +307,29 @@ Recognized by top players like UrBoiSkinnyHP as the best defensive chaser in the
 - 🧠 Discovered/Leaked the Proph Shot
 - 🎮 Former Fortnite Pro - Competed at high level; aged out of eligibility during early comp era (old)
 
+
+### **Neoboller**
+
+- Main Role:  Chaser
+- Region: Europe 
+- Era: Seasons 1 & 2
+- Signature Move: The “Jesus Shot”
+
+**<u>Additional Notes:</u>**
+
+Known across the league for redefining long-range offensive play, Neoboller introduced the Jesus Shot — a jaw-dropping, bouncing of the ceiling sniper goal that left keepers and chasers alike frozen in awe. Opponents feared it, teammates relied on it, and the game would never be the same.
+
+Though his Season 1 run was brief, Neoboller made his presence felt immediately. His precision passing, unshakable confidence, and knack for creating space became the blueprint for future Crazy Comms offensive schemes.
+
+Returning in the second season, Neoboller’s leadership and in-game creativity helped push Crazy Comms over the top. His chemistry with fellow chasers, combined with his ability to turn momentum with a single possession, made him a nightmare for defenses and a key factor in the team’s title-winning run.
+
+Neoboller’s influence goes beyond the stat sheet. He’s remembered as an innovator — a player who brought style and flair without sacrificing efficiency. The Jesus Shot remains part of the Crazy Comms playbook to this day, a testament to his skill and creativity.
+
+On and off the pitch, Neoboller embodied the spirit of Quidditch Champions: play hard, play smart, and make the game beautiful.
+
+**<u>Quotes:</u>**
+> "Every time he lined up the Jesus Shot, you just knew it was going in. Neo didn’t just score goals — he gave us belief."  — *Tux*
+
 <!-- tabs:end -->
 ---
 *Quotes and additional notes on these pages are provided by players themselves.*
