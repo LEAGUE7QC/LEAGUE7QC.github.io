@@ -195,6 +195,14 @@
               'TriwizardCup'
           );
       }
+      
+      if (vm.route.file.match(/^season\/\d{2}\/matches\.md$/)) {
+        setTimeout(() => {
+          if (typeof window.runMatchPlugin === 'function') {
+            window.runMatchPlugin();
+          }
+        }, 3);
+      }
 
       // Season 3 - Team rosters
       if (vm.route.file === 'season/03/team-rosters.md') {
@@ -205,14 +213,19 @@
           }
         }, 3);
       }
-
-      if (vm.route.file.match(/^season\/\d{2}\/matches\.md$/)) {
-        setTimeout(() => {
-          if (typeof window.runMatchPlugin === 'function') {
-            window.runMatchPlugin();
-          }
-        }, 3);
+      if (vm.route.file === 'season/03/owls-standings.md') {
+          loadOWLSStandings(
+              'https://docs.google.com/spreadsheets/d/e/2PACX-1vSE9zzuZk-G-NTbxyXn9EkrMyUVoDexXP2Hu3vpuMsQPrLhxF_MxqSw-oNhC2BMs__dINFP3RR6f4sF/pub?gid=834810832&single=true&output=csv',
+              'worldcup-stats-table',
+              'WorldCup'
+          );
+          loadOWLSStandings(
+              'https://docs.google.com/spreadsheets/d/e/2PACX-1vSE9zzuZk-G-NTbxyXn9EkrMyUVoDexXP2Hu3vpuMsQPrLhxF_MxqSw-oNhC2BMs__dINFP3RR6f4sF/pub?gid=834810832&single=true&output=csv',
+              'triwizardcup-stats-table',
+              'TriwizardCup'
+          );
       }
+
 
       if (vm.route.file === 'quidditch-board.md') {
         const pitchElement = document.querySelector('#quidditch-board');

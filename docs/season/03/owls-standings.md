@@ -14,9 +14,7 @@ The following statistics are tracked for each team:
 
 
 ## World Cup Division
-*Statistics will be shared here as matches are being played.*
 <div id="worldcup-stats-table"></div>
 
 ## Triwizard Cup Division
-*Statistics will be shared here as matches are being played.*
 <div id="triwizardcup-stats-table"></div>
