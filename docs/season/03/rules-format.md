@@ -183,12 +183,12 @@ Each season spans approximately three months:
 #### 4.1.2 Division-Specific Roster Regulations
 
 **World Cup Division**
-- Rosters lock after week 3 of O.W.L.s. 
+- Rosters lock after midway point of O.W.L.s. 
 - If unable to field 6 players at a scheduled match time, team must forfeit
 - No emergency substitutions allowed
  
 **Triwizard Cup Division**
-- Rosters lock after week 5 of O.W.L.s.  
+- Rosters lock after three-quarter point of O.W.L.s.  
 - If unable to field 6 players due to a last-minute emergency:
     - Teams may access Free Agent Pool to recruit the first available volunteer agent (no pre-arrangements)
     - This exception is limited to a maximum of two instances during O.W.L.s

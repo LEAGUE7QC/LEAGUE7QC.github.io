@@ -1,20 +1,18 @@
 
+## N.E.W.T.s Scheduling
+- N.E.W.T.s will be taking place the weekends of November 22nd.
+- Exact times will be announced at a future date on Discord.
+
 ## O.W.L.s Double Round Robin 
 Each round represents a week of matches beginning on the listed date:
 
-**World Cup Division rounds:**
-- Rounds 1 - 3: August 29 - September 12 
-- Rounds 4 - 7: September 12 - October 3
-- *Mid-Season Tournament (Weekend of October 4)*
-- Rounds 8 - 10: October 3 - October 17
-- Rounds 11 - 14: October 17 - November 9
+- Rounds 1 - 3: August 29 - September 18
+- Rounds 4 - 7: September 12 - October 2
+- Break Week: October 3 - October 9 
+- *Mid-Season Tournament:* Weekend of October 4
+- Rounds 8 - 10: October 10 - October 30
+- Rounds 11 - 14: October 24 - November 13
 
-**Triwizard Cup Division rounds:**
-- Rounds 1 - 3: August 29 - September 12  
-- Rounds 4 - 5: September 12 - October 3
-- *Mid-Season Tournament*
-- Rounds 6 - 8: October 3 - October 17
-- Rounds 9 - 10: October 17 - November 9
 
 ## Division Brackets
 

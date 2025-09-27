@@ -20,7 +20,5 @@ Team registrations for <span style="color:#ffbd00">Season 03: Charms</span> are 
 
 ## Free Agent Pool <span style="color:#666666">(OFF)</span>
 
-Free Agent Pool registrations will open after Season 2 completion.
-
-<a href="#" target="_blank" style="display: inline-block; padding: 4px 44px; background-color: #55565e; text-decoration: none; color:white; font-weight: 550; border-radius: 4px; text-align: center;">REGISTER S02 FREE AGENT</a> 
+Please open a ticket on Discord to register yourself as a Free Agent.
 
