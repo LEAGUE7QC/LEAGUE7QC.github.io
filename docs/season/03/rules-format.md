@@ -464,7 +464,9 @@ Should a division face a change in division composition which compromises their 
 - Staff will not enforce limitations on how players utilize the game's built-in mechanics, **except as defined in 7.1.5**
 
 #### 7.1.5 Illegal Gameplay Tactics
-- "Hero Farming" set up by one's own team will be penalized. Keepers may only use the hero kick for the given hero after being scored on or when an opponent touches the quaffle. Reserving is still allowed, and the reserved kick can be used anytime, including after a pass from a teammate.
+- "Hero Farming" set up by one's own team will be penalized. Keepers may only use the hero kick for the given hero **after being scored on** or when **an opponent was the last to touch** the quaffle. 
+   - Holding, kicking (both keeper or one-timer), throwing or punching a bludger at, and tackling the quaffle are considered touching the quaffle - causing a fumble is excluded. 
+   - Reserving is still allowed, and the reserved kick can be used anytime, including after a pass from a teammate.
 - Violating this rule results in a progressive penalty beginning with 20 points with a 20-point increase per violation (i.e. 1st violation = 20 points, 2nd violation = 40 additional points for a total of 60 points deducted).
 
 ### 7.2 Match Protocols
