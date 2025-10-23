@@ -1,7 +1,3 @@
-/**
- * OWLs Match Results to Round Robin Standings Plugin
- * Processes CSV data from Google Sheets and generates tournament standings
- */
 
 (function(window) {
     'use strict';
@@ -169,7 +165,7 @@
     /**
      * Generate head-to-head round robin matrix table
      */
-    function generateRoundRobinMatrix(matchData, division = null) {
+    function generateSingleRoundRobinMatrix(matchData, division = null) {
         // Filter matches by division and collect teams
         const filteredMatches = matchData.filter(match => 
             !division || match[2] === division
@@ -304,6 +300,151 @@
         return html;
     }
 
+        /**
+     * Generate head-to-head round robin matrix table
+     */
+    function generateDoubleRoundRobinMatrix(matchData, division = null) {
+        // Filter matches by division and collect teams
+        const filteredMatches = matchData.filter(match => 
+            !division || match[2] === division
+        );
+        
+        const teams = [...new Set(filteredMatches.flatMap(match => [match[4], match[5]]))];
+        teams.sort();
+        
+        // Create head-to-head results matrix - now stores arrays of match results
+        const matrix = {};
+        teams.forEach(team => {
+            matrix[team] = {};
+            teams.forEach(opponent => {
+                matrix[team][opponent] = [];
+            });
+        });
+        
+        // Fill matrix with match results
+        filteredMatches.forEach(match => {
+            const teamA = match[4];
+            const teamB = match[5];
+            
+            // Count games won by each team
+            let teamAGamesWon = 0;
+            let teamBGamesWon = 0;
+            
+            const gameScorePairs = [[7, 8], [9, 10], [11, 12], [13, 14], [15, 16]];
+            
+            gameScorePairs.forEach(([aIndex, bIndex]) => {
+                const scoreA = match[aIndex];
+                const scoreB = match[bIndex];
+                
+                if (scoreA && scoreB && scoreA.trim() !== '' && scoreB.trim() !== '') {
+                    const numScoreA = parseInt(scoreA);
+                    const numScoreB = parseInt(scoreB);
+                    
+                    if (!isNaN(numScoreA) && !isNaN(numScoreB)) {
+                        if (numScoreA > numScoreB) {
+                            teamAGamesWon++;
+                        } else if (numScoreB > numScoreA) {
+                            teamBGamesWon++;
+                        }
+                    }
+                }
+            });
+            
+            // Store results in matrix as arrays
+            matrix[teamA][teamB].push(`${teamAGamesWon}-${teamBGamesWon}`);
+            matrix[teamB][teamA].push(`${teamBGamesWon}-${teamAGamesWon}`);
+        });
+        
+        // Calculate column width based on number of teams
+        const headerColumnWidth = Math.max(200, Math.floor(300 / teams.length * 2));
+        const teamColumnWidth = Math.floor((100 - (headerColumnWidth / 7)) / teams.length);
+        
+        // Generate HTML table
+        let html = `
+            <table style="width: 100%; margin-bottom: 30px; border-collapse: collapse; margin-top:20px; margin-bottom:60px;">
+                <thead>
+                    <tr>
+                        <th style="padding: 8px; text-align: left; width: ${headerColumnWidth}px;">Team vs. Team</th>
+                        
+        `;
+        
+        // Add team header columns with logos
+        teams.forEach(team => {
+            const logoPath = getTeamLogoPath(team);
+            html += `<th style="padding: 8px; text-align: center; width: ${teamColumnWidth}%;" title="${team}">
+                <img src="${logoPath}" alt="${team}" style="width: 30px; height: auto;" />
+            </th>`;
+        });
+        
+        html += `
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+        
+        // Add team rows
+        teams.forEach(team => {
+            const logoPath = getTeamLogoPath(team);
+            const disbandedTeams = [];
+            const isDisbanded = disbandedTeams.includes(team);
+            const backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--base-background-color').trim();
+            const teamStyle = isDisbanded ? 'font-style: italic; opacity: 0.2;' : '';
+            
+            html += `
+                <tr>
+                    <td style="padding: 8px; text-align: left; display: flex; align-items: center; gap: 10px;">
+                        <img src="${logoPath}" alt="${team}" style="width: 30px; height: auto;" />
+                        <span style="${teamStyle}">${team}${isDisbanded ? ' (disbanded)' : ''}</span>
+                    </td>
+            `;
+            
+            teams.forEach(opponent => {
+                const results = matrix[team][opponent];
+                let backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--base-background-color').trim();
+                let cellContent = '';
+                let borderColor = getComputedStyle(document.documentElement).getPropertyValue('--sidebar-border-color').trim();
+                
+                if (team === opponent) {
+                    // Empty cell for team vs itself
+                    cellContent = '';
+                } else if (results && results.length > 0) {
+                    // Display all match results
+                    cellContent = '<div style="display: flex; flex-direction: column; gap: 2px; align-items: center;">';
+                    
+                    results.forEach((result, index) => {
+                        const [teamScore, opponentScore] = result.split('-').map(Number);
+                        let textColor = '';
+                        
+                        if (teamScore > opponentScore) {
+                            textColor = '#90EE90'; // Light green for wins
+                        } else if (teamScore < opponentScore) {
+                            textColor = '#FFB6C1'; // Light red for losses
+                        } else {
+                            textColor = '#FFFF99'; // Light yellow for ties
+                        }
+                        
+                        // Add game number label if there are multiple games
+                        cellContent += `<div style="color: ${textColor}; font-size: 0.9em;">${result}</div>`;
+                    });
+                    
+                    cellContent += '</div>';
+                } else {
+                    cellContent = '';
+                }
+                
+                html += `<td style="padding: 8px; border: 1px solid ${borderColor}; text-align: center;">${cellContent}</td>`;
+            });
+            
+            html += '</tr>';
+        });
+        
+        html += `
+                </tbody>
+            </table>
+        `;
+        
+        return html;
+    }
     /**
      * Generate HTML table from standings
      */
@@ -410,7 +551,7 @@
                 }
                 
                 // Generate both tables
-                const matrixHtml = generateRoundRobinMatrix(matchData, division);
+                const matrixHtml = generateDoubleRoundRobinMatrix(matchData, division);
                 const standingsHtml = generateStandingsTable(standings, divisionElementId + '-table');
                 
                 targetElement.innerHTML =  standingsHtml + matrixHtml;
@@ -432,16 +573,3 @@
     window.loadOWLSStandings = loadOWLSStandings;
 
 })(window);
-
-/**
- * Usage Examples:
- * 
- * // Load WorldCup standings
- * loadOWLSStandings('your-csv-url-here', 'worldcup-stats-table', 'WorldCup');
- * 
- * // Load TriwizardCup standings  
- * loadOWLSStandings('your-csv-url-here', 'triwizardcup-stats-table', 'TriwizardCup');
- * 
- * // Load all divisions (no filter)
- * loadOWLSStandings('your-csv-url-here', 'all-stats-table');
- */
