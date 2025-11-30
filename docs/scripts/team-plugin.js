@@ -5,7 +5,6 @@ function runteamPlugin(season = 1) {
   const SEASON1_ROSTER_JSON = 'datatables/s01-team-rosters.json'
   const SEASON2_ROSTER_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQOmRiv9Z_hNUYX8EG0nHtYTTCtDjBKt3q4lywJO1lC_8M-KbpmMOpf--naPkRwoBI4BZCU_ri2XTTR/pub?gid=1700745241&single=true&output=csv';
   const SEASON3_ROSTER_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSE9zzuZk-G-NTbxyXn9EkrMyUVoDexXP2Hu3vpuMsQPrLhxF_MxqSw-oNhC2BMs__dINFP3RR6f4sF/pub?gid=495267531&single=true&output=csv'
-  const SEASON4_ROSTER_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR2SSP7gOsKULExVn4qWhJg_IemlecB08bjJG9wGmvzZNJ3Ww2IjEZZo_qoSQsTZMixjOcm0ba3m_ZH/pub?gid=495267531&single=true&output=csv'
   const teamPlugin = {
     name: 'team-plugin',
     data: { rosters: null, players: null, season: season },
@@ -31,15 +30,9 @@ function runteamPlugin(season = 1) {
           const rostersResponse = await fetch(rostersSource);
           const rostersText = await rostersResponse.text();
           this.data.rosters = this.parseRostersCSV(rostersText);
-        } else if (this.data.season === 3) {
-          // Season 3: Use Google Sheets CSV
-          rostersSource = SEASON3_ROSTER_CSV_URL;
-          const rostersResponse = await fetch(rostersSource);
-          const rostersText = await rostersResponse.text();
-          this.data.rosters = this.parseRostersCSV(rostersText);
         } else {
-          // Season 4: Use Google Sheets CSV
-          rostersSource = SEASON4_ROSTER_CSV_URL;
+          // Season 2: Use Google Sheets CSV
+          rostersSource = SEASON3_ROSTER_CSV_URL;
           const rostersResponse = await fetch(rostersSource);
           const rostersText = await rostersResponse.text();
           this.data.rosters = this.parseRostersCSV(rostersText);
@@ -485,9 +478,5 @@ document.addEventListener('DOMContentLoaded', function() {
   // Check and initialize Season 3 roster
   if (document.getElementById('s03-team-rosters')) {
     window.s3TeamPlugin = initializeTeamRoster(3);
-  }
-  // Check and initialize Season 4 roster
-  if (document.getElementById('s04-team-rosters')) {
-    window.s4TeamPlugin = initializeTeamRoster(4);
   }
 });
