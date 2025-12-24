@@ -5,6 +5,7 @@
 * [Hall of Fame</span>](/hall-of-fame.md "L7 | Hall of Fame")
 * [Quidditch Board](/quidditch-board.md "L7 | Quidditch Board")
 * [Past Events](/community-events/past-events "L7 | Past Events")
+* [Registration](registration.md "L7 | Registration")
 
 **LEAGUE7 GUIDELINES**
 * [Code of Ethics](codeofethics.md "L7 | Code of Ethics")
@@ -14,17 +15,18 @@
 
 
 **S04 - HISTORY OF MAGIC**
-* [<span style="color:#ffbd00">Registration</span>](registration.md "L7 | Registration")
-* [Rules & Format](/season/04/rules-format.md "L7 | Season Rules & Format") 
+* [<span style="color:#ffbd00;">Proposed Format</span>](/season/04/proposed-format.md "L7 | Proposed Format") 
+* [Rules & Format (TBD)](/season/04/rules-format.md "L7 | Season Rules & Format") 
 * [Team Rosters](/season/04/team-rosters.md "L7 | Team Rosters")
 
-<span style="opacity:40%;">
-
 **S03 - CHARMS**
+* [<span style="color:#ffbd00;">President's Letter</span>](/season/03/president-letter.md "L7 | S01 President's Letter")
 * [Rules & Format](/season/03/rules-format.md "L7 | Season Rules & Format") 
 * [Team Rosters](/season/03/team-rosters.md "L7 | Team Rosters")
 * [Match Calendar](/season/03/calendar.md "L7 | Match Calendar") 
 * [O.W.L.s Standings](/season/03/owls-standings.md "L7 | Season Standings")
+
+<span style="opacity:40%;">
 
 **S02 - TRANSFIGURATION**
 * [President's Letter](/season/02/president-letter.md "L7 | S02 President's Letter")
