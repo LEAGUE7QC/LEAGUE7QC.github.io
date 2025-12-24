@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O.W.L.s Tournament Standings</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #d4a84b;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        h2 {
+            color: #d4a84b;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+        
+        h3 {
+            color: #d4a84b;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+        
+        th {
+            text-align: left;
+            padding: 8px 12px;
+            color: #888;
+            font-weight: normal;
+            font-size: 0.85rem;
+            border-bottom: 1px solid #333;
+        }
+        
+        td {
+            padding: 6px 12px;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        
+        tr:hover {
+            background-color: #252525;
+        }
+        
+        .rank {
+            width: 50px;
+        }
+        
+        .team {
+            width: 120px;
+        }
+        
+        .record {
+            width: 80px;
+            text-align: center;
+        }
+        
+        .win-pct {
+            width: 80px;
+            text-align: center;
+        }
+        
+        .final-title {
+            display: flex;
+            align-items: baseline;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .final-title h1 {
+            margin-bottom: 0;
+        }
+        
+        .newts {
+            color: #d4a84b;
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+        
+        .seed {
+            width: 50px;
+            text-align: center;
+        }
+        
+        .newt-status {
+            text-align: right;
+            color: #d4a84b;
+            font-size: 0.85rem;
+        }
+        
+        .cross-table th {
+            font-size: 0.8rem;
+        }
+        
+        .cross-table td {
+            font-size: 0.85rem;
+        }
+        
+        .matchup-col {
+            width: 80px;
+        }
+        
+        .opponents-col {
+            width: 280px;
+        }
+        
+        .result-col {
+            text-align: center;
+            width: 80px;
+        }
+        
+        .divider {
+            border-top: 2px solid #d4a84b;
+            margin: 40px 0;
+        }
+        
+        .arrow-down {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .arrow-down::before {
+            content: "";
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-top: 30px solid #d4a84b;
+        }
+        
+        .newts-rules {
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .newts-rules h3 {
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .rule-section {
+            margin-bottom: 15px;
+        }
+        
+        .rule-section h4 {
+            color: #d4a84b;
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+            font-weight: normal;
+        }
+        
+        .rule-section p {
+            color: #ccc;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>O.W.L.s - Interdivision (7 weeks)</h1>
+        
+        <div class="section">
+            <h2>Division A – Final Standings</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="rank">#</th>
+                        <th class="team">Team</th>
+                        <th class="record">W-L</th>
+                        <th class="win-pct">Win %</th>
+                    </tr>
+                </thead>
+                <tbody id="divisionA">
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>Division B – Final Standings</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="rank">#</th>
+                        <th class="team">Team</th>
+                        <th class="record">W-L</th>
+                        <th class="win-pct">Win %</th>
+                    </tr>
+                </thead>
+                <tbody id="divisionB">
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="arrow-down"></div>
+        
+        <div class="section">
+            <h1>O.W.L.s - Crossdivision (4 weeks)</h1>
+            <table class="cross-table">
+                <thead>
+                    <tr>
+                        <th class="matchup-col">Team</th>
+                        <th class="opponents-col">Opponents to play matches</th>
+                        <th class="result-col">W-L</th>
+                    </tr>
+                </thead>
+                <tbody id="crossdivision">
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="arrow-down"></div>
+        
+        <div class="section">
+            <div class="final-title">
+                <h1>O.W.L.s - Final Standings  (above combined)</h1>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th class="seed">Seed</th>
+                        <th class="team">Team</th>
+                        <th class="record">W-L</th>
+                        <th class="win-pct">Win %</th>
+                        <th class="newt-status"><span style="font-size:20px;">N.E.W.T. Status</span> </th>
+                    </tr>
+                </thead>
+                <tbody id="finalStandings">
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="arrow-down"></div>
+        <div class="newts-rules">
+            <h1>N.E.W.T.s Structure (2 weeks)</h3>
+            
+            <div class="rule-section">
+                <h4>4.1 Playoff Qualification</h4>
+                <p>The top six teams qualify automatically. Teams finishing 7th–14th enter the Play-In Phase.</p>
+            </div>
+            
+            <div class="rule-section">
+                <h4>4.2 Play-In Phase (Seeds 7–14)</h4>
+                <p>Single-elimination bracket. All matches are Best-of-3. The winner faces the 6 seed in a Best-of-3 series.</p>
+            </div>
+            
+            <div class="rule-section">
+                <h4>4.3 Opening Round</h4>
+                <p>Division winners receive byes. 3 vs Play-In Winner and 4 vs 5 are single-elimination Best-of-5 series.</p>
+            </div>
+            
+            <div class="rule-section">
+                <h4>4.4 Double-Elimination Stage</h4>
+                <p>Final four teams enter double elimination. Best-of-3 until two teams remain, then Best-of-5 championship.</p>
+            </div>
+            
+            <div class="rule-section">
+                <h4>4.5 Seeding & Tiebreakers</h4>
+                <p>Non-bye seeding is based on record, then head-to-head, then point differential. The winner of each division receives the bye.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Cross-divisional matchup structure
+        const crossMatchups = {
+            'A1': ['B1', 'B2', 'B3', 'B4'],
+            'A2': ['B1', 'B2', 'B3', 'B5'],
+            'A3': ['B1', 'B2', 'B4', 'B6'],
+            'A4': ['B1', 'B3', 'B5', 'B7'],
+            'A5': ['B2', 'B4', 'B6', 'B7'],
+            'A6': ['B3', 'B5', 'B6', 'B7'],
+            'A7': ['B4', 'B5', 'B6', 'B7']
+        };
+        
+        // Division A teams (by rank) - 6 interdivision games each
+        const divisionAInterdiv = [
+            { name: 'Team AA', wins: 6, losses: 0 },
+            { name: 'Team AB', wins: 4, losses: 2 },
+            { name: 'Team AC', wins: 3, losses: 3 },
+            { name: 'Team AD', wins: 3, losses: 3 },
+            { name: 'Team AE', wins: 2, losses: 4 },
+            { name: 'Team AF', wins: 2, losses: 4 },
+            { name: 'Team AG', wins: 1, losses: 5 }
+        ];
+        
+        // Division B teams (by rank) - 6 interdivision games each
+        const divisionBInterdiv = [
+            { name: 'Team BA', wins: 5, losses: 1 },
+            { name: 'Team BB', wins: 5, losses: 1 },
+            { name: 'Team BC', wins: 4, losses: 2 },
+            { name: 'Team BD', wins: 3, losses: 3 },
+            { name: 'Team BE', wins: 2, losses: 4 },
+            { name: 'Team BF', wins: 1, losses: 5 },
+            { name: 'Team BG', wins: 1, losses: 5 }
+        ];
+        
+        // Initialize cross results
+        const crossResults = {};
+        divisionAInterdiv.forEach((team, idx) => {
+            crossResults[team.name] = { wins: 0, losses: 0, opponents: crossMatchups[`A${idx + 1}`] };
+        });
+        divisionBInterdiv.forEach(team => {
+            crossResults[team.name] = { wins: 0, losses: 0, opponents: [] };
+        });
+        
+        // Define specific cross-divisional match results
+        const matchResults = {
+            'Team AA-Team BA': true,
+            'Team AA-Team BB': true,
+            'Team AA-Team BC': true,
+            'Team AA-Team BD': true,
+            
+            'Team AB-Team BA': false,
+            'Team AB-Team BB': false,
+            'Team AB-Team BC': true,
+            'Team AB-Team BE': true,
+            
+            'Team AC-Team BA': false,
+            'Team AC-Team BB': false,
+            'Team AC-Team BD': true,
+            'Team AC-Team BF': true,
+            
+            'Team AD-Team BA': false,
+            'Team AD-Team BC': false,
+            'Team AD-Team BE': true,
+            'Team AD-Team BG': true,
+            
+            'Team AE-Team BB': false,
+            'Team AE-Team BD': false,
+            'Team AE-Team BF': true,
+            'Team AE-Team BG': true,
+            
+            'Team AF-Team BC': false,
+            'Team AF-Team BE': false,
+            'Team AF-Team BF': true,
+            'Team AF-Team BG': true,
+            
+            'Team AG-Team BD': false,
+            'Team AG-Team BE': false,
+            'Team AG-Team BF': false,
+            'Team AG-Team BG': true,
+        };
+        
+        // Calculate cross-divisional records
+        Object.entries(matchResults).forEach(([matchup, aWins]) => {
+            const [teamA, teamB] = matchup.split('-');
+            if (aWins) {
+                crossResults[teamA].wins++;
+                crossResults[teamB].losses++;
+            } else {
+                crossResults[teamA].losses++;
+                crossResults[teamB].wins++;
+            }
+        });
+        
+        // Build opponent lists for B teams
+        Object.entries(crossMatchups).forEach(([aRank, bRanks]) => {
+            const aIdx = parseInt(aRank.substring(1)) - 1;
+            const aTeam = divisionAInterdiv[aIdx].name;
+            bRanks.forEach(bRank => {
+                const bIdx = parseInt(bRank.substring(1)) - 1;
+                const bTeam = divisionBInterdiv[bIdx].name;
+                crossResults[bTeam].opponents.push(aRank);
+            });
+        });
+        
+        // Populate Division A table
+        const divABody = document.getElementById('divisionA');
+        divisionAInterdiv.forEach((team, idx) => {
+            const totalGames = team.wins + team.losses;
+            const winPct = (team.wins / totalGames).toFixed(3);
+            const row = `<tr>
+                <td>${idx + 1}</td>
+                <td>${team.name}</td>
+                <td class="record">${team.wins}-${team.losses}</td>
+                <td class="win-pct">${winPct}</td>
+            </tr>`;
+            divABody.innerHTML += row;
+        });
+        
+        // Populate Division B table
+        const divBBody = document.getElementById('divisionB');
+        divisionBInterdiv.forEach((team, idx) => {
+            const totalGames = team.wins + team.losses;
+            const winPct = (team.wins / totalGames).toFixed(3);
+            const row = `<tr>
+                <td>${idx + 1}</td>
+                <td>${team.name}</td>
+                <td class="record">${team.wins}-${team.losses}</td>
+                <td class="win-pct">${winPct}</td>
+            </tr>`;
+            divBBody.innerHTML += row;
+        });
+        
+        // Populate Crossdivision table
+        const crossBody = document.getElementById('crossdivision');
+        divisionAInterdiv.forEach((team, idx) => {
+            const cross = crossResults[team.name];
+            const opponents = crossMatchups[`A${idx + 1}`].map(b => {
+                const bIdx = parseInt(b.substring(1)) - 1;
+                return divisionBInterdiv[bIdx].name;
+            }).join(', ');
+            const row = `<tr>
+                <td>${team.name}</td>
+                <td>${opponents}</td>
+                <td class="record">${cross.wins}-${cross.losses}</td>
+            </tr>`;
+            crossBody.innerHTML += row;
+        });
+        
+        crossBody.innerHTML += '<tr><td colspan="3" style="border-bottom: 2px solid #444; padding: 5px;"></td></tr>';
+        
+        divisionBInterdiv.forEach((team, idx) => {
+            const cross = crossResults[team.name];
+            const opponents = cross.opponents.map(a => {
+                const aIdx = parseInt(a.substring(1)) - 1;
+                return divisionAInterdiv[aIdx].name;
+            }).join(', ');
+            const row = `<tr>
+                <td>${team.name}</td>
+                <td>${opponents}</td>
+                <td class="record">${cross.wins}-${cross.losses}</td>
+            </tr>`;
+            crossBody.innerHTML += row;
+        });
+        
+        // Calculate final standings
+        const allTeams = [];
+        
+        divisionAInterdiv.forEach(team => {
+            const cross = crossResults[team.name];
+            allTeams.push({
+                name: team.name,
+                division: 'A',
+                wins: team.wins + cross.wins,
+                losses: team.losses + cross.losses,
+                interdivWins: team.wins
+            });
+        });
+        
+        divisionBInterdiv.forEach(team => {
+            const cross = crossResults[team.name];
+            allTeams.push({
+                name: team.name,
+                division: 'B',
+                wins: team.wins + cross.wins,
+                losses: team.losses + cross.losses,
+                interdivWins: team.wins
+            });
+        });
+        
+        // Sort by win percentage, then by wins
+        allTeams.sort((a, b) => {
+            const pctA = a.wins / (a.wins + a.losses);
+            const pctB = b.wins / (b.wins + b.losses);
+            if (pctB !== pctA) return pctB - pctA;
+            return b.wins - a.wins;
+        });
+        
+        // Find division winners (highest ranked team from each division)
+        const divAWinner = allTeams.find(t => t.division === 'A');
+        const divBWinner = allTeams.find(t => t.division === 'B');
+        
+        // Assign qualifications
+        function getQualification(team, seed) {
+            if (team.name === divAWinner.name) return 'Bye (Div A Winner)';
+            if (team.name === divBWinner.name) return 'Bye (Div B Winner)';
+            if (seed <= 6) return 'Auto-Qualify';
+            return 'Play-In';
+        }
+        
+        // Populate Final Standings
+        const finalBody = document.getElementById('finalStandings');
+        allTeams.forEach((team, idx) => {
+            const seed = idx + 1;
+            const totalGames = team.wins + team.losses;
+            const winPct = (team.wins / totalGames).toFixed(3);
+            const qualification = getQualification(team, seed);
+            const row = `<tr>
+                <td class="seed">${seed}</td>
+                <td>${team.name}</td>
+                <td class="record">${team.wins}-${team.losses}</td>
+                <td class="win-pct">${winPct}</td>
+                <td class="newt-status">${qualification}</td>
+            </tr>`;
+            finalBody.innerHTML += row;
+        });
+    </script>
+</body>
+</html>
