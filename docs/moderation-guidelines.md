@@ -168,3 +168,29 @@ These guidelines ensure fair and consistent moderation in the LEAGUE7 Discord se
 - All moderators must acknowledge and agree to any changes
 
 Remember, the goal of moderation is to maintain a positive community environment while preserving the integrity of team participation and league operations. Always err on the side of caution and consult with fellow moderators when in doubt.
+
+
+> ⚠️ The following section is entirely satirical and was added for fun. Please refer to sections 1-9 for actual moderation rules.
+
+## 10. Carddi Protocol
+The `@where is carddi?` role exists to summon carddi to any situation that requires unnecessary escalation, unsolicited commentary, or devastatingly accurate roasts. It shall be used whenever a witty comeback no one asked for is needed, a punchline delivered with zero remorse, or someone to say what everyone was thinking but funnier.
+
+### 10.1 When to Ping
+- A conflict is resolving too peacefully
+- Someone needs to be mocked and no one is stepping up
+- The vibe is too wholesome
+- You want to see what happens
+
+### 10.2 When NOT to Ping
+- Never. There is no wrong time.
+
+### 10.3 What to Expect
+Carddi will arrive within 30 seconds to 3 hours depending on how much the situation doesn't concern him Upon arrival, carddi may:
+- Make it worse
+- Make it funny
+- Make it worse in a funny way
+- Leave without comment (rare)
+
+### 10.4 Appeal Process
+There is no appeal. You pinged him. This is your fault now.
+
