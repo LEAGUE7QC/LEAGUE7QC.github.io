@@ -21,6 +21,51 @@ This ensures your inquiry is properly tracked and handled by our active staff te
 
 
 ## Current Administration
+- **Founder:** Melanore (melanore)  
+- **President:** Chadismydad  
+- **Staff Members:**
+  - Michy (michymoqc)
+  - Jim (jim_tones)
+  - Cheeze (moldycheeze5618)
+  - Grooby (groobygames)  
+  - Stormy (stormhur)  
+- **Moderators:**
+   DiskJockii (diskjockii)  
+  - *Additional moderators to be appointed*
+
+  - **Special Sections** - *created by the President*
+    - **Awards Committee:**
+        - Michy (michymoqc)
+        - Timetwister (timetwister2122)
+         DiskJockii (diskjockii)
+         - *Additional members TBA*
+    - **Broadcasting Team:**
+        - TBA
+
+## Previous Administration
+<span style="opacity:0.5;">
+
+### Season 3 – **CHARMS**
+
+- **Founder:** Melanore (melanore)  
+- **President:** Skipper (Skipper13)  
+- **Staff Members:**
+  - Michy (michymoqc)
+  - Jim (jim_tones)
+  - Cheeze (moldycheeze5618)
+  - CraftyCat (angeredgee)
+  - LaggyLestrange (laggylestrange)
+- **Moderators:**
+  - DiskJockii (diskjockii)
+- **Broadcasting Team** - *created by the President*
+    - **Head of Broadcasting:** Riley (amessilyfe)
+    - Flyrish
+    - OTP
+    - Neo
+    - timetwister
+    - Cleet
+    - *Plus rotating guest broadcasters*
+- **Website & Database:** None assigned 
 
 ### Season 2 - Transfiguration
 
@@ -47,9 +92,6 @@ This ensures your inquiry is properly tracked and handled by our active staff te
     - D3ad (d3ad_m4chin3) 
     - bushbat (rushrat) 
 
-## Previous Administration
-<span style="opacity:0.5;">
-
 ### Season 1 - D.A.D.A. Season
 - **Founder:**  Melanore (melanore)
 - **President:**  Virtual Witchcraft (sirfelix)
@@ -68,7 +110,7 @@ This ensures your inquiry is properly tracked and handled by our active staff te
     - Manon (witchling_aelin)
     - Disk Jockii (diskjockii)
 - **Special Sections** - *created by the President*
-    - **Awards Commitee:**
+    - **Awards Committee:**
         - Shadowfox (.shadowthefolf)
         - Michy (michymoqc)
         - Mooney (moonech)
