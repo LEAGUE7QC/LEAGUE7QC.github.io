@@ -44,47 +44,27 @@ Each season spans approximately three months:
 ## 3. Division Structure
 
 ### 3.1 Division Types
-#### 3.1.1 World Cup Division
-- Top-tier competitive play
-- Previous season's highest performers
-- Strictest roster regulations.
-
-#### 3.1.2 Triwizard Cup Division
-- Semi-pro level competitive play
-- Balanced skill level
-- Moderate roster regulations.
-
-#### 3.1.3 House Cup Division
-- Entry-pro level competitive play
-- Developmental focus, welcoming to new players
-- Most relaxed roster regulations.
-
+- Two divisions (Binn & Bagshot) each contain seven (7) teams. 
+- Teams are ranked internally based on regular-season performance. 
+ 
 ### 3.2 Division Assignment
+- Teams are assigned to division in attempt to keep the competitive balance between divisions even. 
+- Returning teams are placed based on prior season standings and N.E.W.T.s outcomes. 
+- New teams are assigned based on competitive strength, available slots, and staff evaluation. 
 
-#### 3.2.1 Season 4 Continuity and Placement
-- **Returning Teams:** Automatically placed in divisions based on Season 3 final standings and N.E.W.T.s promotion/relegation results
-- **New Teams:** Assigned to the lower divisions based on estimated skill level and available slots in appropriate divisions
+### 3.3 Division Season Format
+- Teams play all division opponents once, followed by cross-division games determined by final division standings. 
+- Higher-ranked teams receive higher ranked cross-division schedules, while lower-ranked teams receive lower ranked schedules. 
+- Divisions are mirrored and matchups are symmetric. 
 
-#### 3.2.2 Division Preference and Adjustments
-- Returning teams may request division preference during registration if they believe their roster strength has significantly changed
-- If more new teams request placement in a division than available slots:
-     - Priority given to teams with estimated skill levels most appropriate for that division
-     - Staff may organize a brief pre-season qualification tournament during the registration period
-     - Staff evaluation will consider player MMR, roster composition, and competitive balance
-- Teams may decline to participate if not placed in their preferred division, but must notify Staff within 24 hours of placement notification to allow for adjustments
+### 3.4 Division Size & Stability
+- Divisions remain at seven teams unless registration changes require adjustment. 
 
-#### 3.2.3 Division Size and Stability
-- Division sizes will be maintained from Season 3 structure: World Cup (7 teams), Triwizard Cup (7 teams), House Cup (remainder)
-- Adjustments to division size will only occur if necessary due to significant registration changes (more than 3 team departures from any single division)
+### 3.5 Roster Lock Policy
+- Rosters remain unlocked through in-division play. 
+- Rosters lock only after every in-division game has been played and remain locked for remainder of season. 
 
-#### 3.2.4 Division Season Format Continuity
-- Season 4 format changes:
-    - World Cup Division: Double round-robin format
-    - Triwizard Cup Division: Double round-robin format
-    - House Cup Division: Swiss system format (unchanged)
-- Format changes will only occur if division composition changes significantly require format adjustment, subject to Captains' Council approval
-
-### 3.3 Team Leadership Structure
+### 3.6 Team Leadership Structure
 - Team ownership and branding rights belong exclusively to the team Captain
     - Established team branding from previous seasons has protected status and cannot be used by new teams without explicit authorization from the original Captain
     - A Captain may transfer branding rights to a new Captain at their discretion through a ticket
@@ -98,53 +78,20 @@ Each season spans approximately three months:
     - The Captain must provide the affected player with 48-hour advance notice before removal
     - Staff must be notified through the appropriate channel with the removal reason
 
-### 3.4 Procedures for Handling Large Numbers of Disbanded Teams
+### 3.7 Procedures for Handling Large Numbers of Disbanded Teams
 - These procedures are intended only for emergency situations where the number of disbanded teams in a division significantly reduces the number of possible matches to be played and compromises the competitive integrity of the division
 - The Captains' Council representatives for each division are not limited solely to the procedures listed below and may elect to devise and implement another method to handle such situations subject to the following:
 - Any significant mid-season changes to division structure or format must be approved by at least a 2/3 vote of the Captains' Council representatives for the affected division(s)
 - If more 1/3 of teams disband in a division, an emergency meeting will be scheduled within 72 hours for Staff and the division's Captains' Council to determine what, if anything, should be done to handle O.W.L.s and N.E.W.T.s for the division moving forward. If Captains cannot come to a consensus, Staff may elect to have the division continue as scheduled or may implement another solution
 - In case of unforeseen situations arising which compromise the competitive integrity of a division, Staff may make decisions as necessary to ensure competitive integrity for all divisions
 
-### 3.5 Team Registrations After Season Start
+### 3.8 Team Registrations After Season Start
 - Teams may register after season start and may be placed in the lowest division, should that division be using Swiss system.
 - Staff will have the final say on allowing a team's placement within a particular division.
     - Generally, Staff will avoid placing teams in divisions where the new team's estimated skill level (based on roster/role MMR) is well outside the range of the estimated skill levels of teams currently competing in the division. 
 - Staff may, at their discretion, assign bonus pairing points to a new team joining a division. Bonus pairing points will not be factored in O.W.L.s standings or N.E.W.T.s eligibility.
     - For new teams with rosters which fall below the average estimated skill level for the division, the team will generally be given no bonus pairing points.
     - For new teams with rosters which meet or exceed the average estimated skill level for the division, the team will generally be given bonus pairing points to match the closest team by estimated skill level.
-
-### 3.6 Season Formats
-- The two possible season formats teams may compete in are the round-robin and Swiss system formats.
-- Round-robin will be the default format for teams competing in divisions which start with 7 teams.
-- Swiss system will be the default format for teams competing in divisions which start with 4 teams or fewer.
-
-#### 3.6.1 Round-Robin Format
-- Each team will play 6 matches during the season, 1 match against every other team in the division.
-- Each match will be scheduled for a particular week, but teams are not obligated to schedule their matches for that particular week.
-- Teams must complete all of their matches by the season's end. Matches not completed by the season's end will be considered a forfeit.
-- Teams must complete at least 3 matches by week 5 of O.W.L.s, and at least 4 matches by week 6.
-    - If a team is approaching a deadline for matches completed, the captain will be notified via support ticket and will be advised of the next steps according to [5.2.2 Scheduling Enforcement Process](#522-scheduling-enforcement-process).
-
-#### 3.6.2 Swiss System Format
-- At the beginning of each week (every Monday morning), teams in divisions using the Swiss system will be paired with an opponent using the following rules:
-    - Teams may only play each other once during the season
-    - Each match win will give the winning team one pairing point
-    - Each match loss will give the losing team no pairing points
-    - Staff may assign bonus points to new teams joining mid-season
-      - Pairing points are not the same as match wins for the purpose of standings
-      - Generally, no bonus pairing points will be assigned to a new team if their estimated skill level is at or below the division average. If a new team's estimated skill level is above the division average, generally staff will assign bonus pairing points so that the new team's pairing points are equal to the most comparable team competing in the division
-    - Teams will be paired with teams as close to their number of pairing points as possible
-    - In case of an uneven number of teams to be paired, one team which has not already received a bye will be given a bye, which will credit the team with one pairing point and one match win
-- Teams which have not completed their scheduled match during the week scheduled will be credited for 0 match wins and 0.5 pairing points. Teams may complete the match at a later time and their match wins and pairing points will be adjusted according to the result
-- Teams must complete at least 3 matches by week 5 of O.W.L.s, and at least 5 matches by the end of week 6
-    - If a team is approaching a deadline for matches completed, the captain will be notified via support ticket and will be advised of the next steps according to [5.2.2 Scheduling Enforcement Process](#522-scheduling-enforcement-process).
-
-#### 3.6.3 Double Round-Robin Format
-- Each team will play 12 matches during the season, 2 matches against every other team in the division.
-- Each match will be scheduled across the 11-week period, with one week reserved for the Mid-Season Tournament.
-- Teams must complete all of their matches by the season's end. Matches not completed by the season's end will be considered a forfeit.
-- Teams must complete at least 6 matches by week 6 of O.W.L.s, and at least 9 matches by week 9.
-- If a team is approaching a deadline for matches completed, the captain will be notified via support ticket and will be advised of the next steps according to 5.2.2 Scheduling Enforcement Process.
 
 ## 4. Team Management
 
@@ -178,46 +125,21 @@ Each season spans approximately three months:
     - The captain possibly placing the hold will be added to the ticket where their former player is joining the new team and have the option of declaring their intention to place the hold within 3 days of being notified of the player's intent to leave their team.
 - Teams may only place a maximum of two poaching holds for the season.
 - Should a team fall below 8 active players on their roster due to a player leaving the team on their own initiative or due to player inactivity, they may add new players to their roster to bring them up to at most 8 active players regardless of the roster lock. Players recruited under this provision must come from the Free Agent Pool. If there are not enough players in the Free Agent Pool, the team may recruit any player not on an active team.
-
+- If a new player is added to any roster, their captain is required to inform any other captains with whom they schedule a match within 48 hours of the roster change being finalized
+    - This communication must be made before the match is scheduled
+    - For any matches which are already scheduled before the roster change takes place or if any are scheduled without disclosing the roster change, then the player may not participate in those games without express consent from the opposing captain
 
 #### 4.1.2 Division-Specific Roster Regulations
+- Rosters lock at the intra-division games deadline.
+- No emergency substitutions allowed.
 
-**World Cup Division**
-- Rosters lock after midway point of O.W.L.s. 
-- If unable to field 6 players at a scheduled match time, team must forfeit
-- No emergency substitutions allowed
- 
-**Triwizard Cup Division**
-- Rosters lock after three-quarter point of O.W.L.s.  
-- If unable to field 6 players due to a last-minute emergency:
-    - Teams may access Free Agent Pool to recruit the first available volunteer agent (no pre-arrangements)
-    - This exception is limited to a maximum of two instances during O.W.L.s
-    - If teams still cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit
-
-**House Cup Division**
-- Roster remains flexible throughout O.W.L.s. However, no team may field more than 16 unique roster players in official matches during O.W.L.s unless authorized by Staff for emergency circumstances.
-    - Free Agent Pool players do not count against the 16 unique roster players cap.
-- If unable to field 6 players due to a last-minute emergency:
-    - Teams may access Free Agent Pool to recruit the first available volunteer agent (no pre-arrangements)
-- Teams may access Free Agent Pool for any matchup
-- If teams cannot field 6 players at the scheduled match time even after attempting to use the Free Agent Pool, the team must forfeit.
-
-#### 4.1.3 Free Agent Pool
-- Players may register as Free Agents if not on a team roster
-- Free Agents must complete registration form and be approved by staff
-    - New Free Agents must wait 1 week after their registration before becoming eligible to play in a match
-- A Free Agent can play a maximum of 4 total full games or 2 total full matches per season, whichever is greater.
-- A Free Agent can play a maximum of 1 match for any specific team
-- Free Agents may join a team permanently at any point
-- Players cannot be on a team roster and in the Free Agent Pool simultaneously
-
-#### 4.1.4 N.E.W.T.s Eligibility
+#### 4.1.3 N.E.W.T.s Eligibility
 - N.E.W.T.s rosters must be a subset of the team's O.W.L.s roster
 - Only players which have played in at least one game for a team during O.W.L.s will be considered eligible players for N.E.W.T.s.
 - Free Agents are not eligible for N.E.W.T.s matches under any circumstances
 - N.E.W.T.s matches follow the same player count rules as O.W.L.s matches
 
-#### 4.1.5 Player Identity Verification
+#### 4.1.4 Player Identity Verification
 - If a team suspects account sharing, smurfing, or identity misrepresentation, they should alert Staff ASAP
     - Such suspicions must be voiced within 2 weeks of the suspected player joining a team
     - Suspicious party is expected to present proof ("They have the same playstyle" will not be enough)
@@ -336,122 +258,45 @@ Each season spans approximately three months:
 
 ## 6. N.E.W.T.s Format
 
-### 6.1 Promotion and Relegation System
+### 6.1 Playoff Qualification 
+- The top six teams qualify automatically. 
+- Teams finishing 7th–14th enter the Play-In Phase. 
 
-At the end of O.W.L.s, teams will participate in promotion/relegation tournaments as follows:
+### 6.2 Play-In Phase 
+- (Seeds 7–14) Single-elimination bracket. 
+- All matches are Best-of-3. 
+- The winner faces the 6 seed in a Best-of-3 series. 
 
-**For Three-Division Structure:**
-1. Between World Cup and Triwizard Cup Divisions:
-     - Bottom 2 teams from World Cup Division and Top 2 teams from Triwizard Cup Division
-     - Double-elimination tournament
-     - Top 2 finishers play in World Cup Division next season
-     - Bottom 2 finishers play in Triwizard Cup Division next season
+### 6.3 Opening Round 
+- Division winners receive byes. 
+- 3 vs Play-In Winner and 4 vs 5 are single-elimination Best-of-5 series. 
 
-2. Between Triwizard Cup and House Cup Divisions:
-     - Bottom 2 teams from Triwizard Cup Division and Top 2 teams from House Cup Division
-     - Double-elimination tournament
-     - Top 2 finishers play in Triwizard Cup Division next season
-     - Bottom 2 finishers play in House Cup Division next season
+### 6.4 Double-Elimination Stage 
+- Final four teams enter double elimination. 
+- Best-of-3 until two teams remain, then Best-of-5 championship. 
 
-**For Two-Division Structure:**
-- Bottom 2 teams from World Cup Division and Top 2 teams from Triwizard Cup Division
-- Double-elimination tournament
-- Top 2 finishers play in World Cup Division next season
-- Bottom 2 finishers play in Triwizard Cup Division next season
+### 6.5 Seeding & Tiebreakers 
+- Non-bye seeding is based on record, then head-to-head, then point differential. 
+- The winner of each division receives the bye.
 
-### 6.2 N.E.W.T.s Tournament Format
-
-#### 6.2.1 Tournament Structure
-- Double-elimination bracket with 4 teams in each promotion/relegation tournament
-- Seeding based on O.W.L.s performance
-    - Higher division teams seeded 1-2 (based on their standings within their division)
-    - Lower division teams seeded 3-4 (based on their standings within their division)
-- All matches are best-of-3
-- Grand final match is best-of-5
-- Top 2 finishing teams earn promotion/remain in higher division
-- Bottom 2 finishing teams are relegated/remain in lower division
-
-#### 6.2.2 Tournament Schedule
-- N.E.W.T.s tournaments begin within one week of all O.W.L.s matches concluding
-- Tournament schedule determined by Staff to ensure fair play and broadcast opportunities
-    - Final scheduling will be announced on Discord at least 2 weeks prior
-- All tournament matches must be completed within a 2-week window
-- N.E.W.T.s matches take priority over all other league activities
-
-### 6.3 World Cup Championship
-
-#### 6.3.1 Championship Qualification
-- The top 4 teams from the World Cup Division qualify for the Championship Playoffs
-- Teams are seeded based on their final O.W.L.s standings (1-4)
-- Championship Playoffs run concurrently with the promotion/relegation tournaments
-- Championship final will receive priority broadcasting treatment with enhanced production
-
-#### 6.3.2 Championship Format
-- Championship Playoffs begin after the completion of all O.W.L.s matches for the World Cup Division
-- Single-elimination bracket tournament
-    - Semifinal matches: 1st seed vs 4th seed, 2nd seed vs 3rd seed
-    - All matches are best-of-3 games
-    - Championship final is best-of-5 games
-    - The winning team is crowned LEAGUE7 Season 4 Champion
-- All regular World Cup Division roster restrictions apply
-
-### 6.4 Example N.E.W.T.s Scenario
-
-| O.W.L.s Standings <div style="width:150px"></div>| World Cup Div. <div style="width:150px"></div>| N.E.W.T.s Status |
-|--------:|:--------------------|:--------------------|
-| 1 | Team name A | <span style="color:var(--blockquote-border-color)">*Championship Qualifier*</span> &nbsp; &nbsp; |
-| 2 | Team name B | <span style="color:var(--blockquote-border-color)">*Championship Qualifier*</span> |
-| 3 | Team name C | <span style="color:var(--blockquote-border-color)">*Championship Qualifier*</span> |
-| 4 | Team name D | <span style="color:var(--blockquote-border-color)">*Championship Qualifier*</span> |
-| 5 | Team name E |  |
-| 6 | Team name F | <span style="color:tomato">*Relegation Risk*</span> |
-| 7 | Team name G | <span style="color:tomato">*Relegation Risk*</span> |
-
-| O.W.L.s Standings <div style="width:150px"></div>| Triwizard Cup Div. <div style="width:150px"></div>| N.E.W.T.s Status |
-|--------:|:--------|:--------------------|
-| 1 | Team name H | <span style="color:green">*Promotion Candidate*</span> &nbsp; &nbsp; &nbsp; &nbsp; |
-| 2 | Team name I | <span style="color:green">*Promotion Candidate*</span> |
-| 3 | Team name J |  |
-| 4 | Team name K |  |
-| 5 | Team name L |  |
-| 6 | Team name M | <span style="color:tomato">*Relegation Risk*</span> |
-| 7 | Team name N | <span style="color:tomato">*Relegation Risk*</span> |
-
-| O.W.L.s Standings <div style="width:150px"></div>| House Cup Div. <div style="width:150px"></div>| N.E.W.T.s Status |
-|--------:|:--------|:--------------------|
-| 1 | Team name O | <span style="color:green">*Promotion Candidate*</span> &nbsp; &nbsp; &nbsp; &nbsp; |
-| 2 | Team name P | <span style="color:green">*Promotion Candidate*</span> |
-| 3 | Team name R |  |
-| 4 | Team name S |  |
-| 5 | Team name T |  |
-| 6 | Team name Y |  |
-| 7 | Team name Z |  |
-
-### 6.5 N.E.W.T.s Format Change Due to Division Composition Changes
+### 6.6 N.E.W.T.s Format Change Due to Division Composition Changes
 Should a division face a change in division composition which compromises their ability to play N.E.W.T.s as laid out in [6. N.E.W.T.s Format](#6-newts-format), Staff and the division's Captains' Council representatives will collaborate to implement a replacement N.E.W.T.s format. The captains for the division may propose and vote on a new format per normal rule voting procedure as laid out in section [5. Rule Voting Procedure in the Organizational Guidelines](https://league7.gg/#/organizational-guidelines?id=_5-rule-voting-procedure). If the Captains' Council is unable to pass a proposal for a new implementation of the N.E.W.T.s format within one week of N.E.W.T.s start date, Staff will implement a replacement N.E.W.T.s format. 
-
-### 6.6 Post-Season Tournament for Teams Not Otherwise In N.E.W.T.s
-- For teams which are not up for promotion/relegation and are not participating in the World Cup Championship, captains may opt to register their team for a post-season tournament.
-- If at least 8 teams register for the post-season tournament, the tournament will be run.  
-- Format of tournament will depend on the exact number of teams registered.
-- Tournament results will have no impact on future division placement or standings.
-
 
 ## 7. Match Operations
 
 ### 7.1 Game Settings
 
-#### 7.1.1 Match Creation Method
-- Team captains decide whether to use custom lobbies or queue sniping
-- Decision must be agreed upon in writing before match day
-- If captains cannot reach an agreement, custom lobbies will be the default method
-    - If the current time shows :30, teams switch to queue sniping (to avoid :41 minute mark)
+#### 7.1.1 Match Format
+- Matches will be played using a 3-Snitch format with a 20-point Snitch value and a 1.4 meter fill rate.
+- Teams may mutually agree prior to the match to instead play using a 30-point Snitch value with a 1.0 meter fill rate.
+- Any exception must be confirmed in writing by both team captains.
 
-#### 7.1.2 Custom Game Settings
-- Teams must use all default 6v6 official settings at Champion difficulty
-- Team captains may agree to ban certain maps by mutual agreement, may agree on a specific map rotation, or may use a random name picker to select maps each game.
-- Teams take turn generating the custom lobby
-- Failure to choose correct settings result in a forfeit for that game
+#### 7.1.2 Match Lobby Creation
+- Matches will be played using custom lobbies.
+- In cases where teams are playing under the 30-point Snitch format as defined in Rule 7.1.1, teams may mutually agree prior to the match to use queue sniping instead of custom lobbies.
+- Lobby creation alternates between teams, beginning with the home team.
+- The selected map must be agreed upon by both team captains prior to the match. If mutual agreement cannot be reached, the home team will select the map.
+- Home and away teams will be designated prior to the start of the series. In NEWTs, the higher-seeded team will be designated as the home team.
 
 #### 7.1.3 Queue Sniping Settings
 - Teams must play the map they load into (LEAGUE7 does not allow map dodges)
@@ -488,12 +333,16 @@ Should a division face a change in division composition which compromises their 
      - If a previous game ended at :23 minute mark, captains are expected to meet at :30 to start the next game
 
 #### 7.2.3 Post-Match Reporting
-- Both captains must submit scores within 45 minutes of match completion into their respective threads
+- Within 24 hours of match completion, each captain must either:
+    1) Submit the match scores in their thread with required screenshots, or
+    2) Verify the opponent captain’s posted scores + Final Scoreboard screenshot.
+- Verification must be an explicit written confirmation in-thread (e.g., “Verified”).
+- Match completion is defined as the end of the final game played in the match.
 - Enforcement of reporting deadline:
-    - 1-30 minutes late: -10 points from team's season point scored
-    - 31-60 minutes late: -20 points from team's season point scored
-    - 61-90 minutes late: -30 points from team's season point scored
-    - 91+ minutes late: Match forfeiture penalty applied to the non-reporting team(s) with -100 point scored
+    - 1–12 hours late: -10  points from team's season point scored
+    - 13–24 hours late: -20 points from team's season point scored
+    - 25–48 hours late: -30 points from team's season point scored
+    - 49+ hours late: Match forfeiture penalty applied to the non-reporting team(s) with -100 season points
 - Screenshots required for:
     - Final scoreboards
     - Any disputed plays
@@ -501,6 +350,14 @@ Should a division face a change in division composition which compromises their 
 - Staff verification required for:
     - Disputed scores
     - Technical issues
+- For disputes or penalty claims:
+    - Anybody may open a ticket within 48 hours of the series end with evidence of the claim
+    - Ticket must include any available evidence of the issue
+    - If reported within 48 hours, staff may take as much time as necessary to conduct their investigation, review, and issuance of a decision
+    - If reported after 48 hours have passed, any match results stand
+    - If there is an infraction that still warrants action, this can still be handled with individuals involved (i.e. cheating may still warrant a ban from league participation but would no longer affect match results)
+    - If a decision changes match results where a won game becomes a tie, teams must meet within 1 week to play a tiebreaker match
+    - A tighter timeframe may be required if near the end of the season 
 
 #### 7.2.3.1 Match Results Changed by Penalty
 - If penalties occur in a game, the final recorded score shall be adjusted accordingly

@@ -15,8 +15,9 @@
 
 
 **S04 - HISTORY OF MAGIC**
-* [<span style="color:#ffbd00;">Proposed Format</span>](/season/04/proposed-format.md "L7 | Proposed Format") 
-* [Rules & Format (TBD)](/season/04/rules-format.md "L7 | Season Rules & Format") 
+* [O.W.L.s Standings](/season/04/owls-standings.md "L7 | Season Standings")
+* [Format Summary](/season/04/proposed-format.md "L7 | Proposed Format") 
+* [Rules & Format](/season/04/rules-format.md "L7 | Season Rules & Format") 
 * [Team Rosters](/season/04/team-rosters.md "L7 | Team Rosters")
 
 **S03 - CHARMS**
