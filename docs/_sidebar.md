@@ -4,6 +4,7 @@
 * [Contact Us](contact-us.md "L7 | Contact Us")
 * [Hall of Fame</span>](/hall-of-fame.md "L7 | Hall of Fame")
 * [Quidditch Board](/quidditch-board.md "L7 | Quidditch Board")
+* [<span style="color:#ffbd00;">QCTCG Browser (WIP)</span>](/qctcg-browser.md "L7 | QCTCG Browser")
 * [Past Events](/community-events/past-events "L7 | Past Events")
 * [Registration](registration.md "L7 | Registration")
 
@@ -21,7 +22,7 @@
 * [Team Rosters](/season/04/team-rosters.md "L7 | Team Rosters")
 
 **S03 - CHARMS**
-* [<span style="color:#ffbd00;">President's Letter</span>](/season/03/president-letter.md "L7 | S01 President's Letter")
+* [President's Letter</span>](/season/03/president-letter.md "L7 | S01 President's Letter")
 * [Rules & Format](/season/03/rules-format.md "L7 | Season Rules & Format") 
 * [Team Rosters](/season/03/team-rosters.md "L7 | Team Rosters")
 * [Match Calendar](/season/03/calendar.md "L7 | Match Calendar") 

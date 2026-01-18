@@ -126,6 +126,12 @@
   function(hook, vm) {
     hook.doneEach(function() {
 
+      if (vm.route.file === 'qctcg-browser.md') {
+          loadQCTCGBrowser(
+              'https://docs.google.com/spreadsheets/d/e/2PACX-1vR7u_BzpO4TPZP1qPIdPEMb4v2IpqDhp-jtd4MCO4aSdHo_9K_q0LQVuTmm6oHrpebd8TXXHDARGPQS/pub?output=csv',
+              'qctcg-browser'
+          );
+}
       // Season 0 - Standings
       if (vm.route.file === 'season/00/standings.md') {
         // Options for the tryout-participants
@@ -296,5 +302,6 @@
   <script src="scripts/owls-standings.js"></script>
   <script src="scripts/coverpage-video.js"></script>
   <script src="scripts/quidditch-board.js"></script>
+  <script src="scripts/qctcg-browser.js"></script>
 </body>
 </html>
