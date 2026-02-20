@@ -147,7 +147,7 @@
      * Helper function to create team cell with logo
      */
     function createTeamCell(teamName) {
-        const disbandedTeams = [];
+        const disbandedTeams = ["Knockturn Ravens", "The Killer Kelpies"];
 
         const logoPath = getTeamLogoPath(teamName);
         const isDisbanded = disbandedTeams.includes(teamName);
