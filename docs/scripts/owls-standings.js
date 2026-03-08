@@ -569,7 +569,144 @@
             });
     }
 
+    
+
+
+
+        /**
+     * Generate combined final standings with head-to-head tiebreaker
+     */
+    function generateCombinedStandings(matchData) {
+        const standings = processMatchResults(matchData, null);
+
+        // Build head-to-head lookup
+        const h2h = {};
+        matchData.forEach(match => {
+            const teamA = match[4]?.trim();
+            const teamB = match[5]?.trim();
+            if (!teamA || !teamB) return;
+
+            if (!h2h[teamA]) h2h[teamA] = {};
+            if (!h2h[teamB]) h2h[teamB] = {};
+
+            let teamAGamesWon = 0;
+            let teamBGamesWon = 0;
+
+            const gameScorePairs = [[7, 8], [9, 10], [11, 12], [13, 14], [15, 16]];
+            gameScorePairs.forEach(([aIdx, bIdx]) => {
+                const sA = parseInt(match[aIdx]);
+                const sB = parseInt(match[bIdx]);
+                if (!isNaN(sA) && !isNaN(sB)) {
+                    if (sA > sB) teamAGamesWon++;
+                    else if (sB > sA) teamBGamesWon++;
+                }
+            });
+
+            const aWon = teamAGamesWon > teamBGamesWon ? 1 : 0;
+            const bWon = teamBGamesWon > teamAGamesWon ? 1 : 0;
+
+            h2h[teamA][teamB] = (h2h[teamA][teamB] || 0) + aWon;
+            h2h[teamB][teamA] = (h2h[teamB][teamA] || 0) + bWon;
+        });
+
+        const teams = Object.values(standings);
+
+        teams.sort((a, b) => {
+            if (b.matchesWon !== a.matchesWon) return b.matchesWon - a.matchesWon;
+
+            const aH2H = h2h[a.name]?.[b.name] || 0;
+            const bH2H = h2h[b.name]?.[a.name] || 0;
+            if (aH2H !== bH2H) return bH2H - aH2H;
+
+            const aDiff = a.pointsScored - a.pointsConceded;
+            const bDiff = b.pointsScored - b.pointsConceded;
+            if (bDiff !== aDiff) return bDiff - aDiff;
+
+            return b.pointsScored - a.pointsScored;
+        });
+
+        return { teams, h2h };
+    }
+
+    /**
+     * Generate combined standings HTML table
+     */
+    function generateCombinedStandingsTable(teams, tableId) {
+        let html = `
+            <table class="owls-standings-table" id="${tableId}" style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th style="width: 5%; text-align: center;">Seed</th>
+                        <th style="width: 30%;">Team</th>
+                        <th style="text-align: center; width: 8%;">W</th>
+                        <th style="text-align: center; width: 8%;">L</th>
+                        <th style="text-align: center; width: 10%;">Win %</th>
+                        <th style="text-align: center; width: 10%;">Point Diff</th>
+                        <th style="text-align: center; width: 8%;" title="Matches Played">#M</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        teams.forEach((team, index) => {
+            const losses = team.matchesPlayed - team.matchesWon;
+            const winPct = team.matchesPlayed > 0
+                ? (team.matchesWon / team.matchesPlayed).toFixed(3)
+                : '.000';
+            const pointDiff = team.pointsScored - team.pointsConceded;
+            const pointDiffStr = pointDiff >= 0 ? `+${pointDiff}` : `${pointDiff}`;
+
+            html += `
+                <tr>
+                    <td style="text-align: center; vertical-align: middle;">${index + 1}</td>
+                    <td style="vertical-align: middle;">${createTeamCell(team.name)}</td>
+                    <td style="text-align: center; vertical-align: middle;">${team.matchesWon}</td>
+                    <td style="text-align: center; vertical-align: middle;">${losses}</td>
+                    <td style="text-align: center; vertical-align: middle;">${winPct}</td>
+                    <td style="text-align: center; vertical-align: middle;">${pointDiffStr}</td>
+                    <td style="text-align: center; vertical-align: middle;">${team.matchesPlayed}</td>
+                </tr>
+            `;
+        });
+
+        html += '</tbody></table>';
+        return html;
+    }
+
+    /**
+     * Load combined final standings
+     */
+    function loadCombinedStandings(csvUrl, elementId) {
+        const targetElement = document.getElementById(elementId);
+        if (!targetElement) {
+            console.error(`Element with ID '${elementId}' not found`);
+            return;
+        }
+
+        targetElement.innerHTML = '<div>Loading combined standings...</div>';
+
+        fetch(csvUrl)
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                return response.text();
+            })
+            .then(csvText => {
+                const matchData = parseCSV(csvText);
+                const { teams } = generateCombinedStandings(matchData);
+                targetElement.innerHTML = generateCombinedStandingsTable(teams, elementId + '-table');
+            })
+            .catch(error => {
+                console.error('Error loading combined standings:', error);
+                targetElement.innerHTML = `
+                    <div style="color: red; padding: 20px; text-align: center;">
+                        <strong>Error loading standings:</strong><br>${error.message}
+                    </div>
+                `;
+            });
+    }
+
     // Make functions available globally
     window.loadOWLSStandings = loadOWLSStandings;
+    window.loadCombinedStandings = loadCombinedStandings;
 
 })(window);

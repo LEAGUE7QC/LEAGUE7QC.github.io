@@ -12,9 +12,16 @@ The following statistics are tracked for each team:
 - **#M** - *Matches Played* - Total number of matches completed
 - **#G** - *Games Played* - Total number of individual games played
 
-
 ## Bagshot Division
 <div id="bagshot-stats-table"></div>
 
 ## Binns Division
 <div id="binns-stats-table"></div>
+
+## Cross-divisionals
+
+<div id="crossdiv-stats-table"></div>
+
+## Final O.W.L.s Standings
+
+<div id="combined-standings"></div>
