@@ -640,9 +640,10 @@
                         <th style="width: 30%;">Team</th>
                         <th style="text-align: center; width: 8%;">W</th>
                         <th style="text-align: center; width: 8%;">L</th>
-                        <th style="text-align: center; width: 10%;">Win %</th>
-                        <th style="text-align: center; width: 10%;">Point Diff</th>
-                        <th style="text-align: center; width: 8%;" title="Matches Played">#M</th>
+                        <th style="text-align: center; width: 10%;">Win%</th>
+                        <th style="text-align: center; width: 12%;">Point Diff</th>
+                        <th style="text-align: center; width: 5%;" title="Matches Played">#M</th>
+                        <th style="text-align: center; width: 12%; vertical-align: middle; opacity: 0.2;">PD/#G<br>for Skinny</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -665,6 +666,7 @@
                     <td style="text-align: center; vertical-align: middle;">${winPct}</td>
                     <td style="text-align: center; vertical-align: middle;">${pointDiffStr}</td>
                     <td style="text-align: center; vertical-align: middle;">${team.matchesPlayed}</td>
+                    <td style="text-align: center; vertical-align: middle; opacity: 0.2;">${team.matchesPlayed > 0 ? (pointDiff / team.gamesPlayed ).toFixed(2) : '.00'}</td>
                 </tr>
             `;
         });
