@@ -15,7 +15,7 @@ This is the **first step for all joining players** who wish to participate in an
 
 Team registrations for <span style="color:#ffbd00">Season 05: Order of the Phoenix</span> are now OPEN! 
 
-Team captains can register their teams after ensuring all players have completed their individual registrations. Please review the [Season Rules & Format](/season/04/rules-format.md) before submitting your team registration.
+Team captains can register their teams after ensuring all players have completed their individual registrations. Please review the last seasons' [Rules & Format](/season/04/rules-format.md) before submitting your team registration.
  
  <a href="https://docs.google.com/forms/d/e/1FAIpQLScgKK9a10PLF85fz4ff6d3wLL0Oqj9Tc3MkLSpqj-ikVE6zUw/viewform?usp=publish-editor" target="_blank" style="display: inline-block; padding: 12px 44px; background-color: #ffbd00; color: black; text-decoration: none; font-weight: bold; border-radius: 4px; text-align: center;">REGISTER YOUR TEAM</a> 
 
