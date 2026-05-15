@@ -4,9 +4,8 @@
 * [Contact Us](contact-us.md "L7 | Contact Us")
 * [Hall of Fame</span>](/hall-of-fame.md "L7 | Hall of Fame")
 * [Quidditch Board](/quidditch-board.md "L7 | Quidditch Board")
-* [<span style="color:#ffbd00;">QCTCG Browser (WIP)</span>](/qctcg-browser.md "L7 | QCTCG Browser")
+* [QCTCG Browser (WIP)](/qctcg-browser.md "L7 | QCTCG Browser")
 * [Past Events](/community-events/past-events "L7 | Past Events")
-* [Registration](registration.md "L7 | Registration")
 
 **LEAGUE7 GUIDELINES**
 * [Code of Ethics](codeofethics.md "L7 | Code of Ethics")
@@ -15,39 +14,49 @@
 * [Broadcasting Guidelines](broadcasting-guidelines.md "L7 | Moderation Guidelines") 
 
 
+**S05 - ORDER OF THE PHOENIX**
+* [<span style="color:#ffbd00;">Team Registrations</span>](registration.md "L7 | Registration")
+
 **S04 - HISTORY OF MAGIC**
 * [O.W.L.s Standings](/season/04/owls-standings.md "L7 | Season Standings")
 * [Format Summary](/season/04/proposed-format.md "L7 | Proposed Format") 
 * [Rules & Format](/season/04/rules-format.md "L7 | Season Rules & Format") 
 * [Team Rosters](/season/04/team-rosters.md "L7 | Team Rosters")
 
-**S03 - CHARMS**
-* [President's Letter</span>](/season/03/president-letter.md "L7 | S01 President's Letter")
-* [Rules & Format](/season/03/rules-format.md "L7 | Season Rules & Format") 
-* [Team Rosters](/season/03/team-rosters.md "L7 | Team Rosters")
-* [Match Calendar](/season/03/calendar.md "L7 | Match Calendar") 
-* [O.W.L.s Standings](/season/03/owls-standings.md "L7 | Season Standings")
-
-<span style="opacity:40%;">
-
-**S02 - TRANSFIGURATION**
-* [President's Letter](/season/02/president-letter.md "L7 | S02 President's Letter")
-* [Rules & Format](/season/02/rules-format.md "L7 | Season Rules & Format") 
-* [Team Rosters](/season/02/team-rosters.md "L7 | Team Rosters")
-* [Match Calendar](/season/02/calendar.md "L7 | Match Calendar") 
-* [O.W.L.s Standings](/season/02/owls-standings.md "L7 | Season Standings")
-* [N.E.W.T.s Matches](/season/02/matches.md "L7 | Matches Details")
-
-**S01 - D.A.D.A.**
-* [President's Letter](/season/01/president-letter.md "L7 | S01 President's Letter")
-* [Rules & Format](/season/01/rules-format.md "L7 | Season Rules & Format") 
-* [Team Rosters](/season/01/team-rosters.md "L7 | Team Rosters")
-* [Match Calendar](/season/01/calendar.md "L7 | Match Calendar") 
-* [O.W.L.s Standings](/season/01/standings.md "L7 | Season Standings")
-* [N.E.W.T.s Matches](/season/01/matches.md "L7 | Matches Details")
-
-**S00 - TRYOUTS**
-* [Rules & Format](/season/00/rules-format.md "L7 | Tryout Season")
-* [Tryouts Standings](/season/00/standings.md "L7 | Tryouts Standings")
-
-</span>
+<br />
+<details>
+<summary><b>PAST SEASONS</b></summary>
+<div style="opacity:60%;">
+<p><b>S03 - CHARMS</b></p>
+<ul>
+<li><a href="#/season/03/president-letter" title="L7 | S03 President's Letter">President's Letter</a></li>
+<li><a href="#/season/03/rules-format" title="L7 | Season Rules &amp; Format">Rules &amp; Format</a></li>
+<li><a href="#/season/03/team-rosters" title="L7 | Team Rosters">Team Rosters</a></li>
+<li><a href="#/season/03/calendar" title="L7 | Match Calendar">Match Calendar</a></li>
+<li><a href="#/season/03/owls-standings" title="L7 | Season Standings">O.W.L.s Standings</a></li>
+</ul>
+<p><b>S02 - TRANSFIGURATION</b></p>
+<ul>
+<li><a href="#/season/02/president-letter" title="L7 | S02 President's Letter">President's Letter</a></li>
+<li><a href="#/season/02/rules-format" title="L7 | Season Rules &amp; Format">Rules &amp; Format</a></li>
+<li><a href="#/season/02/team-rosters" title="L7 | Team Rosters">Team Rosters</a></li>
+<li><a href="#/season/02/calendar" title="L7 | Match Calendar">Match Calendar</a></li>
+<li><a href="#/season/02/owls-standings" title="L7 | Season Standings">O.W.L.s Standings</a></li>
+<li><a href="#/season/02/matches" title="L7 | Matches Details">N.E.W.T.s Matches</a></li>
+</ul>
+<p><b>S01 - D.A.D.A.</b></p>
+<ul>
+<li><a href="#/season/01/president-letter" title="L7 | S01 President's Letter">President's Letter</a></li>
+<li><a href="#/season/01/rules-format" title="L7 | Season Rules &amp; Format">Rules &amp; Format</a></li>
+<li><a href="#/season/01/team-rosters" title="L7 | Team Rosters">Team Rosters</a></li>
+<li><a href="#/season/01/calendar" title="L7 | Match Calendar">Match Calendar</a></li>
+<li><a href="#/season/01/standings" title="L7 | Season Standings">O.W.L.s Standings</a></li>
+<li><a href="#/season/01/matches" title="L7 | Matches Details">N.E.W.T.s Matches</a></li>
+</ul>
+<p><b>S00 - TRYOUTS</b></p>
+<ul>
+<li><a href="#/season/00/rules-format" title="L7 | Tryout Season">Rules &amp; Format</a></li>
+<li><a href="#/season/00/standings" title="L7 | Tryouts Standings">Tryouts Standings</a></li>
+</ul>
+</div>
+</details>

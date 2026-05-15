@@ -7,8 +7,10 @@ This prestigious archive celebrates the champions, innovators, and standout perf
 ### Seasons 1 & 2 : &nbsp; [<span style="color:#ffbd00">Crazy Comms</span>](/team-pages/crazy-comms)
   When the dust settled on LEAGUE7's inaugural seasons, one team stood above all others, redefining excellence in competitive Quidditch Champions. Crazy Comms didn't just win LEAGUE7 Seasons — they dominated it, establishing themselves as the most formidable collection of talent the game has ever seen... [<span style="color:#ffbd00">read more!</span>](/team-pages/crazy-comms)
 
-### Season 3 : &nbsp; [<span style="color:#ffbd00">Thin Ice</span>](/team-pages/thin-ice)
-*Coming Soon... Players are submitting their biographies...*
+### Season 3 & 4: &nbsp; [<span style="color:#ffbd00">Thin Ice</span>](/team-pages/thin-ice)
+  Built from veterans who had spent seasons knocking on the door, Thin Ice came together as a roster that refused to lose to the same opponents twice.
+
+  In Season 3, they took down the reigning dynasty in a five-game finals series to claim their first title. In Season 4, they came back through the losers' bracket and overturned it, announcing themselves as back-to-back champions...[<span style="color:#ffbd00">read more!</span>](/team-pages/thin-ice)
 
 
 ## Community Events Champions
@@ -24,60 +26,5 @@ This prestigious archive celebrates the champions, innovators, and standout perf
 ## Community Awards
 Beyond celebrating competitive excellence, LEAGUE7 recognizes those who have made our community special. These awards honor the teams and individuals who embodied the spirit of sportsmanship, captivated our audience, defied expectations, and contributed invaluably to our league's foundation.
 
-### Season 1 - D.A.D.A. Awards
-**East Division:**
-- **Most Wholesome Team:** Hellfire Hogs
-- **Most Wholesome Player:** WARBE4RD
-- **Fan Favorite Team:** Thin Ice
-- **Fan Favorite Player:** GroobyGames
-- **Dark Horse Award:** The Knock Out Squires
 
-**West Division:**
-- **Most Wholesome Team:** Dumbledork's Army
-- **Most Wholesome Player:** MichyMo & Flyrish
-- **Fan Favorite Team:** Rising Phoenix International
-- **Fan Favorite Player:** Illmage
-- **Dark Horse Award:** The Killer Kelpies
-
-**League Recognition:**
-- **Owl Post Award:** RealCypris
-- **Lifeblood Award:** Skipper13
-- **Legacy Award:** Melanore & Virtual Witchcraft
-
-### Season 2 - Transfiguration Awards
-**Cross Divisional Awards:** 
-- **Luna Lovegood Award (Player):** LinaRKH
-- **Luna Lovegood Award (Team):** Hellfire Hogs
-- **Rita Skeeter Award:** DiskJockii 
-- **Peeves Award:** AlphaTux
-- **Weazleys' Wizard Wheezes Award:** Crazy Comms
-- **Nightbus Award:** PumkinSnatch
-- **Cauldron Cakes Award:** The Killer Kelpies
-- **Polyjuice Award:** TheOTPHJ
-- **Felix Felicis Award:** Rim Reapers - Game win vs. CC
-- **First Year Award:** Odarina
-**Divisional Awards:**
-- **Dark Horse Award:** Rim Reapers / Obscurus Quidditch Club
-- **Neville Longbottom Award:** SaffronJ / Odarina
-- **Oliver Wood Award:** GroobyGames / YesImShade
-- **Remembrall Award:** 
-  - Rim Reapers - Game win vs. Crazy Comms
-  - Obscurus Quidditch Club - Match win vs. Ragtag Dragons by a snitch catch
-- **Daily Prophet Award:** Revenants Quidditch Club / Hellfire Hogs 
-- **Keepers of the Season:** LinaRKH / YesImShade
-- **Bruisers of the Season:** JimTones / Zaiyuni 
-- **Seekers of the Season:** TRobbo11 / DiskJockii
-- **Flex Players of the Season:** YukioTakeda / Zaiyuni
-- **Offensive Players of the Season:** DakeBlubey / Odarina
-- **Defensive Players of the Season:** Prophecy / CptCarnage
-- **Most Improved Players:** tee-dreamz / FM
-- **Most Valuable Players:** Lihsir / Odarina
-**League Recognition:**
-- **Lee Jordan Award:** xXLghtFuryXx (Riley)
-- **Lifeblood Award:** JimTones
-- **Legacy Award:** FasterEddy135
-
-
-### Season 3 - Charms Awards
-*Coming Soon...*
-
+> This section is slowly being moved to Discord.
