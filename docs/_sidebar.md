@@ -18,10 +18,11 @@
 * [<span style="color:#ffbd00;">Team Registrations</span>](registration.md "L7 | Registration")
 
 **S04 - HISTORY OF MAGIC**
+* [President's Letter](/season/04/president-letter.md "L7 | S04 President's Letter")
+* [Team Rosters](/season/04/team-rosters.md "L7 | Team Rosters")
 * [O.W.L.s Standings](/season/04/owls-standings.md "L7 | Season Standings")
 * [Format Summary](/season/04/proposed-format.md "L7 | Proposed Format") 
 * [Rules & Format](/season/04/rules-format.md "L7 | Season Rules & Format") 
-* [Team Rosters](/season/04/team-rosters.md "L7 | Team Rosters")
 
 <br />
 <details>
